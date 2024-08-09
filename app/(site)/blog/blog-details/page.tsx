@@ -1,7 +1,7 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
 import { Metadata } from "next";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export const metadata: Metadata = {
   title: "Blog Details Page - Solid SaaS Boilerplate",
@@ -81,7 +81,7 @@ const SingleBlogPage = async () => {
                     <Image
                       src={"/images/blog/blog-01.png"}
                       alt="Kobe Steel plant that supplied"
-                      fill
+                      layout="fill"
                       className="rounded-md object-cover object-center"
                     />
                   </div>

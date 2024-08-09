@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const About = () => {
   return (
@@ -31,14 +31,8 @@ const About = () => {
               <Image
                 src="/images/about/about-image-01.webp"
                 alt="About"
-                className="dark:hidden rounded-lg shadow-lg object-cover"
-                fill
-              />
-              <Image
-                src="/images/about/about-dark-01.png"
-                alt="About"
-                className="hidden dark:block"
-                fill
+                className="rounded-lg shadow-lg object-cover"
+                layout="fill"
               />
             </motion.div>
             <motion.div
@@ -149,14 +143,8 @@ const About = () => {
               <Image
                 src="/images/about/about-image-02.webp"
                 alt="About"
-                className="dark:hidden rounded-lg shadow-lg object-cover"
-                fill
-              />
-              <Image
-                src="./images/about/about-dark-02.svg"
-                alt="About"
-                className="hidden dark:block"
-                fill
+                className="rounded-lg shadow-lg object-cover"
+                layout="fill"
               />
             </motion.div>
           </div>

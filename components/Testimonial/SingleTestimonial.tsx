@@ -1,5 +1,5 @@
 import { Testimonial } from "@/types/testimonial";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   const { name, designation, image, content } = review;

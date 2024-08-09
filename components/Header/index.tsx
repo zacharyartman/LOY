@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -29,23 +29,16 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-2 bg-white shadow transition duration-100 dark:bg-black`}
+      className={`fixed left-0 top-0 z-99999 w-full py-1 bg-white shadow transition duration-100 dark:bg-black`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
-              alt="logo"
-              width={119.03}
-              height={30}
-              className="hidden w-full dark:block"
-            />
-            <Image
               src="/images/logo/loy-logo.webp"
               alt="logo"
-              width={119.03}
-              height={25}
+              width={100}
+              height={75}
               className="w-full dark:hidden"
             />
           </a>
@@ -147,8 +140,6 @@ const Header = () => {
             </ul>
           </nav>
           <div className="mt-7 flex items-center gap-2 xl:mt-0">
-            <ThemeToggler />
-
             <Link
               href="https://nextjstemplates.com/templates/solid"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white ease-in-out hover:bg-primaryho"

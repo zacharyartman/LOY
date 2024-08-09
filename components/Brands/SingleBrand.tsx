@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Brand } from "@/types/brand";
 import { motion } from "framer-motion";
 
@@ -31,13 +31,13 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
           src={image}
           alt={name}
-          fill
+          layout="fill"
         />
         <Image
           className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
           src={imageLight}
           alt={name}
-          fill
+          layout="fill"
         />
       </motion.a>
     </>

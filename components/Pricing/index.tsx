@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import SectionHeader from "../Common/SectionHeader";
 import router from "next/router"
 import pricingData from "./pricingData";
@@ -76,8 +76,8 @@ const Pricing = () => {
         <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0">
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <Image
-              fill
-              src="./images/shape/shape-dotted-light.svg"
+              layout="fill"
+              src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
               className="dark:hidden"
             />

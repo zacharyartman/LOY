@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Footer = () => {
   return (
@@ -35,13 +35,6 @@ const Footer = () => {
                     src="/images/logo/logo-light.svg"
                     alt="Logo"
                     className="dark:hidden"
-                  />
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo-dark.svg"
-                    alt="Logo"
-                    className="hidden dark:block"
                   />
                 </a>
 

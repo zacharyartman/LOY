@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import BlogData from "./blogData";
 
@@ -19,7 +19,7 @@ const RelatedPost = async () => {
             >
               <div className="max-w-45 relative h-18 w-45">
                 {post.mainImage ? (
-                  <Image fill src={post.mainImage} alt="Blog" />
+                  <Image layout="fill" src={post.mainImage} alt="Blog" />
                 ) : (
                   "No image"
                 )}

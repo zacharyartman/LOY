@@ -12,7 +12,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",

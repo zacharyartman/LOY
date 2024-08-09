@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { motion } from "framer-motion";
 
 const FunFact = () => {
@@ -25,13 +25,13 @@ const FunFact = () => {
           />
 
           <Image
-            fill
+            layout="fill"
             src="/images/shape/shape-dotted-light-02.svg"
             alt="Dotted"
             className="absolute left-0 top-0 -z-1 dark:hidden"
           />
           <Image
-            fill
+            layout="fill"
             src="/images/shape/shape-dotted-dark-02.svg"
             alt="Dotted"
             className="absolute left-0 top-0 -z-1 hidden dark:block"

@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useState } from "react";
 import FAQItem from "./FAQItem";
 import faqData from "./faqData";
@@ -19,14 +19,14 @@ const FAQ = () => {
         <div className="relative mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="absolute -bottom-16 -z-1 h-full w-full">
             <Image
-              fill
-              src="/images/shape/shape-dotted-light.svg"
+              layout="fill"
+              src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
               className="dark:hidden"
             />
             <Image
-              fill
-              src="/images/shape/shape-dotted-light.svg"
+              layout="fill"
+              src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
               className="hidden dark:block"
             />
