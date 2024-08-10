@@ -24,15 +24,17 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         whileInView="visible"
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className={`animate_top z-40 rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-10.5`}>
+        className={`animate_top z-40 rounded-lg border border-white bg-white shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark`}>
         <div>
-        <div className="relative h-30 w-30 mb-5 mx-auto">
-        <Image src={icon} alt={title} layout="fill" objectFit="cover" />
-      </div>
-          <h3 className="mb-5 text-xl font-semibold text-black text-center dark:text-white xl:text-itemtitle">
-            {title}
-          </h3>
-          <p className="text-center">{description}</p>
+          <div className="relative h-45 w-full mb-2 mx-auto rounded-t-lg overflow-hidden">
+            <Image src={icon} alt={title} layout="fill" objectFit="cover" />
+          </div>
+          <div className="p-7.5">
+            <h3 className="mb-5 text-xl font-semibold text-black text-center dark:text-white xl:text-itemtitle">
+              {title}
+            </h3>
+            <p className="text-center">{description}</p>
+          </div>
         </div>
       </motion.div>
     </>

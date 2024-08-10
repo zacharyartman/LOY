@@ -41,7 +41,7 @@ export default function Home() {
 
       <About />
       <Feature />
-      <Pricing />
+      {/* <Pricing /> */}
       <CTA />
       <FunFact />
       <Contact />
