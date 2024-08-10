@@ -37,8 +37,8 @@ const Header = () => {
             <Image
               src="/images/logo/loy-logo.webp"
               alt="logo"
-              width={100}
-              height={75}
+              width={120}
+              height={85}
               className="w-full dark:hidden"
             />
           </a>
@@ -142,7 +142,7 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-2 xl:mt-0">
             <Link
               href="https://nextjstemplates.com/templates/solid"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white ease-in-out hover:bg-primaryho"
+              className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white ease-in-out hover:bg-primaryho"
             >
               Class Schedule
             </Link>

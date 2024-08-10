@@ -37,6 +37,8 @@ module.exports = {
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
+        lightestbrown: "#fdf8f0",
+        midbrown: "#efe5da"
       },
       fontSize: {
         metatitle: ["12px", "20px"],

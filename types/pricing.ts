@@ -6,4 +6,5 @@ export type Price = {
   perX: string;
   popular: boolean;
   href: string;
+  buttonText: string;
 };

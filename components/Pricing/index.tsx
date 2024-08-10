@@ -1,17 +1,17 @@
 "use client";
 import Image from "next/legacy/image";
 import SectionHeader from "../Common/SectionHeader";
-import router from "next/router"
+import { useRouter } from 'next/router';
 import pricingData from "./pricingData";
 
 const Pricing = () => {
 
-  const PricingButton = ({title, subtitle, price, perX, href, popular}) => {
+  const PricingButton = ({title, subtitle, price, perX, href, popular, buttonText}) => {
 
     const handleClick = () => {
-      router.push(href);
+      window.location.href = href
     };
-
+  
     return(
     <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5">
         {popular && (
@@ -37,7 +37,7 @@ const Pricing = () => {
       onClick={handleClick}
     >
       <span className="duration-300 group-hover/btn:pr-2">
-        Learn More
+        {buttonText}
       </span>
       <svg
         width="14"
@@ -93,6 +93,7 @@ const Pricing = () => {
                 perX={item.perX}
                 href={item.href}
                 popular={item.popular}
+                buttonText={item.buttonText}
               />
             ))}
 

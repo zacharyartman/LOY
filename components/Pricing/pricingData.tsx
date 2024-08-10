@@ -8,7 +8,8 @@ const pricingData: Price[] = [
     price: 79,
     perX: "",
     popular: false,
-    href: '/'
+    href: 'https://momence.com/m/136483',
+    buttonText: 'Learn More'
   },
   {
     id: 1,
@@ -17,7 +18,8 @@ const pricingData: Price[] = [
     price: 30,
     perX: "/class",
     popular: false,
-    href: '/'
+    href: 'https://momence.com/m/136478',
+    buttonText: 'Book Class'
   },
   {
     id: 2,
@@ -26,7 +28,8 @@ const pricingData: Price[] = [
     price: 159,
     perX: "/month",
     popular: true,
-    href: '/'
+    href: 'https://momence.com/m/137236',
+    buttonText: 'Learn More'
   },
   {
     id: 3,
@@ -35,7 +38,8 @@ const pricingData: Price[] = [
     price: 79,
     perX: "/month",
     popular: false,
-    href: '/'
+    href: 'https://momence.com/m/136480',
+    buttonText: 'Learn More'
   },
   {
     id: 4,
@@ -44,7 +48,8 @@ const pricingData: Price[] = [
     price: 240,
     perX: "",
     popular: false,
-    href: '/'
+    href: 'https://momence.com/m/136479',
+    buttonText: 'Learn More'
   },
   {
     id: 5,
@@ -53,7 +58,8 @@ const pricingData: Price[] = [
     price: 1620,
     perX: "/year",
     popular: false,
-    href: '/'
+    href: 'https://momence.com/m/136485',
+    buttonText: 'Learn More'
   },
 ];
 

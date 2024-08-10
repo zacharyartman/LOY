@@ -38,11 +38,11 @@ export default function Home() {
       <About />
       <Feature />
       <Pricing />
+      <CTA />
       <Testimonial />
       <FeaturesTab />
       <FunFact />
       <Integration />
-      <CTA />
       <FAQ />
       <Contact />
       <Blog />

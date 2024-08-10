@@ -31,16 +31,18 @@ const Hero = () => {
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46 bg-[url('/images/hero/hero.png')] bg-cover bg-center">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className=" md:w-1/2">
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-white dark:text-white xl:text-hero">
+          <div className="flex lg:gap-8 xl:gap-32.5 justify-center">
+            <div className=" md:w-1/2 text-center">
+              <h1 className="mb-5 text-3xl font-bold text-white dark:text-white xl:text-hero pr-0 text-center">
                 movement.<br />
                 mindfulness. <br />
                 community.
               </h1>
-              <Button text={"View Schedule"} ariaLabel={"View class schedule"} href={'/schedule'} lastElement={false}/>
-              <Button text={"View Pricing"} ariaLabel={"View pricing options"} href={'/schedule'} lastElement={false}/>
-              <Button text={"New Students"} ariaLabel={"New students click here"} href={'/schedule'} lastElement={true}/>
+              <div className="flex flex-col items-center">
+                <Button text={"View Schedule"} ariaLabel={"View class schedule"} href={'/schedule'} lastElement={false}/>
+                <Button text={"View Pricing"} ariaLabel={"View pricing options"} href={'/schedule'} lastElement={false}/>
+                <Button text={"New Students"} ariaLabel={"New students click here"} href={'/schedule'} lastElement={true}/>
+              </div>
               </div>
             </div>
           </div>
