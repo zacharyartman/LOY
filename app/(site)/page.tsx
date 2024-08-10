@@ -13,6 +13,7 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Image from "next/legacy/image";
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+
   return (
     <main>
       <Hero />
@@ -39,13 +41,8 @@ export default function Home() {
       <Feature />
       <Pricing />
       <CTA />
-      <Testimonial />
-      <FeaturesTab />
       <FunFact />
-      <Integration />
-      <FAQ />
       <Contact />
-      <Blog />
     </main>
   );
 }

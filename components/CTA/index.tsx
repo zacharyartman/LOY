@@ -8,7 +8,7 @@ const CTA = () => {
   return (
     <>
       {/* <!-- ===== CTA Start ===== --> */}
-      <section className="overflow-hidden px-4 py-20 md:px-8 lg:py-25 xl:py-30 2xl:px-0">
+      <section className="overflow-hidden px-4 md:px-8 2xl:px-0">
         <div className="mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-midbrown to-ligheestbrown px-7.5 py-12.5 md:px-12.5 xl:px-17.5 xl:py-0">
           <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between md:gap-0">
             <motion.div
@@ -30,7 +30,7 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Subscribe for early access to specials and updates (TODO)
+                Subscribe for early access to specials and updates.
               </h2>
             </motion.div>
             <motion.div
