@@ -118,11 +118,11 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left sm:w-1/2"
             >
-              <h2 className="relative mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl">
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
+              <span className="font-medium uppercase text-black dark:text-white">
+                <span className="mb-4 mr-4 inline-flex rounded-full bg-primary px-4.5 py-1 text-metatitle uppercase text-white ">
                   Location
                 </span>
-              </h2>
+              </span>
               <p>
               We are located in the heart of downtown Fort Lauderdale on the corner of Las Olas and 13th Street. We are on the 2nd floor and our entrance is via the courtyard on 13th. <br /><br />Abundant parking is available including free 2-hour street parking on 13th and 2nd.
               </p>
