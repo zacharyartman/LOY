@@ -123,7 +123,7 @@ const Contact = () => {
             >
               <div className="relative h-full w-full">
                 <Image
-                  src={"/images/contact/candid-1.jpeg"}
+                  src={"/images/contact/about-image-01.webp"}
                   alt="Kobe Steel plant that supplied"
                   layout="fill"
                   objectFit="cover"
