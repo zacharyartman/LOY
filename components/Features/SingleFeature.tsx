@@ -26,7 +26,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         viewport={{ once: true }}
         className={`animate_top z-40 rounded-lg border border-white bg-white shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark`}>
         <div>
-          <div className="relative h-45 w-full mb-2 mx-auto rounded-t-lg overflow-hidden">
+          <div className="relative h-50 sm:h-40  w-full mb-2 mx-auto rounded-t-lg overflow-hidden">
             <Image src={icon} alt={title} layout="fill" objectFit="cover" />
           </div>
           <div className="p-7.5">
