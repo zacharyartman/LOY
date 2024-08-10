@@ -5,7 +5,7 @@ const SubscribeForm = () => {
   <form
     action="https://formbold.com/s/3dG5E"
     method="POST"
-  className="py-10"
+  className="pb-10"
   >
     <div className="mb-7.5 flex flex-col gap-3">
       <input
