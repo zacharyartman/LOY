@@ -14,10 +14,11 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Image from "next/legacy/image";
 import React from "react";
+import MomenceChat from "@/components/MomenceChat";
 
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
-  description: "This is Home for Solid Pro",
+  description: "TODO",
   // other metadata
 };
 
@@ -25,6 +26,7 @@ export default function Home() {
 
   return (
     <main>
+      <MomenceChat />
       <Hero />
       <div className="flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center justify-center p-6 my-5 text-center">
