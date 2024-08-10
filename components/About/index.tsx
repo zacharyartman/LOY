@@ -77,6 +77,32 @@ const About = () => {
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
           <div className="flex items-center flex-col sm:flex-row gap-8 lg:gap-32.5">
+          <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  x: 20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  x: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_right sm:hidden relative mx-auto aspect-[200/150] w-full sm:w-1/2"
+            >
+              <Image
+                src="/images/about/about-image-02.webp"
+                alt="About"
+                className="rounded-lg shadow-lg object-cover"
+                layout="fill"
+              />
+            </motion.div>
+
             <motion.div
               variants={{
                 hidden: {
@@ -138,7 +164,7 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mx-auto aspect-[200/150] w-full md:block sm:w-1/2"
+              className="animate_right hidden sm:block relative mx-auto aspect-[200/150] w-full sm:w-1/2"
             >
               <Image
                 src="/images/about/about-image-02.webp"
@@ -147,6 +173,8 @@ const About = () => {
                 layout="fill"
               />
             </motion.div>
+
+            
           </div>
         </div>
       </section>
