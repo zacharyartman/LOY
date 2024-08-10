@@ -24,7 +24,7 @@ const FunFact = () => {
             whileInView="visible"
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
-            className="flex justify-between flex-col md:flex-row items-left md:items-center mx-auto mb-12.5 text-left px-7.5 py-12.5 md:px-12.5 xl:px-17.5 xl:py-0"
+            className="flex justify-between flex-col md:flex-row items-left md:items-center mx-auto mb-0 text-left px-7.5 py-12.5 md:px-12.5 xl:px-17.5 xl:py-0"
           >
             <div>
               <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
