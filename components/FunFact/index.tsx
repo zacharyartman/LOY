@@ -36,16 +36,16 @@ const FunFact = () => {
               <div className="mt-10 flex space-x-4">
                 <button className="border-2 border-black rounded-full overflow-hidden">
                   <Image
-                    width={1090 / 5}
-                    height={327 / 5}
+                    width={1090 / 7}
+                    height={327 / 7}
                     src="/images/app/app-store.png"
                     alt="Apple app store icon"
                   />
                 </button>
                 <button className="border-2 border-black rounded-full overflow-hidden">
                   <Image
-                    width={1089 / 5}
-                    height={330 / 5}
+                    width={1089 / 7}
+                    height={330 / 7}
                     src="/images/app/play-store.png"
                     alt="Google play store icon"
                   />
@@ -54,8 +54,8 @@ const FunFact = () => {
             </div>
             <div className="hidden md:block">
               <Image
-                width={658 / 2}
-                height={937 / 2}
+                width={658 / 2.5}
+                height={937 / 2.5}
                 src="/images/app/app_hand.png"
                 alt="Hand holding phone displaying mobile app"
               />
