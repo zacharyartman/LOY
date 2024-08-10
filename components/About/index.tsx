@@ -58,9 +58,6 @@ const About = () => {
                   About Us
                 </span>
               </span>
-              <h2 className="relative mb-6 text-2xl font-bold text-black dark:text-white xl:text-3xl">
-                Movement, Mindfulness & Community
-              </h2>
               <p>
                 We are a Fort Lauderdale yoga studio in the heart of downtown on Las Olas Blvd.<br /><br />
                 At Las Olas Yoga, our mission is to create a sanctuary of well-being, where movement, mindfulness, and community intersect. We provide a welcoming environment where you can reconnect with old friends, forge new connections, and practice together as a supportive community. <br /><br /> 
