@@ -34,7 +34,7 @@ const FunFact = () => {
                 Book classes on the go!
               </p>
               <div className="mt-10 flex space-x-4">
-                <button className="border-2 border-black rounded-full overflow-hidden">
+                <button className="border-2 border-black rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
                   <Image
                     width={1090 / 7}
                     height={327 / 7}
@@ -54,8 +54,8 @@ const FunFact = () => {
             </div>
             <div className="hidden md:block">
               <Image
-                width={658 / 2.5}
-                height={937 / 2.5}
+                width={535 / 2.5}
+                height={876 / 2.5}
                 src="/images/app/app_hand.png"
                 alt="Hand holding phone displaying mobile app"
               />
