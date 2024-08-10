@@ -49,7 +49,7 @@ const CTA = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right lg:w-[45%]"
+              className="animate_right w-full lg:w-[45%]"
             >
             <SubscribeForm />
             </motion.div>
