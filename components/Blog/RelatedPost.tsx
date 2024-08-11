@@ -17,16 +17,16 @@ const RelatedPost = async () => {
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
             >
-              <div className="relative h-18 w-45 ">
+              <a href={`/blog/${post._id}`} className="relative h-20 w-48"> {/* Set fixed height and width */}
                 {post.mainImage ? (
-                  <Image layout="fill" src={post.mainImage} alt="Blog" className="object-cover w-full h-full"/>
+                  <Image layout="fill" src={post.mainImage} alt="Blog" className="object-cover" />
                 ) : (
                   "No image"
                 )}
-              </div>
+              </a >
               <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
-                <a href={`/blog/blog-details`}>
-                  {post.title.length <= 30 ? post.title : `${post.title.slice(0, 30)}...`}
+                <a href={`/blog/${post._id}`}>
+                  {post.title.length <= 60 ? post.title : `${post.title.slice(0, 60)}...`}
                 </a>
               </h5>
             </div>
