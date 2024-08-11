@@ -43,9 +43,9 @@ export default function Home() {
       <About />
       <Feature />
       {/* <Pricing /> */}
+      <MomenceSchedule></MomenceSchedule>
       <CTA />
       {/* <Testimonial /> */}
-      <MomenceSchedule></MomenceSchedule>
       <FunFact />
       <Contact />
     </main>
