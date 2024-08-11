@@ -4,17 +4,19 @@ import Image from "next/legacy/image";
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   const { name, designation, image, content } = review;
   return (
-    <div className="rounded-lg bg-white p-12 pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
-      <div className="mb-7.5 flex justify-between border-b border-stroke pb-6 dark:border-strokedark">
+    <div className="rounded-lg bg-white pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
+      <div className="px-12">
+      <div className="mb-5 text-center border-b border-stroke dark:border-strokedark">
         <div>
           <h3 className="mb-1.5 text-metatitle3 text-black dark:text-white">
             {name}
           </h3>
-          <p>{designation}</p>
         </div>
       </div>
-
-      <p>{content}</p>
+      </div>
+      <div className="px-12">
+        <Image src={image} className="rounded-lg"></Image>
+      </div>
     </div>
   );
 };

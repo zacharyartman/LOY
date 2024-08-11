@@ -43,6 +43,7 @@ export default function Home() {
       <Feature />
       {/* <Pricing /> */}
       <CTA />
+      <Testimonial />
       <FunFact />
       <Contact />
     </main>
