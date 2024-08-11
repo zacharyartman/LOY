@@ -35,7 +35,7 @@ const Hero = () => {
               </h1>
               <div className="flex flex-col items-center">
                 <Button text={"View Schedule"} ariaLabel={"View class schedule"} link={'/schedule'} lastElement={false}/>
-                <Button text={"View Pricing"} ariaLabel={"View pricing options"} link={'/schedule'} lastElement={false}/>
+                <Button text={"View Pricing"} ariaLabel={"View pricing options"} link={'/pricing'} lastElement={false}/>
                 <Button text={"New Students"} ariaLabel={"New students click here"} link={'/schedule'} lastElement={true}/>
               </div>
               </div>

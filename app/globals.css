@@ -128,6 +128,7 @@ pre {
 
 :root {
   --momenceColorBackground: #FFFFFF;
+  --momence-primary-400: rgb(165, 131, 103);
   --momence-primary-500: rgb(165, 131, 103);
   --momence-primary-600: #8a6a4f;
   --momenceColorBlack: 3, 1, 13;

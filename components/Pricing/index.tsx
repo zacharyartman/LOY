@@ -3,6 +3,7 @@ import Image from "next/legacy/image";
 import SectionHeader from "../Common/SectionHeader";
 import { useRouter } from 'next/router';
 import pricingData from "./pricingData";
+import { motion } from "framer-motion";
 
 const Pricing = ({ sectionHeader }) => {
 
@@ -54,7 +55,23 @@ const Pricing = ({ sectionHeader }) => {
   return (
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
-      <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      <motion.section
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -30,
+                    },
+    
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           { sectionHeader && (
@@ -99,7 +116,7 @@ const Pricing = ({ sectionHeader }) => {
 
           </div>
         </div>
-      </section>
+      </motion.section>
       {/* <!-- ===== Pricing Table End ===== --> */}
     </>
   );

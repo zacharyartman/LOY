@@ -18,7 +18,7 @@ const pricingData: Price[] = [
     price: 30,
     perX: "/class",
     popular: false,
-    href: 'https://momence.com/m/136478',
+    href: '/schedule',
     buttonText: 'Book Class'
   },
   {
