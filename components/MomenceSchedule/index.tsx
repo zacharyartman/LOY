@@ -16,6 +16,7 @@ function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
     scheduleScript.setAttribute('lite_mode', liteMode);
     scheduleScript.setAttribute('tag_ids', '[]');
     scheduleScript.setAttribute('default_filter', 'show-all');
+    scheduleScript.setAttribute('hide_drop_in_price', 'true')
 
     const scheduleDiv = document.getElementById('ribbon-schedule');
     if (scheduleDiv) {
