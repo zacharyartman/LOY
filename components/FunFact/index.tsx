@@ -42,7 +42,7 @@ const FunFact = () => {
                     alt="Apple app store icon"
                   />
                 </button>
-                <button className="border-2 border-black rounded-full overflow-hidden">
+                <button className="border-2 border-black rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
                   <Image
                     width={1089 / 7}
                     height={330 / 7}
