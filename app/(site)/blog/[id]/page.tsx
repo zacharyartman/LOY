@@ -30,7 +30,7 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
             <div className="mb-5">
             <InlineArrowButton href={"/blog"} reversed={true} text={"Back to blogs"}/>
             </div>
-            <RelatedPost />
+            <RelatedPost blogID={blog._id}/>
           </div>
 
           <div className="lg:w-2/3">
