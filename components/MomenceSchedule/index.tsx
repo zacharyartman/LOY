@@ -31,7 +31,7 @@ function MomenceSchedule() {
   return (
     <>
       <div className="flex justify-center">
-        <h2 className="mx-auto text-2xl font-bold mt-10 text-black dark:text-white xl:text-sectiontitle2">
+        <h2 className="mx-auto text-2xl font-bold text-black dark:text-white xl:text-sectiontitle2">
           Schedule
         </h2>
       </div>
@@ -39,6 +39,7 @@ function MomenceSchedule() {
       <div className="schedule-container h-screen overflow-hidden">
         <div id="ribbon-schedule"></div>
       </div>
+
       <div className='flex justify-center'>
         <div className="mt-7 mb-15 flex items-center gap-2 xl:mt-0">
           <Link
