@@ -44,7 +44,7 @@ const pricingData: Price[] = [
   {
     id: 4,
     title: "10-Class Card",
-    subtitle: "10 classes to be redeemed at any time",
+    subtitle: "10 classes to be used over a one-year period",
     price: 240,
     perX: "",
     popular: false,
