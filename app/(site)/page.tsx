@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
-import Classes from "@/components/Features";
+import Classes from "@/components/Classes";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
 import FunFact from "@/components/FunFact";
@@ -27,7 +27,6 @@ export default function Home() {
 
   return (
     <main>
-      <MomenceChat />
       <Hero />
       <div className="flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center justify-center p-6 my-5 text-center">
@@ -41,9 +40,9 @@ export default function Home() {
       </div>
 
       <About />
-      <Classes />
+      <Classes title={true}/>
       {/* <Pricing /> */}
-      <MomenceSchedule></MomenceSchedule>
+      <MomenceSchedule title={true} fullSchedule={false} />
       <CTA />
       {/* <Testimonial /> */}
       <FunFact />

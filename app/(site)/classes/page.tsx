@@ -1,7 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
-import Classes from "@/components/Features";
+import Classes from "@/components/Classes";
 
 export const metadata: Metadata = {
   title: "Support Page - Solid SaaS Boilerplate",

@@ -124,7 +124,7 @@ const Header = () => {
                       </ul>
                     </>
                   ) : (
-                    <Link
+                    <a
                       href={`${menuItem.path}`}
                       className={
                         pathUrl === menuItem.path
@@ -133,19 +133,19 @@ const Header = () => {
                       }
                     >
                       {menuItem.title}
-                    </Link>
+                    </a>
                   )}
                 </li>
               ))}
             </ul>
           </nav>
           <div className="mt-7 flex items-center gap-2 xl:mt-0">
-            <Link
-              href="https://nextjstemplates.com/templates/solid"
+            <a
+              href="/schedule"
               className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-200 hover:bg-primaryho"
             >
               Class Schedule
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import MomenceChat from "@/components/MomenceChat";
+
 export default function Head() {
   return (
     <>

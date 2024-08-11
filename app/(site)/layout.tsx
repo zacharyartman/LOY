@@ -9,6 +9,7 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
+import MomenceChat from "@/components/MomenceChat";
 
 export default function RootLayout({
   children,
@@ -28,6 +29,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <ScrollToTop />
+          <MomenceChat />
         </ThemeProvider>
       </body>
     </html>

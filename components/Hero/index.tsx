@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/legacy/image";
-import router from "next/router";
 import { useState } from "react";
 
 const Hero = () => {
@@ -12,7 +10,7 @@ const Hero = () => {
 
   const Button = ({ text, ariaLabel, href, lastElement }) => {
     const handleClick = () => {
-      router.push(href);
+      window.location.href = href
     };
 
     return (

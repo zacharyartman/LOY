@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 
 
-function MomenceSchedule() {
+function MomenceSchedule({ title, fullSchedule }) {
   useEffect(() => {
     const scheduleScript = document.createElement('script');
     scheduleScript.async = true;
@@ -30,26 +30,32 @@ function MomenceSchedule() {
 
   return (
     <>
-      <div className="flex justify-center">
-        <h2 className="mx-auto text-2xl font-bold text-black dark:text-white xl:text-sectiontitle2">
-          Schedule
-        </h2>
-      </div>
+      {title && (
+        <div className="flex justify-center">
+          <h2 className="mx-auto text-2xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+            Schedule
+          </h2>
+        </div>
+      )}
 
-      <div className="schedule-container h-screen overflow-hidden">
+      <div className={`schedule-container ${fullSchedule ? "" : "h-screen"} overflow-hidden`}>
         <div id="ribbon-schedule"></div>
       </div>
 
+      {!fullSchedule && (
       <div className='flex justify-center'>
-        <div className="mt-7 mb-15 flex items-center gap-2 xl:mt-0">
-          <Link
-            href="/schedule"
-            className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular mt-5 text-white transition-all duration-200 hover:bg-primaryho"
-          >
-            View Full Schedule
-          </Link>
-        </div>
+      <div className="mt-7 mb-15 flex items-center gap-2 xl:mt-0">
+        <Link
+          href="/schedule"
+          className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular mt-5 text-white transition-all duration-200 hover:bg-primaryho"
+        >
+          View Full Schedule
+        </Link>
       </div>
+    </div>
+      )
+      
+      }
     </>
   );
 }
