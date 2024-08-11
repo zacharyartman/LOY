@@ -3,11 +3,11 @@ import { Price } from "@/types/pricing";
 const pricingData: Price[] = [
   {
     id: 0,
-    title: "New Students",
+    title: "New Student Intro",
     subtitle: "Three Weeks of Unlimited Classes",
     price: 79,
     perX: "",
-    popular: false,
+    popular: true,
     href: 'https://momence.com/m/136483',
     buttonText: 'Learn More'
   },
