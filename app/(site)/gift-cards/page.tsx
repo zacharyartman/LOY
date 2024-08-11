@@ -1,9 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
-import MomenceSchedule from "@/components/MomenceSchedule";
-import MomenceChat from "@/components/MomenceChat";
-import Pricing from "@/components/Pricing";
+import Classes from "@/components/Classes";
 import MomenceGiftCard from "@/components/MomenceGiftCard";
 
 export const metadata: Metadata = {
@@ -12,14 +10,16 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const PricingPage = () => {
+const SupportPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Pricing"} link='/images/general/classes.webp'></NewPageHero>
-      <Pricing sectionHeader={false}/>
+      <NewPageHero titleText={"Gift Cards"} link='/images/general/classes.webp'></NewPageHero>
+      <div className="flex">
+      <MomenceGiftCard />
+      </div>
     </>
   );
 };
 
-export default PricingPage;
+export default SupportPage;
