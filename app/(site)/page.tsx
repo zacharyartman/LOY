@@ -39,7 +39,9 @@ export default function Home() {
         </div>
       </div>
 
-      <About />
+      <About aboutText={`                We are a Fort Lauderdale yoga studio in the heart of downtown on Las Olas Blvd.<br /><br />
+                At Las Olas Yoga, our mission is to create a sanctuary of well-being, where movement, mindfulness, and community intersect. We provide a welcoming environment where you can reconnect with old friends, forge new connections, and practice together as a supportive community. <br /><br /> 
+                All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions. `} viewClasses={true}/>
       <Classes title={true}/>
       {/* <Pricing /> */}
       <MomenceSchedule title={true} fullSchedule={false} sessionType={'class'} liteMode={true}/>

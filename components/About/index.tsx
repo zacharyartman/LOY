@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
+import InlineArrowButton from "../InlineArrowButton";
 
-const About = () => {
+const About = ({ aboutText, viewClasses }) => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
@@ -59,9 +60,18 @@ const About = () => {
                 </span>
               </span>
               <p>
-                We are a Fort Lauderdale yoga studio in the heart of downtown on Las Olas Blvd.<br /><br />
-                At Las Olas Yoga, our mission is to create a sanctuary of well-being, where movement, mindfulness, and community intersect. We provide a welcoming environment where you can reconnect with old friends, forge new connections, and practice together as a supportive community. <br /><br /> 
-                All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions. 
+              <div
+                dangerouslySetInnerHTML={{ __html: aboutText }}
+              />
+              <div>
+                {
+                  viewClasses && (
+                    <InlineArrowButton href={"/classes"}
+                    text={"View Classes"}/>    
+                  )
+                }
+              </div>
+
               </p>
 
             </motion.div>
@@ -127,22 +137,8 @@ const About = () => {
               We are located in the heart of downtown Fort Lauderdale on the corner of Las Olas and 13th Street. We are on the 2nd floor and our entrance is via the courtyard on 13th. <br /><br />Abundant parking is available including free 2-hour street parking on 13th and 2nd.
               </p>
               <div>
-                <a
-                  href="https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1326473,963m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!16s%2Fg%2F11rdy4c0b7?entry=ttu"
-                  className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
-                >
-                  <span className="duration-300 group-hover:pr-2">
-                    Get Directions
-                  </span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="currentColor"
-                  >
-                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
-                  </svg>
-                </a>
+                <InlineArrowButton href={"https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1326473,963m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!16s%2Fg%2F11rdy4c0b7?entry=ttu}"}
+                text={"Get Directions"}/>
               </div>
             </motion.div>
             <motion.div
