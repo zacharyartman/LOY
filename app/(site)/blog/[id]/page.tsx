@@ -3,6 +3,7 @@ import BlogData from "@/components/Blog/blogData";
 import Image from "next/legacy/image";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
+import InlineArrowButton from "@/components/InlineArrowButton";
 
 interface BlogProps {
   blog: Blog;
@@ -26,6 +27,9 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
           <div className="md:w-1/2 lg:w-[32%]">
+            <div className="mb-5">
+            <InlineArrowButton href={"/blog"} reversed={true} text={"Back to blogs"}/>
+            </div>
             <RelatedPost />
           </div>
 

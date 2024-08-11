@@ -67,6 +67,7 @@ const About = ({ aboutText, viewClasses }) => {
                 {
                   viewClasses && (
                     <InlineArrowButton href={"/classes"}
+                    reversed={false}
                     text={"View Classes"}/>    
                   )
                 }
@@ -135,7 +136,7 @@ const About = ({ aboutText, viewClasses }) => {
               We are located in the heart of downtown Fort Lauderdale on the corner of Las Olas and 13th Street. We are on the 2nd floor and our entrance is via the courtyard on 13th. <br /><br />Abundant parking is available including free 2-hour street parking on 13th and 2nd.
               </p>
               <div>
-                <InlineArrowButton href={"https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1326473,963m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!16s%2Fg%2F11rdy4c0b7?entry=ttu}"}
+                <InlineArrowButton reversed={false} href={"https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1326473,963m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!16s%2Fg%2F11rdy4c0b7?entry=ttu}"}
                 text={"Get Directions"}/>
               </div>
             </motion.div>
