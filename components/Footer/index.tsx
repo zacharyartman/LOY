@@ -117,7 +117,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/gift-cards"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Gift Cards
@@ -125,7 +125,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/blog"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Blog

@@ -7,9 +7,14 @@ import Link from "next/link";
 const BlogItem = ({ blog }: { blog: Blog }) => {
   const { _id, mainImage, title, metadata } = blog;
 
+  const handleClick = () => {
+    window.location.href = `/blog/${_id}`;
+  }
+
   return (
     <>
       <motion.div
+        onClick={handleClick}
         variants={{
           hidden: {
             opacity: 0,
@@ -25,19 +30,19 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
         whileInView="visible"
         transition={{ duration: 0.5, delay: 0.25 }}
         viewport={{ once: true }}
-        className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
+        className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection hover:cursor-pointer"
       >
-        <Link href={`/blog/${_id}`} className="relative block aspect-[368/239]">
+        <div className="relative block aspect-[368/239]">
           <Image src={mainImage} alt={title} layout="fill" className="object-cover" />
-        </Link>
+        </div>
 
         <div className="px-4">
           <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
-            <Link href={`/blog/${_id}`}>
+            <div className="hover:text-primary">
             {title.length <= 60 ? title : `${title.slice(0, 60)}...`}
-            </Link>
+            </div>
           </h3>
-          <div className="line-clamp-3" dangerouslySetInnerHTML={{ __html: metadata }}></div>
+          <div className="line-clamp-3 hover:text-primary" dangerouslySetInnerHTML={{ __html: metadata }}></div>
         </div>
       </motion.div>
     </>

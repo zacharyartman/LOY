@@ -24,10 +24,13 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
 
   return (
     <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
+      <div className="mb-5 px-4 md:px-8 block lg:hidden">
+        <InlineArrowButton href={"/blog"} reversed={true} text={"Back to blogs"}/>
+      </div>
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
           <div className="md:w-1/2 lg:w-[32%]">
-            <div className="mb-5">
+            <div className="mb-5 hidden lg:block">
             <InlineArrowButton href={"/blog"} reversed={true} text={"Back to blogs"}/>
             </div>
             <RelatedPost blogID={blog._id}/>
