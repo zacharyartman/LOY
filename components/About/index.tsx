@@ -59,7 +59,7 @@ const About = ({ aboutText, viewClasses }) => {
                   About Us
                 </span>
               </span>
-              <p>
+
               <div
                 dangerouslySetInnerHTML={{ __html: aboutText }}
               />
@@ -71,8 +71,6 @@ const About = ({ aboutText, viewClasses }) => {
                   )
                 }
               </div>
-
-              </p>
 
             </motion.div>
           </div>
