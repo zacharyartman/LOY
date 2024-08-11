@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
+import Classes from "@/components/Features";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
 import FunFact from "@/components/FunFact";
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
       <About />
-      <Feature />
+      <Classes />
       {/* <Pricing /> */}
       <MomenceSchedule></MomenceSchedule>
       <CTA />
