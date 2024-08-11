@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 const PrivacyPolicyPage = () => {
   return (
-    <section className="m-5 mt-30 lg:m-30"><div><h2 className="text-sectiontitle3 text-center">Privacy Policy</h2>
-    <div className="text-regular">
+    <section className="m-5 mt-30 lg:m-30"><div><h2 className="text-sectiontitle3 text-center my-5">Privacy Policy</h2>
+    <div className="text-regular leading-10">
     <p>By using the site, you are accepting the practices described in this privacy policy. These practices may be changed, but any changes will be posted and changes will only apply to activities and information on a going forward, not retroactive basis. You are encouraged to review the privacy policy whenever you visit the site to make sure that you understand how any personal information you provide will be used.</p>
     <p><strong>Collection of Information</strong></p>
     <p>We collect personally identifiable information, like names, email addresses, and phone numbers when voluntarily submitted by our visitors. The information you provide is used only to fulfill your specific request, unless you give us permission to use it in another manner.</p>

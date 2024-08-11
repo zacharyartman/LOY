@@ -16,6 +16,7 @@ import Image from "next/legacy/image";
 import React from "react";
 import MomenceChat from "@/components/MomenceChat";
 import MomenceSchedule from "@/components/MomenceSchedule";
+import Popup from "@/components/Popup";
 
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
@@ -49,6 +50,7 @@ export default function Home() {
       <CTA />
       {/* <Testimonial /> */}
       <FunFact />
+      <Popup />
     </main>
   );
 }
