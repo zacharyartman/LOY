@@ -1,35 +1,41 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from 'next/image';
+import Cookies from 'js-cookie';
 
 export default function Popup() {
   const [showModal, setShowModal] = React.useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowModal(true);
-    }, 1000);
-  
-    const handleKeyDown = (event) => {
-      if (event.key === 'Escape') {
-        setShowModal(false);
-      }
-    };
+    const closed = Cookies.get('newStudentClosed');
+    if (!closed) {
+      const timer = setTimeout(() => {
+        setShowModal(true);
+      }, 4000);
+    
+      const handleKeyDown = (event) => {
+        if (event.key === 'Escape') {
+          Cookies.set('newStudentClosed', 'true', { expires: 7 });
+          setShowModal(false);
+        }
+      };
 
-    const handleClickOutside = (event) => {
-      if (event.target.id === 'modal-background') {
-        setShowModal(false);
-      }
-    };
+      const handleClickOutside = (event) => {
+        if (event.target.id === 'modal-background') {
+          Cookies.set('newStudentClosed', 'true', { expires: 7 });
+          setShowModal(false);
+        }
+      };
 
-    document.addEventListener('keydown', handleKeyDown);
-    document.addEventListener('click', handleClickOutside);
+      document.addEventListener('keydown', handleKeyDown);
+      document.addEventListener('click', handleClickOutside);
 
-    return () => {
-      clearTimeout(timer);
-      document.removeEventListener('keydown', handleKeyDown);
-      document.removeEventListener('click', handleClickOutside);
-    };
+      return () => {
+        clearTimeout(timer);
+        document.removeEventListener('keydown', handleKeyDown);
+        document.removeEventListener('click', handleClickOutside);
+      };
+    }
   }, []);
 
   return (
@@ -57,7 +63,7 @@ export default function Popup() {
                   </div>
                   <button
                     className="absolute top-0 right-0 m-2 px-2 rounded-full bg-opacity-75 text-primary text-2xl font-semibold bg-white backgroundfocus:outline-none"
-                    onClick={() => setShowModal(false)}
+                    onClick={() => {setShowModal(false); Cookies.set('newStudentClosed', 'true', { expires: 7 });}}
                   >
                     X
                   </button>
