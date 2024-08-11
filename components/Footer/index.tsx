@@ -133,7 +133,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="privacy-policy"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Privacy Policy
