@@ -50,7 +50,7 @@ const Header = () => {
             onClick={() => setNavigationOpen(!navigationOpen)}
           >
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
-            <span className="absolute right-0 block h-full w-full">
+            <span className="absolute right-5.5 block h-full w-full">
                 <span
                   className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!w-full delay-300" : "w-0"
@@ -67,7 +67,7 @@ const Header = () => {
                   }`}
                 ></span>
               </span>
-              <span className="du-block absolute right-0 h-full w-full rotate-45">
+              <span className="du-block absolute right-5.5 h-full w-full rotate-45">
                 <span
                   className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!h-0 delay-[0]" : "h-full"
@@ -86,8 +86,8 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`overflow-hidden transition-all duration-500 ${
-            navigationOpen ? "max-h-screen" : "max-h-0"
+          className={`overflow-hidden xl:overflow-visible transition-all duration-500 ${
+            navigationOpen ? "max-h-screen navbar" : "max-h-0"
           } w-full items-center justify-between xl:max-h-full xl:flex xl:w-full`}
         >
           <nav>
