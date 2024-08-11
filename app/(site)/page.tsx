@@ -15,6 +15,7 @@ import Testimonial from "@/components/Testimonial";
 import Image from "next/legacy/image";
 import React from "react";
 import MomenceChat from "@/components/MomenceChat";
+import MomenceSchedule from "@/components/MomenceSchedule";
 
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
@@ -43,7 +44,8 @@ export default function Home() {
       <Feature />
       {/* <Pricing /> */}
       <CTA />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <MomenceSchedule></MomenceSchedule>
       <FunFact />
       <Contact />
     </main>

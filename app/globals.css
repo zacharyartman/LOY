@@ -125,3 +125,10 @@ pre {
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
+
+:root {
+  --momenceColorBackground: #FFFFFF;
+  --momence-primary-500: rgb(165, 131, 103);
+  --momence-primary-600: #8a6a4f;
+  --momenceColorBlack: 3, 1, 13;
+}
