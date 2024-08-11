@@ -34,7 +34,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
         <div className="px-4">
           <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
             <Link href={`/blog/${_id}`}>
-              {`${title.slice(0, 150)}...`}
+            {title.length <= 60 ? title : `${title.slice(0, 60)}...`}
             </Link>
           </h3>
           <div className="line-clamp-3" dangerouslySetInnerHTML={{ __html: metadata }}></div>
