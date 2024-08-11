@@ -7,10 +7,6 @@ import pricingData from "./pricingData";
 const Pricing = ({ sectionHeader }) => {
 
   const PricingButton = ({title, subtitle, price, perX, href, popular, buttonText}) => {
-
-    const handleClick = () => {
-      window.location.href = href
-    };
   
     return(
     <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5">
@@ -31,10 +27,10 @@ const Pricing = ({ sectionHeader }) => {
     </h4>
     <p>{subtitle}.</p>
 
-    <button
+    <a
       aria-label={`Learn more about ${title}: ${subtitle} button`}
       className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary mt-5"
-      onClick={handleClick}
+      href= {href}
     >
       <span className="duration-300 group-hover/btn:pr-2">
         {buttonText}
@@ -50,7 +46,7 @@ const Pricing = ({ sectionHeader }) => {
           fill="currentColor"
         />
       </svg>
-    </button>
+    </a>
   </div>);
   }
 

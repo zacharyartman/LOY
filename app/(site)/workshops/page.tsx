@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const SchedulePage = () => {
+const WorkshopsPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Schedule"} link='/images/general/classes.webp'></NewPageHero>
-      <MomenceSchedule title={false} fullSchedule={true} sessionType={'class'} liteMode={false}/>
+      <NewPageHero titleText={"Workshops & Events"} link='/images/general/classes.webp'></NewPageHero>
+      <MomenceSchedule title={false} fullSchedule={true} sessionType={'workshop'} liteMode={false}/>
     </>
   );
 };
 
-export default SchedulePage;
+export default WorkshopsPage;

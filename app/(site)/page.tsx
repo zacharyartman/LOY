@@ -42,7 +42,7 @@ export default function Home() {
       <About />
       <Classes title={true}/>
       {/* <Pricing /> */}
-      <MomenceSchedule title={true} fullSchedule={false} />
+      <MomenceSchedule title={true} fullSchedule={false} sessionType={'class'} liteMode={true}/>
       <CTA />
       {/* <Testimonial /> */}
       <FunFact />
