@@ -36,7 +36,7 @@
 
 @media (max-width: 1280px) {
   .navbar {
-    @apply max-h-[400px] overflow-y-scroll;
+    @apply max-h-[500px] overflow-y-scroll;
   }
 }
 
@@ -132,4 +132,35 @@ pre {
   --momence-primary-500: rgb(165, 131, 103);
   --momence-primary-600: #8a6a4f;
   --momenceColorBlack: 3, 1, 13;
+}
+
+/* Add this to your global CSS file */
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.navbar-slide-down {
+  animation: slide-down 0.3s ease-in-out forwards;
+}
+
+.navbar-slide-up {
+  animation: slide-up 0.3s ease-in-out forwards;
 }

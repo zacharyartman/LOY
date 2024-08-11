@@ -50,7 +50,7 @@ const Header = () => {
             onClick={() => setNavigationOpen(!navigationOpen)}
           >
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
-              <span className="absolute right-0 block h-full w-full">
+            <span className="absolute right-0 block h-full w-full">
                 <span
                   className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out dark:bg-white ${
                     !navigationOpen ? "!w-full delay-300" : "w-0"
@@ -86,10 +86,9 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
-            navigationOpen &&
-            "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
-          }`}
+          className={`overflow-hidden transition-all duration-500 ${
+            navigationOpen ? "max-h-screen" : "max-h-0"
+          } w-full items-center justify-between xl:max-h-full xl:flex xl:w-full`}
         >
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
@@ -139,10 +138,10 @@ const Header = () => {
               ))}
             </ul>
           </nav>
-          <div className="mt-7 flex items-center gap-2 xl:mt-0">
+          <div className="mt-7 mb-5 lg:mb-0 lg:ml-10 flex items-center gap-2 xl:mt-0">
             <a
               href="/schedule"
-              className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-200 hover:bg-primaryho"
+              className="flex items-center text-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
             >
               Class Schedule
             </a>
@@ -152,7 +151,5 @@ const Header = () => {
     </header>
   );
 };
-
-// w-full delay-300
 
 export default Header;
