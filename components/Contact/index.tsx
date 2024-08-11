@@ -50,7 +50,10 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full md:w-1/2 rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
             >
-              <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+              <h2 className="text-3xl mb-2 font-semibold text-primaryho dark:text-white xl:text-sectiontitle2">
+                Contact Us
+              </h2>
+              <h2 className="mb-15 text-metatitle3 xl:text-metatitle2 font-semibold text-black dark:text-white ">
                 Get in touch
               </h2>
 

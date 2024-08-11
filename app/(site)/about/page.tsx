@@ -24,7 +24,6 @@ All of our classes are taught in a non-heated environment, allowing you to fully
 Join us at Las Olas Yoga and experience a place where wellness, healing, and self-discovery come together, creating a space of growth, connection, and transformation.
 `} viewClasses={true}/>
       </div>
-      <Contact />
     </>
   );
 };

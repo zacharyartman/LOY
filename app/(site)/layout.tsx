@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import ToasterContext from "../context/ToastContext";
 import MomenceChat from "@/components/MomenceChat";
+import Contact from "@/components/Contact";
 
 export default function RootLayout({
   children,
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Header />
           <ToasterContext />
           {children}
+          <Contact />
           <Footer />
           <ScrollToTop />
           <MomenceChat />
