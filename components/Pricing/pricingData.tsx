@@ -3,11 +3,11 @@ import { Price } from "@/types/pricing";
 const pricingData: Price[] = [
   {
     id: 0,
-    title: "New Students",
+    title: "New Student Intro",
     subtitle: "Three Weeks of Unlimited Classes",
     price: 79,
     perX: "",
-    popular: false,
+    popular: true,
     href: 'https://momence.com/m/136483',
     buttonText: 'Learn More'
   },
@@ -44,7 +44,7 @@ const pricingData: Price[] = [
   {
     id: 4,
     title: "10-Class Card",
-    subtitle: "10 classes to be redeemed at any time",
+    subtitle: "10 classes to be used over a one-year period",
     price: 240,
     perX: "",
     popular: false,
