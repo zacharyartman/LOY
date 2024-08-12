@@ -9,7 +9,7 @@ import Details from "@/components/Details";
 
 export const metadata: Metadata = {
   title: "Retreats - Las Olas Yoga",
-  description: "Fort Lauderdale non-heated yoga studio on Las Olas offering classes seven days a week for all levels. Classes include Foundations, Slow Flow, Flow & Restore.",
+  description: "Join Las Olas Yoga's transformative retreats in serene locations, designed to rejuvenate your mind, body, and spirit. Experience a blend of yoga, meditation, and mindfulness practices, along with nourishing meals and community connection. Explore our upcoming retreats to find the perfect escape for deepening your practice and unwinding in nature. Discover tranquility and renewal with Las Olas Yoga's immersive retreat experiences.",
   // other metadata
 };
 
