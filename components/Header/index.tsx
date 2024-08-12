@@ -117,7 +117,7 @@ const Header = () => {
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                            <a href={item.path || "#"}>{item.title}</a>
                           </li>
                         ))}
                       </ul>
