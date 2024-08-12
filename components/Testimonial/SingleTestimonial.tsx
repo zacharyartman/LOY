@@ -11,7 +11,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
       <div className="px-12 py-5 flex justify-center">
         <Image src={image} className="rounded-full" width={175} height={175} />
       </div>
-      <div className="px-12">
+      <div className="px-10">
         <div className="mb-5 text-center border-b border-stroke dark:border-strokedark">
           <div>
             <h2 className="mb-1.5 text-3xl text-black dark:text-white">
