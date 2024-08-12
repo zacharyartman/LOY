@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog - Las Olas Yoga",
-  description: "Our blog is dedicated to unraveling the mysteries of yoga and guiding you on a path of self-discovery and inner harmony.",
+  description: "Discover the latest insights, tips, and inspiration on the Las Olas Yoga blog. Explore a range of articles on yoga practice, wellness, mindfulness, and community events. Stay informed about our non-heated classes, all-level sessions, and upcoming 200-hour and Yin teacher trainings. Join our supportive community in nurturing your mind, body, and spirit. Visit Las Olas Yoga's blog for expert guidance on your yoga journey.",
   // other metadata
 };
 
