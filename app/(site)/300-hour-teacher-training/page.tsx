@@ -13,7 +13,7 @@ const ThreeHundredHour = () => {
   return (
 
     <>
-      <NewPageHero titleText={"Teacher Training"} link='/images/general/classes.webp'></NewPageHero>
+      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.webp'></NewPageHero>
       <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 18, 2024 - March 23, 2025<br />Online + 6 In-Person Weekends"}
         text={`
     <h2 class="text-center"><strong style="color:red">One Spot Left</strong></h2>

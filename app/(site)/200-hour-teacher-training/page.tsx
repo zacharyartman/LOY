@@ -55,7 +55,7 @@ const SupportPage = () => {
 
       `}
       images={
-        ['/images/tt/tt-1.webp', '/images/tt/tt-2.webp']
+        ['/images/tt/tt-0.webp', '/images/tt/tt-2.webp']
       }
       buttonText={"Apply"}
       buttonLink={"http://tinyurl.com/loy2024tt"}

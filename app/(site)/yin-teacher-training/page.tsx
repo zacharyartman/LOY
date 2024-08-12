@@ -14,7 +14,7 @@ const YinTeacherTrainingPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Teacher Training"} link='/images/general/classes.webp'></NewPageHero>
+      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.webp'></NewPageHero>
       <Details title={"15-Hour Yin Yoga Teacher Training with Amanda Milian"} dates={"September 13-15, 2024<br/>Friday 6:00-9:00pm, Saturday & Sunday 1:30-7:30pm"} 
       text={`
 <p>Join RYT 500 Amanda Milian for a 15-hour Yin Yoga Teacher Training. This is a comprehensive program designed to deepen your understanding of the Yin practice. This training is perfect for Yoga enthusiasts or Yoga Teachers who wish to specialize in the gentle and meditative practice of Yin. Throughout the course you’ll learn:</p>
