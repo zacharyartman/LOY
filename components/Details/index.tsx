@@ -9,11 +9,11 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
       <section id="details" className="px-4 md:px-8 2xl:px-0">
         <div className="relative mx-auto max-w-c-1690 px-0 lg:px-7.5 py-5 lg:px-15 lg:py-10 xl:px-20">
 
-          <h2 className="text-3xl mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
+          <h2 className="text-2xl mx-5 mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
             {title}
           </h2>
           <h3
-            className="text-xl mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2"
+            className="text-lg mx-5 mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2"
             dangerouslySetInnerHTML={{ __html: dates }}
           ></h3>
 

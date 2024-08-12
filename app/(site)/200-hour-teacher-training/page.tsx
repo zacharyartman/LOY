@@ -14,7 +14,7 @@ const SupportPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.jpg'></NewPageHero>
+      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.webp'></NewPageHero>
       <Details title={"200-Hour Teacher Training with Amy Baldacci"} dates={"October 12, 2024-March 29th, 2025 <br />Two Weekends a Month: Saturday & Sunday 1:30-8:30pm"} 
       text={`
       <p style="text-align: center;"><em><strong>Registration is Open!</strong></em></p>
