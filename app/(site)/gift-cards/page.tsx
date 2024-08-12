@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const SupportPage = () => {
+const GiftCardsPage = () => {
   return (
     
     <>
@@ -22,4 +22,4 @@ const SupportPage = () => {
   );
 };
 
-export default SupportPage;
+export default GiftCardsPage;

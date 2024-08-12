@@ -4,7 +4,7 @@ const pricingData: Price[] = [
   {
     id: 0,
     title: "New Student Intro",
-    subtitle: "Three Weeks of Unlimited Classes",
+    subtitle: "Three Weeks of Unlimited Yoga",
     price: 79,
     perX: "",
     popular: true,
