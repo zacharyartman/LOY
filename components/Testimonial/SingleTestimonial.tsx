@@ -1,12 +1,30 @@
 import { useState } from "react";
 import { Testimonial } from "@/types/testimonial";
 import Image from "next/legacy/image";
+import { motion } from "framer-motion";
 
 const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   const { name, designation, image, content } = review;
   const [showFullContent, setShowFullContent] = useState(false);
 
   return (
+    <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        y: -20,
+      },
+      visible: {
+        opacity: 1,
+        y: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.1 }}
+    viewport={{ once: true }}
+    className="animate_top">
+
     <div className="rounded-lg bg-white pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
       <div className="px-12 py-5 flex justify-center">
         <Image src={image} className="rounded-full" width={175} height={175} />
@@ -38,6 +56,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 
