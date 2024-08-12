@@ -10,27 +10,27 @@ const Pricing = ({ sectionHeader }) => {
   const PricingButton = ({title, subtitle, price, perX, href, popular, buttonText}) => {
   
     return(
-    <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5">
+    <div className={`animate_top group relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`}>
         {popular && (
-          <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+          <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-white px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
             popular
           </div>
         )}
       
-      <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+      <h3 className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} dark:text-white xl:text-sectiontitle3`}>
         ${price}{" "}
-        <span className="text-regular text-waterloo dark:text-manatee">
+        <span className={`text-regular ${popular ? "text-white" : "text-waterloo"}`}>
           {perX}
         </span>
       </h3>
-    <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
+    <h4 className={`mb-2.5 text-para2 font-medium ${popular ? "text-white" : "text-black"}`}>
       {title}
     </h4>
-    <p>{subtitle}.</p>
+    <p className={`${popular ? "text-white" : "text-black"}`}>{subtitle}.</p>
 
     <a
       aria-label={`Learn more about ${title}: ${subtitle} button`}
-      className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary mt-5"
+      className={`group/btn inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
       href= {href}
     >
       <span className="duration-300 group-hover/btn:pr-2">
