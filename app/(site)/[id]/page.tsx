@@ -2,19 +2,25 @@ import { Blog } from "@/types/blog";
 import BlogData from "@/components/Blog/blogData";
 import Image from "next/legacy/image";
 import RelatedPost from "@/components/Blog/RelatedPost";
-import SharePost from "@/components/Blog/SharePost";
 import InlineArrowButton from "@/components/InlineArrowButton";
 import { Metadata } from "next";
 
-interface BlogProps {
-  blog: Blog;
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const blog = BlogData.find((blog) => blog._id.toString() === params.id);
+
+  if (!blog) {
+    return {
+      title: "Blog Not Found",
+      description: "The blog you are looking for does not exist.",
+    };
+  }
+
+  return {
+    title: `${blog.title} - Las Olas Yoga`,
+    description: blog.seoDescription,
+  };
 }
 
-export const metadata: Metadata = {
-  title: "Blog - Las Olas Yoga",
-  description: "Our blog is dedicated to unraveling the mysteries of yoga and guiding you on a path of self-discovery and inner harmony.",
-  // other metadata
-};
 
 export async function generateStaticParams() {
   return BlogData.map((blog) => ({
@@ -64,7 +70,6 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
                 className="blog-details"
                 dangerouslySetInnerHTML={{ __html: blog.metadata }}
               />
-              <SharePost />
             </div>
           </div>
         </div>

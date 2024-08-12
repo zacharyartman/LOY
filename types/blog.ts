@@ -7,7 +7,7 @@ export type Author = {
 };
 
 export type Blog = {
-  _id: number;
+  _id: string | number;
   title: string;
   slug?: any;
   metadata: string;
@@ -16,4 +16,5 @@ export type Blog = {
   author?: Author;
   tags?: string[];
   publishedAt?: string;
+  seoDescription: string;
 };

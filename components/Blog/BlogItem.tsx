@@ -8,7 +8,7 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
   const { _id, mainImage, title, metadata } = blog;
 
   const handleClick = () => {
-    window.location.href = `/blog/${_id}`;
+    window.location.href = `../${_id}`;
   }
 
   return (

@@ -18,7 +18,7 @@ const RelatedPost = async ({ blogID }) => {
               key={key}
             >
               <div className="flex xl:w-2/5 w-full">
-                <a href={`/blog/${post._id}`} className="relative h-35 lg:h-20 w-full">
+                <a href={`../${post._id}`} className="relative h-35 lg:h-20 w-full">
                   {post.mainImage ? (
                     <Image layout="fill" src={post.mainImage} alt="Blog" className="object-cover" />
                   ) : (
@@ -28,7 +28,7 @@ const RelatedPost = async ({ blogID }) => {
               </div>
               <div className="flex xl:w-3/5 w-full">
                 <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
-                  <a href={`/blog/${post._id}`}>
+                  <a href={`../${post._id}`}>
                     {post.title.length <= 60 ? post.title : `${post.title.slice(0, 60)}...`}
                   </a>
                 </h5>
