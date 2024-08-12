@@ -17,7 +17,7 @@ const RetreatsPage = () => {
   return (
 
     <>
-      <NewPageHero titleText={"Retreats"} link='/images/hero/retreats.avif'></NewPageHero>
+      <NewPageHero titleText={"Retreats"} link='/images/hero/retreats.webp'></NewPageHero>
       <Details
         title={"Vermont Mountain Renewal Retreat with Keely"}
         dates={"October 3rd - 6th, 2024"}

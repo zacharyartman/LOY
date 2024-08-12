@@ -16,7 +16,7 @@ const PricingPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Pricing"} link='/images/general/classes.webp'></NewPageHero>
+      <NewPageHero titleText={"Pricing"} link='/images/hero/hero-gratitude.jpeg' position="bg-[center_40%]"></NewPageHero>
       <Pricing sectionHeader={false}/>
     </>
   );
