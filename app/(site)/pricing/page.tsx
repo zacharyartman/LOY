@@ -7,8 +7,8 @@ import Pricing from "@/components/Pricing";
 import MomenceGiftCard from "@/components/MomenceGiftCard";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Pricing - Las Olas Yoga",
+  description: "Our yoga pricing options include options for everyone. We have an intro offer for new students, memberships, short-term options for visitors and class cards.",
   // other metadata
 };
 

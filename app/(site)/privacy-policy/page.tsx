@@ -3,8 +3,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Privacy Policy - Las Olas Yoga",
+  description: "Las Olas Yoga's Privacy Policy details.",
   // other metadata
 };
 

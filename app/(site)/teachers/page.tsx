@@ -6,8 +6,8 @@ import Details from "@/components/Details";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Teachers - Las Olas Yoga",
+  description: "Our highly-experienced teachers are here to serve our community. They are skilled at providing modifications and variations for all levels of practitioners.",
   // other metadata
 };
 

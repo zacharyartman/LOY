@@ -5,8 +5,8 @@ import Classes from "@/components/Classes";
 import MomenceGiftCard from "@/components/MomenceGiftCard";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Gift Cards - Las Olas Yoga",
+  description: "Our gift cards are sent via email and do not expire for a year. You can choose one of the standard amounts or create a custom amount.",
   // other metadata
 };
 

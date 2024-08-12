@@ -7,8 +7,8 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "About - Las Olas Yoga",
+  description: "Our mission is to provide a place of wellness, healing and self-discovery through movement, mindfulness & community. We are located in Ft Lauderdale on Las Olas Blvd.",
   // other metadata
 };
 

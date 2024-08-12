@@ -4,8 +4,8 @@ import NewPageHero from "@/components/NewPageHero";
 import Classes from "@/components/Classes";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Classes - Las Olas Yoga",
+  description: "We have classes for all levels: Foundations (beginners), Slow Flow (Flow at a slower pace), Flow (challenging practice) & Restore (calm, relaxing experience).",
   // other metadata
 };
 

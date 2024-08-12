@@ -4,10 +4,17 @@ import Image from "next/legacy/image";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
 import InlineArrowButton from "@/components/InlineArrowButton";
+import { Metadata } from "next";
 
 interface BlogProps {
   blog: Blog;
 }
+
+export const metadata: Metadata = {
+  title: "Blog - Las Olas Yoga",
+  description: "Our blog is dedicated to unraveling the mysteries of yoga and guiding you on a path of self-discovery and inner harmony.",
+  // other metadata
+};
 
 export async function generateStaticParams() {
   return BlogData.map((blog) => ({

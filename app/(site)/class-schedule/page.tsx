@@ -5,8 +5,8 @@ import MomenceSchedule from "@/components/MomenceSchedule";
 import MomenceChat from "@/components/MomenceChat";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Class Schedule - Las Olas Yoga",
+  description: "Weekly schedule of our yoga classes and workshops. We have classes 7 days a week for all levels with weekday morning & evening classes and weekend morning classes.",
   // other metadata
 };
 

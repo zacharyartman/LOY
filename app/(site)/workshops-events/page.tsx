@@ -5,8 +5,8 @@ import MomenceSchedule from "@/components/MomenceSchedule";
 import MomenceChat from "@/components/MomenceChat";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Workshops & Events - Las Olas Yoga",
+  description: "An overview of our upcoming yoga workshops and events at Las Olas Yoga in Fort Lauderdale. Founding members receive discounts on all events.",
   // other metadata
 };
 

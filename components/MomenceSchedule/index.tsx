@@ -48,7 +48,7 @@ function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
       <div className='flex justify-center'>
       <div className="mt-7 mb-15 flex items-center gap-2 xl:mt-0">
         <a
-          href="/schedule"
+          href="/class-schedule"
           className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular mt-5 text-white transition-all duration-200 hover:bg-primaryho"
         >
           View Full Schedule

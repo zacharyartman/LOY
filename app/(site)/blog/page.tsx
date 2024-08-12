@@ -4,8 +4,8 @@ import NewPageHero from "@/components/NewPageHero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
-  description: "This is Blog page for Solid Pro",
+  title: "Blog - Las Olas Yoga",
+  description: "Our blog is dedicated to unraveling the mysteries of yoga and guiding you on a path of self-discovery and inner harmony.",
   // other metadata
 };
 

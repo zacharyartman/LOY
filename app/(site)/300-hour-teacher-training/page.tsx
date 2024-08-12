@@ -5,11 +5,10 @@ import Classes from "@/components/Classes";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "300-Hour Teacher Training - Las Olas Yoga",
+  description: "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for 300-hour yoga teacher certifications",
   // other metadata
 };
-
 const ThreeHundredHour = () => {
   return (
 

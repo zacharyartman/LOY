@@ -5,8 +5,8 @@ import Classes from "@/components/Classes";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Yin Yoga Teacher Training - Las Olas Yoga",
+  description: "Fort Lauderdale Yin yoga teacher training",
   // other metadata
 };
 

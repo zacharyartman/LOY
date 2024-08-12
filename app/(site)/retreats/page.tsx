@@ -8,8 +8,8 @@ import MomenceGiftCard from "@/components/MomenceGiftCard";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {
-  title: "Support Page - Solid SaaS Boilerplate",
-  description: "This is Support page for Solid Pro",
+  title: "Retreats - Las Olas Yoga",
+  description: "Fort Lauderdale non-heated yoga studio on Las Olas offering classes seven days a week for all levels. Classes include Foundations, Slow Flow, Flow & Restore.",
   // other metadata
 };
 

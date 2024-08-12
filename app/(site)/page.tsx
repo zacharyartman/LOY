@@ -20,7 +20,7 @@ import Popup from "@/components/Popup";
 
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
-  description: "TODO",
+  description: "Fort Lauderdale non-heated yoga studio on Las Olas offering classes seven days a week for all levels. Classes include Foundations, Slow Flow, Flow & Restore.",
   // other metadata
 };
 
