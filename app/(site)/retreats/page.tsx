@@ -66,6 +66,9 @@ const RetreatsPage = () => {
       <p>Closest Airport: Albany</p>
           `}
           images={['/images/retreats/retreat1.webp', '/images/retreats/retreat2.webp', '/images/retreats/retreat3.webp']}
+
+          buttonText={'Reserve My Spot'}
+          buttonLink={'https://momence.com/s/100580762'}
       />
     </>
   );

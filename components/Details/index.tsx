@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/legacy/image";
 import React from "react";
 
-const Details = ({ title, dates, text, images }) => {
+const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
   return (
     <>
       <section id="details" className="px-4 md:px-8 2xl:px-0">
@@ -12,9 +12,11 @@ const Details = ({ title, dates, text, images }) => {
           <h2 className="text-3xl mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
             {title}
           </h2>
-          <h3 className="text-xl mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2">
-            {dates}
-          </h3>
+          <h3
+            className="text-xl mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2"
+            dangerouslySetInnerHTML={{ __html: dates }}
+          ></h3>
+
 
           <div className="flex gap-8 flex-col md:flex-row md:justify-between xl:gap-20">
             <motion.div
@@ -39,6 +41,16 @@ const Details = ({ title, dates, text, images }) => {
                 className="blog-details"
                 dangerouslySetInnerHTML={{ __html: text }}
               />
+
+              <div className="flex justify-center my-5 xl:mb-0 xl:ml-10 flex items-center gap-2 xl:mt-0">
+                <a
+                  href={buttonLink}
+                  className="flex items-center text-center justify-center rounded-full bg-primary px-20 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
+                >
+                  {buttonText}
+                </a>
+              </div>
+
 
             </motion.div>
 
