@@ -30,7 +30,7 @@ const About = ({ aboutText, viewClasses }) => {
               className="animate_left relative mx-auto w-full aspect-[200/150] md:block sm:w-1/2"
             >
               <Image
-                src="/images/about/candid-1.jpeg"
+                src="/images/about/candid-1.webp"
                 alt="About"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"

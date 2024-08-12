@@ -52,7 +52,7 @@ export default function Popup() {
                 <div className="flex items-center flex-col justify-between p-0 rounded-t">
 
                   <div className="relative h-30 sm:h-40 w-full mb-2 mx-auto rounded-t-lg overflow-hidden">
-                    <Image src={"/images/general/teaching.jpeg"} alt={'TODO'} layout="fill" objectFit="cover" />
+                    <Image src={"/images/general/teaching.webp"} alt={'TODO'} layout="fill" objectFit="cover" />
                   </div>
                   <div className="border-b border-solid border-blueGray-200 mx-0 md:mx-15">
                   <div className="px-5 md:px-0 pt-3 pb-5">

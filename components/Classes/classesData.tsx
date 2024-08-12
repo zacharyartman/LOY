@@ -1,8 +1,8 @@
 import { Feature } from "@/types/feature";
-import image1 from "@/public/images/features/foundations.jpg";
-import image2 from "@/public/images/features/slow-flow-website.jpg";
-import image3 from "@/public/images/features/Group-920.png";
-import image4 from "@/public/images/features/restore-website.jpg";
+import image1 from "@/public/images/features/foundations.webp";
+import image2 from "@/public/images/features/slow-flow-website.webp";
+import image3 from "@/public/images/features/Group-920.webp";
+import image4 from "@/public/images/features/restore-website.webp";
 
 const classesData: Feature[] = [
   {
