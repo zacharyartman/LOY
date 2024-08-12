@@ -15,7 +15,7 @@ const ThreeHundredHour = () => {
   return (
 
     <>
-      <NewPageHero titleText={"Teachers"} link='/images/general/classes.webp'></NewPageHero>
+      <NewPageHero titleText={"Teachers"} link='/images/hero/hero-teachers.webp' position="bg-bottom lg:bg-[center_90%]"></NewPageHero>
       <Testimonial />
     </>
   );
