@@ -117,6 +117,9 @@ const Pricing = ({ sectionHeader }) => {
             ))}
 
           </div>
+          <p className="text-center italic mt-4">
+            * Unlimited members may give guest passes to local, first-time clients only.
+          </p>
         </div>
       </motion.section>
       {/* <!-- ===== Pricing Table End ===== --> */}
