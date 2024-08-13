@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 const PricingButton = ({ title, subtitle, price, perX, href, popular, buttonText }) => {
 
   return (
-    <div className={`animate_top group relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`}>
+    <a href={href} target="_blank" className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`}>
 
       <h3 className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} dark:text-white xl:text-sectiontitle3`}>
         ${price}{" "}
@@ -26,10 +26,9 @@ const PricingButton = ({ title, subtitle, price, perX, href, popular, buttonText
       </h4>
       <p className={`${popular ? "text-white" : "text-black"}`}>{subtitle}.</p>
 
-      <a
+      <div
         aria-label={`Learn more about ${title}: ${subtitle} button`}
-        className={`group/btn inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
-        href={href}
+        className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
       >
         <span className="duration-300 group-hover/btn:pr-2">
           {buttonText}
@@ -45,8 +44,8 @@ const PricingButton = ({ title, subtitle, price, perX, href, popular, buttonText
             fill="currentColor"
           />
         </svg>
-      </a>
-    </div>);
+      </div>
+    </a>);
 }
 
 

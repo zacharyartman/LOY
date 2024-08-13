@@ -10,7 +10,10 @@ const Pricing = ({ sectionHeader }) => {
   const PricingButton = ({title, subtitle, price, perX, href, popular, buttonText}) => {
   
     return(
-    <div className={`animate_top group relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`}>
+    <a className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`
+    }
+    href= {href}
+    target="_blank">
         {popular && (
           <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-white px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
             popular
@@ -28,11 +31,9 @@ const Pricing = ({ sectionHeader }) => {
     </h4>
     <p className={`${popular ? "text-white" : "text-black"}`}>{subtitle}.</p>
 
-    <a
+    <div
       aria-label={`Learn more about ${title}: ${subtitle} button`}
-      className={`group/btn inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
-      href= {href}
-      target="_blank"
+      className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
     >
       <span className="duration-300 group-hover/btn:pr-2">
         {buttonText}
@@ -48,8 +49,8 @@ const Pricing = ({ sectionHeader }) => {
           fill="currentColor"
         />
       </svg>
-    </a>
-  </div>);
+    </div>
+  </a>);
   }
 
 

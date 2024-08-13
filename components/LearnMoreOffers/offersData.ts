@@ -13,7 +13,7 @@ export const offersData: Offer[] = [
             {
                 id: 12,
                 name: "What to Expect",
-                href: "https://momence.com/m/136483",
+                href: "/new-students",
             }
         ]
     },
