@@ -22,7 +22,7 @@ const LearnMorePage = () => {
 
         </div>
       </section>
-      <section className="h-auto pb-30 bg-midbrown relative">
+      <section className="h-auto pb-20 md:pb-30 bg-midbrown relative">
         <ul className="flex justify-center items-center gap-3">
           <li>
             <a href="https://www.facebook.com/lasolasyogastudio" aria-label="facebook icon">
