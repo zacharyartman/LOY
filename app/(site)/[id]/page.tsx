@@ -1,4 +1,3 @@
-import { Blog } from "@/types/blog";
 import BlogData from "@/components/Blog/blogData";
 import Image from "next/legacy/image";
 import RelatedPost from "@/components/Blog/RelatedPost";

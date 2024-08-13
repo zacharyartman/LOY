@@ -1,13 +1,6 @@
 "use client";
-import { useState } from "react";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   const Button = ({ text, ariaLabel, link, lastElement }) => {
 
     return (

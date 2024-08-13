@@ -1,10 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
-import Classes from "@/components/Classes";
-import Details from "@/components/Details";
-import pricingData from "@/components/Pricing/pricingData";
-import FAQ from "@/components/FAQ";
 import NewStudents from "@/components/NewStudents";
 
 export const metadata: Metadata = {

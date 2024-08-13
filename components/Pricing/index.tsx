@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/legacy/image";
 import SectionHeader from "../Common/SectionHeader";
-import { useRouter } from 'next/router';
 import pricingData from "./pricingData";
 import { motion } from "framer-motion";
 

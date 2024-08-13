@@ -1,6 +1,4 @@
-import { useState } from "react";
 import { Offer, OfferItem } from "@/types/offer";
-import Image from "next/legacy/image";
 import { motion } from "framer-motion";
 
 const SingleOffer = ({ offer }: { offer: OfferItem }) => {

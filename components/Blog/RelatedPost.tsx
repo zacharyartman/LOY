@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/legacy/image";
-import Link from "next/link";
 import BlogData from "./blogData";
 
 const RelatedPost = async ({ blogID }) => {

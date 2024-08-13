@@ -1,7 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
-import Classes from "@/components/Classes";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {

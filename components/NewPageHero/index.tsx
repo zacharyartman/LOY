@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 const NewPageHero = ({titleText, link, position='bg-center'}) => {
   const backgroundImageStyle = {

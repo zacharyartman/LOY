@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Offers from "@/components/LearnMoreOffers";
 
 export const metadata: Metadata = {
-  title: "Learn More",
+  title: "Learn More - Las Olas Yoga",
   description: "TODO",
   // other metadata
 };

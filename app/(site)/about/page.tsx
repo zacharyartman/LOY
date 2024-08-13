@@ -1,10 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
-import MomenceSchedule from "@/components/MomenceSchedule";
-import MomenceChat from "@/components/MomenceChat";
 import About from "@/components/About";
-import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
   title: "About - Las Olas Yoga",
