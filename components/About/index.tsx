@@ -31,7 +31,7 @@ const About = ({ aboutText, viewClasses }) => {
             >
               <Image
                 src="/images/about/candid-1.webp"
-                alt="About"
+                alt="Group of students practicing yoga in a non-heated class at Las Olas Yoga"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"
               />
@@ -103,7 +103,7 @@ const About = ({ aboutText, viewClasses }) => {
             >
               <Image
                 src="/images/about/about-image-02.webp"
-                alt="About"
+                alt="yoga studio on las olas boulevard"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"
               />
@@ -160,7 +160,7 @@ const About = ({ aboutText, viewClasses }) => {
             >
               <Image
                 src="/images/about/about-image-02.webp"
-                alt="About"
+                alt="yoga studio on las olas boulevard"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"
               />

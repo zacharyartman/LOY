@@ -1,6 +1,5 @@
 "use client"
 import { useEffect } from 'react';
-import { Helmet } from 'react-helmet';
 
 function MomenceChat() {
   useEffect(() => {
@@ -20,8 +19,8 @@ function MomenceChat() {
   }, []);
 
   return (
-    <Helmet>
-    </Helmet>
+    <>
+    </>
   );
 }
 

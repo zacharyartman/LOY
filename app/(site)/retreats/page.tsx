@@ -65,7 +65,10 @@ const RetreatsPage = () => {
       <p>This is an intimate retreat with limited availability so reserve your spot soon.</p>
       <p>Closest Airport: Albany</p>
           `}
-          images={['/images/retreats/retreat1.webp', '/images/retreats/retreat2.webp', '/images/retreats/retreat3.webp']}
+          images={[['/images/retreats/retreat1.webp','TODO'],
+             ['/images/retreats/retreat2.webp','TODO'],
+              ['/images/retreats/retreat3.webp', 'TODO'],
+              ['/images/retreats/retreat4.webp', 'TODO']]}
 
           buttonText={'Reserve My Spot'}
           buttonLink={'https://momence.com/s/100580762'}

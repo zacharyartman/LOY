@@ -39,7 +39,7 @@ const FunFact = () => {
                     width={1090 / 7}
                     height={327 / 7}
                     src="/images/app/app-store.png"
-                    alt="Apple app store icon"
+                    alt="Las Olas Yoga mobile iPhone app logo for booking classes and managing your yoga schedule"
                   />
                 </button>
                 <button className="border-2 border-black rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
@@ -47,7 +47,7 @@ const FunFact = () => {
                     width={1089 / 7}
                     height={330 / 7}
                     src="/images/app/play-store.png"
-                    alt="Google play store icon"
+                    alt="Las Olas Yoga mobile Google Play Store app logo for booking classes and managing your yoga schedule"
                   />
                 </button>
               </div>
@@ -57,7 +57,7 @@ const FunFact = () => {
                 width={535 / 2.5}
                 height={876 / 2.5}
                 src="/images/app/app_hand.png"
-                alt="Hand holding phone displaying mobile app"
+                alt="Las olas yoga fort lauderdale mobile app"
               />
             </div>
           </motion.div>

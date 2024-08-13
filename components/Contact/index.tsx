@@ -127,7 +127,7 @@ const Contact = () => {
               <div className="relative h-full w-full">
                 <Image
                   src={"/images/contact/about-image-01.webp"}
-                  alt="Kobe Steel plant that supplied"
+                  alt="yoga beginners"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-md object-cover object-center"

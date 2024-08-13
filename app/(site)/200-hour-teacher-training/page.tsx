@@ -55,7 +55,8 @@ const TwoHundredHourTTPage = () => {
 
       `}
       images={
-        ['/images/tt/tt-0.webp', '/images/tt/tt-2.webp']
+        [['/images/tt/tt-0.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga, emphasizing hands-on learning and personalized instruction.'], 
+        ['/images/tt/tt-2.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga, emphasizing hands-on learning and personalized instruction.']]
       }
       buttonText={"Apply"}
       buttonLink={"http://tinyurl.com/loy2024tt"}

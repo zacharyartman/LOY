@@ -39,7 +39,9 @@ const ThreeHundredHour = () => {
 
       `}
         images={
-          ['/images/tt/tt-3.webp', '/images/tt/tt-4.webp', '/images/tt/tt-5.webp']
+          [['/images/tt/tt-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga, combining virtual instruction with hands-on learning.'],
+             ['/images/tt/tt-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga, focusing on advanced alignment and hands-on adjustments'],
+              ['/images/tt/tt-5.webp', 'me: Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga, focusing on deepening knowledge and teaching techniques']]
         }
         buttonText={"Waitlist/Interest for Next Session"}
         buttonLink={"https://forms.gle/DyT6yAZRC9HNrrkz6"}

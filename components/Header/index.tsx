@@ -37,8 +37,8 @@ const Header = () => {
             <Image
               src="/images/logo/loy-logo.webp"
               alt="logo"
-              width={120}
-              height={85}
+              width={110}
+              height={Math.round(110 * (203 / 256))}
               className="w-full dark:hidden"
             />
           </a>
