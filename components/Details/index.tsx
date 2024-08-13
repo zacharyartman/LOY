@@ -45,6 +45,7 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
               <div className="flex justify-center my-5 xl:mb-0 xl:ml-10 flex items-center gap-2 xl:mt-0">
                 <a
                   href={buttonLink}
+                  target="_blank"
                   className="flex items-center text-center justify-center rounded-full bg-primary px-20 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
                 >
                   {buttonText}

@@ -32,6 +32,7 @@ const Pricing = ({ sectionHeader }) => {
       aria-label={`Learn more about ${title}: ${subtitle} button`}
       className={`group/btn inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
       href= {href}
+      target="_blank"
     >
       <span className="duration-300 group-hover/btn:pr-2">
         {buttonText}
