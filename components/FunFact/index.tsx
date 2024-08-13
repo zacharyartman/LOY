@@ -34,7 +34,7 @@ const FunFact = () => {
                 Book classes on the go!
               </p>
               <div className="mt-10 flex space-x-4">
-                <button className="border-2 border-black rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
+                <button className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
                   <Image
                     width={1090 / 7}
                     height={327 / 7}
@@ -42,7 +42,7 @@ const FunFact = () => {
                     alt="Las Olas Yoga mobile iPhone app logo for booking classes and managing your yoga schedule"
                   />
                 </button>
-                <button className="border-2 border-black rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
+                <button className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
                   <Image
                     width={1089 / 7}
                     height={330 / 7}
