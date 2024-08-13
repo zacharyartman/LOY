@@ -54,7 +54,7 @@ export default function Contact() {
     setResult("Sending....");
     setResultColor("grey");
 
-    formData.append("access_key", "85464723-188a-4240-bbc8-d5e4fa6d1bdf");
+    formData.append("access_key", "8e7f1f3e-c7a0-467c-a81d-68d6c575c13d");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
