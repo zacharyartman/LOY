@@ -23,18 +23,18 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
               variants={{
                 hidden: {
                   opacity: 0,
-                  y: -20,
+                  x: -20,
                 },
                 visible: {
                   opacity: 1,
-                  y: 0,
+                  x: 0,
                 },
               }}
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full md:w-[60%] rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
+              className="animate_left w-full md:w-[60%] rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
             >
 
               <div
@@ -59,18 +59,18 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
               variants={{
                 hidden: {
                   opacity: 0,
-                  y: -20,
+                  x: 20,
                 },
                 visible: {
                   opacity: 1,
-                  y: 0,
+                  x: 0,
                 },
               }}
               initial="hidden"
               whileInView="visible"
               transition={{ duration: 2, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
+              className="animate_right w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
             >
 
               <div className="relative w-full">
