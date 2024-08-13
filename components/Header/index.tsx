@@ -93,17 +93,17 @@ const Header = () => {
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
               {menuData.map((menuItem, key) => (
-                <li key={key} className={menuItem.submenu && "group relative"}>
-                  {menuItem.submenu ? (
+                <li key={key} className={`${menuItem.submenu ? "flex w-full flex-wrap group lg:relative lg:w-auto" : "flex lg:flex-none"}`}>
+                {menuItem.submenu ? (
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-primary"
+                        className={`flex cursor-pointer items-center justify-between gap-3 hover:text-primary  ${menuItem.submenu ? "w-full" : ""}`}
                       >
                         {menuItem.title}
                         <span>
                           <svg
-                            className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary"
+                            className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary`}
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
                           >
@@ -113,7 +113,7 @@ const Header = () => {
                       </button>
 
                       <ul
-                        className={`dropdown ${dropdownToggler ? "flex" : ""}`}
+                        className={`dropdown ${dropdownToggler ? "flex flex-col" : ""}`}
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
@@ -125,11 +125,11 @@ const Header = () => {
                   ) : (
                     <a
                       href={`${menuItem.path}`}
-                      className={
+                      className={` w-full ${
                         pathUrl === menuItem.path
                           ? "text-primary hover:text-primary"
                           : "hover:text-primary"
-                      }
+                      }`}
                     >
                       {menuItem.title}
                     </a>
