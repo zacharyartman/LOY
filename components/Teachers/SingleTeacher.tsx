@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Testimonial } from "@/types/testimonial";
+import { Teacher } from "@/types/teacher";
 import Image from "next/legacy/image";
 import { motion } from "framer-motion";
 
-const SingleTestimonial = ({ review }: { review: Testimonial }) => {
+const SingleTeacher = ({ review }: { review: Teacher }) => {
   const { name, designation, image, content } = review;
   const [showFullContent, setShowFullContent] = useState(false);
 
@@ -60,4 +60,4 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   );
 };
 
-export default SingleTestimonial;
+export default SingleTeacher;

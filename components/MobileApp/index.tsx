@@ -3,10 +3,9 @@ import React from "react";
 import Image from "next/legacy/image";
 import { motion } from "framer-motion";
 
-const FunFact = () => {
+const MobileApp = () => {
   return (
     <>
-      {/* <!-- ===== Funfact Start ===== --> */}
       <section className="px-4 py-5 md:px-8 xl:pt-20 2xl:px-0">
         <div className="relative z-1 mx-auto max-w-c-1390">
           <motion.div
@@ -63,9 +62,8 @@ const FunFact = () => {
           </motion.div>
         </div>
       </section>
-      {/* <!-- ===== Funfact End ===== --> */}
     </>
   );
 };
 
-export default FunFact;
+export default MobileApp;

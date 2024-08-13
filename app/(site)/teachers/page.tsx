@@ -1,9 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
-import Classes from "@/components/Classes";
-import Details from "@/components/Details";
-import Testimonial from "@/components/Testimonial";
+import Teachers from "@/components/Teachers";
 
 export const metadata: Metadata = {
   title: "Teachers - Las Olas Yoga",
@@ -16,7 +14,7 @@ const ThreeHundredHour = () => {
 
     <>
       <NewPageHero titleText={"Teachers"} link='/images/hero/hero-teachers.webp' position="bg-center lg:bg-[center_60%]"></NewPageHero>
-      <Testimonial />
+      <Teachers />
     </>
   );
 };

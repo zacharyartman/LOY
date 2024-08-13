@@ -1,4 +1,4 @@
-export type Testimonial = {
+export type Teacher = {
   id: number;
   name: string;
   destination?: string;
