@@ -5,93 +5,21 @@ import Classes from "@/components/Classes";
 import Details from "@/components/Details";
 import pricingData from "@/components/Pricing/pricingData";
 import FAQ from "@/components/FAQ";
+import NewStudents from "@/components/NewStudents";
 
 export const metadata: Metadata = {
-  title: "200-Hour Teacher Training - Las Olas Yoga",
-  description: "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for 200-hour yoga teacher certifications",
+  title: "New Students - Las Olas Yoga",
+  description: "Welcome to Las Olas Yoga! Our New Student and FAQ page provides everything you need to get started on your yoga journey. Find answers to common questions, learn what to expect in our non-heated, all-levels classes, and discover tips for making the most of your practice. Whether you're a beginner or new to our community, explore helpful resources to ensure a smooth and supportive experience at Las Olas Yoga.",
   // other metadata
 };
 
-const PricingButton = ({title, subtitle, price, perX, href, popular, buttonText}) => {
-  
-  return(
-  <div className={`animate_top group relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`}>
-    
-    <h3 className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} dark:text-white xl:text-sectiontitle3`}>
-      ${price}{" "}
-      <span className={`text-regular ${popular ? "text-white" : "text-waterloo"}`}>
-        {perX}
-      </span>
-    </h3>
-  <h4 className={`mb-2.5 text-para2 font-medium ${popular ? "text-white" : "text-black"}`}>
-    {title}
-  </h4>
-  <p className={`${popular ? "text-white" : "text-black"}`}>{subtitle}.</p>
-
-  <a
-    aria-label={`Learn more about ${title}: ${subtitle} button`}
-    className={`group/btn inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-300 mt-5`}
-    href= {href}
-  >
-    <span className="duration-300 group-hover/btn:pr-2">
-      {buttonText}
-    </span>
-    <svg
-      width="14"
-      height="14"
-      viewBox="0 0 14 14"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-        fill="currentColor"
-      />
-    </svg>
-  </a>
-</div>);
-}
-
-
 const NewStudentsPage = () => {
-  const introOffer = pricingData.find((price) => price.id === 0);
 
   return (
     <>
       <NewPageHero titleText={"New Students"} link='/images/hero/hero-new-students.webp'></NewPageHero>
-      <div className="px-4 md:mt-5 md:px-8 2xl:px-0 max-w-[1000px] items-center mx-auto">
-        <h2 className="text-2xl mt-5 mx-5 mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
-          New to Yoga or Just our Studio? Read on!
-        </h2>
-        <h2 className="text-2xl mx-5 mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
-          Welcome to our community
-        </h2>
-        <p className="text-metatitle3 m-10">
-          At Las Olas Yoga, our mission is to create a sanctuary of well-being, where movement, mindfulness, and community intersect. Come early, have tea and chat in the lobby or lay out your mat and relax in the studio. Whether you have never stepped foot in a yoga studio or are a seasoned practitioner, we are ready to meet you where are and provide an experience that allows you to drop-in and journey towards inner peace and self-discovery. All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions.
-        </p>
-        <h2 className="text-2xl mx-5 mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
-          Intro Offer
-        </h2>
-        <p className="text-center italic mb-5">
-          Available to local, first-time clients only.
-        </p>
-        <div className="max-w-[400px] mx-auto flex justify-center mb-10">
-          {introOffer && (
-            <PricingButton 
-              title={introOffer.title} 
-              subtitle={introOffer.subtitle} 
-              price={introOffer.price} 
-              perX={introOffer.perX} 
-              href={'https://momence.com/m/136483'} 
-              popular={true} 
-              buttonText={'Buy Now'} 
-            />
-          )}
-        </div>
-        <FAQ />
-
-
-      </div>
-    </>
+      <NewStudents />
+      </>
   );
 };
 
