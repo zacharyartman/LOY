@@ -61,10 +61,10 @@ const RetreatsPage = () => {
       <p>This is an intimate retreat with limited availability so reserve your spot soon.</p>
       <p>Closest Airport: Albany</p>
           `}
-          images={[['/images/retreats/retreat1.webp','TODO'],
-             ['/images/retreats/retreat2.webp','TODO'],
-              ['/images/retreats/retreat3.webp', 'TODO'],
-              ['/images/retreats/retreat4.webp', 'TODO']]}
+          images={[['/images/retreats/retreat1.webp','a rejuvenating retreat experience with yoga, meditation, and wellness activities hosted by Las Olas Yoga in a serene location'],
+             ['/images/retreats/retreat2.webp','a rejuvenating retreat experience with yoga, meditation, and wellness activities hosted by Las Olas Yoga in a serene location'],
+              ['/images/retreats/retreat3.webp', 'a rejuvenating retreat experience with yoga, meditation, and wellness activities hosted by Las Olas Yoga in a serene location'],
+              ['/images/retreats/retreat4.webp', 'a rejuvenating retreat experience with yoga, meditation, and wellness activities hosted by Las Olas Yoga in a serene location']]}
 
           buttonText={'Reserve My Spot'}
           buttonLink={'https://momence.com/s/100580762'}

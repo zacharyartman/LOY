@@ -28,8 +28,8 @@ const YinTeacherTrainingPage = () => {
 <p>If you are a Yoga Teacher certified through Yoga Alliance, you will receive 15 CEUs.</p>
       `}
       images={
-        [['/images/tt/tt-6.webp', 'TODO' ],
-           ['/images/tt/tt-7.webp', 'TODO']]
+        [['/images/tt/tt-6.webp', 'yin yoga teacher training' ],
+           ['/images/tt/tt-7.webp', 'yin yoga teacher training']]
       }
       buttonText={"Register"}
       buttonLink={"https://momence.com/s/103853800"}

@@ -4,7 +4,7 @@ import Offers from "@/components/LearnMoreOffers";
 
 export const metadata: Metadata = {
   title: "Learn More - Las Olas Yoga",
-  description: "TODO",
+  description: "Explore Las Olas Yoga's offerings for new students, class schedules, teacher trainings, retreats, and more. Discover what to expect, sign up for workshops, and download our app. Check out reviews and gift card options to enhance your yoga journey",
   // other metadata
 };
 
