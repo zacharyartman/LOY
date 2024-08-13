@@ -38,7 +38,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
               height="4"
               viewBox="0 0 18 4"
               fill="none"
-              style={{ transform: activeFaq === id ? 'rotate(0deg)' : 'rotate(-90deg)', transition: 'transform 0.4s ease-in-out' }}
+              style={{ transform: activeFaq === id ? 'rotate(0deg)' : 'rotate(-90deg)', transition: 'transform 0.3s ease-in-out' }}
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
