@@ -1,3 +1,5 @@
+import { useRef, useState, useEffect } from 'react';
+
 type FaqData = {
   activeFaq: number;
   id: number;
@@ -8,6 +10,16 @@ type FaqData = {
 
 const FAQItem = ({ faqData }: { faqData: FaqData }) => {
   const { activeFaq, id, handleFaqToggle, quest, ans } = faqData;
+  const [height, setHeight] = useState(0);
+  const answerRef = useRef<HTMLParagraphElement>(null);
+
+  useEffect(() => {
+    if (activeFaq === id && answerRef.current) {
+      setHeight(answerRef.current.scrollHeight);
+    } else {
+      setHeight(0);
+    }
+  }, [activeFaq, id]);
 
   return (
     <>
@@ -26,6 +38,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
               height="4"
               viewBox="0 0 18 4"
               fill="none"
+              style={{ transform: activeFaq === id ? 'rotate(0deg)' : 'rotate(-90deg)', transition: 'transform 0.4s ease-in-out' }}
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -39,8 +52,9 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
               height="18"
               viewBox="0 0 18 18"
               fill="none"
+              style={{ transform: activeFaq === id ? 'rotate(0deg)' : 'rotate(90deg)', transition: 'transform 0.3s ease-in-out' }}
               xmlns="http://www.w3.org/2000/svg"
-            >
+              >
               <path
                 d="M7.83331 7.83337V0.833374H10.1666V7.83337H17.1666V10.1667H10.1666V17.1667H7.83331V10.1667H0.833313V7.83337H7.83331Z"
                 fill="currentColor"
@@ -48,13 +62,17 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
             </svg>
           )}
         </button>
-        <p
-          className={`border-t border-stroke px-6 py-5 dark:border-strokedark lg:px-9 lg:py-7.5 ${
-            activeFaq === id ? "block" : "hidden"
-          }`}
+        <div
+          style={{ maxHeight: `${height}px` }}
+          className="overflow-hidden transition-max-height duration-300 ease-in-out"
         >
-          {ans}
-        </p>
+          <p
+            ref={answerRef}
+            className="border-t border-stroke px-6 py-5 dark:border-strokedark lg:px-9 lg:py-7.5"
+          >
+            {ans}
+          </p>
+        </div>
       </div>
     </>
   );

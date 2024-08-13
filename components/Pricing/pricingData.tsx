@@ -24,7 +24,7 @@ const pricingData: Price[] = [
   {
     id: 2,
     title: "Unlimited Member",
-    subtitle: "Unlimited Yoga & 10% Off Retail",
+    subtitle: "Unlimited Yoga and Guest Passes*. 10% Off Retail, Workshops & Events",
     price: 159,
     perX: "/month",
     popular: true,
