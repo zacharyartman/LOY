@@ -33,22 +33,24 @@ const MobileApp = () => {
                 Book classes on the go!
               </p>
               <div className="mt-10 flex space-x-4">
-                <button className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
+                <a className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200"
+                href="https://apps.apple.com/us/app/momence/id1577856009">
                   <Image
                     width={1090 / 7}
                     height={327 / 7}
                     src="/images/app/app-store.png"
                     alt="Las Olas Yoga mobile iPhone app logo for booking classes and managing your yoga schedule"
                   />
-                </button>
-                <button className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200">
+                </a>
+                <a className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200"
+                href="https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US">
                   <Image
                     width={1089 / 7}
                     height={330 / 7}
                     src="/images/app/play-store.png"
                     alt="Las Olas Yoga mobile Google Play Store app logo for booking classes and managing your yoga schedule"
                   />
-                </button>
+                </a>
               </div>
             </div>
             <div className="hidden md:block">

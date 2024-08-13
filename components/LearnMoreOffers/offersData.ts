@@ -24,17 +24,17 @@ export const offersData: Offer[] = [
             {
                 id: 21,
                 name: "Schedule",
-                href: "https://momence.com/m/136483",
+                href: "/schedule",
             },
             {
                 id: 22,
                 name: "Class Descriptions",
-                href: "https://momence.com/m/137236",
+                href: "/classes",
             },
             {
                 id: 23,
                 name: "Upcoming Workshops",
-                href: "https://momence.com/m/136480",
+                href: "/workshops",
             },        
         ]
     },
@@ -45,20 +45,20 @@ export const offersData: Offer[] = [
             {
                 id: 31,
                 name: "200-Hour Teacher Training",
-                price: "Oct 2024-Mar 2025",
-                href: "https://momence.com/m/136483",
+                price: "Oct 2024 - Mar 2025",
+                href: "/200-hour-teacher-training",
             },
             {
                 id: 32,
                 name: "300-Hour Teacher Training",
-                price: "Sept 2024-Mar 2025",
-                href: "https://momence.com/m/137236",
+                price: "Sept 2024 - Mar 2025",
+                href: "/300-hour-teacher-training",
             },
             {
                 id: 33,
                 name: "Yin Teacher Training",
                 price: "Sept 13-15, 2024",
-                href: "https://momence.com/m/136480",
+                href: "/yin-teacher-training",
             },        
         ]
     },
@@ -70,7 +70,7 @@ export const offersData: Offer[] = [
                 id: 41,
                 name: "Vermont Mountain Renewal Retreat",
                 price: "Oct 3-6, 2024",
-                href: "https://momence.com/m/136483",
+                href: "/retreats",
             },
         ]
     },
@@ -80,13 +80,13 @@ export const offersData: Offer[] = [
         items: [
             {
                 id: 51,
-                name: "Apple App Store App",
-                href: "https://momence.com/m/136483",
+                name: "iPhone App",
+                href: "https://apps.apple.com/us/app/momence/id1577856009",
             },
             {
                 id: 52,
-                name: "Google Play Store App",
-                href: "https://momence.com/m/136483",
+                name: "Android App",
+                href: "https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US",
             },
 
         ]
@@ -98,12 +98,12 @@ export const offersData: Offer[] = [
             {
                 id: 61,
                 name: "Google Reviews",
-                href: "https://momence.com/m/136483",
+                href: "https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1300724,17z/data=!4m7!3m6!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!9m1!1b1",
             },
             {
                 id: 62,
                 name: "Gift Cards",
-                href: "https://momence.com/m/136483",
+                href: "/gift-cards",
             },
 
         ]
