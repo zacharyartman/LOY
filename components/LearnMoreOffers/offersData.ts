@@ -93,7 +93,7 @@ export const offersData: Offer[] = [
     },
     {
         id: 6,
-        title: "",
+        title: "Reviews & Gift Cards",
         items: [
             {
                 id: 61,

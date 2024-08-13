@@ -35,7 +35,6 @@ export default function Home() {
                 All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions. `} viewClasses={true}/>
       <div id="classes"></div>
       <Classes title={true}/>
-      {/* <Pricing /> */}
       <MomenceSchedule title={true} fullSchedule={false} sessionType={'class'} liteMode={true}/>
       <CTA />
       <MobileApp />

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const LearnMorePage = () => {
   return (
-    <>
+    <div className="mb-10">
       <section className="relative overflow-hidden h-[450px] mt-25 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="absolute inset-0 bg-[url('/images/hero/hero.jpeg')] bg-cover bg-center"></div>
         <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-midbrown to-transparent">
@@ -74,9 +74,8 @@ const LearnMorePage = () => {
         <div className="mx-auto max-w-[800px]">
           <Offers />
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-transparent to-midbrown"></div>
       </section>
-    </>
+    </div>
   );
 };
 
