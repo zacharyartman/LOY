@@ -1,6 +1,6 @@
-import image1 from "@/public/images/offers/offers-1.jpeg";
-import image2 from "@/public/images/offers/offers-2.jpeg";
-import image3 from "@/public/images/offers/offers-3.jpeg";
+import image1 from "@/public/images/offers/offers-1.webp";
+import image2 from "@/public/images/offers/offers-2.webp";
+import image3 from "@/public/images/offers/offers-3.webp";
 import { Offer } from "@/types/offer";
 
 export const offersData: Offer[] = [
