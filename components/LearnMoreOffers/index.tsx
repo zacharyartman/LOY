@@ -14,7 +14,7 @@ const Offers = () => {
       <div className="flex flex-col gap-5 px-4 md:mt-5 md:px-8 2xl:px-0 max-w-c-1390 items-center mx-auto">
         {offersData.map((offer) => (
           <>
-            <h1 className="text-itemtitle2 pt-10 pb-2 text-left text-primary dark:text-white xl:text-hero px-5">
+            <h1 className="text-itemtitle2 py-2 text-left text-primary dark:text-white xl:text-hero px-5">
               {offer.title}
             </h1>
             {offer.items.map((offerItem) => (

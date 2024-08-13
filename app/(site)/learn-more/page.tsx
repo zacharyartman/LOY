@@ -14,11 +14,11 @@ const LearnMorePage = () => {
       <section className="relative overflow-hidden h-[450px] mt-25 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="absolute inset-0 bg-[url('/images/hero/hero.jpeg')] bg-cover bg-center"></div>
         <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-midbrown to-transparent">
-        <div className="relative z-10 flex justify-center items-end h-full pb-5">
-          <h1 className="font-bold text-sectiontitle2 text-primary dark:text-white xl:text-hero text-center">
-            Las Olas Yoga
-          </h1>
-        </div>
+          <div className="relative z-10 flex justify-center items-end h-full pb-5">
+            <h1 className="font-bold text-sectiontitle2 text-primary dark:text-white xl:text-hero text-center">
+              Las Olas Yoga
+            </h1>
+          </div>
 
         </div>
       </section>
@@ -71,9 +71,10 @@ const LearnMorePage = () => {
           </li>
         </ul>
 
-        <div className="mx-auto max-w-[800px]">
+        <div className="relative mx-auto max-w-[800px] pt-8">
           <Offers />
         </div>
+        {/* <div className="absolute bottom-0 left-0 right-0 h-[200px] pointer-events-none bg-gradient-to-t from-white to-transparent"></div> */}
       </section>
     </div>
   );
