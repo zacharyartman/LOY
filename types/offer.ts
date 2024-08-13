@@ -1,8 +1,12 @@
-export type Offer = {
+export type OfferItem = {
   id: number;
   name: string;
-  image: any;
-  price: string;
-  imageAlt: string;
+  price?: string;
   href: string;
+};
+
+export type Offer = {
+  id: number;
+  title: string;
+  items: OfferItem[];
 };

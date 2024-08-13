@@ -72,9 +72,6 @@ const LearnMorePage = () => {
         </ul>
 
         <div className="mx-auto max-w-[800px]">
-          <h1 className="text-itemtitle2 pt-10 pb-5 text-primary dark:text-white xl:text-hero px-5">
-            Offers & Memberships
-          </h1>
           <Offers />
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-transparent to-midbrown"></div>
