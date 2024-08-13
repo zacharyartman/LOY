@@ -36,7 +36,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/(site)/learn-more/customPage.js"  ],
   "exclude": [
     "node_modules"
   ]
