@@ -2,11 +2,11 @@
 import React from "react";
 import classesData from "./classesData";
 import SingleClass from "./SingleClass";
+import { motion } from "framer-motion";
 
 const Classes = ({title}) => {
   return (
     <>
-      {/* <!-- ===== Features Start ===== --> */}
       <section id="features" className={`${title ? "py-20 lg:py-25 xl:py-30" : "py-0 pb-20"}`}>
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
         {title && 
@@ -17,18 +17,31 @@ const Classes = ({title}) => {
                   </h2>
                 </div>)    
         }
-          <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-4 xl:mt-20 xl:gap-12.5">
-            {/* <!-- Features item Start --> */}
+          <motion.div 
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: -20,
+            },
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="animate_top mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-4 xl:mt-20 xl:gap-12.5">
 
             {classesData.map((classItem, key) => (
               <SingleClass classItem={classItem} key={key} />
             ))}
-            {/* <!-- Features item End --> */}
-          </div>
+
+          </motion.div>
         </div>
       </section>
 
-      {/* <!-- ===== Features End ===== --> */}
     </>
   );
 };
