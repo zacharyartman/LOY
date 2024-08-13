@@ -9,7 +9,7 @@ const CTA = () => {
     <>
       {/* <!-- ===== CTA Start ===== --> */}
       <section className="overflow-hidden px-4 md:px-8 2xl:px-0">
-        <div className="mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-lightestbrown to-white px-7.5 py-0 md:px-12.5 xl:px-17.5">
+        <div className="mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-lightestbrown to-white px-7.5 py-0 md:px-12.5 xl:px-17.5 pb-5">
           <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between md:gap-0">
             <motion.div
               variants={{

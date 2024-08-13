@@ -80,7 +80,7 @@ const SubscribeForm = () => {
     <>
       <form
         onSubmit={onSubmit}
-        className="pb-10"
+        className="pb-5"
       >
         <div className="mb-7.5 flex flex-col gap-3">
           <input
