@@ -65,7 +65,7 @@ export default function Contact() {
 
     if (data.success) {
       setResultColor("darkgreen")
-      setResult("Form Submitted Successfully");
+      setResult("Thank you for your message! We'll be in touch shortly.");
       (event.target as HTMLFormElement).reset();
       setErrors({});
     } else {
