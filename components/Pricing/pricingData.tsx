@@ -18,7 +18,7 @@ const pricingData: Price[] = [
     price: 30,
     perX: "/class",
     popular: false,
-    href: '/class-schedule',
+    href: '/schedule',
     buttonText: 'Book Class'
   },
   {

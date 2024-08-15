@@ -137,7 +137,7 @@ const Header = () => {
           </nav>
           <div className="my-5 xl:mb-0 xl:ml-10 flex items-center gap-2 xl:mt-0">
             <a
-              href="/class-schedule"
+              href="/schedule"
               className="flex items-center text-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
             >
               Class Schedule
