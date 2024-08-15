@@ -14,7 +14,7 @@ const Pricing = ({ sectionHeader }) => {
     href= {href}
     target="_blank">
         {popular && (
-          <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-white px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
+          <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-lightestbrown px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
             popular
           </div>
         )}
