@@ -37,7 +37,7 @@ module.exports = {
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
-        lightestbrown: "#fdf8f0",
+        lightestbrown: "#ede8df",
         midbrown: "#efe5da"
       },
       fontSize: {
