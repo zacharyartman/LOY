@@ -13,7 +13,7 @@ const GiftCardsPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Gift Cards"} link='/images/general/classes.webp'></NewPageHero>
+      <NewPageHero titleText={"Gift Cards"} link='/images/hero/hero-gift-cards.webp' position="bg-[center_80%]"></NewPageHero>
       <div className="flex">
       <MomenceGiftCard />
       </div>
