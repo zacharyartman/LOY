@@ -3,14 +3,15 @@ import Image from "next/legacy/image";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import InlineArrowButton from "@/components/InlineArrowButton";
 import { Metadata } from "next";
+import Error from "@/components/Error"
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const blog = BlogData.find((blog) => blog._id.toString() === params.id);
 
   if (!blog) {
     return {
-      title: "Blog Not Found",
-      description: "The blog you are looking for does not exist.",
+      title: "Page Not Found",
+      description: "The page you are looking for does not exist.",
     };
   }
 
@@ -31,7 +32,7 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
   const blog = BlogData.find((blog) => blog._id.toString() === params.id);
 
   if (!blog) {
-    return <div>Blog not found</div>;
+    return <Error />;
   }
 
   return (
