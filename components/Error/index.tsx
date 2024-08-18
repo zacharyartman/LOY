@@ -25,13 +25,13 @@ const Error = () => {
           href="/"
           className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-btndark dark:hover:bg-blackho"
         >
-          Return to Home
-          <svg
+                    <svg
             className="fill-white"
             width="14"
             height="14"
             viewBox="0 0 14 14"
             fill="none"
+            transform="rotate(180)"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -39,6 +39,8 @@ const Error = () => {
               fill=""
             />
           </svg>
+
+          Return to Home
         </a>
       </div>
     </section>
