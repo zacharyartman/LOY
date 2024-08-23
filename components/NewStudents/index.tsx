@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const PricingButton = ({ title, subtitle, price, perX, href, popular, buttonText }) => {
 
   return (
-    <a href={href} target="_blank" className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`}>
+    <a href={href} target="_blank" className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 transform transition-transform duration-300 hover:scale-[1.03] w-full xl:p-12.5`}>
 
       <h3 className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} dark:text-white xl:text-sectiontitle3`}>
         ${price}{" "}

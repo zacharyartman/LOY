@@ -9,7 +9,7 @@ const Pricing = ({ sectionHeader }) => {
   const PricingButton = ({title, subtitle, price, perX, href, popular, buttonText}) => {
   
     return(
-    <a className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none w-full xl:p-12.5`
+    <a className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} p-7.5 shadow-solid-10 w-full xl:p-12.5 transform transition-transform duration-300 hover:scale-[1.03]`
     }
     href= {href}
     target="_blank">
