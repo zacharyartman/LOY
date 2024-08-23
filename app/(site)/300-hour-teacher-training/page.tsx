@@ -15,7 +15,7 @@ const ThreeHundredHour = () => {
       <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.webp'></NewPageHero>
       <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 18, 2024 - March 23, 2025<br />Online + 6 In-Person Weekends"}
         text={`
-    <h2 class="text-center"><strong style="color:red">One Spot Left</strong></h2>
+    <h2 class="text-center"><strong style="color:red">Sold Out!</strong></h2>
 <p class="align-center"><strong>In-Person Dates/Times:</strong><br /></p>
 <em>Fridays 6:00-8:00pm,<br />Saturdays 12:00-6:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
 <em>October 18-20, November 15-17, December 13-15, January 10-12, February 21-23, March 21-23</em></p>
