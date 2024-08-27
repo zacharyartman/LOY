@@ -13,7 +13,7 @@ const TwoHundredHourTTPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.webp'></NewPageHero>
+      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
       <Details title={"200-Hour Teacher Training with Amy Baldacci"} dates={"October 12, 2024-March 29th, 2025 <br />Two Weekends a Month: Saturday & Sunday 1:30-8:30pm"} 
       text={`
       <p style="text-align: center;"><em><strong>Registration is Open!</strong></em></p>
@@ -54,8 +54,8 @@ const TwoHundredHourTTPage = () => {
 
       `}
       images={
-        [['/images/tt/tt-0.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga, emphasizing hands-on learning and personalized instruction.'], 
-        ['/images/tt/tt-2.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga, emphasizing hands-on learning and personalized instruction.']]
+        [['/images/tt/yoga-teacher-training-fort-lauderdale-0.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga'], 
+        ['/images/tt/yoga-teacher-training-fort-lauderdale-2.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga']]
       }
       buttonText={"Apply"}
       buttonLink={"http://tinyurl.com/loy2024tt"}

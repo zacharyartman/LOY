@@ -13,7 +13,7 @@ const NewStudentsPage = () => {
 
   return (
     <>
-      <NewPageHero titleText={"New Students"} link='/images/hero/hero-new-students.webp'></NewPageHero>
+      <NewPageHero titleText={"New Students"} link='/images/hero/hero-new-students-yoga-near-me.webp'></NewPageHero>
       <NewStudents />
       </>
   );

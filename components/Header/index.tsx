@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/loy-logo.webp"
+              src="/images/logo/las-olas-yoga-near-me.webp"
               alt="logo"
               width={110}
               height={Math.round(110 * (203 / 256))}

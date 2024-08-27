@@ -13,7 +13,7 @@ const WorkshopsPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Workshops & Events"} link='/images/hero/hero-workshop.webp' position="bg-[center_80%]"></NewPageHero>
+      <NewPageHero titleText={"Workshops & Events"} link='/images/hero/hero-workshop-yoga-near-me.webp' position="bg-[center_80%]"></NewPageHero>
       <MomenceSchedule title={false} fullSchedule={true} sessionType={'workshop'} liteMode={false}/>
     </>
   );

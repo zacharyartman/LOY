@@ -57,7 +57,7 @@ const MobileApp = () => {
               <Image
                 width={535 / 2.5}
                 height={876 / 2.5}
-                src="/images/app/app_hand.png"
+                src="/images/app/yoga-studio-near-me.png"
                 alt="Las olas yoga fort lauderdale mobile app"
               />
             </div>

@@ -12,7 +12,7 @@ const ThreeHundredHour = () => {
   return (
 
     <>
-      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt.webp'></NewPageHero>
+      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
       <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 18, 2024 - March 23, 2025<br />Online + 6 In-Person Weekends"}
         text={`
     <h2 class="text-center"><strong style="color:red">Sold Out!</strong></h2>
@@ -38,9 +38,9 @@ const ThreeHundredHour = () => {
 
       `}
         images={
-          [['/images/tt/tt-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga, combining virtual instruction with hands-on learning.'],
-             ['/images/tt/tt-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga, focusing on advanced alignment and hands-on adjustments'],
-              ['/images/tt/tt-5.webp', 'me: Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga, focusing on deepening knowledge and teaching techniques']]
+          [['/images/tt/yoga-teacher-training-fort-lauderdale-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga'],
+             ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
+              ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
         }
         buttonText={"Waitlist/Interest for Next Session"}
         buttonLink={"https://forms.gle/DyT6yAZRC9HNrrkz6"}

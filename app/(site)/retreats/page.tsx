@@ -13,11 +13,12 @@ const RetreatsPage = () => {
   return (
 
     <>
-      <NewPageHero titleText={"Retreats"} link='/images/hero/retreats.webp'></NewPageHero>
+      <NewPageHero titleText={"Retreats"} link='/images/hero/retreats-yoga-near-me.webp'></NewPageHero>
       <Details
         title={"Vermont Mountain Renewal Retreat with Keely"}
         dates={"October 3rd - 6th, 2024"}
         text={`
+              <h2 class="text-center"><strong style="color:red">One Spot Left</strong></h2>
           <p>Join Keely as we retreat to Stratton, Vermont, where serene landscapes and rejuvenating yoga sessions await. Surrounded by the beauty of the mountains, immerse yourself in daily yoga classes amidst nature&#8217;s tranquility. Enjoy hikes, wholesome meals, and activities designed to deepen your practice and nourish your soul. The town of Stratton is a short walk away where we can enjoy shopping, eating and local festivities. </span>Unwind with restorative evening sessions and connect with like-minded individuals in this haven of relaxation and rejuvenation. The leaves should be beautiful this time of year, making for a breathtaking backdrop.</span></p>
 <p>What&#8217;s Included:</p>
 <ul>

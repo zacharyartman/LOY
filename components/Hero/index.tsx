@@ -17,7 +17,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46 bg-[url('/images/hero/hero.webp')] bg-cover bg-center">
+      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46 bg-[url('/images/hero/hero-yoga-near-me.webp')] bg-cover bg-center">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:gap-8 xl:gap-32.5 justify-center">
             <div className=" md:w-1/2 text-center">

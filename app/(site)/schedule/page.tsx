@@ -13,7 +13,7 @@ const SchedulePage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Schedule"} link='/images/hero/hero-schedule.webp'></NewPageHero>
+      <NewPageHero titleText={"Schedule"} link='/images/hero/hero-schedule-yoga-near-me.webp'></NewPageHero>
       <div className="pt-7 flex justify-center items-center gap-2 xl:mt-0">
             <a
               href="/classes"

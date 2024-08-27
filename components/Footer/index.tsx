@@ -32,7 +32,7 @@ const Footer = () => {
                   <Image
                     width={300/2}
                     height={238/2}
-                    src="/images/logo/loy-logo.webp"
+                    src="/images/logo/las-olas-yoga-near-me.webp"
                     alt="Logo"
                     className="dark:hidden"
                   />

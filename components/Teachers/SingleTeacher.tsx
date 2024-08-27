@@ -27,7 +27,7 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
 
       <div className="rounded-lg bg-white pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
         <div className="px-12 py-5 flex justify-center">
-          <Image src={image} className="rounded-full" width={175} height={175} />
+          <Image src={image} className="rounded-full" width={175} height={175} alt="yoga teacher near me" />
         </div>
         <div className="px-10">
           <div className="mb-5 text-center border-b border-stroke dark:border-strokedark">

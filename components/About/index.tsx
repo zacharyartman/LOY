@@ -30,7 +30,7 @@ const About = ({ aboutText, viewClasses }) => {
               className="animate_left relative mx-auto w-full aspect-[200/150] md:block sm:w-1/2"
             >
               <Image
-                src="/images/about/candid-1.webp"
+                src="/images/about/yoga-for-beginners.webp"
                 alt="Group of students practicing yoga in a non-heated class at Las Olas Yoga"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"
@@ -102,7 +102,7 @@ const About = ({ aboutText, viewClasses }) => {
               className="animate_right sm:hidden relative mx-auto aspect-[200/150] w-full sm:w-1/2"
             >
               <Image
-                src="/images/about/about-image-02.webp"
+                src="/images/about/yoga-near-me.webp"
                 alt="yoga studio on las olas boulevard"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"
@@ -159,7 +159,7 @@ const About = ({ aboutText, viewClasses }) => {
               className="animate_right hidden sm:block relative mx-auto aspect-[200/150] w-full sm:w-1/2"
             >
               <Image
-                src="/images/about/about-image-02.webp"
+                src="/images/about/yoga-near-me.webp"
                 alt="yoga studio on las olas boulevard"
                 className="rounded-lg shadow-lg object-cover"
                 layout="fill"

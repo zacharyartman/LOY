@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const BlogPage = async () => {
   return (
     <>
-      <NewPageHero titleText={"Blog"} link='/images/hero/hero-blog.webp' position="bg-[center_60%]"></NewPageHero>
+      <NewPageHero titleText={"Blog"} link='/images/hero/hero-blog-yoga-near-me.webp' position="bg-[center_60%]"></NewPageHero>
 
       {/* <!-- ===== Blog Grid Start ===== --> */}
       <section className="pb-20 lg:pb-25 xl:pb-30">

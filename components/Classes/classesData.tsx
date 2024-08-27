@@ -1,15 +1,15 @@
 import { Class } from "@/types/class";
-import image1 from "@/public/images/features/foundations.webp";
-import image2 from "@/public/images/features/slow-flow-website.webp";
-import image3 from "@/public/images/features/Group-920.webp";
-import image4 from "@/public/images/features/restore-website.webp";
+import image1 from "@/public/images/features/beginner-yoga-near-me.webp";
+import image2 from "@/public/images/features/best-yoga-in-fort-lauderdale.webp";
+import image3 from "@/public/images/features/vinyasa-yoga-class-near-me.webp";
+import image4 from "@/public/images/features/yoga-for-seniors.webp";
 
 const classesData: Class[] = [
   {
     id: 1,
     icon: image1,
     title: "Foundations",
-    alt: "yoga for beginners",
+    alt: "yoga for beginners fort lauderdale",
     description:
       "Focuses on foundational yoga poses, breathwork, and meditation to enhance alignment, flexibility, strength, balance, and mental clarity. Ideal for beginners or anyone who prefers a slower pace.",
   },
@@ -17,7 +17,7 @@ const classesData: Class[] = [
     id: 2,
     icon: image2,
     title: "Slow Flow",
-    alt: "focuses on mindful movement and breath in a non-heated, all-levels class",
+    alt: "slow paced vinyasa in a non-heated flow class",
     description:
       "Flow at a slower pace with fewer transitions and more time in poses. A nourishing, meditative practice suitable for both beginners and seasoned yogis.",
   },

@@ -201,7 +201,7 @@ export default function Contact() {
           >
             <div className="relative h-full w-full">
               <Image
-                src={"/images/contact/about-image-01.webp"}
+                src={"/images/contact/beginner-yoga-class.webp"}
                 alt="yoga beginners"
                 layout="fill"
                 objectFit="cover"
