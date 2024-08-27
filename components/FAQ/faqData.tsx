@@ -24,7 +24,7 @@ const faqData: FAQ[] = [
   {
     "id": 5,
     "quest": "What should I wear?",
-    "ans": "Athletic, comfortable clothing that does not restrict your movement."
+    "ans": "Athletic, comfortable clothing that does not restrict your movement.<br /><i>Please avoid wearing perfumes or heavy scents to class.</i>"
   },
   {
     "id": 6,
