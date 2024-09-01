@@ -30,8 +30,8 @@ const Footer = () => {
               >
                 <a href="/" className="relative">
                   <Image
-                    width={300/2}
-                    height={238/2}
+                    width={300 / 2}
+                    height={238 / 2}
                     src="/images/logo/las-olas-yoga-near-me.webp"
                     alt="Logo"
                     className="dark:hidden"
@@ -39,55 +39,78 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                We are located in the heart of downtown Fort Lauderdale on Las Olas Boulevard on the corner of Las Olas and 13th Street on the 2nd floor.</p>
+                  We are located in the heart of downtown Fort Lauderdale on Las Olas Boulevard on the corner of Las Olas and 13th Street on the 2nd floor.</p>
 
-              <ul className="flex items-center gap-5">
-                <li>
-                  <a href="https://www.facebook.com/lasolasyogastudio" aria-label="facebook icon">
-                    <svg
-                      className="fill-primary transition-all duration-300 hover:fill-primary"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1499)">
-                        <path
-                          d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
-                          fill=""
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_48_1499">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://instagram.com/lasolasyogastudio" aria-label="instagram icon">
-                    <svg
-                      className="fill-primary transition-all duration-300 hover:fill-primary"
-                      width="30"
-                      height="30"
-                      viewBox="0 0 256 256"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1502)">
-                        <path
-                          d="M128,84a44,44,0,1,0,44,44A44.04978,44.04978,0,0,0,128,84Zm0,80a36,36,0,1,1,36-36A36.04061,36.04061,0,0,1,128,164ZM172,32H84A52.059,52.059,0,0,0,32,84v88a52.059,52.059,0,0,0,52,52h88a52.059,52.059,0,0,0,52-52V84A52.059,52.059,0,0,0,172,32Zm44,140a44.04978,44.04978,0,0,1-44,44H84a44.04978,44.04978,0,0,1-44-44V84A44.04978,44.04978,0,0,1,84,40h88a44.04978,44.04978,0,0,1,44,44ZM188,76a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,188,76Z"
-                          fill=""
-                          stroke='primary'
-                          strokeWidth="20"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+                <ul className="flex items-center gap-5">
+                  <li>
+                    <a href="https://www.facebook.com/lasolasyogastudio" aria-label="facebook icon" title="Facebook">
+                      <svg
+                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clipPath="url(#clip0_48_1499)">
+                          <path
+                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                            fill=""
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_48_1499">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com/lasolasyogastudio" aria-label="Instagram icon" title="Instagram">
+                      <img
+                        src="/images/general/instagram.svg"
+                        alt="Instagram icon"
+                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        width="24"
+                        height="24"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.tiktok.com/@lasolasyogastudio" aria-label="TikTok icon" title="TikTok">
+                      <img
+                        src="/images/general/tiktok.svg"
+                        alt="TikTok icon"
+                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        width="24"
+                        height="24"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.yelp.com/biz/las-olas-yoga-fort-lauderdale-2" aria-label="yelp icon" title="Yelp">
+                      <img
+                        src="/images/general/yelp.svg"
+                        alt="Yelp icon"
+                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        width="24"
+                        height="24"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1300724,15z/data=!4m2!3m1!1s0x0:0x8d78f48f6f0f5e81?sa=X&ved=1t:2428&ictx=111" aria-label="google icon" title="Google">
+                      <img
+                        src="/images/general/google.svg"
+                        alt="google icon"
+                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        width="24"
+                        height="24"
+                      />
+                    </a>
+                  </li>
+                </ul>
 
               </motion.div>
 
