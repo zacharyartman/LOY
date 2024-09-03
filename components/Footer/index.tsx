@@ -247,11 +247,12 @@ const Footer = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top"
+              className="animate_top text-center"
             >
               <p>
                 &copy; {new Date().getFullYear()} Las Olas Yoga Studio. All rights reserved
               </p>
+              <a href="https://www.zacharyartman.com">Website by <span className="text-primary">Zachary Artman</span></a>
             </motion.div>
 
           </div>
