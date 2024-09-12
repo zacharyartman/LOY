@@ -42,12 +42,6 @@ const menuData: Menu[] = [
         newTab: false,
         path: "/300-hour-teacher-training",
       },
-      {
-        id: 53,
-        title: "Yin Yoga Teacher Training",
-        newTab: false,
-        path: "/yin-teacher-training",
-      },
     ],
   },
   {
