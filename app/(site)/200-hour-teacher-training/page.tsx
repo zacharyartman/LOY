@@ -14,7 +14,7 @@ const TwoHundredHourTTPage = () => {
     
     <>
       <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
-      <Details title={"200-Hour Teacher Training with Amy Baldacci"} dates={"October 12, 2024-March 29th, 2025 <br />Two Weekends a Month: Saturday & Sunday 1:30-8:30pm"} 
+      <Details title={"200-Hour Teacher Training with Amy Baldacci"} dates={"October 12, 2024-March 29th, 2025 <br />Two Weekends a Month: <br />Saturdays 12:00-7:00pm & Sundays 1:30-8:30pm."} 
       text={`
       <p style="text-align: center;"><em><strong>Registration is Open!</strong></em></p>
 <p className="align-center">Our Yoga Teacher Training program is designed to enrich your personal practice and empower you to guide others along the path of yoga. Our comprehensive curriculum delves into various facets of the practice of yoga, encompassing asana, philosophy, meditation, anatomy, and beyond. Upon completion, you will be eligible for Yoga Alliance registration as a 200-RYT. Join us and unlock your potential to inspire and uplift others through the profound wisdom of yoga.</p>
