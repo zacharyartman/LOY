@@ -72,7 +72,7 @@ const Pricing = ({ sectionHeader }) => {
                   whileInView="visible"
                   transition={{ duration: 0.5, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_top overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+                  className="animate_top overflow-hidden">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           { sectionHeader && (
@@ -91,7 +91,7 @@ const Pricing = ({ sectionHeader }) => {
           {/* <!-- Section Title End --> */}
         </div>
 
-        <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0">
+        <div className="relative mx-auto my-15 max-w-[1207px] px-4 md:px-8 xl:my-20 xl:px-0">
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <Image
               layout="fill"
