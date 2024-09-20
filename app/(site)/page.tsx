@@ -7,7 +7,7 @@ import CTA from "@/components/CTA";
 import React from "react";
 import MomenceSchedule from "@/components/MomenceSchedule";
 import Popup from "@/components/Popup";
-import InTheNews from "@/components/InTheNews"
+
 export const metadata: Metadata = {
   title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
   description: "Fort Lauderdale non-heated yoga studio on Las Olas offering classes seven days a week for all levels. Classes include Foundations, Slow Flow, Flow & Restore.",
@@ -37,7 +37,6 @@ export default function Home() {
       <Classes title={true}/>
       <MomenceSchedule title={true} fullSchedule={false} sessionType={'class'} liteMode={true}/>
       <CTA />
-      <InTheNews />
       <MobileApp />
       <Popup />
     </main>
