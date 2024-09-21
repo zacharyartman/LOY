@@ -32,7 +32,7 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
         <div className="px-10">
           <div className="mb-5 text-center border-b border-stroke dark:border-strokedark">
             <div>
-              <h2 className="mb-1.5 text-3xl text-black dark:text-white">
+              <h2 className="mb-1.5 text-2xl text-black dark:text-white">
                 {name}
               </h2>
               <div
