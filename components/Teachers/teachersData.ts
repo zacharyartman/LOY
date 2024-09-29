@@ -4,10 +4,10 @@ import image4 from "@/public/images/user/amy.webp";
 import image5 from "@/public/images/user/carly.webp";
 import image6 from "@/public/images/user/dawn.webp";
 import image7 from "@/public/images/user/emily.webp";
-import image9 from "@/public/images/user/tammy.webp";
+import image9 from "@/public/images/user/tammy.jpeg";
 import image10 from "@/public/images/user/violeta.webp";
 import image11 from "@/public/images/user/aly.jpg";
-import image12 from "@/public/images/user/justin.jpeg";
+import image12 from "@/public/images/user/justin.jpg";
 import image13 from "@/public/images/user/viv.jpeg";
 import { Teacher } from "@/types/teacher";
 
