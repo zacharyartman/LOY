@@ -11,6 +11,18 @@ export default function Head() {
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#ffffff"/>
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-39Y0SQQWM5"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-39Y0SQQWM5');
+          `,
+        }}
+      />
+
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -27,6 +39,7 @@ export default function Head() {
           `,
         }}
       />
+
       <noscript>
         <img
           height="1"
