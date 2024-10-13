@@ -57,8 +57,8 @@ const TwoHundredHourTTPage = () => {
         [['/images/tt/yoga-teacher-training-fort-lauderdale-0.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga'], 
         ['/images/tt/yoga-teacher-training-fort-lauderdale-2.webp', 'Yoga teacher guiding a student during the 200-hour teacher training at Las Olas Yoga']]
       }
-      buttonText={"Apply"}
-      buttonLink={"http://tinyurl.com/loy2024tt"}
+      buttonText={"Interest for Next Session"}
+      buttonLink={"https://forms.gle/ZCzoM6v5Ed4sDzCH8"}
       
       />
     </>
