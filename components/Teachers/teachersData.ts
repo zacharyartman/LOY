@@ -9,6 +9,7 @@ import image10 from "@/public/images/user/violeta.webp";
 import image11 from "@/public/images/user/aly.jpg";
 import image12 from "@/public/images/user/justin.jpg";
 import image13 from "@/public/images/user/viv.jpeg";
+import image14 from "@/public/images/user/michael.jpeg";
 import { Teacher } from "@/types/teacher";
 
 export const teachersData: Teacher[] = [
@@ -24,7 +25,7 @@ export const teachersData: Teacher[] = [
         name: "Keely Hubbard",
         designation: "Studio Manager",
         image: image2,
-        content: "Keely first stepped into a yoga class in Syracuse, NY in 2011. Initially seeking the practice for its benefits in relieving stress, she quickly fell in love with the physical and spiritual benefits too and knew that she wanted yoga to be a part of her daily life. After moving to South Florida in 2013, Keely completed her RYT 200 and began teaching in studios, corporations, residences, and beach resorts. Her experience within the yoga community has included teaching, studio management, and operations management. Keely's classes are a balance of challenging transitions with a focus on strength and flexibility with a relaxed vibe encouraging self exploration and meditation. As a teacher Keely's goal is to provide a safe space for anyone who is looking to turn inward and explore the journey of yoga and to share the benefits that yoga has provided to her own life."
+        content: "Keely is a passionate and dedicated yoga teacher with over 10 years of experience. Through creative sequencing, mindful movement and breathwork, Keely encourages students to harness the power of presence, cultivating greater self-awareness and inner peace. Keely believes yoga is not just about physical postures but about fostering a self confidence that extends beyond the mat. Students leave Keely’s classes with a sense of inner strength and resilience, empowering them to approach life’s challenges with clarity and self-assurance. By integrating the physical benefits of yoga, Keely guides students to tap into their full potential, helping them live more vibrant and fulfilling lives, both on and off the mat."        
     },
     {
         id: 11,
@@ -68,6 +69,13 @@ export const teachersData: Teacher[] = [
         content: "Justin came to yoga after working as a top sales representative in the high stress industry of finance. Like many others who have found themselves drawn to this ancient practice, Justin’s passion for yoga ignited most when he began to study yogic philosophy. After four years of dedicated practice, he took the leap to become a teacher and leave the corporate world. Justin’s primary interest is in inversions and arm balances, both because they are challenging and also require a focus mind that creates internal stillness. Justin’s teachings reach beyond the physical aspects of yoga and has a strong passion for the subtle ones such as meditation and pranayama. He is a devoted student of yogic philosophy, and continues to see himself as a student, as he travels the world to gain more knowledge. Justin has completed multiple 500-hour yoga teacher trainings, received the FRC mobility certificate, and most recently, completed the Mindfulness Based Stress Reduction training."
     },
     {
+        id: 14,
+        name: "Michael Watson",
+        designation: "",
+        image: image14,
+        content: "Michael uses yoga as a metaphor for life, believing that a yoga journey should be fun and engaging while also challenging one to test and expand their limits. As a 500-hour Registered Yoga Instructor, he recognizes that he is teaching real people with their own stories. Yoga and meditation have made him a healthier, more aware person, opening his eyes to a world of positive opportunities, and he is truly grateful to share what he has learned with others. Each class he teaches has its own unique beat, vibration, and pulse. He focuses on alignment-based poses to deepen the practice, drawing from his dance background to create interesting and original sequences. This allows students to move authentically, finding their own rhythm and truth through movement."
+    },
+    {
         id: 9,
         name: "Tammy Patterson",
         designation: "",
@@ -79,7 +87,7 @@ export const teachersData: Teacher[] = [
         name: "Violeta Lozada",
         designation: "",
         image: image10,
-        content: "Violeta's practice journey began 6 years ago finding the transformative power of yoga and its ability to bring harmony to the mind, body, and spirit. She completed Yoga Teacher Training in Bali where the gentle and patient approach resonated with her, creating a warm and welcoming space for her students to explore and embrace the practice of yoga."
+        content: "When Violeta began her yoga journey, she was captivated by the power of yoga and its ability to bring harmony to the mind, body, and spirit. A few years into her practice, she felt inspired to deepen her understanding and share the benefits of yoga with others. She completed her Yoga Teacher Training in Bali, where she embraced a teaching style rooted in gentleness and patience. In her classes you can find a calming and relaxed ambience that invites you to explore and connect with yourself."
     },
     {
         id: 13,

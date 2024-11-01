@@ -35,17 +35,20 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
               <h2 className="mb-1.5 text-2xl text-black dark:text-white">
                 {name}
               </h2>
-              <div
-                className={`relative transition-max-height duration-500 ease-in-out ${showFullContent ? "max-h-none" : "max-h-30"
-                  } overflow-hidden line-clamp-none`}
-                style={{ maxHeight: showFullContent ? "none" : "8rem" }}
+              <motion.div
+                initial={{ height: "8rem" }}
+                animate={{ height: showFullContent ? "auto" : "8rem" }}
+                transition={{ duration: 0.4, ease: "easeInOut" }}
+                className="relative overflow-hidden"
               >
-                <strong className="pb-3">{designation}{designation && <br></br>}</strong>
+                <strong className="pb-3">
+                  {designation}{designation && <br />}
+                </strong>
                 {content}
                 {!showFullContent && (
                   <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-white to-transparent dark:from-blacksection" />
                 )}
-              </div>
+              </motion.div>
               <button
                 className="my-3 text-primaryho"
                 onClick={() => setShowFullContent(!showFullContent)}
