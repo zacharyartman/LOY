@@ -25,7 +25,7 @@ const LearnMorePage = () => {
       <section className="h-auto pb-20 md:pb-30 bg-midbrown relative">
         <ul className="flex justify-center items-center gap-3">
           <li>
-            <a href="https://www.facebook.com/lasolasyogastudio" aria-label="facebook icon">
+            <a href="https://www.facebook.com/lasolasyoga" aria-label="facebook icon">
               <svg
                 className="fill-primary transition-all duration-300 hover:fill-primary"
                 width="24"

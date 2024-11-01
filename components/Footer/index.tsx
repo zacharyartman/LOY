@@ -43,7 +43,7 @@ const Footer = () => {
 
                 <ul className="flex items-center gap-5">
                   <li>
-                    <a href="https://www.facebook.com/lasolasyogastudio" aria-label="facebook icon" title="Facebook">
+                    <a href="https://www.facebook.com/lasolasyoga" aria-label="facebook icon" title="Facebook">
                       <svg
                         className="fill-primary transition-all duration-300 hover:fill-primary"
                         width="24"
