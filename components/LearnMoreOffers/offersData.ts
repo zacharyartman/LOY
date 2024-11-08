@@ -45,35 +45,29 @@ export const offersData: Offer[] = [
             {
                 id: 31,
                 name: "200-Hour Teacher Training",
-                price: "Oct 2024 - Mar 2025",
+                price: "2025 Dates TBD",
                 href: "/200-hour-teacher-training",
             },
             {
                 id: 32,
                 name: "300-Hour Teacher Training",
-                price: "Sept 2024 - Mar 2025",
+                price: "2025 Dates TBD",
                 href: "/300-hour-teacher-training",
             },
-            {
-                id: 33,
-                name: "Yin Teacher Training",
-                price: "Sept 13-15, 2024",
-                href: "/yin-teacher-training",
-            },        
         ]
     },
-    {
-        id: 4,
-        title: "Retreats",
-        items: [
-            {
-                id: 41,
-                name: "Vermont Mountain Renewal Retreat",
-                price: "Oct 3-6, 2024",
-                href: "/retreats",
-            },
-        ]
-    },
+    // {
+    //     id: 4,
+    //     title: "Retreats",
+    //     items: [
+    //         {
+    //             id: 41,
+    //             name: "Vermont Mountain Renewal Retreat",
+    //             price: "Oct 3-6, 2024",
+    //             href: "/retreats",
+    //         },
+    //     ]
+    // },
     {
         id: 5,
         title: "Download our App",

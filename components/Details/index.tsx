@@ -13,7 +13,7 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
             {title}
           </h2>
           <h3
-            className="text-lg mx-5 mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2"
+            className="text-md mx-5 mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2"
             dangerouslySetInnerHTML={{ __html: dates }}
           ></h3>
 

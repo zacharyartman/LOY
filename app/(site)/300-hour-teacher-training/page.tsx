@@ -15,7 +15,6 @@ const ThreeHundredHour = () => {
       <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
       <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 18, 2024 - March 23, 2025<br />Online + 6 In-Person Weekends"}
         text={`
-    <h2 class="text-center"><strong style="color:red">Sold Out!</strong></h2>
 <p class="align-center"><strong>In-Person Dates/Times:</strong><br /></p>
 <em>Fridays 6:00-8:00pm,<br />Saturdays 12:00-6:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
 <em>October 18-20, November 15-17, December 13-15, January 10-12, February 21-23, March 21-23</em></p>
@@ -42,7 +41,7 @@ const ThreeHundredHour = () => {
              ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
               ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
         }
-        buttonText={"Waitlist/Interest for Next Session"}
+        buttonText={"Interest for Next Session"}
         buttonLink={"https://forms.gle/DyT6yAZRC9HNrrkz6"}
 
       />
