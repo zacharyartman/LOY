@@ -17,23 +17,20 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46 bg-[url('/images/hero/hero-yoga-near-me.webp')] bg-cover bg-center">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex lg:gap-8 xl:gap-32.5 justify-center">
-            <div className=" md:w-1/2 text-center">
-              <h1 className="mb-5 text-3xl font-bold text-white dark:text-white xl:text-hero pr-0 text-center">
-                movement.<br />
-                mindfulness. <br />
-                community.
-              </h1>
-              <div className="flex flex-col items-center">
-                <Button text={"View Schedule"} ariaLabel={"View class schedule"} link={'/schedule'} lastElement={false}/>
-                <Button text={"View Pricing"} ariaLabel={"View pricing options"} link={'/pricing'} lastElement={false}/>
-                <Button text={"New Students"} ariaLabel={"New students click here"} link={'/new-students'} lastElement={true}/>
-              </div>
-              </div>
-            </div>
+      <section
+        className="overflow-hidden pt-[calc(104px+5rem)] pb-[5rem] bg-[url('/images/hero/hero-yoga-near-me.webp')] bg-cover bg-center">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 text-center">
+          <h1 className="mb-5 text-3xl font-bold text-white dark:text-white xl:text-hero">
+            movement.<br />
+            mindfulness. <br />
+            community.
+          </h1>
+          <div className="flex flex-col items-center">
+            <Button text={"View Schedule"} ariaLabel={"View class schedule"} link={'/schedule'} lastElement={false} />
+            <Button text={"View Pricing"} ariaLabel={"View pricing options"} link={'/pricing'} lastElement={false} />
+            <Button text={"New Students"} ariaLabel={"New students click here"} link={'/new-students'} lastElement={true} />
           </div>
+        </div>
       </section>
     </>
   );
