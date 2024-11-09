@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect, useState } from "react";
 import pricingData from "@/components/Pricing/pricingData";
 import FAQ from "@/components/FAQ";
 import { motion } from "framer-motion";
@@ -47,11 +47,15 @@ const PricingButton = ({ title, subtitle, price, perX, href, popular, buttonText
 
 const NewStudentsComponent = () => {
   const introOffer = pricingData.find((price) => price.id === 0);
-  const params = new URLSearchParams(window.location.search);
-  const isFacebookSource = params.get('source') === 'fb';
-  const momenceLink = isFacebookSource
-    ? 'https://momence.com/m/302281'
-    : 'https://momence.com/m/136483';
+  const [momenceLink, setMomenceLink] = useState<string>('https://momence.com/m/136483');
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const isFacebookSource = params.get("source") === "fb";
+      setMomenceLink(isFacebookSource ? 'https://momence.com/m/302281' : 'https://momence.com/m/136483');
+    }
+  }, []);
 
   return (
     <>
