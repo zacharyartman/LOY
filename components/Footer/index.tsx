@@ -138,6 +138,14 @@ const Footer = () => {
                   </h4>
 
                   <ul>
+                  <li>
+                      <a
+                        href="/new-students"
+                        className="mb-3 inline-block hover:text-primary"
+                      >
+                        New Students
+                      </a>
+                    </li>
                     <li>
                       <a
                         href="/gift-cards"
