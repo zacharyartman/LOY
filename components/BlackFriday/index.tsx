@@ -64,7 +64,7 @@ const BlackFridaySale = () => {
       >
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0 pt-[calc(104px+4rem)]">
           <div className="animate_top mx-auto text-center">
-            <h1 className="text-4xl lg:text-sectiontitle3 font-bold text-primary">Black Friday Sale</h1>
+            <h1 className="text-4xl lg:text-sectiontitle3 font-bold text-primary">Cyber Monday Sale</h1>
           </div>
         </div>
 
