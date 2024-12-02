@@ -18,8 +18,8 @@ const BlackFridaySale = () => {
     },
     {
       id: 3,
-      imgSrc: "/images/blackfriday/3.png",
-      href: "https://momence.com/m/310250",
+      imgSrc: "/images/blackfriday/3.jpeg",
+      href: "",
       popular: false,
     },
     {
@@ -30,25 +30,28 @@ const BlackFridaySale = () => {
     },
   ];
 
-  const SaleItem = ({ imgSrc, href, popular }) => (
-    <a
-      className={`group relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"
-        } shadow-solid-10 w-[85vw] h-auto md:w-full p-4.5 transform transition-transform duration-300 hover:scale-[1.03]`}
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Image
-        src={imgSrc}
-        alt="Sale Item"
-        layout="responsive"
-        width={250}
-        height={250}
-        className="rounded-lg"
-      />
-    </a>
-  );
-
+  const SaleItem = ({ imgSrc, href, popular }) => {
+    const Wrapper = href ? 'a' : 'div';
+  
+    return (
+      <Wrapper
+        className={`group relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"
+          } shadow-solid-10 w-[85vw] h-auto md:w-full p-4.5 transform transition-transform duration-300 hover:scale-[1.03]`}
+        href={href || undefined}
+        target={href ? "_blank" : undefined}
+        rel={href ? "noopener noreferrer" : undefined}
+      >
+        <Image
+          src={imgSrc}
+          alt="Sale Item"
+          layout="responsive"
+          width={250}
+          height={250}
+          className="rounded-lg"
+        />
+      </Wrapper>
+    );
+  };
   return (
     <>
       <motion.section
