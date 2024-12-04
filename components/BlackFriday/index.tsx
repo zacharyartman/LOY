@@ -1,7 +1,15 @@
 "use client";
 import Image from "next/legacy/image";
 import { motion } from "framer-motion";
-
+// {/* Deals Section */}
+// <div className="flex items-center justify-center bg-[#f8f4ef] py-3">
+//   <div className="max-w-4xl flex flex-row items-center gap-6 justify-center p-4 text-center">
+//     <h2 className="text-xl font-bold text-[#8a6a4f]">Cyber Monday Deals!</h2>
+//     <a className="px-6 py-2 bg-[#8a6a4f] text-white rounded-full hover:bg-[#735a40] transition duration-200" href="/black-friday">
+//       Save Here &rarr;
+//     </a>
+//   </div>
+// </div>
 const BlackFridaySale = () => {
   const saleData = [
     {
