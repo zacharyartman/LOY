@@ -34,7 +34,7 @@ export const offersData: Offer[] = [
             {
                 id: 23,
                 name: "Upcoming Workshops",
-                href: "/workshops",
+                href: "/workshops-events",
             },        
         ]
     },
