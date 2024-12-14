@@ -95,8 +95,8 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink, events = 
             >
               <div className="relative w-full">
                 <div className="flex flex-col space-y-4">
-                  {images.map((image) => (
-                    <div key={image} className="relative w-full pb-10" style={{ paddingBottom: '56.25%' }}>
+                  {images.map((image, index) => (
+                    <div key={index} className="relative w-full pb-10" style={{ paddingBottom: '56.25%' }}>
                       <Image
                         src={image[0]}
                         alt={image[1]}
