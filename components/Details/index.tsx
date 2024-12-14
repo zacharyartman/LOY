@@ -4,24 +4,20 @@ import Image from "next/legacy/image";
 import React from "react";
 import { saveAs } from "file-saver";
 
-const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
+const Details = ({ title, dates, text, images, buttonText, buttonLink, events = null }: {
+  title: string;
+  dates: string;
+  text: string;
+  images: [string, string][];
+  buttonText: string;
+  buttonLink: string;
+  events?: { date: number[]; title: string; start: number[]; end: number[]; }[] | null;
+}) => {
   const addToCalendar = () => {
+    if (!events || events.length === 0) {
+      return;
+    }
     // Define all the event dates and times
-    const events = [
-      { date: [2025, 10, 11], title: "300 Hour TT Oct 11", start: [12, 0], end: [17, 0] },
-      { date: [2025, 10, 12], title: "300 Hour TT Oct 12", start: [13, 30], end: [17, 30] },
-      { date: [2025, 11, 8], title: "300 Hour TT Nov 8", start: [12, 0], end: [17, 0] },
-      { date: [2025, 11, 9], title: "300 Hour TT Nov 9", start: [13, 30], end: [17, 30] },
-      { date: [2025, 12, 13], title: "300 Hour TT Dec 13", start: [12, 0], end: [17, 0] },
-      { date: [2025, 12, 14], title: "300 Hour TT Dec 14", start: [13, 30], end: [17, 30] },
-      { date: [2026, 1, 10], title: "300 Hour TT Jan 10", start: [12, 0], end: [17, 0] },
-      { date: [2026, 1, 11], title: "300 Hour TT Jan 11", start: [13, 30], end: [17, 30] },
-      { date: [2026, 2, 7], title: "300 Hour TT Feb 7", start: [12, 0], end: [17, 0] },
-      { date: [2026, 2, 8], title: "300 Hour TT Feb 8", start: [13, 30], end: [17, 30] },
-      { date: [2026, 3, 7], title: "300 Hour TT Mar 7", start: [12, 0], end: [17, 0] },
-      { date: [2026, 3, 8], title: "300 Hour TT Mar 8", start: [13, 30], end: [17, 30] },
-    ];
-
     // Create the ICS file content
     let icsData = `BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n`;
     events.forEach(({ date, title, start, end }) => {
@@ -77,12 +73,12 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink }) => {
                 >
                   {buttonText}
                 </a>
-                <button
+                {events && <button
                   onClick={addToCalendar}
                   className="flex items-center text-center justify-center rounded-full bg-primary px-15 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
                 >
                   Add to Calendar
-                </button>
+                </button>}
               </div>
             </motion.div>
 

@@ -43,6 +43,21 @@ const ThreeHundredHour = () => {
         }
         buttonText={"Apply Now"}
         buttonLink={"https://forms.gle/t9kp1h7bR5MaVGdg8"}
+        events = {[
+          { date: [2025, 9, 13], title: "300 Hour TT Intro Session", start: [12, 0], end: [13, 30] },
+          { date: [2025, 10, 11], title: "300 Hour TT Oct 11", start: [12, 0], end: [17, 0] },
+          { date: [2025, 10, 12], title: "300 Hour TT Oct 12", start: [13, 30], end: [17, 30] },
+          { date: [2025, 11, 8], title: "300 Hour TT Nov 8", start: [12, 0], end: [17, 0] },
+          { date: [2025, 11, 9], title: "300 Hour TT Nov 9", start: [13, 30], end: [17, 30] },
+          { date: [2025, 12, 13], title: "300 Hour TT Dec 13", start: [12, 0], end: [17, 0] },
+          { date: [2025, 12, 14], title: "300 Hour TT Dec 14", start: [13, 30], end: [17, 30] },
+          { date: [2026, 1, 10], title: "300 Hour TT Jan 10", start: [12, 0], end: [17, 0] },
+          { date: [2026, 1, 11], title: "300 Hour TT Jan 11", start: [13, 30], end: [17, 30] },
+          { date: [2026, 2, 7], title: "300 Hour TT Feb 7", start: [12, 0], end: [17, 0] },
+          { date: [2026, 2, 8], title: "300 Hour TT Feb 8", start: [13, 30], end: [17, 30] },
+          { date: [2026, 3, 7], title: "300 Hour TT Mar 7", start: [12, 0], end: [17, 0] },
+          { date: [2026, 3, 8], title: "300 Hour TT Mar 8", start: [13, 30], end: [17, 30] },
+        ]}
 
       />
     </>

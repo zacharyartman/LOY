@@ -59,7 +59,6 @@ const TwoHundredHourTTPage = () => {
       }
       buttonText={"Interest for Next Session"}
       buttonLink={"https://forms.gle/ZCzoM6v5Ed4sDzCH8"}
-      
       />
     </>
   );
