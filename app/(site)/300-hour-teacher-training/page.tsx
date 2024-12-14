@@ -13,11 +13,11 @@ const ThreeHundredHour = () => {
 
     <>
       <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
-      <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 18, 2024 - March 23, 2025<br />Next Session: 2025 Dates TBD"}
+      <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 13, 2025 - March 8, 2025"}
         text={`
 <p class="align-center"><strong>In-Person Dates/Times:</strong><br /></p>
-<em>Fridays 6:00-8:00pm,<br />Saturdays 12:00-6:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
-<em>October 18-20, November 15-17, December 13-15, January 10-12, February 21-23, March 21-23</em></p>
+<b>September 13: Intro 12:00-1:30 pm</b><br /><em><br />Saturdays 12:00-5:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
+<em>October 11-12, November 8-9, December 13-14, January 10-11, February 7-8, March 7-8</em></p>
 <p class="align-center"><strong>Did your 200-hour teaching training leave you craving more knowledge and experience in the teachings of yoga?</p></strong>
 <p class="align-center">Our comprehensive Yoga Alliance-approved 300-hour teacher training program is a hybrid online-in person approach, giving you the flexibility to learn on your own time and then come together in community to share, practice and learn together. This 6-month program is modular, with each of the 6 modules consisting of 70% online hours and 30% in-person hours (one weekend per month: Fridays 6:00-8:00pm, Saturdays 12-6pm &amp; Sundays 1:30-5:30pm).</p>
 <p class="align-center"><strong>The curriculum includes:</strong></p>
@@ -41,8 +41,8 @@ const ThreeHundredHour = () => {
              ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
               ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
         }
-        buttonText={"Interest for Next Session"}
-        buttonLink={"https://forms.gle/DyT6yAZRC9HNrrkz6"}
+        buttonText={"Apply Now"}
+        buttonLink={"https://forms.gle/t9kp1h7bR5MaVGdg8"}
 
       />
     </>
