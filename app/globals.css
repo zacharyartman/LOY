@@ -19,6 +19,12 @@
   @apply opacity-100;
 }
 
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important
+}
+
 @layer base {
   body {
     @apply relative z-1 font-inter text-regular font-normal text-waterloo dark:text-manatee;
