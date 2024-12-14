@@ -19,7 +19,7 @@ const ThreeHundredHour = () => {
 <b>September 13: Intro 12:00-1:30 pm</b><br /><em><br />Saturdays 12:00-5:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
 <em>October 11-12, November 8-9, December 13-14, January 10-11, February 7-8, March 7-8</em></p>
 <p class="align-center"><strong>Did your 200-hour teaching training leave you craving more knowledge and experience in the teachings of yoga?</p></strong>
-<p class="align-center">Our comprehensive Yoga Alliance-approved 300-hour teacher training program is a hybrid online-in person approach, giving you the flexibility to learn on your own time and then come together in community to share, practice and learn together. This 6-month program is modular, with each of the 6 modules consisting of 70% online hours and 30% in-person hours (one weekend per month: Fridays 6:00-8:00pm, Saturdays 12-6pm &amp; Sundays 1:30-5:30pm).</p>
+<p class="align-center">Our comprehensive Yoga Alliance-approved 300-hour teacher training program is a hybrid online-in person approach, giving you the flexibility to learn on your own time and then come together in community to share, practice and learn together. This 6-month program is modular, with each of the 6 modules consisting of 70% online hours and 30% in-person hours (one weekend per month: Saturdays 12-5pm &amp; Sundays 1:30-5:30pm).</p>
 <p class="align-center"><strong>The curriculum includes:</strong></p>
 <ul>
 <li>Module 1: Advanced Cueing and Navigating the Classroom</li>
