@@ -13,7 +13,7 @@ const ThreeHundredHour = () => {
 
     <>
       <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
-      <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 13, 2025 - March 8, 2025"}
+      <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 13, 2025 - March 8, 2026"}
         text={`
 <p class="align-center"><strong>In-Person Dates/Times:</strong><br /></p>
 <b>September 13: Intro 12:00-1:30 pm</b><br /><em><br />Saturdays 12:00-5:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
