@@ -2,13 +2,11 @@ import image1 from "@/public/images/user/heather.webp";
 import image2 from "@/public/images/user/keely.webp";
 import image4 from "@/public/images/user/amy.webp";
 import image5 from "@/public/images/user/carly.webp";
-import image6 from "@/public/images/user/dawn.webp";
 import image7 from "@/public/images/user/emily.webp";
 import image9 from "@/public/images/user/tammy.jpeg";
 import image10 from "@/public/images/user/violeta.webp";
 import image11 from "@/public/images/user/aly.jpg";
 import image12 from "@/public/images/user/justin.jpg";
-import image13 from "@/public/images/user/viv.jpeg";
 import image14 from "@/public/images/user/michael.jpeg";
 import { Teacher } from "@/types/teacher";
 
@@ -82,11 +80,4 @@ export const teachersData: Teacher[] = [
         image: image10,
         content: "When Violeta began her yoga journey, she was captivated by the power of yoga and its ability to bring harmony to the mind, body, and spirit. A few years into her practice, she felt inspired to deepen her understanding and share the benefits of yoga with others. She completed her Yoga Teacher Training in Bali, where she embraced a teaching style rooted in gentleness and patience. In her classes you can find a calming and relaxed ambience that invites you to explore and connect with yourself."
     },
-    {
-        id: 13,
-        name: "Viv Mao",
-        designation: "",
-        image: image13,
-        content: "Viv is an E-RYT200 who's new to Florida! She fell in love with yoga as a way of healing the connection between mind and body, and believes that somatic expression is at the core of practicing yoga, and other forms of mindful movement. She's taught everything from yin yoga to pilates flow, as well as kids yoga and aerial hammock. Her heart lies in teaching slow flows with a focus on encouraging radical presence through breathwork & bodily awareness through safe alignment. She grew up with Traditional Chinese Medicine and is currently studying to become a licensed acupuncturist. She completed both her 200 and 300 hour trainings during different stints of her life abroad in Central & South America, where she hopes to return one day. She's a freediving instructor who prefers to do her breathwork underwater, and loves to practice aerial & circus arts."
-    }
 ];
