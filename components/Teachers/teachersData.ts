@@ -8,6 +8,7 @@ import image10 from "@/public/images/user/violeta.webp";
 import image11 from "@/public/images/user/aly.jpg";
 import image12 from "@/public/images/user/justin.jpg";
 import image14 from "@/public/images/user/michael.jpeg";
+import image15 from "@/public/images/user/stacey.jpeg";
 import { Teacher } from "@/types/teacher";
 
 export const teachersData: Teacher[] = [
@@ -65,6 +66,13 @@ export const teachersData: Teacher[] = [
         designation: "",
         image: image14,
         content: "Michael uses yoga as a metaphor for life, believing that a yoga journey should be fun and engaging while also challenging one to test and expand their limits. As a 500-hour Registered Yoga Instructor, he recognizes that he is teaching real people with their own stories. Yoga and meditation have made him a healthier, more aware person, opening his eyes to a world of positive opportunities, and he is truly grateful to share what he has learned with others. Each class he teaches has its own unique beat, vibration, and pulse. He focuses on alignment-based poses to deepen the practice, drawing from his dance background to create interesting and original sequences. This allows students to move authentically, finding their own rhythm and truth through movement."
+    },
+    {
+        id: 15,
+        name: "Stacey",
+        designation: "",
+        image: image15,
+        content: "Stacey’s yoga journey began in 2000 after the birth of her son when she purchased her first yoga DVD. Not only did she notice the changes in her physical body, she couldn’t ignore how calm and grounded she felt as a result of the practice. After being a closet yogi for a number of years, she finally set foot in a studio. The teachers and other students at the studio created such a supportive environment that fostered her inner awareness, self-compassion and growth. She deepened her asana, pranayama and meditation practices through the exploration of various types of yoga. She became more interested in the philosophy of yoga as her own awareness expanded, and in 2019 embarked on her own teacher training journey. Stacey mostly enjoys the creativity and movement offered through vinyasa yoga. She compassionately and clearly guides her students through a thoughtfully designed, soulful yoga practice inviting her students to go inward to connect with their body, mind and spirit. Stacey approaches teaching yoga with gratitude and reverence. Her intention is to cultivate an environment in which her students feel empowered to make the best decisions for their unique bodies, are encouraged to explore their true nature and express themselves authentically."
     },
     {
         id: 9,
