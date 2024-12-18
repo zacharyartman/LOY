@@ -8,7 +8,7 @@ import image10 from "@/public/images/user/violeta.webp";
 import image11 from "@/public/images/user/aly.jpg";
 import image12 from "@/public/images/user/justin.jpg";
 import image14 from "@/public/images/user/michael.jpeg";
-import image15 from "@/public/images/user/stacey.jpeg";
+import image15 from "@/public/images/user/stacey_pic.jpeg";
 import { Teacher } from "@/types/teacher";
 
 export const teachersData: Teacher[] = [
