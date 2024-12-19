@@ -69,7 +69,7 @@ export const teachersData: Teacher[] = [
     },
     {
         id: 15,
-        name: "Stacey",
+        name: "Stacey Ortense",
         designation: "",
         image: image15,
         content: "Stacey’s yoga journey began in 2000 after the birth of her son when she purchased her first yoga DVD. Not only did she notice the changes in her physical body, she couldn’t ignore how calm and grounded she felt as a result of the practice. After being a closet yogi for a number of years, she finally set foot in a studio. The teachers and other students at the studio created such a supportive environment that fostered her inner awareness, self-compassion and growth. She deepened her asana, pranayama and meditation practices through the exploration of various types of yoga. She became more interested in the philosophy of yoga as her own awareness expanded, and in 2019 embarked on her own teacher training journey. Stacey mostly enjoys the creativity and movement offered through vinyasa yoga. She compassionately and clearly guides her students through a thoughtfully designed, soulful yoga practice inviting her students to go inward to connect with their body, mind and spirit. Stacey approaches teaching yoga with gratitude and reverence. Her intention is to cultivate an environment in which her students feel empowered to make the best decisions for their unique bodies, are encouraged to explore their true nature and express themselves authentically."
