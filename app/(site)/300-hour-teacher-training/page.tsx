@@ -33,7 +33,7 @@ const ThreeHundredHour = () => {
 <p>Access to online content will be provided one month prior to the in-person sessions.</p>
 <p><strong>Prerequisite:</strong> 200-hour RYT + at least 2 years of yoga experience and 6 months of teaching experience.</p>
 <p>Questions? Reach out via email (info@lasolas.yoga) or text/phone (954-372-5275).</p>
-<p>Investment: $3500 | Payment Plans Available (Includes free unlimited membership and 20% off retail and workshops during the training)</p>
+<p>Investment: $3500 | Payment Plans Available (Includes free unlimited membership and 10% off retail and workshops during the training)</p>
 
       `}
         images={
