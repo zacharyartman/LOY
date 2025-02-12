@@ -5,7 +5,6 @@ import image5 from "@/public/images/user/carly.webp";
 import image7 from "@/public/images/user/emily.webp";
 import image9 from "@/public/images/user/tammy.jpeg";
 import image10 from "@/public/images/user/violeta.webp";
-import image11 from "@/public/images/user/aly.jpg";
 import image12 from "@/public/images/user/justin.jpg";
 import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
@@ -25,13 +24,6 @@ export const teachersData: Teacher[] = [
         designation: "Studio Manager",
         image: image2,
         content: "Keely is a passionate and dedicated yoga teacher with over 10 years of experience. Through creative sequencing, mindful movement and breathwork, Keely encourages students to harness the power of presence, cultivating greater self-awareness and inner peace. Keely believes yoga is not just about physical postures but about fostering a self confidence that extends beyond the mat. Students leave Keely’s classes with a sense of inner strength and resilience, empowering them to approach life’s challenges with clarity and self-assurance. By integrating the physical benefits of yoga, Keely guides students to tap into their full potential, helping them live more vibrant and fulfilling lives, both on and off the mat."        
-    },
-    {
-        id: 11,
-        name: "Aly Gage",
-        designation: "",
-        image: image11,
-        content: "Aly began her yoga practice when she was 15 years old through a passion for cheerleading and movement. She immediately fell in love, and continued to casually practice yoga throughout her life. Last year, she decided to take her practice to the next level and applied for the 200 Hour teacher training hosted by Las Olas Yoga. LOY holds a special place in her heart, as it is the home of her very first role as a yoga teacher. From slow warm ups to dynamic flows, she always encourages students to honor their bodies and hearts and move with their own beautiful rhythm. When not on her yoga mat, Alyson is a structural engineer specializing in retail store design."
     },
     {
         id: 4,
