@@ -81,6 +81,12 @@ Personalized coaching to help refine your unique teaching style and meet your go
 <span style="font-family: "Apple Color Emoji";">🎁</span> <b>Includes:</b><br>
 <span style="font-family: "Apple Color Emoji";">✔️</span> <b>Free unlimited yoga membership</b> during the training<br>
 <span style="font-family: "Apple Color Emoji";">✔️</span> <b>10% off retail &amp; workshops</b> throughout the program</p>
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+📩 <b>Questions?</b> Reach out via email at 
+<a href="mailto:heather@lasolas.yoga" style="color: #8a6a4f; text-decoration: none;"><b>heather@lasolas.yoga</b></a> 
+or text us 
+at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(954) 372-5275</b></a>.
+</p><br />
       `}
         images={
           [['/images/tt/yoga-teacher-training-fort-lauderdale-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga'],
