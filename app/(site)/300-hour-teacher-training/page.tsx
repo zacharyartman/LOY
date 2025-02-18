@@ -5,7 +5,7 @@ import Details from "@/components/Details";
 
 export const metadata: Metadata = {
   title: "300-Hour Teacher Training - Las Olas Yoga",
-  description: "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for 300-hour yoga teacher certifications",
+  description: "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for hybrid partial remote 300-hour yoga teacher certifications",
   // other metadata
 };
 const ThreeHundredHour = () => {
@@ -13,37 +13,83 @@ const ThreeHundredHour = () => {
 
     <>
       <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
-      <Details title={"300-Hour Teacher Training with Heather Artman"} dates={"September 13, 2025 - March 8, 2026"}
+      <Details title={"Las Olas Yoga 300-Hour Hybrid Teacher Training"} dates={"September 13, 2025 - March 8, 2026"} teacher="Heather Artman"
         text={`
-<p class="align-center"><strong>In-Person Dates/Times:</strong><br /></p>
-<b>September 13: Intro 12:00-1:30 pm</b><br /><em><br />Saturdays 12:00-5:00pm<br />Sundays 1:30-5:30pm</em><br /><br />
-<em>October 11-12, November 8-9, December 13-14, January 10-11, February 7-8, March 7-8</em></p>
-<p class="align-center"><strong>Did your 200-hour teaching training leave you craving more knowledge and experience in the teachings of yoga?</p></strong>
-<p class="align-center">Our comprehensive Yoga Alliance-approved 300-hour teacher training program is a hybrid online-in person approach, giving you the flexibility to learn on your own time and then come together in community to share, practice and learn together. This 6-month program is modular, with each of the 6 modules consisting of 70% online hours and 30% in-person hours (one weekend per month: Saturdays 12-5pm &amp; Sundays 1:30-5:30pm).</p>
-<p class="align-center"><strong>The curriculum includes:</strong></p>
-<ul>
-<li>Module 1: Advanced Cueing and Navigating the Classroom</li>
-<li>Module 2: Creative and Complex Sequencing</li>
-<li>Module 3: Energetics &amp; the Subtle Body</li>
-<li>Module 4: Refined Techniques: Observing and Assisting Students</li>
-<li>Module 5: Beyond Asana in the Classroom &#8211; Theming through Philosophy, Mythology &amp; Ayurveda</li>
-<li>Module 6: Yoga Specialties</li>
-<li>Also included: Refining Your Teaching: A Mentorship Program &#8211; 1:1 mentoring with lead instructor, Heather Artman to focus on your individual needs throughout the program</li>
-</ul>
-<p>Access to online content will be provided one month prior to the in-person sessions.</p>
-<p><strong>Prerequisite:</strong> 200-hour RYT + at least 2 years of yoga experience and 6 months of teaching experience.</p>
-<p>Questions? Reach out via email (info@lasolas.yoga) or text/phone (954-372-5275).</p>
-<p>Investment: $3500 | Payment Plans Available (Includes free unlimited membership and 10% off retail and workshops during the training)</p>
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
 
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b>📅 September 13:</b> Intro Session &#183; 12:00 - 1:30 PM<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+<b>📍 Saturdays:</b> 12:00 - 5:00 PM<br>
+<b>📍 Sundays:</b> 1:30 - 5:30 PM<o:p></o:p>
+</p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+<b>🗓️ Weekend Sessions:</b> October 11-12, November 8-9, December 13-14, January 10-11, February 7-8, March 7-8<o:p></o:p>
+</p><br />
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">Deepen Your Practice. Elevate Your Teaching.<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Did your <b>200-hour teacher training</b> leave you craving <b>more knowledge, confidence, and depth</b> in your teaching? Our <b>Yoga Alliance-approved</b> 300-hour training is designed to take you to the next level—offering advanced skills, deeper understanding, and a <b>supportive community</b> to help refine your teaching voice.<o:p></o:p></p><br />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">A Flexible, Hybrid Approach<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Our <b>6-month modular program</b> combines the <b>best of online learning</b> with <b>in-person weekends</b>, so you can integrate your studies into your life while still connecting in a shared learning environment.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Each of the <b>six modules</b> consists of:<br>
+<span style="font-family: "Apple Color Emoji";">✔️</span> <b>70% online coursework</b>—learn at your own pace<br>
+<span style="font-family: "Apple Color Emoji";">✔️</span> <b>30% in-person weekends</b>—hands-on learning, practice &amp; community<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">📅</span> <b>In-Person Sessions:</b> One weekend per month<br>
+<span style="font-family: "Apple Color Emoji";">📍</span> <b>Saturdays 12:00–5:00 PM</b> | <b>Sundays 1:30–5:30 PM</b><o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Training Curriculum<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🔹</span> <b>Module 1: Advanced Cueing &amp; Navigating the Classroom</b><br>
+Master precise, impactful cueing and develop confidence in guiding students with clarity.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🔹</span> <b>Module 2: Creative &amp; Complex Sequencing</b><br>
+Take your class design to the next level with innovative and intelligent sequencing.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🔹</span> <b>Module 3: Energetics &amp; The Subtle Body</b><br>
+Dive deeper into the energetics of the subtle body (chakras, bandhas, vayus, nadis and koshas), pranayama, and meditation. <o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🔹</span> <b>Module 4: Refined Techniques – Observing &amp; Assisting Students</b><br>
+Learn to read bodies, offer effective hands-on (and hands-off!) assists, and create a safe space for growth.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🔹</span> <b>Module 5: Beyond Asana – Theming Through Philosophy, Mythology &amp; Ayurveda</b><br>
+Weave <b>ancient wisdom</b> into your classes to create meaningful and inspiring experiences.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🔹</span> <b>Module 6: Yoga Specialties</b><br>
+Expand your expertise with specialized topics like <b>yin, restorative, yoga nidra, creating impactful workshops </b>and<b> the business of yoga.</b><o:p></o:p></p></br>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🧘‍♀️</span> <b>Also Included: 1:1 Mentorship with Heather Artman</b><br>
+Personalized coaching to help refine your unique teaching style and meet your goals.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">📖</span> <b>Early Access to Online Content:</b> Provided one month before the first in-person session.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Who This Training Is For<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">✔️</span> <b>200-hour RYT</b> certified<br>
+<span style="font-family: "Apple Color Emoji";">✔️</span> At least <b>2 years of yoga experience</b><br>
+<span style="font-family: "Apple Color Emoji";">✔️</span> Minimum <b>6 months of teaching experience</b><o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">If you're ready to <b>deepen your knowledge</b> and refine your teaching, this training is for you.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Investment &amp; Benefits<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; margin-bottom: 25px;"><span style="font-family: "Apple Color Emoji";">💰</span> <b>Tuition:</b> $3,500 | <i>Payment plans available</i><br>
+<span style="font-family: "Apple Color Emoji";">🎁</span> <b>Includes:</b><br>
+<span style="font-family: "Apple Color Emoji";">✔️</span> <b>Free unlimited yoga membership</b> during the training<br>
+<span style="font-family: "Apple Color Emoji";">✔️</span> <b>10% off retail &amp; workshops</b> throughout the program</p>
       `}
         images={
           [['/images/tt/yoga-teacher-training-fort-lauderdale-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga'],
-             ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
-              ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
+          ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
+          ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
         }
         buttonText={"Apply Now"}
         buttonLink={"https://forms.gle/t9kp1h7bR5MaVGdg8"}
-        events = {[
+        events={[
           { date: [2025, 9, 13], title: "300 Hour TT Intro Session", start: [12, 0], end: [13, 30] },
           { date: [2025, 10, 11], title: "300 Hour TT Oct 11", start: [12, 0], end: [17, 0] },
           { date: [2025, 10, 12], title: "300 Hour TT Oct 12", start: [13, 30], end: [17, 30] },

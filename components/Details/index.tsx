@@ -4,13 +4,14 @@ import Image from "next/legacy/image";
 import React from "react";
 import { saveAs } from "file-saver";
 
-const Details = ({ title, dates, text, images, buttonText, buttonLink, events = null }: {
+const Details = ({ title, dates, text, images, buttonText, buttonLink, teacher='', events = null }: {
   title: string;
   dates: string;
   text: string;
   images: [string, string][];
   buttonText: string;
   buttonLink: string;
+  teacher?: string;
   events?: { date: number[]; title: string; start: number[]; end: number[]; }[] | null;
 }) => {
   const addToCalendar = () => {
@@ -47,11 +48,14 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink, events = 
           <h2 className="text-2xl mx-5 mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
             {title}
           </h2>
+          {teacher && <h3 className="text-metatitle3 mx-5 mb-2 font-semibold text-center text-primary">
+            with {teacher}
+          </h3>
+          }
           <h3
             className="text-md mx-5 mb-4 font-semibold text-center text-primary dark:text-white xl:text-metatitle2"
             dangerouslySetInnerHTML={{ __html: dates }}
           ></h3>
-
           <div className="flex gap-8 flex-col md:flex-row md:justify-between xl:gap-20">
             <motion.div
               variants={{
