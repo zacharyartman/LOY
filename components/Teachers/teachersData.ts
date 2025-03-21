@@ -9,6 +9,8 @@ import image12 from "@/public/images/user/justin.jpg";
 import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
 import image16 from "@/public/images/user/Janis_headshot.jpg";
+import image17 from "@/public/images/user/dafna.jpeg"
+
 import { Teacher } from "@/types/teacher";
 
 export const teachersData: Teacher[] = [
@@ -38,6 +40,13 @@ export const teachersData: Teacher[] = [
         name: "Carly Lewis",
         designation: "",
         image: image5, content: "Introduced to yoga as a child by her aunts, Carly has practiced for over 15 years. Yoga was the beginning of her career in alternative health, which is reinforced by a master's degree in public health and through personal experience with plant medicine and natural healing. She took her first teacher training online in 2022-2023 and followed it up with a second RYT-200 through Las Olas Yoga under Amy Baldacci in 2023-2024. In Carly's classes you will find a deep sense of meditation mixed with adaptability and acceptance. Carly believes yoga is for everyone and her greatest wish is to share the magic of the practice with all by making each pose and transition accessible."
+    },
+    {
+        id: 17,
+        name: "Dafna Zacharin",
+        designation: "",
+        content: "Dafna first discovered yoga while serving in the military, and it only took one class for her to be completely hooked. The focus, presence, and deep centering she experienced drew her in, sparking a desire to explore the practice further. Just one year later, she earned her teaching certification, and she has been guiding students ever since. With over nine years of teaching experience and more than 750 hours of training across various styles, Dafna brings a well-rounded and dynamic approach to her classes. She is passionate about every facet of yoga—meditation, breathwork, philosophy, and movement—and believes in both depth and breadth in practice. Her teaching philosophy emphasizes being caring rather than careful, encouraging students to step outside their comfort zones without fear but with curiosity and empowerment. Dafna meets students where they are, supporting their individual goals and intentions for their practice. In her flow classes, expect a mix of active mobility, unique and playful transitions, and strength-building holds. In her foundations classes, she breaks down fundamental postures with clear explanations and refinements. In her restorative classes, she guides students through long, supported stretch holds, breathwork, and guided meditations. No matter the class, Dafna creates a space for students to explore, grow, and connect—both on and off the mat.",
+        image: image17
     },
     {
         id: 7,
