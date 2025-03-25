@@ -23,7 +23,7 @@ export default function Home() {
       <div className="flex items-center justify-center bg-[#f8f4ef] py-3">
         <div className="max-w-4xl flex flex-row items-center gap-6 justify-center p-4 text-center">
           <h2 className="text-xl font-bold text-[#8a6a4f]">Sedona Retreat</h2>
-          <a className="px-6 py-2 bg-[#8a6a4f] text-white rounded-full hover:bg-[#735a40] transition duration-200" href="/black-friday">
+          <a className="px-6 py-2 bg-[#8a6a4f] text-white rounded-full hover:bg-[#735a40] transition duration-200" href="/retreats">
             Explore Now &rarr;
           </a>
         </div>
