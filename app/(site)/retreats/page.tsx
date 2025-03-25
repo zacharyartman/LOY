@@ -15,7 +15,7 @@ const RetreatsPage = () => {
       <NewPageHero titleText={"Retreats"} link='/images/hero/retreats-yoga-near-me.webp'></NewPageHero>
       <Details
         title={"Sedona Soul Adventure: A Retreat in the Red Rocks with Keely"}
-        dates={"October 9th - 15th, 2025"}
+        dates={"October 9th - 13th, 2025"}
         text={`
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Sedona Awakening Retreat<o:p></o:p></span></b></p>
 
