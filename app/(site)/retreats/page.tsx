@@ -35,8 +35,8 @@ Whether you’re seeking inspiration, relaxation, or transformation, this is you
 ✔️ 5 days / 4 nights accommodations<br>
 ✔️ Ground transportation to/from Phoenix airport<br>
 ✔️ Daily yoga classes<br>
-✔️ Nourishing meals by private chef<br>
-✔️ Mountain & desert views<br>
+✔️ Nourishing homemade meals with our private chef<br>
+✔️ Spectacular mountain and desert views<br>
 ✔️ Immersion in nature<br>
 ✔️ Jeep Sedona Vortex Tour<br>
 ✔️ Yoga Under the Stars event<br>
