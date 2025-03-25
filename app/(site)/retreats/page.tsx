@@ -60,6 +60,7 @@ Whether you’re seeking inspiration, relaxation, or transformation, this is you
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif;"><b>📌 Booking Details:<o:p></o:p></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+⏳ Early bird special: Book by June 15th and save $100<br>
 💵 $500 non-refundable deposit per person<br>
 📅 Payment in full due by August 9th<br>
 ✈️ Airline travel not included<br><br>
