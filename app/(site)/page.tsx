@@ -19,7 +19,15 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      
+      {/* Deals Section */}
+      <div className="flex items-center justify-center bg-[#f8f4ef] py-3">
+        <div className="max-w-4xl flex flex-row items-center gap-6 justify-center p-4 text-center">
+          <h2 className="text-xl font-bold text-[#8a6a4f]">Sedona Retreat</h2>
+          <a className="px-6 py-2 bg-[#8a6a4f] text-white rounded-full hover:bg-[#735a40] transition duration-200" href="/black-friday">
+            Explore Now &rarr;
+          </a>
+        </div>
+      </div>
       {/* Best Yoga Studio Section */}
       <div className="flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center justify-center p-6 my-5 text-center">
@@ -34,10 +42,10 @@ export default function Home() {
 
       <About aboutText={`                We are a Fort Lauderdale yoga studio in the heart of downtown on Las Olas Blvd.<br /><br />
                 At Las Olas Yoga, our mission is to create a sanctuary of well-being, where movement, mindfulness, and community intersect. We provide a welcoming environment where you can reconnect with old friends, forge new connections, and practice together as a supportive community. <br /><br /> 
-                All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions. `} viewClasses={true}/>
+                All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions. `} viewClasses={true} />
       <div id="classes"></div>
-      <Classes title={true}/>
-      <MomenceSchedule title={true} fullSchedule={false} sessionType={'class'} liteMode={true}/>
+      <Classes title={true} />
+      <MomenceSchedule title={true} fullSchedule={false} sessionType={'class'} liteMode={true} />
       <CTA />
       <MobileApp />
       <Popup />
