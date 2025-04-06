@@ -3,7 +3,7 @@ import { Price } from "@/types/pricing";
 const pricingData: Price[] = [
   {
     id: 0,
-    title: "New Student Intro",
+    title: "New Client Intro",
     subtitle: "Three Weeks of Unlimited Yoga",
     price: 79,
     perX: "",

@@ -143,7 +143,7 @@ const Footer = () => {
                         href="/new-students"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        New Students
+                        New Clients
                       </a>
                     </li>
                     <li>

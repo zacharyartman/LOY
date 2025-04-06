@@ -13,7 +13,7 @@ const faqData: FAQ[] = [
   },
   {
     "id": 3,
-    "quest": "If I purchase the new student special, when does it start?",
+    "quest": "If I purchase the new client special, when does it start?",
     "ans": "Your three weeks starts when you come for your first class."
   },
   {

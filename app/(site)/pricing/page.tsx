@@ -5,7 +5,7 @@ import Pricing from "@/components/Pricing";
 
 export const metadata: Metadata = {
   title: "Pricing - Las Olas Yoga",
-  description: "Our yoga pricing options include options for everyone. We have an intro offer for new students, memberships, short-term options for visitors and class cards.",
+  description: "Our yoga pricing options include options for everyone. We have an intro offer for new clients, memberships, short-term options for visitors and class cards.",
   // other metadata
 };
 

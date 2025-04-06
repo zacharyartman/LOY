@@ -3,7 +3,7 @@ import { Offer } from "@/types/offer";
 export const offersData: Offer[] = [
     {
         id: 1,
-        title: "New Students",
+        title: "New Clients",
         items: [
             {
                 id: 11,

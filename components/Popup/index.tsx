@@ -57,7 +57,7 @@ export default function Popup() {
                   <div className="border-b border-solid border-blueGray-200 mx-0 md:mx-15">
                   <div className="px-5 md:px-0 pt-3 pb-5">
                     <h3 className="text-lg font-semibold text-black text-center dark:text-white xl:text-2xl">
-                      New Student Special: Only $79 for Three Weeks Unlimited Yoga Classes
+                      New Client Special: Only $79 for Three Weeks Unlimited Yoga Classes
                     </h3>
                   </div>
                   </div>
@@ -71,7 +71,7 @@ export default function Popup() {
                 {/* body */}
                 <div className="relative py-5 px-8 md:px-15 flex-auto">
                   <p className="my-0 text-sectiontitle leading-relaxed">
-                    Enjoy three weeks of unlimited yoga for only $79. Your three weeks doesn’t start until your first class giving you the freedom to purchase now for use at a later date (new local students only).
+                    Enjoy three weeks of unlimited yoga for only $79. Your three weeks doesn’t start until your first class giving you the freedom to purchase now for use at a later date (new local clients only).
                   </p>
                 </div>
                 {/* footer */}
