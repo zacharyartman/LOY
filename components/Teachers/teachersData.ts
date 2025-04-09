@@ -10,6 +10,7 @@ import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
 import image16 from "@/public/images/user/Janis_headshot.jpg";
 import image17 from "@/public/images/user/dafna.jpeg"
+import image18 from "@/public/images/user/katesuarez.webp"
 
 import { Teacher } from "@/types/teacher";
 
@@ -68,6 +69,13 @@ export const teachersData: Teacher[] = [
         designation: "",
         image: image12,
         content: "Justin came to yoga after working as a top sales representative in the high stress industry of finance. Like many others who have found themselves drawn to this ancient practice, Justin’s passion for yoga ignited most when he began to study yogic philosophy. After four years of dedicated practice, he took the leap to become a teacher and leave the corporate world. Justin’s primary interest is in inversions and arm balances, both because they are challenging and also require a focus mind that creates internal stillness. Justin’s teachings reach beyond the physical aspects of yoga and has a strong passion for the subtle ones such as meditation and pranayama. He is a devoted student of yogic philosophy, and continues to see himself as a student, as he travels the world to gain more knowledge. Justin has completed multiple 500-hour yoga teacher trainings, received the FRC mobility certificate, and most recently, completed the Mindfulness Based Stress Reduction training."
+    },
+    {
+        id: 18,
+        name: "Kate Suarez",
+        designation: "",
+        image: image18,
+        content: "Kate is a dedicated yoga and wellness enthusiast with over 9 years of experience, including founding and running her own cozy yoga studio. She thrives on creating welcoming spaces that nurture both mind and body, fostering a sense of community and mindfulness. Her approach is all about connecting with each individual, offering personalized guidance, and building lasting relationships. Kate is passionate about teaching students at every level, from beginners to advanced, helping them build strong foundations, refine their alignment, and explore advanced variations that are fun and feel good in their body."
     },
     {
         id: 14,
