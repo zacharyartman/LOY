@@ -8,7 +8,6 @@ import image10 from "@/public/images/user/violeta.webp";
 import image12 from "@/public/images/user/justin.jpg";
 import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
-import image16 from "@/public/images/user/Janis_headshot.jpg";
 import image17 from "@/public/images/user/dafna.jpeg"
 import image18 from "@/public/images/user/katesuarez.webp"
 
@@ -55,13 +54,6 @@ export const teachersData: Teacher[] = [
         designation: "",
         image: image7,
         content: "Emily was introduced to yoga in 2012 when she walked into a class at her local gym. At first she was drawn to the physicality of the practice but it didn't take long for her to realize the spiritual, mental and emotional benefits. Yoga quickly became the greatest way for her to practice self-care. Emily completed a 200 hour teacher training program in 2013 and spent the next 3 years teaching at various locations in her hometown of Brookfield, Wisconsin before moving to Fort Lauderdale in the spring of 2016. Upon moving to Fort Lauderdale, Emily began working and teaching at Ashtanga Yoga Worldwide. In 2018, she completed a year long training program under the guidance of world renowned yoga teacher Greg Nardi. Emily continues to experience the incredible benefits and healing powers of yoga through her daily practice and it brings her great joy to share the gift of yoga with others. She enjoys getting to know her students and believes in offering personalized instruction and guidance to fit each student's unique body and mind."
-    },
-    {
-        id: 16,
-        name: "Janis Brady",
-        designation: "",
-        image: image16,
-        content: "Janis was introduced to yoga a decade ago and fell in love with how it opened both body and mind. What began as a practice for relaxation soon became a constant source of balance through life’s ebb and flow. She completed her first teacher training in Minneapolis, MN, and later enriched her studies in Rishikesh, India. In Janis’s classes, expect a space for dipping into cosmic energy, playfulness, and sweat equity. With a focus on embracing the present moment, she guides students to meet themselves exactly where they are—without judgment. Whether you are new to yoga or have been practicing for years, her classes encourage a deep connection to breath, body, and inner stillness. Through mindful movement, Janis invites you to soften, tune in, and experience the quiet wisdom that yoga reveals in a safe space. Outside of yoga find her flying around in a small tailwheel aircraft or tending to bees."
     },
     {
         id: 12,
