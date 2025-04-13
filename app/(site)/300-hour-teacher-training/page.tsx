@@ -65,8 +65,6 @@ Expand your expertise with specialized topics like <b>yin, restorative, yoga nid
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">🧘‍♀️</span> <b>Also Included: 1:1 Mentorship with Heather Artman</b><br>
 Personalized coaching to help refine your unique teaching style and meet your goals.<o:p></o:p></p>
 
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">📖</span> <b>Early Access to Online Content:</b> Provided one month before the first in-person session.<o:p></o:p></p>
-
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Who This Training Is For<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">✔️</span> <b>200-hour RYT</b> certified<br>
