@@ -87,6 +87,7 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
       `}
         images={
           [['/images/tt/yoga-teacher-training-fort-lauderdale-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga'],
+          ['/images/tt/yoga-teacher-training-fort-lauderdale-8.webp', 'Yoga students in a circle'],
           ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
           ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
         }
