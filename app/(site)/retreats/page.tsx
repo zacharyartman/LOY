@@ -48,11 +48,11 @@ Whether you’re seeking inspiration, relaxation, or transformation, this is you
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif;"><b>🛏️ Accommodations (per person):<o:p></o:p></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<b>Bedroom #1:</b> 1 Queen ($1897), 2 Singles ($1797)<br>
-<b>Bedroom #2:</b> <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
-<b>Bedroom #3:</b> 3 Singles ($1797) - <span style="color: #8a6a4f; font-weight: bold;">ONE BED LEFT</span><br>
-<b>Bedroom #4:</b> <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
-<b>Bedroom #5:</b> 1 King ($2097, 2nd person $1397), 1 Single ($1797)
+<b>Bedroom #1</b> (Inspiration): 1 Queen ($1897, Available), 1 Single (Sold Out): Spacious room with privacy<br>
+<b>Bedroom #2</b> (Tranquility): <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
+<b>Bedroom #3</b> (Light): 3 Singles ($1797) - <span style="color: #8a6a4f; font-weight: bold;">ONE BED LEFT</span><br>
+<b>Bedroom #4</b> (Clarity): <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
+<b>Bedroom #5</b> (Nurture): 1 King ($2097, 2nd person $1397), 1 Single ($1797, Double or Triple Occupancy)
 <o:p></o:p></p>
 
 <hr size="0" width="100%" align="center" style="margin: 20px 0;" />
