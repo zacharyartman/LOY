@@ -13,7 +13,7 @@ const ClassesPage = () => {
   return (
     
     <>
-      <NewPageHero titleText={"Classes"} link='/images/general/yoga-classes-near-me.webp'></NewPageHero>
+      <NewPageHero titleText={"Class Types"} link='/images/general/yoga-classes-near-me.webp'></NewPageHero>
       <Classes title={false}></Classes>
     </>
   );

@@ -11,7 +11,21 @@ const menuData: Menu[] = [
     id: 2,
     title: "Classes",
     newTab: false,
-    path: "/classes",
+    submenu: [
+      {
+        id: 21,
+        title: "Class Types",
+        newTab: false,
+        path: "/classes",
+      },
+      {
+        id: 22,
+        title: "Private Sessions",
+        newTab: false,
+        path: "/private-sessions",
+      },
+    ],
+
   },
   {
     id: 3,

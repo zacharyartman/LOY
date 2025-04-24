@@ -4,15 +4,16 @@ import Image from "next/legacy/image";
 import React from "react";
 import { saveAs } from "file-saver";
 
-const Details = ({ title, dates, text, images, buttonText, buttonLink, teacher='', events = null }: {
+const Details = ({ title, dates, text, images, buttonText, buttonLink, teacher='', events = null, verticalImages = false }: {
   title: string;
   dates: string;
   text: string;
   images: [string, string][];
-  buttonText: string;
-  buttonLink: string;
+  buttonText?: string;
+  buttonLink?: string;
   teacher?: string;
   events?: { date: number[]; title: string; start: number[]; end: number[]; }[] | null;
+  verticalImages?: boolean;
 }) => {
   const addToCalendar = () => {
     if (!events || events.length === 0) {
@@ -70,13 +71,13 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink, teacher='
             >
               <div className="blog-details" dangerouslySetInnerHTML={{ __html: text }} />
               <div className="flex flex-col xl:flex-row justify-center my-5 xl:mb-0 xl:ml-10 flex items-center gap-2 xl:mt-0">
-                <a
+                {buttonText && buttonLink && <a
                   href={buttonLink}
                   target="_blank"
                   className="flex items-center text-center justify-center rounded-full bg-primary px-15 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
                 >
                   {buttonText}
-                </a>
+                </a>}
                 {events && <button
                   onClick={addToCalendar}
                   className="flex items-center text-center justify-center rounded-full bg-primary px-15 py-2.5 text-regular text-white transition-all duration-0 xl:duration-200 hover:bg-primaryho"
@@ -100,7 +101,7 @@ const Details = ({ title, dates, text, images, buttonText, buttonLink, teacher='
               <div className="relative w-full">
                 <div className="flex flex-col space-y-4">
                   {images.map((image, index) => (
-                    <div key={index} className="relative w-full pb-10" style={{ paddingBottom: '56.25%' }}>
+                    <div key={index} className={`relative ${verticalImages ? 'aspect-[3/4]' : 'aspect-[4/3]'} w-full`}>
                       <Image
                         src={image[0]}
                         alt={image[1]}
