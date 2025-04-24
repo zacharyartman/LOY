@@ -6,7 +6,7 @@ import menuData from "./menuData";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
-  const [dropdownToggler, setDropdownToggler] = useState(false);
+  const [dropdownTogglers, setDropdownTogglers] = useState<Record<number, boolean>>({});
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
@@ -23,6 +23,14 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
+
+  // Toggle a specific dropdown
+  const toggleDropdown = (id: number) => {
+    setDropdownTogglers(prev => ({
+      ...prev,
+      [id]: !prev[id]
+    }));
+  };
 
   return (
     <header
@@ -94,13 +102,13 @@ const Header = () => {
                 {menuItem.submenu ? (
                     <>
                       <button
-                        onClick={() => setDropdownToggler(!dropdownToggler)}
+                        onClick={() => toggleDropdown(menuItem.id)}
                         className={`flex cursor-pointer items-center justify-between gap-3 hover:text-primary  ${menuItem.submenu ? "w-full" : ""}`}
                       >
                         {menuItem.title}
                         <span>
                           <svg
-                            className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary`}
+                            className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary ${dropdownTogglers[menuItem.id] ? 'rotate-180' : ''}`}
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
                           >
@@ -110,7 +118,7 @@ const Header = () => {
                       </button>
 
                       <ul
-                        className={`dropdown ${dropdownToggler ? "flex flex-col" : ""}`}
+                        className={`dropdown ${dropdownTogglers[menuItem.id] ? "flex flex-col" : ""}`}
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
