@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {
-  title: "300-Hour Teacher Training - Las Olas Yoga",
+  title: "300-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
   description: "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for hybrid partial remote 300-hour yoga teacher certifications",
   // other metadata
 };

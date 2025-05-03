@@ -15,7 +15,7 @@ const FAQ = () => {
   return (
     <>
       {/* <!-- ===== FAQ Start ===== --> */}
-      <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      <section id="faq" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="relative mx-auto max-w-[1000px] px-4 md:px-8 xl:px-0">
           <div className="absolute -bottom-16 -z-1 h-full w-full">
             <Image
@@ -44,8 +44,7 @@ const FAQ = () => {
               viewport={{ once: true }}
               className="animate_left w-full"
             >
-
-              <h2 className="text-2xl mx-5 mb-2 font-semibold text-center text-primaryho dark:text-white xl:text-sectiontitle4">
+              <h2 className="mx-5 mb-2 text-center text-2xl font-semibold text-primaryho dark:text-white xl:text-sectiontitle4">
                 Frequently Asked Questions
               </h2>
             </motion.div>

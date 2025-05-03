@@ -9,49 +9,55 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
+    title: "New Clients",
+    newTab: false,
+    hidden: true,
+    path: "/new-students",
+  },
+  {
+    id: 3,
     title: "Classes",
     newTab: false,
     submenu: [
       {
-        id: 21,
+        id: 31,
         title: "Class Types",
         newTab: false,
         path: "/classes",
       },
       {
-        id: 22,
+        id: 32,
         title: "Private Sessions",
         newTab: false,
         path: "/private-sessions",
       },
     ],
-
   },
   {
-    id: 3,
+    id: 4,
     title: "Pricing",
     newTab: false,
     path: "/pricing",
   },
   {
-    id: 4,
+    id: 5,
     title: "Workshops",
     newTab: false,
     path: "/workshops-events",
   },
   {
-    id: 5,
+    id: 6,
     title: "Teacher Training",
     newTab: false,
     submenu: [
       {
-        id: 51,
+        id: 61,
         title: "200-Hour Teacher Training",
         newTab: false,
         path: "/200-hour-teacher-training",
       },
       {
-        id: 52,
+        id: 62,
         title: "300-Hour Teacher Training",
         newTab: false,
         path: "/300-hour-teacher-training",
@@ -59,23 +65,65 @@ const menuData: Menu[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Retreats",
     newTab: false,
     path: "/retreats",
   },
   {
-    id: 7,
-    title: "Teachers",
-    newTab: false,
-    path: "/teachers",
-  },
-  {
     id: 8,
-    title: "About",
+    title: "About Us",
     newTab: false,
-    path: "/about"
-  }
+    submenu: [
+      {
+        id: 81,
+        title: "About",
+        newTab: false,
+        path: "/about",
+      },
+      {
+        id: 82,
+        title: "Teachers",
+        newTab: false,
+        path: "/teachers",
+      },
+      {
+        id: 9,
+        title: "FAQs",
+        newTab: false,
+        path: "/new-students#faq",
+        hidden: true,
+      },
+      {
+        id: 10,
+        title: "Gift Cards",
+        newTab: false,
+        path: "/gift-cards",
+        hidden: true,
+      },
+      {
+        id: 11,
+        title: "Blog",
+        newTab: false,
+        path: "/blog",
+        hidden: true,
+      },
+      {
+        id: 12,
+        title: "Privacy Policy",
+        newTab: false,
+        path: "/privacy-policy",
+        hidden: true,
+      },
+      {
+        id: 13,
+        title: "Terms and Conditions",
+        newTab: false,
+        path: "/terms",
+        hidden: true,
+      },
+    ],
+  },
 ];
 
 export default menuData;

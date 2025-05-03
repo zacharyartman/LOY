@@ -3,29 +3,32 @@ import { Metadata } from "next";
 import Offers from "@/components/LearnMoreOffers";
 
 export const metadata: Metadata = {
-  title: "Learn More - Las Olas Yoga",
-  description: "Explore Las Olas Yoga's offerings for new students, class schedules, teacher trainings, retreats, and more. Discover what to expect, sign up for workshops, and download our app. Check out reviews and gift card options to enhance your yoga journey",
+  title: "Learn More | Best Yoga Classes | Fort Lauderdale",
+  description:
+    "Explore Las Olas Yoga's offerings for new students, class schedules, teacher trainings, retreats, and more. Discover what to expect, sign up for workshops, and download our app. Check out reviews and gift card options to enhance your yoga journey",
   // other metadata
 };
 
 const LearnMorePage = () => {
   return (
     <div className="mb-10">
-      <section className="relative overflow-hidden h-[450px] mt-25 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="relative mt-25 h-[450px] overflow-hidden md:pt-40 xl:pb-25 xl:pt-46">
         <div className="absolute inset-0 bg-[url('/images/hero/hero-yoga-near-me.jpeg')] bg-cover bg-center"></div>
         <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-midbrown to-transparent">
-          <div className="relative z-10 flex justify-center items-end h-full pb-5">
-            <h1 className="font-bold text-sectiontitle2 text-primary dark:text-white xl:text-hero text-center">
+          <div className="relative z-10 flex h-full items-end justify-center pb-5">
+            <h1 className="text-center text-sectiontitle2 font-bold text-primary dark:text-white xl:text-hero">
               Las Olas Yoga
             </h1>
           </div>
-
         </div>
       </section>
-      <section className="h-auto pb-20 md:pb-30 bg-midbrown relative">
-        <ul className="flex justify-center items-center gap-3">
+      <section className="relative h-auto bg-midbrown pb-20 md:pb-30">
+        <ul className="flex items-center justify-center gap-3">
           <li>
-            <a href="https://www.facebook.com/lasolasyoga" aria-label="facebook icon">
+            <a
+              href="https://www.facebook.com/lasolasyoga"
+              aria-label="facebook icon"
+            >
               <svg
                 className="fill-primary transition-all duration-300 hover:fill-primary"
                 width="24"
@@ -49,15 +52,19 @@ const LearnMorePage = () => {
             </a>
           </li>
           <li>
-                    <a href="https://instagram.com/lasolasyogastudio" aria-label="Instagram icon" title="Instagram">
-                      <img
-                        src="/images/general/instagram.svg"
-                        alt="Instagram icon"
-                        className="fill-primary transition-all duration-300 hover:fill-primary"
-                        width="24"
-                        height="24"
-                      />
-                    </a>
+            <a
+              href="https://instagram.com/lasolasyogastudio"
+              aria-label="Instagram icon"
+              title="Instagram"
+            >
+              <img
+                src="/images/general/instagram.svg"
+                alt="Instagram icon"
+                className="fill-primary transition-all duration-300 hover:fill-primary"
+                width="24"
+                height="24"
+              />
+            </a>
           </li>
         </ul>
 

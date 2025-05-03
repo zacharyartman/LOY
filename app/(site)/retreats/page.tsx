@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {
-  title: "Retreats - Las Olas Yoga",
+  title: "Retreats | Yoga Classes | Fort Lauderdale",
   description: "Join Las Olas Yoga's transformative retreat in Sedona.",
 };
 
