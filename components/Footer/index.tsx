@@ -159,7 +159,7 @@ const Footer = () => {
                     Quick Links
                   </h4>
 
-                  <ul className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                  <ul className="grid grid-cols-1 gap-2 md:grid-cols-2">
                     {menuData.map((menuItem) =>
                       menuItem.submenu ? (
                         menuItem.submenu.map((subMenuItem) => (
@@ -183,7 +183,14 @@ const Footer = () => {
                         </li>
                       ),
                     )}
-
+                    <li>
+                      <a
+                        href="/gift-cards"
+                        className="inline-block hover:text-primary md:mr-5"
+                      >
+                        FAQs
+                      </a>
+                    </li>
                     <li>
                       <a
                         href="/gift-cards"
