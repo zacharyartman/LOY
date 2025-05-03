@@ -51,6 +51,11 @@ const faqData: FAQ[] = [
     quest: "What memberships are available after my trial?",
     ans: "Memberships are the most affordable way to continue your practice with us. We offer unlimited memberships for those that practice at least twice a week. The unlimited memberships also come with unlimited first-time, local guest passes and 10% off retail and workshops. There is also a limited 4 times/month membership for those that practice once a week. You can freeze your membership for a minimum of 2 weeks at a time. Our memberships are auto-debited but there's no minimum commitment, so you can cancel anytime.",
   },
+  {
+    id: 11,
+    quest: "Do you offer the first class free?",
+    ans: "We don't offer a free class because we believe one class isn't enough to truly experience the heart of our studio. Our intro special gives new students time to explore different classes, connect with our teachers, and feel the full vibe of our community.",
+  },
 ];
 
 export default faqData;
