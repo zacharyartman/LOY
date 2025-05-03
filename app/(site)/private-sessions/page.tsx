@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import Details from "@/components/Details";
 
 export const metadata: Metadata = {
-  title: "Private Sessions - Las Olas Yoga",
+  title: "Private Sessions | Yoga Classes | Fort Lauderdale",
   description: "Private yoga sessions are a great way to get personalized attention and focus on your goals. Whether you're a beginner or an advanced practitioner, we can tailor a session to meet your needs.",
   // other metadata
 };

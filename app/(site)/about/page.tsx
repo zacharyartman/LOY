@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About - Las Olas Yoga",
+  title: "Our Studio | Best Yoga Classes | Fort Lauderdale",
   description: "Our mission is to provide a place of wellness, healing and self-discovery through movement, mindfulness & community. We are located in Ft Lauderdale on Las Olas Blvd.",
   // other metadata
 };

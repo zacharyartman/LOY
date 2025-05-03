@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import Classes from "@/components/Classes";
 
 export const metadata: Metadata = {
-  title: "Classes - Las Olas Yoga",
+  title: "Class Types | Yoga Classes for All Levels | Fort Lauderdale",
   description: "We have classes for all levels: Foundations (beginners), Slow Flow (Flow at a slower pace), Flow (challenging practice) & Restore (calm, relaxing experience).",
   // other metadata
 };

@@ -66,15 +66,22 @@ const menuData: Menu[] = [
   },
   {
     id: 7,
-    title: "Teachers",
+    title: "About Us",
     newTab: false,
-    path: "/teachers",
-  },
-  {
-    id: 8,
-    title: "About",
-    newTab: false,
-    path: "/about"
+    submenu: [
+      {
+        id: 71,
+        title: "About",
+        newTab: false,
+        path: "/about"
+      },
+      {
+        id: 72,
+        title: "Teachers",
+        newTab: false,
+        path: "/teachers"
+      },
+    ]
   }
 ];
 

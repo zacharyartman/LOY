@@ -9,7 +9,7 @@ import MomenceSchedule from "@/components/MomenceSchedule";
 import Popup from "@/components/Popup";
 
 export const metadata: Metadata = {
-  title: "Las Olas Yoga - Fort Lauderdale Yoga Studio",
+  title: "Downtown Fort Lauderdale Yoga Studio | Non-Heated Yoga Classes | Las Olas Yoga",
   description: "Fort Lauderdale non-heated yoga studio on Las Olas offering classes seven days a week for all levels. Classes include Foundations, Slow Flow, Flow & Restore.",
   // other metadata
 };

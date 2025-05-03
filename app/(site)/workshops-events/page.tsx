@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import MomenceSchedule from "@/components/MomenceSchedule";
 
 export const metadata: Metadata = {
-  title: "Workshops & Events - Las Olas Yoga",
+  title: "Workshops | Yoga Classes | Fort Lauderdale",
   description: "An overview of our upcoming yoga workshops and events at Las Olas Yoga in Fort Lauderdale. Founding members receive discounts on all events.",
   // other metadata
 };

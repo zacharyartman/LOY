@@ -4,7 +4,7 @@ import NewPageHero from "@/components/NewPageHero";
 import MomenceSchedule from "@/components/MomenceSchedule";
 
 export const metadata: Metadata = {
-  title: "Class Schedule - Las Olas Yoga",
+  title: "Schedule | Best Yoga Classes | Fort Lauderdale",
   description: "Weekly schedule of our yoga classes and workshops. We have classes 7 days a week for all levels with weekday morning & evening classes and weekend morning classes.",
   // other metadata
 };
