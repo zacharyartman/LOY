@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
-
+import menuData from "../Header/menuData";
 const Footer = () => {
   return (
     <>
@@ -39,11 +39,18 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  We are located in the heart of downtown Fort Lauderdale on Las Olas Boulevard on the corner of Las Olas and 13th Street on the 2nd floor.</p>
+                  We are located in the heart of downtown Fort Lauderdale on Las
+                  Olas Boulevard on the corner of Las Olas and 13th Street on
+                  the 2nd floor.
+                </p>
 
                 <ul className="flex items-center gap-5">
                   <li>
-                    <a href="https://www.facebook.com/lasolasyoga" aria-label="facebook icon" title="Facebook">
+                    <a
+                      href="https://www.facebook.com/lasolasyoga"
+                      aria-label="facebook icon"
+                      title="Facebook"
+                    >
                       <svg
                         className="fill-primary transition-all duration-300 hover:fill-primary"
                         width="24"
@@ -67,7 +74,11 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com/lasolasyogastudio" aria-label="Instagram icon" title="Instagram">
+                    <a
+                      href="https://instagram.com/lasolasyogastudio"
+                      aria-label="Instagram icon"
+                      title="Instagram"
+                    >
                       <img
                         src="/images/general/instagram.svg"
                         alt="Instagram icon"
@@ -78,7 +89,11 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.tiktok.com/@lasolasyogastudio" aria-label="TikTok icon" title="TikTok">
+                    <a
+                      href="https://www.tiktok.com/@lasolasyogastudio"
+                      aria-label="TikTok icon"
+                      title="TikTok"
+                    >
                       <img
                         src="/images/general/tiktok.svg"
                         alt="TikTok icon"
@@ -89,7 +104,11 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.yelp.com/biz/las-olas-yoga-fort-lauderdale-2" aria-label="yelp icon" title="Yelp">
+                    <a
+                      href="https://www.yelp.com/biz/las-olas-yoga-fort-lauderdale-2"
+                      aria-label="yelp icon"
+                      title="Yelp"
+                    >
                       <img
                         src="/images/general/yelp.svg"
                         alt="Yelp icon"
@@ -100,7 +119,11 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1300724,15z/data=!4m2!3m1!1s0x0:0x8d78f48f6f0f5e81?sa=X&ved=1t:2428&ictx=111" aria-label="google icon" title="Google">
+                    <a
+                      href="https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1300724,15z/data=!4m2!3m1!1s0x0:0x8d78f48f6f0f5e81?sa=X&ved=1t:2428&ictx=111"
+                      aria-label="google icon"
+                      title="Google"
+                    >
                       <img
                         src="/images/general/google.svg"
                         alt="google icon"
@@ -111,7 +134,6 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
@@ -137,19 +159,35 @@ const Footer = () => {
                     Quick Links
                   </h4>
 
-                  <ul>
-                  <li>
-                      <a
-                        href="/new-students"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        New Clients
-                      </a>
-                    </li>
+                  <ul className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                    {menuData.map((menuItem) =>
+                      menuItem.submenu ? (
+                        menuItem.submenu.map((subMenuItem) => (
+                          <li key={subMenuItem.path}>
+                            <a
+                              href={subMenuItem.path}
+                              className="inline-block hover:text-primary md:mr-5"
+                            >
+                              {subMenuItem.title}
+                            </a>
+                          </li>
+                        ))
+                      ) : (
+                        <li key={menuItem.path}>
+                          <a
+                            href={menuItem.path}
+                            className="inline-block hover:text-primary"
+                          >
+                            {menuItem.title}
+                          </a>
+                        </li>
+                      ),
+                    )}
+
                     <li>
                       <a
                         href="/gift-cards"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="inline-block hover:text-primary md:mr-5"
                       >
                         Gift Cards
                       </a>
@@ -157,7 +195,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/blog"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="inline-block hover:text-primary md:mr-5"
                       >
                         Blog
                       </a>
@@ -165,7 +203,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/privacy-policy"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="inline-block hover:text-primary md:mr-5"
                       >
                         Privacy Policy
                       </a>
@@ -173,7 +211,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/terms"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="inline-block hover:text-primary md:mr-5"
                       >
                         Terms and Conditions
                       </a>
@@ -231,7 +269,6 @@ const Footer = () => {
                     </li>
                   </ul>
                 </motion.div>
-
               </div>
             </div>
           </div>
@@ -258,11 +295,13 @@ const Footer = () => {
               className="animate_top text-center"
             >
               <p>
-                &copy; {new Date().getFullYear()} Las Olas Yoga Studio. All rights reserved
+                &copy; {new Date().getFullYear()} Las Olas Yoga Studio. All
+                rights reserved
               </p>
-              <a href="https://www.zacharyartman.com">Website by <span className="text-primary">Zachary Artman</span></a>
+              <a href="https://www.zacharyartman.com">
+                Website by <span className="text-primary">Zachary Artman</span>
+              </a>
             </motion.div>
-
           </div>
           {/* <!-- Footer Bottom --> */}
         </div>
