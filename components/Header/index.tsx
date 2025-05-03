@@ -129,7 +129,12 @@ const Header = () => {
                         >
                           {menuItem.submenu.map((item, key) => (
                             <li key={key} className="hover:text-primary">
-                              <a href={item.path || "#"}>{item.title}</a>
+                              <a
+                                href={item.path || "#"}
+                                className="block w-full"
+                              >
+                                {item.title}
+                              </a>
                             </li>
                           ))}
                         </ul>
