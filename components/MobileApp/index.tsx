@@ -23,18 +23,18 @@ const MobileApp = () => {
             whileInView="visible"
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
-            className="flex justify-between flex-col md:flex-row items-left md:items-center mx-auto mb-0 text-left px-7.5 py-12.5 md:px-12.5 xl:px-17.5 xl:py-0"
+            className="items-left mx-auto mb-0 flex flex-col justify-between px-7.5 py-12.5 text-left md:flex-row md:items-center md:px-12.5 xl:px-17.5 xl:py-0"
           >
             <div>
-              <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+              <h2 className="mb-4 text-3xl font-bold text-black xl:text-sectiontitle3">
                 Download our app.
               </h2>
-              <p className="lg:w-11/12">
-                Book classes on the go!
-              </p>
+              <p className="lg:w-11/12">Book classes on the go!</p>
               <div className="mt-10 flex space-x-4">
-                <a className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200"
-                href="https://apps.apple.com/us/app/momence/id1577856009">
+                <a
+                  className="flex items-center overflow-hidden rounded-full border-2 border-black transition-all duration-200 hover:opacity-50"
+                  href="https://apps.apple.com/us/app/momence/id1577856009"
+                >
                   <Image
                     width={1090 / 7}
                     height={327 / 7}
@@ -42,8 +42,10 @@ const MobileApp = () => {
                     alt="Las Olas Yoga mobile iPhone app logo for booking classes and managing your yoga schedule"
                   />
                 </a>
-                <a className="border-2 border-black flex items-center rounded-full overflow-hidden hover:opacity-50 transition-all duration-200"
-                href="https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US">
+                <a
+                  className="flex items-center overflow-hidden rounded-full border-2 border-black transition-all duration-200 hover:opacity-50"
+                  href="https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US"
+                >
                   <Image
                     width={1089 / 7}
                     height={330 / 7}

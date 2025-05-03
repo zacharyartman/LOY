@@ -6,18 +6,21 @@ const SingleOffer = ({ offer }: { offer: OfferItem }) => {
 
   return (
     <>
-
       <a
         href={href}
-        className={`w-full z-40 rounded-lg border border-none bg-lightestbrown shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark`}>
-        <div className="p-5.5 w-full">
-          <p className={`text-primary text-center text-regular md:text-metatitle3 ${price ? "mb-1" : ""} line-clamp-2`}>
+        className={`z-40 w-full rounded-lg border border-none bg-lightestbrown shadow-solid-3 transition-all hover:shadow-solid-4`}
+      >
+        <div className="w-full p-5.5">
+          <p
+            className={`text-center text-regular text-primary md:text-metatitle3 ${price ? "mb-1" : ""} line-clamp-2`}
+          >
             {name}
           </p>
-          {
-            price && <p className="text-primaryho text-center text-sectiontitle md:text-regular ">{price}</p>
-          }
-
+          {price && (
+            <p className="text-center text-sectiontitle text-primaryho md:text-regular ">
+              {price}
+            </p>
+          )}
         </div>
       </a>
     </>

@@ -22,7 +22,6 @@ const FAQ = () => {
               layout="fill"
               src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
-              className="dark:hidden"
             />
           </div>
           <div className="flex flex-col gap-8 md:flex-nowrap md:items-center">
@@ -44,7 +43,7 @@ const FAQ = () => {
               viewport={{ once: true }}
               className="animate_left w-full"
             >
-              <h2 className="mx-5 mb-2 text-center text-2xl font-semibold text-primaryho dark:text-white xl:text-sectiontitle4">
+              <h2 className="mx-5 mb-2 text-center text-2xl font-semibold text-primaryho xl:text-sectiontitle4">
                 Frequently Asked Questions
               </h2>
             </motion.div>
@@ -67,7 +66,7 @@ const FAQ = () => {
               viewport={{ once: true }}
               className="animate_right w-full"
             >
-              <div className="rounded-lg bg-midbrown shadow-solid-8 dark:border dark:border-strokedark dark:bg-blacksection">
+              <div className="rounded-lg bg-midbrown shadow-solid-8">
                 {faqData.map((faq, key) => (
                   <FAQItem
                     key={key}

@@ -23,18 +23,22 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
       whileInView="visible"
       transition={{ duration: 1, delay: 0.1 }}
       viewport={{ once: true }}
-      className="animate_top">
-
-      <div className="rounded-lg bg-white pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
-        <div className="px-12 py-5 flex justify-center">
-          <Image src={image} className="rounded-full" width={175} height={175} alt="yoga teacher near me" />
+      className="animate_top"
+    >
+      <div className="rounded-lg bg-white pt-7.5 shadow-solid-9">
+        <div className="flex justify-center px-12 py-5">
+          <Image
+            src={image}
+            className="rounded-full"
+            width={175}
+            height={175}
+            alt="yoga teacher near me"
+          />
         </div>
         <div className="px-10">
-          <div className="mb-5 text-center border-b border-stroke dark:border-strokedark">
+          <div className="mb-5 border-b border-stroke text-center">
             <div>
-              <h2 className="mb-1.5 text-2xl text-black dark:text-white">
-                {name}
-              </h2>
+              <h2 className="mb-1.5 text-2xl text-black">{name}</h2>
               <motion.div
                 initial={{ height: "8rem" }}
                 animate={{ height: showFullContent ? "auto" : "8rem" }}
@@ -42,11 +46,12 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
                 className="relative overflow-hidden"
               >
                 <strong className="pb-3">
-                  {designation}{designation && <br />}
+                  {designation}
+                  {designation && <br />}
                 </strong>
                 {content}
                 {!showFullContent && (
-                  <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-white to-transparent dark:from-blacksection" />
+                  <div className="absolute bottom-0 left-0 h-12 w-full bg-gradient-to-t from-white to-transparent" />
                 )}
               </motion.div>
               <button

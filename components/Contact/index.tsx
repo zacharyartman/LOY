@@ -12,7 +12,7 @@ interface Errors {
 export default function Contact() {
   const [result, setResult] = React.useState("");
   const [errors, setErrors] = React.useState<Errors>({});
-  const [resultColor, setResultColor] = React.useState("")
+  const [resultColor, setResultColor] = React.useState("");
 
   const validate = (name: string, email: string, message: string) => {
     const newErrors: Errors = {};
@@ -28,12 +28,14 @@ export default function Contact() {
   };
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setErrors((prevErrors) => ({
       ...prevErrors,
-      [name]: !value || (name === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)),
+      [name]:
+        !value ||
+        (name === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)),
     }));
   };
 
@@ -46,10 +48,12 @@ export default function Contact() {
     const message = formData.get("message") as string;
 
     if (!validate(name, email, message)) {
-      setResult("Please review all fields, as one or more appear to be invalid.");
-      setResultColor("red")
-      return
-    };
+      setResult(
+        "Please review all fields, as one or more appear to be invalid.",
+      );
+      setResultColor("red");
+      return;
+    }
 
     setResult("Sending....");
     setResultColor("grey");
@@ -64,37 +68,30 @@ export default function Contact() {
     const data = await response.json();
 
     if (data.success) {
-      setResultColor("darkgreen")
+      setResultColor("darkgreen");
       setResult("Thank you for your message! We'll be in touch shortly.");
       (event.target as HTMLFormElement).reset();
       setErrors({});
     } else {
       console.log("Error", data);
       setResult(data.message);
-      setResultColor("red")
+      setResultColor("red");
     }
   };
 
   return (
     <section id="support" className="px-4 md:px-8 2xl:px-0">
       <div className="relative mx-auto max-w-c-1390 px-7.5 py-10 lg:px-15 lg:py-15 xl:px-20 xl:py-20">
-        <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-lightestbrown dark:bg-gradient-to-t dark:to-[#252A42]"></div>
+        <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-lightestbrown"></div>
         <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
           <Image
             src="/./images/shape/shape-dotted-light.svg"
             alt="Dotted"
-            className="dark:hidden"
-            layout="fill"
-          />
-          <Image
-            src="/./images/shape/shape-dotted-dark.svg"
-            alt="Dotted"
-            className="hidden dark:block"
             layout="fill"
           />
         </div>
 
-        <div className="flex gap-8 flex-col md:flex-row md:justify-between xl:gap-20">
+        <div className="flex flex-col gap-8 md:flex-row md:justify-between xl:gap-20">
           <motion.div
             variants={{
               hidden: {
@@ -110,12 +107,12 @@ export default function Contact() {
             whileInView="visible"
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top w-full md:w-1/2 rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
+            className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 md:w-1/2 xl:p-15"
           >
-            <h2 className="text-3xl mb-2 font-semibold text-primaryho dark:text-white xl:text-sectiontitle2">
+            <h2 className="mb-2 text-3xl font-semibold text-primaryho xl:text-sectiontitle2">
               Contact Us
             </h2>
-            <h2 className="mb-15 text-metatitle3 xl:text-metatitle2 font-semibold text-black dark:text-white ">
+            <h2 className="mb-15 text-metatitle3 font-semibold text-black xl:text-metatitle2 ">
               Get in touch
             </h2>
 
@@ -128,7 +125,7 @@ export default function Contact() {
                   onChange={handleInputChange}
                   className={`w-full border-b pb-3.5 ${
                     errors.name ? "border-red-500" : "border-stroke"
-                  } bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2`}
+                  } bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none lg:w-1/2`}
                 />
 
                 <input
@@ -138,7 +135,7 @@ export default function Contact() {
                   onChange={handleInputChange}
                   className={`w-full border-b pb-3.5 ${
                     errors.email ? "border-red-500" : "border-stroke"
-                  } bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2`}
+                  } bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none lg:w-1/2`}
                 />
               </div>
 
@@ -150,7 +147,7 @@ export default function Contact() {
                   rows={4}
                   className={`w-full border-b ${
                     errors.message ? "border-red-500" : "border-stroke"
-                  } bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white`}
+                  } bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none`}
                 ></textarea>
               </div>
 
@@ -158,7 +155,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   aria-label="send message"
-                  className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-btndark"
+                  className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho"
                 >
                   Send Message
                   <svg
@@ -176,10 +173,18 @@ export default function Contact() {
                   </svg>
                 </button>
               </div>
-              <input type="hidden" name="subject" value="New Contact Form Submission - LOY" />
-              <input type="hidden" name="from_name" value="Las Olas Yoga Forms" />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Contact Form Submission - LOY"
+              />
+              <input
+                type="hidden"
+                name="from_name"
+                value="Las Olas Yoga Forms"
+              />
             </form>
-            <span style={{color: resultColor}}>{result}</span>
+            <span style={{ color: resultColor }}>{result}</span>
           </motion.div>
 
           <motion.div

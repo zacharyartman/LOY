@@ -27,7 +27,7 @@ const Pricing = ({ sectionHeader }) => {
         )}
 
         <h3
-          className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} dark:text-white xl:text-sectiontitle3`}
+          className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} xl:text-sectiontitle3`}
         >
           ${price}{" "}
           <span
@@ -111,7 +111,6 @@ const Pricing = ({ sectionHeader }) => {
               layout="fill"
               src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
-              className="dark:hidden"
             />
           </div>
           <div className="grid justify-center gap-7.5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-12.5">

@@ -20,7 +20,6 @@ module.exports = {
         transparent: "transparent",
         stroke: "#EEEEEE",
         strokedark: "#2D2F40",
-        hoverdark: "#252A42",
         titlebg: "#ADFFF8",
         titlebg2: "#FFEAC2",
         titlebgdark: "#46495A",
@@ -38,7 +37,7 @@ module.exports = {
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
         lightestbrown: "#ede8df",
-        midbrown: "#efe5da"
+        midbrown: "#efe5da",
       },
       fontSize: {
         metatitle: ["12px", "20px"],

@@ -5,7 +5,7 @@ import menuData from "../Header/menuData";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-lightestbrown dark:border-strokedark dark:bg-blacksection">
+      <footer className="border-t border-stroke bg-lightestbrown">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-10">
@@ -34,7 +34,6 @@ const Footer = () => {
                     height={238 / 2}
                     src="/images/logo/las-olas-yoga-near-me.webp"
                     alt="Logo"
-                    className="dark:hidden"
                   />
                 </a>
 
@@ -155,7 +154,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                  <h4 className="mb-9 text-itemtitle2 font-medium text-black">
                     Quick Links
                   </h4>
 
@@ -204,7 +203,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                  <h4 className="mb-9 text-itemtitle2 font-medium text-black">
                     Contact Us
                   </h4>
 
@@ -242,7 +241,7 @@ const Footer = () => {
           {/* <!-- Footer Top --> */}
 
           {/* <!-- Footer Bottom --> */}
-          <div className="flex justify-center gap-5 border-t border-stroke py-4 dark:border-strokedark lg:gap-0">
+          <div className="flex justify-center gap-5 border-t border-stroke py-4 lg:gap-0">
             <motion.div
               variants={{
                 hidden: {

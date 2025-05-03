@@ -19,15 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`dark:bg-black ${inter.className}`}>
-          <Head />
-          <Header />
-          <ToasterContext />
-          {children}
-          <Contact />
-          <Footer />
-          <ScrollToTop />
-          <MomenceChat />
+      <body className={`${inter.className}`}>
+        <Head />
+        <Header />
+        <ToasterContext />
+        {children}
+        <Contact />
+        <Footer />
+        <ScrollToTop />
+        <MomenceChat />
       </body>
     </html>
   );

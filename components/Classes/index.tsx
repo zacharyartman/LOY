@@ -14,7 +14,7 @@ const Classes = ({ title }) => {
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {title && (
             <div className="flex justify-center">
-              <h2 className="mx-auto text-2xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+              <h2 className="mx-auto text-2xl font-bold text-black xl:text-sectiontitle2">
                 Our Classes
               </h2>
             </div>

@@ -16,7 +16,7 @@ const LearnMorePage = () => {
         <div className="absolute inset-0 bg-[url('/images/hero/hero-yoga-near-me.jpeg')] bg-cover bg-center"></div>
         <div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-t from-midbrown to-transparent">
           <div className="relative z-10 flex h-full items-end justify-center pb-5">
-            <h1 className="text-center text-sectiontitle2 font-bold text-primary dark:text-white xl:text-hero">
+            <h1 className="text-center text-sectiontitle2 font-bold text-primary xl:text-hero">
               Las Olas Yoga
             </h1>
           </div>
