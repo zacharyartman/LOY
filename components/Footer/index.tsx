@@ -176,53 +176,13 @@ const Footer = () => {
                         <li key={menuItem.path}>
                           <a
                             href={menuItem.path}
-                            className="inline-block hover:text-primary"
+                            className="inline-block hover:text-primary md:mr-5"
                           >
                             {menuItem.title}
                           </a>
                         </li>
                       ),
                     )}
-                    <li>
-                      <a
-                        href="/gift-cards"
-                        className="inline-block hover:text-primary md:mr-5"
-                      >
-                        FAQs
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/gift-cards"
-                        className="inline-block hover:text-primary md:mr-5"
-                      >
-                        Gift Cards
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/blog"
-                        className="inline-block hover:text-primary md:mr-5"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/privacy-policy"
-                        className="inline-block hover:text-primary md:mr-5"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/terms"
-                        className="inline-block hover:text-primary md:mr-5"
-                      >
-                        Terms and Conditions
-                      </a>
-                    </li>
                   </ul>
                 </motion.div>
 
