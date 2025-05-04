@@ -428,7 +428,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: "what-type-of-yoga-class-is-right-for-you",
-    mainImage: "/images/general/yoga-classes-near-me.webp",
+    mainImage: "/images/blog/blog-16.webp",
     title: "What Type of Yoga Class Is Right for You?",
     metadata: `<p><strong>What Type of Yoga Class Is Right for You? 🧘‍♀️ Take the Quiz to Find Your Flow</strong></p>
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
