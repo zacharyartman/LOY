@@ -56,6 +56,11 @@ const faqData: FAQ[] = [
     quest: "Do you offer the first class free?",
     ans: "We don't offer a free class because we believe one class isn't enough to truly experience the heart of our studio. Our intro special gives new students time to explore different classes, connect with our teachers, and feel the full vibe of our community.",
   },
+  {
+    id: 12,
+    quest: "Do you offer hot yoga?",
+    ans: "No, all of our classes are taught in a non-heated room. We’re not a heated studio because we believe yoga should be accessible, safe, and supportive for all bodies. Practicing in a non-heated space allows you to build internal heat naturally, stay connected to your breath, and move with more awareness and ease.",
+  },
 ];
 
 export default faqData;
