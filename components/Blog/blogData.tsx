@@ -431,9 +431,8 @@ const BlogData: Blog[] = [
     mainImage: "/images/general/yoga-classes-near-me.webp",
     title: "What Type of Yoga Class Is Right for You?",
     metadata: `<p><strong>What Type of Yoga Class Is Right for You? 🧘‍♀️ Take the Quiz to Find Your Flow</strong></p>
-
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 <p><strong>🌟 Answer These 5 Questions:</strong></p>
-
 <p><strong>1. How do you want to feel after class?</strong><br />
 A) Grounded and more confident in the basics<br />
 B) Energized and challenged<br />
@@ -463,7 +462,7 @@ A) Light movement with lots of guidance<br />
 B) A steady flow to get into the zone<br />
 C) Mindful movement with longer holds<br />
 D) Minimal movement and full rest</p>
-
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 <p><strong>🌿 Your Results:</strong></p>
 
 <p><strong>Mostly A's – Try <em>Foundations</em></strong><br />
@@ -477,7 +476,7 @@ The sweet spot between Foundations and Flow. You'll still move through a sequenc
 
 <p><strong>Mostly D's – Try <em>Restore</em></strong><br />
 This deeply relaxing class uses props to support you in long-held, restful poses. It's the nervous system reset you didn't know you needed.</p>
-
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 <p><strong>🧘 Ready to Practice?</strong></p>
 
 <p>Explore our schedule <a href="/schedule" style="color: #8a6a4f; text-decoration: none;"><b>here</b></a>, and join us in the studio soon. All levels welcome.</p>`,
