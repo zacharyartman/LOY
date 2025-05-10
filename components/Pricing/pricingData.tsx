@@ -61,6 +61,26 @@ const pricingData: Price[] = [
     href: 'https://momence.com/m/136485',
     buttonText: 'Learn More'
   },
+  {
+    id: 6,
+    title: "Summer Unlimited",
+    subtitle: "Unlimited classes Memorial Day through Labor Day",
+    price: 447,
+    perX: "",
+    popular: false,
+    href: 'https://momence.com/m/183811',
+    buttonText: 'Learn More'
+  },
+  {
+    id: 7,
+    title: "Six-Month Unlimited",
+    subtitle: "Unlimited classes for 6 months",
+    price: 850,
+    perX: "",
+    popular: false,
+    href: 'https://momence.com/m/141489',
+    buttonText: 'Learn More'
+  },
 ];
 
 export default pricingData;
