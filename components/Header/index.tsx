@@ -59,31 +59,26 @@ const Header = () => {
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
               <span className="absolute right-5.5 block h-full w-full">
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out ${
-                    !navigationOpen ? "!w-full delay-300" : "w-0"
-                  }`}
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out ${!navigationOpen ? "!w-full delay-300" : "w-0"
+                    }`}
                 ></span>
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-150 duration-200 ease-in-out ${
-                    !navigationOpen ? "delay-400 !w-full" : "w-0"
-                  }`}
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-150 duration-200 ease-in-out ${!navigationOpen ? "delay-400 !w-full" : "w-0"
+                    }`}
                 ></span>
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-200 duration-200 ease-in-out ${
-                    !navigationOpen ? "!w-full delay-500" : "w-0"
-                  }`}
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-200 duration-200 ease-in-out ${!navigationOpen ? "!w-full delay-500" : "w-0"
+                    }`}
                 ></span>
               </span>
               <span className="du-block absolute right-5.5 h-full w-full rotate-45">
                 <span
-                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out ${
-                    !navigationOpen ? "!h-0 delay-[0]" : "h-full"
-                  }`}
+                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out ${!navigationOpen ? "!h-0 delay-[0]" : "h-full"
+                    }`}
                 ></span>
                 <span
-                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out ${
-                    !navigationOpen ? "!h-0 delay-200" : "h-0.5"
-                  }`}
+                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out ${!navigationOpen ? "!h-0 delay-200" : "h-0.5"
+                    }`}
                 ></span>
               </span>
             </span>
@@ -93,9 +88,8 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`overflow-hidden transition-all duration-500 xl:overflow-visible ${
-            navigationOpen ? "navbar max-h-screen" : "max-h-0"
-          } w-full items-center justify-between xl:flex xl:max-h-full xl:w-full`}
+          className={`overflow-hidden transition-all duration-500 xl:overflow-visible ${navigationOpen ? "navbar max-h-screen" : "max-h-0"
+            } w-full items-center justify-between xl:flex xl:max-h-full xl:w-full`}
         >
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
@@ -142,11 +136,10 @@ const Header = () => {
                     ) : (
                       <a
                         href={`${menuItem.path}`}
-                        className={` w-full ${
-                          pathUrl === menuItem.path
+                        className={` w-full ${pathUrl === menuItem.path
                             ? "text-primary hover:text-primary"
                             : "hover:text-primary"
-                        }`}
+                          }`}
                       >
                         {menuItem.title}
                       </a>
@@ -158,9 +151,10 @@ const Header = () => {
           <div className="my-5 flex items-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0">
             <a
               href="/schedule"
-              className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200"
+              className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200 leading-tight"
             >
-              Class Schedule
+              <span>Class Schedule</span>
+              <span className="text-xs opacity-80">Book Classes</span>
             </a>
           </div>
         </div>
