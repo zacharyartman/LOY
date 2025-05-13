@@ -2,18 +2,25 @@ import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
 import Details from "@/components/Details";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "300-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
-  description: "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for hybrid partial remote 300-hour yoga teacher certifications",
+  description:
+    "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for hybrid partial remote 300-hour yoga teacher certifications",
   // other metadata
 };
 const ThreeHundredHour = () => {
   return (
-
     <>
-      <NewPageHero titleText={"Teacher Training"} link='/images/hero/hero-tt-yoga-near-me.webp'></NewPageHero>
-      <Details title={"Las Olas Yoga 300-Hour Hybrid Teacher Training"} dates={"September 13, 2025 - March 8, 2026"} teacher="Heather Artman"
+      <NewPageHero
+        titleText={"Teacher Training"}
+        link="/images/hero/hero-tt-yoga-near-me.webp"
+      ></NewPageHero>
+      <Details
+        title={"Las Olas Yoga 300-Hour Hybrid Teacher Training"}
+        dates={"September 13, 2025 - March 8, 2026"}
+        teacher="Heather Artman"
         text={`
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
 
@@ -92,31 +99,110 @@ or text us
 at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(954) 372-5275</b></a>.
 </p>
       `}
-        images={
-          [['/images/tt/yoga-teacher-training-fort-lauderdale-3.webp', 'Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga'],
-          ['/images/tt/yoga-teacher-training-fort-lauderdale-8.webp', 'Yoga students in a circle'],
-          ['/images/tt/yoga-teacher-training-fort-lauderdale-4.webp', 'Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga'],
-          ['/images/tt/yoga-teacher-training-fort-lauderdale-5.webp', 'Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga']]
-        }
+        images={[
+          [
+            "/images/tt/yoga-teacher-training-fort-lauderdale-3.webp",
+            "Yoga teacher conducting a hybrid online and in-person 300-hour teacher training at Las Olas Yoga",
+          ],
+          [
+            "/images/tt/yoga-teacher-training-fort-lauderdale-8.webp",
+            "Yoga students in a circle",
+          ],
+          [
+            "/images/tt/yoga-teacher-training-fort-lauderdale-4.webp",
+            "Yoga teacher assisting a student in a backbend during the 300-hour teacher training at Las Olas Yoga",
+          ],
+          [
+            "/images/tt/yoga-teacher-training-fort-lauderdale-5.webp",
+            "Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga",
+          ],
+        ]}
         buttonText={"Apply Now"}
         buttonLink={"https://forms.gle/t9kp1h7bR5MaVGdg8"}
         events={[
-          { date: [2025, 9, 13], title: "300 Hour TT Intro Session", start: [12, 0], end: [13, 30] },
-          { date: [2025, 10, 11], title: "300 Hour TT Oct 11", start: [12, 0], end: [17, 0] },
-          { date: [2025, 10, 12], title: "300 Hour TT Oct 12", start: [13, 30], end: [17, 30] },
-          { date: [2025, 11, 8], title: "300 Hour TT Nov 8", start: [12, 0], end: [17, 0] },
-          { date: [2025, 11, 9], title: "300 Hour TT Nov 9", start: [13, 30], end: [17, 30] },
-          { date: [2025, 12, 13], title: "300 Hour TT Dec 13", start: [12, 0], end: [17, 0] },
-          { date: [2025, 12, 14], title: "300 Hour TT Dec 14", start: [13, 30], end: [17, 30] },
-          { date: [2026, 1, 10], title: "300 Hour TT Jan 10", start: [12, 0], end: [17, 0] },
-          { date: [2026, 1, 11], title: "300 Hour TT Jan 11", start: [13, 30], end: [17, 30] },
-          { date: [2026, 2, 7], title: "300 Hour TT Feb 7", start: [12, 0], end: [17, 0] },
-          { date: [2026, 2, 8], title: "300 Hour TT Feb 8", start: [13, 30], end: [17, 30] },
-          { date: [2026, 3, 7], title: "300 Hour TT Mar 7", start: [12, 0], end: [17, 0] },
-          { date: [2026, 3, 8], title: "300 Hour TT Mar 8", start: [13, 30], end: [17, 30] },
+          {
+            date: [2025, 9, 13],
+            title: "300 Hour TT Intro Session",
+            start: [12, 0],
+            end: [13, 30],
+          },
+          {
+            date: [2025, 10, 11],
+            title: "300 Hour TT Oct 11",
+            start: [12, 0],
+            end: [17, 0],
+          },
+          {
+            date: [2025, 10, 12],
+            title: "300 Hour TT Oct 12",
+            start: [13, 30],
+            end: [17, 30],
+          },
+          {
+            date: [2025, 11, 8],
+            title: "300 Hour TT Nov 8",
+            start: [12, 0],
+            end: [17, 0],
+          },
+          {
+            date: [2025, 11, 9],
+            title: "300 Hour TT Nov 9",
+            start: [13, 30],
+            end: [17, 30],
+          },
+          {
+            date: [2025, 12, 13],
+            title: "300 Hour TT Dec 13",
+            start: [12, 0],
+            end: [17, 0],
+          },
+          {
+            date: [2025, 12, 14],
+            title: "300 Hour TT Dec 14",
+            start: [13, 30],
+            end: [17, 30],
+          },
+          {
+            date: [2026, 1, 10],
+            title: "300 Hour TT Jan 10",
+            start: [12, 0],
+            end: [17, 0],
+          },
+          {
+            date: [2026, 1, 11],
+            title: "300 Hour TT Jan 11",
+            start: [13, 30],
+            end: [17, 30],
+          },
+          {
+            date: [2026, 2, 7],
+            title: "300 Hour TT Feb 7",
+            start: [12, 0],
+            end: [17, 0],
+          },
+          {
+            date: [2026, 2, 8],
+            title: "300 Hour TT Feb 8",
+            start: [13, 30],
+            end: [17, 30],
+          },
+          {
+            date: [2026, 3, 7],
+            title: "300 Hour TT Mar 7",
+            start: [12, 0],
+            end: [17, 0],
+          },
+          {
+            date: [2026, 3, 8],
+            title: "300 Hour TT Mar 8",
+            start: [13, 30],
+            end: [17, 30],
+          },
         ]}
-
       />
+      <Script id="google-conversion" strategy="afterInteractive">
+        {`gtag('event', 'conversion', {'send_to': 'AW-591592888/Tv_oCMyoyeABELj7i5oC'});`}
+      </Script>
     </>
   );
 };
