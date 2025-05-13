@@ -29,26 +29,6 @@ export default function Head() {
       <meta name="theme-color" content="#ffffff" />
 
       <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-591592888"
-      ></script>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-39Y0SQQWM5"
-      ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-591592888');
-            gtag('config', 'G-39Y0SQQWM5');
-          `,
-        }}
-      />
-
-      <script
         dangerouslySetInnerHTML={{
           __html: `
             !function(f,b,e,v,n,t,s)
@@ -71,6 +51,7 @@ export default function Head() {
           width="1"
           style={{ display: "none" }}
           src="https://www.facebook.com/tr?id=527503170150662&ev=PageView&noscript=1"
+          alt=""
         />
       </noscript>
     </>

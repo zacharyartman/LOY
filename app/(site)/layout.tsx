@@ -11,6 +11,7 @@ import ToasterContext from "../context/ToastContext";
 import MomenceChat from "@/components/MomenceChat";
 import Contact from "@/components/Contact";
 import Head from "./head";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function RootLayout({
   children,
@@ -29,6 +30,8 @@ export default function RootLayout({
         <ScrollToTop />
         <MomenceChat />
       </body>
+      <GoogleAnalytics gaId="AW-591592888"/>
+      <GoogleAnalytics gaId="G-39Y0SQQWM5"/>
     </html>
   );
 }

@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
 import Details from "@/components/Details";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "300-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
@@ -200,6 +201,7 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
           },
         ]}
       />
+      <GoogleAnalytics gaId="AW-591592888"/>
       <Script id="google-conversion" strategy="afterInteractive">
         {`gtag('event', 'conversion', {'send_to': 'AW-591592888/Tv_oCMyoyeABELj7i5oC'});`}
       </Script>
