@@ -27,7 +27,7 @@ function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
         scheduleDiv.removeChild(scheduleScript);
       }
     };
-  }, []);
+  }, [liteMode, sessionType]);
 
   return (
     <>
