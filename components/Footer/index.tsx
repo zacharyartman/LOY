@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
 import menuData from "../Header/menuData";
+import Link from "next/link";
 const Footer = () => {
   return (
     <>
@@ -28,14 +29,14 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-full md:w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <Link href="/" className="relative">
                   <Image
                     width={300 / 2}
                     height={238 / 2}
                     src="/images/logo/las-olas-yoga-near-me.webp"
                     alt="Logo"
                   />
-                </a>
+                </Link>
 
                 <p className="mb-10 mt-5">
                   We are located in the heart of downtown Fort Lauderdale on Las

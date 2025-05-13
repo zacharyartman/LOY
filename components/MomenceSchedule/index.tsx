@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect } from "react";
 
 function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
@@ -48,12 +49,12 @@ function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
       {!fullSchedule && (
         <div className="flex justify-center">
           <div className="mb-15 mt-7 flex items-center gap-2 xl:mt-0">
-            <a
+            <Link
               href="/schedule"
               className="mt-5 flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-200 hover:bg-primaryho"
             >
               View Full Schedule
-            </a>
+            </Link>
           </div>
         </div>
       )}

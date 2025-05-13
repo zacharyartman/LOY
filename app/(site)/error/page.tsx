@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/legacy/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Error Page - Las Olas Yoga",
@@ -27,7 +28,7 @@ const ErroPage = () => {
           does not exist.
         </p>
 
-        <a
+        <Link
           href="/"
           className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho"
         >
@@ -45,7 +46,7 @@ const ErroPage = () => {
               fill=""
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </section>
   );

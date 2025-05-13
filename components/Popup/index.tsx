@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Cookies from "js-cookie";
 
 export default function Popup() {

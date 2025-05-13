@@ -1,4 +1,5 @@
 import Image from "next/legacy/image";
+import Link from "next/link";
 
 const Error = () => {
   return (
@@ -20,7 +21,7 @@ const Error = () => {
           does not exist.
         </p>
 
-        <a
+        <Link
           href="/"
           className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho"
         >
@@ -39,7 +40,7 @@ const Error = () => {
             />
           </svg>
           Return to Home
-        </a>
+        </Link>
       </div>
     </section>
   );

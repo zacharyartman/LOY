@@ -1,5 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions - Las Olas Yoga",
@@ -36,9 +37,9 @@ const PrivacyPolicyPage = () => {
               <strong>Your Acceptance of Our Privacy Policy</strong>
               <br />
               By agreeing to these Terms of Use, you agree to the terms of our{" "}
-              <a href="/privacy-policy">
+              <Link href="/privacy-policy">
                 <strong>Privacy Policy</strong>
-              </a>
+              </Link>
               , which is expressly incorporated herein. Before using this Site,
               please carefully review our Privacy Policy. All personal
               information provided to us as a result of your use of this Site

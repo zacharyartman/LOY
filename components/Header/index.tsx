@@ -3,6 +3,7 @@ import Image from "next/legacy/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
+import Link from "next/link";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -40,7 +41,7 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/images/logo/las-olas-yoga-near-me.webp"
               alt="logo"
@@ -48,7 +49,7 @@ const Header = () => {
               height={Math.round(110 * (203 / 256))}
               className="w-full"
             />
-          </a>
+          </Link>
 
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
@@ -123,18 +124,18 @@ const Header = () => {
                         >
                           {menuItem.submenu.map((item, key) => (
                             <li key={key} className="hover:text-primary">
-                              <a
+                              <Link
                                 href={item.path || "#"}
                                 className="block w-full"
                               >
                                 {item.title}
-                              </a>
+                              </Link>
                             </li>
                           ))}
                         </ul>
                       </>
                     ) : (
-                      <a
+                      <Link
                         href={`${menuItem.path}`}
                         className={` w-full ${pathUrl === menuItem.path
                             ? "text-primary hover:text-primary"
@@ -142,20 +143,20 @@ const Header = () => {
                           }`}
                       >
                         {menuItem.title}
-                      </a>
+                      </Link>
                     )}
                   </li>
                 ))}
             </ul>
           </nav>
           <div className="my-5 flex items-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0">
-            <a
+            <Link
               href="/schedule"
               className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200 leading-tight"
             >
               <span>Class Schedule</span>
               <span className="text-xs opacity-80">Book Classes</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

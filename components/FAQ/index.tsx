@@ -22,6 +22,7 @@ const FAQ = () => {
               layout="fill"
               src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col gap-8 md:flex-nowrap md:items-center">

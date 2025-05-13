@@ -2,6 +2,7 @@ import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
 import MomenceSchedule from "@/components/MomenceSchedule";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Schedule | Best Yoga Classes | Fort Lauderdale",
@@ -18,12 +19,12 @@ const SchedulePage = () => {
         link="/images/hero/hero-schedule-yoga-near-me.webp"
       ></NewPageHero>
       <div className="flex items-center justify-center gap-2 pt-7 xl:mt-0">
-        <a
+        <Link
           href="/classes"
           className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-200 hover:bg-primaryho"
         >
           View Class Descriptions
-        </a>
+        </Link>
       </div>
       <MomenceSchedule
         title={false}

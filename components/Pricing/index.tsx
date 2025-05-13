@@ -3,6 +3,7 @@ import Image from "next/legacy/image";
 import SectionHeader from "../Common/SectionHeader";
 import pricingData from "./pricingData";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Pricing = ({ sectionHeader }) => {
   const PricingButton = ({
@@ -111,6 +112,7 @@ const Pricing = ({ sectionHeader }) => {
               layout="fill"
               src="/./images/shape/shape-dotted-light.svg"
               alt="Dotted"
+              loading="lazy"
             />
           </div>
           <div className="grid justify-center gap-7.5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-12.5">
@@ -134,12 +136,12 @@ const Pricing = ({ sectionHeader }) => {
           </p>
           <p className="mt-4 text-center xl:mt-0">
             View Monthly Membership Terms and Freeze Policy{" "}
-            <a
+            <Link
               href="/monthly-membership-policies"
               style={{ color: "#8a6a4f", textDecoration: "none" }}
             >
               <b>here</b>
-            </a>
+            </Link>
           </p>
         </div>
       </motion.section>
