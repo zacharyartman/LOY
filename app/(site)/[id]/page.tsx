@@ -5,11 +5,12 @@ import InlineArrowButton from "@/components/InlineArrowButton";
 import { Metadata } from "next";
 import Error from "@/components/Error";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { id: string };
-}): Promise<Metadata> {
+export async function generateMetadata(
+  props: {
+    params: Promise<{ id: string }>;
+  }
+): Promise<Metadata> {
+  const params = await props.params;
   const blog = BlogData.find((blog) => blog._id.toString() === params.id);
 
   if (!blog) {
@@ -31,7 +32,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function SingleBlogPage({ params }: { params: { id: string } }) {
+export default async function SingleBlogPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const blog = BlogData.find((blog) => blog._id.toString() === params.id);
 
   if (!blog) {
