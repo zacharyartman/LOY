@@ -3,6 +3,7 @@ import Image from "next/legacy/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
+import Link from "next/link";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -32,6 +33,10 @@ const Header = () => {
       ...prev,
       [id]: !prev[id],
     }));
+  };
+
+  const handleLinkClick = () => {
+    setNavigationOpen(false);
   };
 
   return (
@@ -123,26 +128,45 @@ const Header = () => {
                         >
                           {menuItem.submenu.map((item, key) => (
                             <li key={key} className="hover:text-primary">
-                              <a
+                              <Link
                                 href={item.path || "#"}
                                 className="block w-full"
+                                onClick={handleLinkClick}
                               >
                                 {item.title}
-                              </a>
+                              </Link>
                             </li>
                           ))}
                         </ul>
                       </>
                     ) : (
-                      <a
-                        href={`${menuItem.path}`}
-                        className={` w-full ${pathUrl === menuItem.path
-                            ? "text-primary hover:text-primary"
-                            : "hover:text-primary"
-                          }`}
-                      >
-                        {menuItem.title}
-                      </a>
+                      <>
+                        {["Home", "Workshops"].includes(menuItem.title) ? (
+                          <a
+                            href={`${menuItem.path}`}
+                            className={`w-full ${
+                              pathUrl === menuItem.path
+                                ? "text-primary hover:text-primary"
+                                : "hover:text-primary"
+                            }`}
+                            onClick={handleLinkClick}
+                          >
+                            {menuItem.title}
+                          </a>
+                        ) : (
+                          <Link
+                            href={`${menuItem.path}`}
+                            className={`w-full ${
+                              pathUrl === menuItem.path
+                                ? "text-primary hover:text-primary"
+                                : "hover:text-primary"
+                            }`}
+                            onClick={handleLinkClick}
+                          >
+                            {menuItem.title}
+                          </Link>
+                        )}
+                      </>
                     )}
                   </li>
                 ))}
@@ -152,6 +176,7 @@ const Header = () => {
             <a
               href="/schedule"
               className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200 leading-tight"
+              onClick={handleLinkClick}
             >
               <span>Class Schedule</span>
               <span className="text-xs opacity-80">Book Classes</span>
