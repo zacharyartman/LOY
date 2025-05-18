@@ -7,6 +7,7 @@ import CTA from "@/components/CTA";
 import React from "react";
 import MomenceSchedule from "@/components/MomenceSchedule";
 import Popup from "@/components/Popup";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Downtown Fort Lauderdale Yoga Studio | Non-Heated Yoga Classes | Las Olas Yoga",
@@ -23,9 +24,9 @@ export default function Home() {
       <div className="flex items-center justify-center bg-[#f8f4ef] py-3">
         <div className="max-w-4xl flex flex-row items-center gap-6 justify-center p-4 text-center">
           <h2 className="text-xl font-bold text-[#8a6a4f]">Sedona Retreat</h2>
-          <a className="px-6 py-2 bg-primary text-white rounded-full hover:bg-primaryho transition duration-200" href="/retreats">
+          <Link className="px-6 py-2 bg-primary text-white rounded-full hover:bg-primaryho transition duration-200" href="/retreats">
             Explore Now &rarr;
-          </a>
+          </Link>
         </div>
       </div>
       {/* Best Yoga Studio Section */}
