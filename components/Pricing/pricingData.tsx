@@ -9,7 +9,7 @@ const pricingData: Price[] = [
     perX: "",
     popular: true,
     href: 'https://momence.com/m/136483',
-    buttonText: 'Learn More'
+    buttonText: 'Start Your 3-Week Unlimited'
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const pricingData: Price[] = [
     perX: "/month",
     popular: true,
     href: 'https://momence.com/m/137236',
-    buttonText: 'Learn More'
+    buttonText: 'Join Unlimited Membership'
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const pricingData: Price[] = [
     perX: "/month",
     popular: false,
     href: 'https://momence.com/m/136480',
-    buttonText: 'Learn More'
+    buttonText: 'Choose Limited Membership'
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const pricingData: Price[] = [
     perX: "",
     popular: false,
     href: 'https://momence.com/m/136479',
-    buttonText: 'Learn More'
+    buttonText: 'Buy 10-Class Card'
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const pricingData: Price[] = [
     perX: "/year",
     popular: false,
     href: 'https://momence.com/m/136485',
-    buttonText: 'Learn More'
+    buttonText: 'Get Annual Membership'
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const pricingData: Price[] = [
     perX: "",
     popular: false,
     href: 'https://momence.com/m/183811',
-    buttonText: 'Learn More'
+    buttonText: 'Activate Summer Pass'
   },
   {
     id: 7,
@@ -79,7 +79,7 @@ const pricingData: Price[] = [
     perX: "",
     popular: false,
     href: 'https://momence.com/m/141489',
-    buttonText: 'Learn More'
+    buttonText: 'Get Six-Month Unlimited'
   },
 ];
 
