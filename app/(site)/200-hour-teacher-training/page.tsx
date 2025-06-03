@@ -56,8 +56,7 @@ const TwoHundredHourTTPage = () => {
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">What’s Included<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<span style="font-family: 'Apple Color Emoji';">✔️</span> 100 in-person hours<br>
-<span style="font-family: 'Apple Color Emoji';">✔️</span> 100 online hours<br>
+<span style="font-family: 'Apple Color Emoji';">✔️</span> 200-hour comprehensive curriculum<br>
 <span style="font-family: 'Apple Color Emoji';">✔️</span> Free unlimited studio membership during the training<br>
 <span style="font-family: 'Apple Color Emoji';">✔️</span> Comprehensive training manual<br>
 <span style="font-family: 'Apple Color Emoji';">✔️</span> 10% off retail and workshops<br>
