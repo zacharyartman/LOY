@@ -45,7 +45,7 @@ const Details = ({
 
     // Trigger download of the ICS file
     const blob = new Blob([icsData], { type: "text/calendar" });
-    saveAs(blob, "300_Hour_TT_Events.ics");
+    saveAs(blob, "TT_Events.ics");
   };
 
   const formatICSDate = (dateArray) => {
