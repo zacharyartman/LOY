@@ -42,12 +42,12 @@ export const offersData: Offer[] = [
         id: 3,
         title: "Teacher Trainings",
         items: [
-            {
-                id: 31,
-                name: "200-Hour Teacher Training",
-                price: "January 17 - April 12, 2026",
-                href: "/200-hour-teacher-training",
-            },
+            // {
+            //     id: 31,
+            //     name: "200-Hour Teacher Training",
+            //     price: "January 17 - April 12, 2026",
+            //     href: "/200-hour-teacher-training",
+            // },
             {
                 id: 32,
                 name: "300-Hour Teacher Training",
