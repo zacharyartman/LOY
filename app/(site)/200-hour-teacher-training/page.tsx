@@ -87,24 +87,28 @@ const TwoHundredHourTTPage = () => {
 <a href="mailto:heather@lasolas.yoga" style="color: #8a6a4f; text-decoration: none;"><b>heather@lasolas.yoga</b></a> 
 or text us 
 at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(954) 372-5275</b></a>.
-<br><br>
+<br>
+<br>
+<p style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; text-align: center;"><b>Meet the Teachers</b></p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0;">
+  <div style="text-align: center; width: 200px;">
+    <img src="/images/user/heather.webp" alt="Heather Artman" style="width: 175px; height: 175px; border-radius: 50%; object-fit: cover; margin: 0 auto;" />
+    <p><b>Heather Artman</b><br /></p>
+  </div>
+  <div style="text-align: center; width: 200px;">
+    <img src="/images/user/keely.webp" alt="Keely Hubbard" style="width: 175px; height: 175px; border-radius: 50%; object-fit: cover; margin: 0 auto;" />
+    <p><b>Keely Hubbard</b><br /></p>
+  </div>
+  <div style="text-align: center; width: 200px;">
+    <img src="/images/user/dafna.jpeg" alt="Dafna Zacharin" style="width: 175px; height: 175px; border-radius: 50%; object-fit: cover; margin: 0 auto;" />
+    <p><b>Dafna Zacharin</b><br /></p>
+  </div>
+</div>
       `}
         images={[
           [
             "/images/tt/yoga-teacher-training-fort-lauderdale-8.webp",
             "Yoga students in a circle",
-          ],
-          [
-            "/images/user/heather.webp",
-            "Heather Artman, yoga teacher and owner of Las Olas Yoga",
-          ],
-          [
-            "/images/user/keely.webp",
-            "Keely Hubbard, yoga teacher and studio manager of Las Olas Yoga",
-          ],
-          [
-            "/images/user/dafna.jpeg",
-            "Dafna Zacharin, yoga teacher at Las Olas Yoga",
           ],
         ]}
         buttonText={"Apply Now"}
