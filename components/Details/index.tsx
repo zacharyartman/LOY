@@ -184,7 +184,7 @@ const Details = ({
 
       {/* Teacher Bio Modal */}
       {selectedTeacher && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50 pt-20">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50 pt-30">
           <div className="relative mx-4 max-h-[80vh] max-w-2xl overflow-y-auto rounded-lg bg-white p-8">
             <button
               onClick={() => setSelectedTeacher(null)}
