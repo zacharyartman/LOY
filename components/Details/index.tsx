@@ -134,6 +134,9 @@ const Details = ({
                               className="mx-auto rounded-full object-cover"
                             />
                             <p className="mt-2 font-bold">{teacher.name}</p>
+                            <p className="mt-1 cursor-pointer text-sm text-primary hover:text-primaryho">
+                              View Bio
+                            </p>
                           </div>
                         </div>
                       );
