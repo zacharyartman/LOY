@@ -98,3 +98,7 @@ export const teachersData: Teacher[] = [
         content: "When Violeta began her yoga journey, she was captivated by the power of yoga and its ability to bring harmony to the mind, body, and spirit. A few years into her practice, she felt inspired to deepen her understanding and share the benefits of yoga with others. She completed her Yoga Teacher Training in Bali, where she embraced a teaching style rooted in gentleness and patience. In her classes you can find a calming and relaxed ambience that invites you to explore and connect with yourself."
     },
 ];
+
+export const teacherByName = Object.fromEntries(
+    teachersData.map(teacher => [teacher.name, teacher])
+  );
