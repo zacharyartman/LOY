@@ -83,7 +83,7 @@ const TwoHundredHourTTPage = () => {
 
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 📩 <b>Questions?</b> Reach out via email at 
-<a href="mailto:heather@lasolas.yoga" style="color: #8a6a4f; text-decoration: none;"><b>heather@lasolas.yoga</b></a> 
+<a href="mailto:info@lasolas.yoga" style="color: #8a6a4f; text-decoration: none;"><b>info@lasolas.yoga</b></a> 
 or text us 
 at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(954) 372-5275</b></a>.
 <br>
