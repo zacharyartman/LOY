@@ -45,7 +45,7 @@ export const offersData: Offer[] = [
             {
                 id: 31,
                 name: "200-Hour Teacher Training",
-                price: "Dates TBD",
+                price: "January 17 - April 12, 2026",
                 href: "/200-hour-teacher-training",
             },
             {
