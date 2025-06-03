@@ -69,7 +69,7 @@ const Details = ({
             className="text-md mx-5 mb-4 text-center font-semibold text-primary xl:text-metatitle2"
             dangerouslySetInnerHTML={{ __html: dates }}
           ></h3>
-          <div className="flex flex-col gap-8 md:flex-row md:justify-between xl:gap-20">
+          <div className={`flex flex-col gap-8 md:flex-row ${images.length === 0 ? 'md:justify-center' : 'md:justify-between'} xl:gap-20`}>
             <motion.div
               variants={{
                 hidden: { opacity: 0, x: -20 },
@@ -79,7 +79,7 @@ const Details = ({
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left w-full rounded-lg bg-white p-7.5 shadow-solid-8 md:w-[60%] xl:p-15"
+              className={`animate_left w-full rounded-lg bg-white p-7.5 shadow-solid-8 ${images.length === 0 ? 'md:w-[80%]' : 'md:w-[60%]'} xl:p-15`}
             >
               <div
                 className="blog-details"
@@ -106,36 +106,38 @@ const Details = ({
               </div>
             </motion.div>
 
-            <motion.div
-              variants={{
-                hidden: { opacity: 0, x: 20 },
-                visible: { opacity: 1, x: 0 },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 2, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_right w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
-            >
-              <div className="relative w-full">
-                <div className="flex flex-col space-y-4">
-                  {images.map((image, index) => (
-                    <div
-                      key={index}
-                      className={`relative ${verticalImages ? "aspect-[3/4]" : "aspect-[4/3]"} w-full`}
-                    >
-                      <Image
-                        src={image[0]}
-                        alt={image[1]}
-                        layout="fill"
-                        objectFit="cover"
-                        className="rounded-md"
-                      />
-                    </div>
-                  ))}
+            {images.length > 0 && (
+              <motion.div
+                variants={{
+                  hidden: { opacity: 0, x: 20 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                initial="hidden"
+                whileInView="visible"
+                transition={{ duration: 2, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="animate_right w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
+              >
+                <div className="relative w-full">
+                  <div className="flex flex-col space-y-4">
+                    {images.map((image, index) => (
+                      <div
+                        key={index}
+                        className={`relative ${verticalImages ? "aspect-[3/4]" : "aspect-[4/3]"} w-full`}
+                      >
+                        <Image
+                          src={image[0]}
+                          alt={image[1]}
+                          layout="fill"
+                          objectFit="cover"
+                          className="rounded-md"
+                        />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            )}
           </div>
         </div>
       </section>

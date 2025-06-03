@@ -105,10 +105,7 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
 </div>
       `}
         images={[
-          [
-            "/images/tt/yoga-teacher-training-fort-lauderdale-8.webp",
-            "Yoga students in a circle",
-          ],
+
         ]}
         buttonText={"Apply Now"}
         buttonLink={"https://forms.gle/T2ZZBDkvQ5VBZuqX9"}
