@@ -50,12 +50,12 @@ const menuData: Menu[] = [
     title: "Teacher Training",
     newTab: false,
     submenu: [
-      // {
-      //   id: 61,
-      //   title: "200-Hour Teacher Training",
-      //   newTab: false,
-      //   path: "/200-hour-teacher-training",
-      // },
+      {
+        id: 61,
+        title: "200-Hour Teacher Training",
+        newTab: false,
+        path: "/200-hour-teacher-training",
+      },
       {
         id: 62,
         title: "300-Hour Teacher Training",

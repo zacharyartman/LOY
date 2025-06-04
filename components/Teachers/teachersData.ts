@@ -8,7 +8,7 @@ import image10 from "@/public/images/user/violeta.webp";
 import image12 from "@/public/images/user/justin.jpg";
 import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
-import image17 from "@/public/images/user/dafna.jpeg"
+import image17 from "@/public/images/user/dafna.webp"
 import image18 from "@/public/images/user/katesuarez.webp"
 
 import { Teacher } from "@/types/teacher";

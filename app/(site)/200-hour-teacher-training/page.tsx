@@ -27,7 +27,8 @@ const TwoHundredHourTTPage = () => {
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 <b>📍 Saturdays:</b> 12:00 - 5:00 PM<br>
-<b>📍 Sundays:</b> 1:30 - 6:30 PM<o:p></o:p>
+<b>📍 Sundays:</b> 1:30 - 6:30 PM<br>
+<b>➖ Excludes:</b> February 7-8, March 7-8 weekends<br>
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
@@ -133,18 +134,6 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
             end: [18, 30],
           },
           {
-            date: [2026, 2, 7],
-            title: "200 Hour TT Feb 7",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2026, 2, 8],
-            title: "200 Hour TT Feb 8",
-            start: [13, 30],
-            end: [18, 30],
-          },
-          {
             date: [2026, 2, 14],
             title: "200 Hour TT Feb 14",
             start: [12, 0],
@@ -177,18 +166,6 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
           {
             date: [2026, 3, 1],
             title: "200 Hour TT Mar 1",
-            start: [13, 30],
-            end: [18, 30],
-          },
-          {
-            date: [2026, 3, 7],
-            title: "200 Hour TT Mar 7",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2026, 3, 8],
-            title: "200 Hour TT Mar 8",
             start: [13, 30],
             end: [18, 30],
           },
