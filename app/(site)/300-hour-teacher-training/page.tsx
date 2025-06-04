@@ -119,6 +119,7 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
         ]}
         buttonText={"Apply Now"}
         buttonLink={"https://forms.gle/t9kp1h7bR5MaVGdg8"}
+        teacherNamesUnderApplyButton={["Heather Artman"]}
         events={[
           {
             date: [2025, 9, 13],
