@@ -45,8 +45,8 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
               </strong>
             </div>
             <motion.div
-              initial={{ height: "8rem" }}
-              animate={{ height: showFullContent ? "auto" : "8rem" }}
+              initial={{ height: designation ? "8rem" : "10rem" }}
+              animate={{ height: showFullContent ? "auto" : designation ? "8rem" : "10rem" }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
               className="relative overflow-hidden"
             >
