@@ -35,25 +35,27 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
             alt="yoga teacher near me"
           />
         </div>
-        <div className="px-10">
-          <div className="mb-5 border-b border-stroke text-center">
-            <div>
+        <div className="px-7">
+          <div className="mb-5 border-b border-stroke text-left">
+            <div className="text-center">
               <h2 className="mb-1.5 text-2xl text-black">{name}</h2>
-              <motion.div
-                initial={{ height: "8rem" }}
-                animate={{ height: showFullContent ? "auto" : "8rem" }}
-                transition={{ duration: 0.4, ease: "easeInOut" }}
-                className="relative overflow-hidden"
-              >
-                <strong className="pb-3">
-                  {designation}
-                  {designation && <br />}
-                </strong>
-                {content}
-                {!showFullContent && (
-                  <div className="absolute bottom-0 left-0 h-12 w-full bg-gradient-to-t from-white to-transparent" />
-                )}
-              </motion.div>
+              <strong className="pb-3">
+                {designation}
+                {designation && <br />}
+              </strong>
+            </div>
+            <motion.div
+              initial={{ height: "8rem" }}
+              animate={{ height: showFullContent ? "auto" : "8rem" }}
+              transition={{ duration: 0.4, ease: "easeInOut" }}
+              className="relative overflow-hidden"
+            >
+              {content}
+              {!showFullContent && (
+                <div className="absolute bottom-0 left-0 h-12 w-full bg-gradient-to-t from-white to-transparent" />
+              )}
+            </motion.div>
+            <div className="text-center">
               <button
                 className="my-3 text-primaryho"
                 onClick={() => setShowFullContent(!showFullContent)}
