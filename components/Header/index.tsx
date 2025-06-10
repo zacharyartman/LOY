@@ -175,7 +175,7 @@ const Header = () => {
           <div className="my-5 flex items-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0">
             <a
               href="/schedule"
-              className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200 leading-tight"
+              className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200 leading-tight w-full xl:w-auto"
               onClick={handleLinkClick}
             >
               <span>Class Schedule</span>
