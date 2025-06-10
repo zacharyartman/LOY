@@ -87,7 +87,7 @@ const Details = ({
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className={`animate_left w-full rounded-lg bg-white p-7.5 shadow-solid-8 ${images.length === 0 ? "md:w-[80%]" : "md:w-[60%]"} xl:p-15`}
+              className={`animate_left w-full self-start rounded-lg bg-white p-7.5 shadow-solid-8 ${images.length === 0 ? "md:w-[80%]" : "md:w-[60%]"} xl:p-15`}
             >
               <div
                 className="blog-details"
