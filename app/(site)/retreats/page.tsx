@@ -52,7 +52,7 @@ Whether you’re seeking inspiration, relaxation, or transformation, this is you
 <b>Bedroom #2</b> (Tranquility): <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
 <b>Bedroom #3</b> (Light): <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
 <b>Bedroom #4</b> (Clarity): <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
-<b>Bedroom #5</b> (Nurture): 1 King ($2097, 2nd person $1397)
+<b>Bedroom #5</b> (Nurture): <span style="color: red; font-weight: bold;">SOLD OUT</span><br>
 <o:p></o:p></p>
 
 <hr size="0" width="100%" align="center" style="margin: 20px 0;" />
