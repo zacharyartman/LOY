@@ -83,7 +83,7 @@ Personalized coaching to help refine your unique teaching style and meet your go
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Investment &amp; Benefits<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; margin-bottom: 25px;"><span style="font-family: "Apple Color Emoji";">💰</span> <b>Tuition:</b> $3,500 | <i>Payment plans available</i><br>
-<span style="font-family: "Apple Color Emoji";">🕊️</span> <b>Early Bird Pricing:</b> Receive $300 off if paid in full by June 15th, 2025<br>
+<span style="font-family: "Apple Color Emoji";">🕊️</span> <b>Early Bird Pricing:</b> Receive $300 off if paid in full by July 12th, 2025<br>
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Scholarship Opportunity<o:p></o:p></span></b></p>
