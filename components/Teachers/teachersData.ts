@@ -1,6 +1,5 @@
 import image1 from "@/public/images/user/heather.webp";
 import image2 from "@/public/images/user/keely.webp";
-import image4 from "@/public/images/user/amy.webp";
 import image5 from "@/public/images/user/carly.webp";
 import image7 from "@/public/images/user/emily.webp";
 import image9 from "@/public/images/user/tammy.jpeg";
@@ -27,13 +26,6 @@ export const teachersData: Teacher[] = [
         designation: "Studio Manager",
         image: image2,
         content: "Keely is a passionate and dedicated yoga teacher with over 10 years of experience. Through creative sequencing, mindful movement and breathwork, Keely encourages students to harness the power of presence, cultivating greater self-awareness and inner peace. Keely believes yoga is not just about physical postures but about fostering a self confidence that extends beyond the mat. Students leave Keely’s classes with a sense of inner strength and resilience, empowering them to approach life’s challenges with clarity and self-assurance. By integrating the physical benefits of yoga, Keely guides students to tap into their full potential, helping them live more vibrant and fulfilling lives, both on and off the mat."        
-    },
-    {
-        id: 4,
-        name: "Amy Baldacci",
-        designation: "",
-        image: image4,
-        content: "After her first savasana in 2013, Amy fell hard and fast in love with the practice of yoga and began teaching it the very next year. Since then, she has taught thousands of hours in group classes, workshops, private lessons, and more, and she has over 600 training hours for teacher development. Amy's main focus in any classroom is to hold a space where practitioners can feel free and safe to explore and develop their practice in whatever way is best for them. You can expect to laugh a bit and sweat a lot in her Flow classes, find some meditative chill time in her Yin and Restore classes, and just maybe find a deeper connection with your Self and the world around you in any class you take with her."
     },
     {
         id: 5,
