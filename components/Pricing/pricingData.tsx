@@ -24,6 +24,7 @@ const pricingData: Price[] = [
     id: 2,
     title: "Unlimited Member",
     subtitle: "Unlimited Yoga and Guest Passes*. 10% Off Retail, Workshops & Events",
+    popular: true,
     price: 159,
     perX: "/month",
     href: 'https://momence.com/m/137236',
