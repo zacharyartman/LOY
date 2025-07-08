@@ -63,16 +63,6 @@ const pricingData: Price[] = [
   },
   {
     id: 6,
-    title: "Summer Unlimited",
-    subtitle: "Unlimited classes Memorial Day through Labor Day",
-    price: 447,
-    perX: "",
-    popular: false,
-    href: 'https://momence.com/m/183811',
-    buttonText: 'Activate Summer Pass'
-  },
-  {
-    id: 7,
     title: "Six-Month Unlimited",
     subtitle: "Unlimited classes for 6 months",
     price: 850,
