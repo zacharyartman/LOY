@@ -17,7 +17,6 @@ const pricingData: Price[] = [
     subtitle: "One yoga class",
     price: 30,
     perX: "/class",
-    popular: false,
     href: '/schedule',
     buttonText: 'Book Class'
   },
@@ -27,7 +26,6 @@ const pricingData: Price[] = [
     subtitle: "Unlimited Yoga and Guest Passes*. 10% Off Retail, Workshops & Events",
     price: 159,
     perX: "/month",
-    popular: true,
     href: 'https://momence.com/m/137236',
     buttonText: 'Join Unlimited Membership'
   },
@@ -37,7 +35,6 @@ const pricingData: Price[] = [
     subtitle: "4 classes per month",
     price: 79,
     perX: "/month",
-    popular: false,
     href: 'https://momence.com/m/136480',
     buttonText: 'Choose Limited Membership'
   },
@@ -47,7 +44,6 @@ const pricingData: Price[] = [
     subtitle: "10 classes to be used over a one-year period",
     price: 240,
     perX: "",
-    popular: false,
     href: 'https://momence.com/m/136479',
     buttonText: 'Buy 10-Class Card'
   },
@@ -57,7 +53,6 @@ const pricingData: Price[] = [
     subtitle: "Our unlimited membership at an annual discount",
     price: 1620,
     perX: "/year",
-    popular: false,
     href: 'https://momence.com/m/136485',
     buttonText: 'Get Annual Membership'
   },
@@ -67,7 +62,6 @@ const pricingData: Price[] = [
     subtitle: "Unlimited classes for 6 months",
     price: 850,
     perX: "",
-    popular: false,
     href: 'https://momence.com/m/141489',
     buttonText: 'Get Six-Month Unlimited'
   },

@@ -4,7 +4,7 @@ export type Price = {
   subtitle: string;
   price: number;
   perX: string;
-  popular: boolean;
+  popular?: true;
   href: string;
   buttonText: string;
 };
