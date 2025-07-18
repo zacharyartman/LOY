@@ -66,6 +66,15 @@ const pricingData: Price[] = [
     href: 'https://momence.com/m/141489',
     buttonText: 'Get Six-Month Unlimited'
   },
+  {
+    id: 6,
+    title: "One Week Traveler's Pass",
+    subtitle: "Unlimited classes for visitors for one week (one-time only)",
+    price: 59,
+    perX: "",
+    href: 'https://momence.com/m/478019',
+    buttonText: 'Get Traveler Pass'
+  }
 ];
 
 export default pricingData;
