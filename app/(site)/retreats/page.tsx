@@ -61,7 +61,6 @@ Whether you’re seeking inspiration, relaxation, or transformation, this is you
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 💵 $500 non-refundable deposit per person<br>
-📅 Payment in full due by August 9th<br>
 ✈️ Airline travel not included<br><br>
 <b>📍 Closest Airport:</b> Phoenix<br>
 <b>🧘 This is an intimate retreat with limited availability so reserve your spot soon.</b>
