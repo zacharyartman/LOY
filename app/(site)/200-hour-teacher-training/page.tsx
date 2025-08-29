@@ -22,10 +22,7 @@ const TwoHundredHourTTPage = () => {
         dates={"Next Session: January 17 - April 12, 2026"}
         teacher="Heather Artman, Keely Hubbard and Dafna Zacharin"
         text={`
-
-          <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
-      
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
+    <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 <b>📍 Saturdays:</b> 12:00 - 5:00 PM<br>
