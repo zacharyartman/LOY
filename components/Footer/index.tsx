@@ -164,12 +164,12 @@ const Footer = () => {
                       menuItem.submenu ? (
                         menuItem.submenu.map((subMenuItem) => (
                           <li key={subMenuItem.path}>
-                            <a
-                              href={subMenuItem.path}
+                            <Link
+                              href={subMenuItem.path || "#"}
                               className="inline-block hover:text-primary md:mr-5"
                             >
                               {subMenuItem.title}
-                            </a>
+                            </Link>
                           </li>
                         ))
                       ) : (
