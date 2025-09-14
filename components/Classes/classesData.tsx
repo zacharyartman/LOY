@@ -3,6 +3,7 @@ import image1 from "@/public/images/features/beginner-yoga-near-me.webp";
 import image2 from "@/public/images/features/best-yoga-in-fort-lauderdale.webp";
 import image3 from "@/public/images/features/vinyasa-yoga-class-near-me.webp";
 import image4 from "@/public/images/features/yoga-for-seniors.webp";
+import image5 from "@/public/images/features/candlelight-yin.jpeg";
 
 const classesData: Class[] = [
   {
@@ -36,6 +37,14 @@ const classesData: Class[] = [
     alt: "restorative relaxing yoga",
     description:
       "A soothing, restorative practice with extended, supported poses for deep relaxation. Complements active practices or serves as a standalone session to calm the nervous system.",
+  },
+  {
+    id: 5,
+    icon: image5,
+    title: "Candlelight Yin",
+    alt: "candlelight yin yoga",
+    description:
+      "Unwind in the soft glow of candlelight with long-held floor poses that gently stretch connective tissues and release deep tension. Unlike Restore, which focuses on full support and relaxation with props, Yin invites mild sensation and mindful stillness to improve mobility and balance energy.",
   },
 ];
 
