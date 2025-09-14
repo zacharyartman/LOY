@@ -93,7 +93,7 @@ const Details = ({
                 className="blog-details"
                 dangerouslySetInnerHTML={{ __html: text }}
               />
-              <div className="my-5 flex flex flex-col items-center justify-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0 xl:flex-row">
+              <div className="my-5 flex flex flex-col items-center justify-center gap-2 xl:mb-0 xl:mt-0 xl:flex-row">
                 {buttonText && buttonLink && (
                   <a
                     href={buttonLink}

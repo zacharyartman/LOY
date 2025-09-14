@@ -85,10 +85,7 @@ Personalized coaching to help refine your unique teaching style and meet your go
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; margin-bottom: 25px;"><span style="font-family: "Apple Color Emoji";">💰</span> <b>Tuition:</b> $3,500 | <i>Payment plans available</i><br>
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
-📩 <b>Questions?</b> Reach out via email at 
-<a href="mailto:heather@lasolas.yoga" style="color: #8a6a4f; text-decoration: none;"><b>heather@lasolas.yoga</b></a> 
-or text us 
-at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(954) 372-5275</b></a>.
+Registration is closed for this session. Click the button below to be notified about the next session.
 </p>
       `}
         images={[
@@ -109,89 +106,9 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
             "Yoga teacher using a whiteboard to explain advanced concepts during the 300-hour teacher training at Las Olas Yoga",
           ],
         ]}
-        buttonText={"Apply Now"}
-        buttonLink={"https://forms.gle/t9kp1h7bR5MaVGdg8"}
+        buttonText={"Join the List"}
+        buttonLink={"https://forms.gle/ayYvYdr4Asg1Nqcw8"}
         teacherNamesUnderApplyButton={["Heather Artman"]}
-        events={[
-          {
-            date: [2025, 9, 13],
-            title: "300 Hour TT Intro Session",
-            start: [12, 0],
-            end: [13, 30],
-          },
-          {
-            date: [2025, 10, 11],
-            title: "300 Hour TT Oct 11",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2025, 10, 12],
-            title: "300 Hour TT Oct 12",
-            start: [13, 30],
-            end: [17, 30],
-          },
-          {
-            date: [2025, 11, 8],
-            title: "300 Hour TT Nov 8",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2025, 11, 9],
-            title: "300 Hour TT Nov 9",
-            start: [13, 30],
-            end: [17, 30],
-          },
-          {
-            date: [2025, 12, 13],
-            title: "300 Hour TT Dec 13",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2025, 12, 14],
-            title: "300 Hour TT Dec 14",
-            start: [13, 30],
-            end: [17, 30],
-          },
-          {
-            date: [2026, 1, 10],
-            title: "300 Hour TT Jan 10",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2026, 1, 11],
-            title: "300 Hour TT Jan 11",
-            start: [13, 30],
-            end: [17, 30],
-          },
-          {
-            date: [2026, 2, 7],
-            title: "300 Hour TT Feb 7",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2026, 2, 8],
-            title: "300 Hour TT Feb 8",
-            start: [13, 30],
-            end: [17, 30],
-          },
-          {
-            date: [2026, 3, 7],
-            title: "300 Hour TT Mar 7",
-            start: [12, 0],
-            end: [17, 0],
-          },
-          {
-            date: [2026, 3, 8],
-            title: "300 Hour TT Mar 8",
-            start: [13, 30],
-            end: [17, 30],
-          },
-        ]}
       />
       <Script id="google-conversion" strategy="afterInteractive">
         {`gtag('event', 'conversion', {'send_to': 'AW-591592888/Tv_oCMyoyeABELj7i5oC'});`}
