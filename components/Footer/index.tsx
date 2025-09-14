@@ -24,7 +24,7 @@ const Footer = () => {
                 }}
                 initial="hidden"
                 whileInView="visible"
-                transition={{ duration: 1, delay: 0.5 }}
+                transition={{ duration: 0.3, delay: 0.1 }}
                 viewport={{ once: true }}
                 className="animate_top w-full md:w-1/2 lg:w-1/4"
               >
@@ -51,7 +51,7 @@ const Footer = () => {
                       title="Facebook"
                     >
                       <svg
-                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        className="fill-primary transition-all duration-150 hover:fill-primary"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ const Footer = () => {
                       <img
                         src="/images/general/instagram.svg"
                         alt="Instagram icon"
-                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        className="fill-primary transition-all duration-150 hover:fill-primary"
                         width="24"
                         height="24"
                       />
@@ -96,7 +96,7 @@ const Footer = () => {
                       <img
                         src="/images/general/tiktok.svg"
                         alt="TikTok icon"
-                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        className="fill-primary transition-all duration-150 hover:fill-primary"
                         width="24"
                         height="24"
                       />
@@ -111,7 +111,7 @@ const Footer = () => {
                       <img
                         src="/images/general/yelp.svg"
                         alt="Yelp icon"
-                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        className="fill-primary transition-all duration-150 hover:fill-primary"
                         width="24"
                         height="24"
                       />
@@ -126,7 +126,7 @@ const Footer = () => {
                       <img
                         src="/images/general/google.svg"
                         alt="google icon"
-                        className="fill-primary transition-all duration-300 hover:fill-primary"
+                        className="fill-primary transition-all duration-150 hover:fill-primary"
                         width="24"
                         height="24"
                       />
@@ -150,7 +150,7 @@ const Footer = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
+                  transition={{ duration: 0.3, delay: 0.05 }}
                   viewport={{ once: true }}
                   className="animate_top"
                 >
@@ -199,7 +199,7 @@ const Footer = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
+                  transition={{ duration: 0.3, delay: 0.05 }}
                   viewport={{ once: true }}
                   className="animate_top"
                 >

@@ -24,7 +24,7 @@ const CTA = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
@@ -46,7 +46,7 @@ const CTA = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_right w-full lg:w-[45%]"
             >

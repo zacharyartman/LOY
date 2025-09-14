@@ -92,7 +92,7 @@ export default function Popup() {
                   <a
                     href="https://momence.com/Las-Olas-Yoga/membership/Three-Weeks-for-%2479.00-(New-Local-Students-Only)/136483"
                     target="_blank"
-                    className="flex w-full items-center justify-center rounded-full bg-primary px-10.5 py-2.5 text-regular text-white transition-all duration-200 hover:bg-primaryho"
+                    className="flex w-full items-center justify-center rounded-full bg-primary px-10.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
                   >
                     BUY NOW
                   </a>

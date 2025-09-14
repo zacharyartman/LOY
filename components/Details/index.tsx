@@ -85,7 +85,7 @@ const Details = ({
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className={`animate_left w-full self-start rounded-lg bg-white p-7.5 shadow-solid-8 ${images.length === 0 ? "md:w-[80%]" : "md:w-[60%]"} xl:p-10`}
             >
@@ -98,7 +98,7 @@ const Details = ({
                   <a
                     href={buttonLink}
                     target="_blank"
-                    className="flex items-center justify-center rounded-full bg-primary px-15 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200"
+                    className="flex items-center justify-center rounded-full bg-primary px-15 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-150"
                   >
                     {buttonText}
                   </a>
@@ -106,7 +106,7 @@ const Details = ({
                 {events && (
                   <button
                     onClick={addToCalendar}
-                    className="flex items-center justify-center rounded-full bg-primary px-15 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200"
+                    className="flex items-center justify-center rounded-full bg-primary px-15 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-150"
                   >
                     Add to Calendar
                   </button>
@@ -154,7 +154,7 @@ const Details = ({
                 }}
                 initial="hidden"
                 whileInView="visible"
-                transition={{ duration: 2, delay: 0.1 }}
+                transition={{ duration: 0.4, delay: 0.05 }}
                 viewport={{ once: true }}
                 className="animate_right w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
               >

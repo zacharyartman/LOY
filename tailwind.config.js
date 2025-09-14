@@ -138,9 +138,9 @@ module.exports = {
         },
       },
       animation: {
-        line1: "line 3s linear infinite",
-        line2: "line 6s linear infinite",
-        line3: "line 9s linear infinite",
+        line1: "line 2s linear infinite",
+        line2: "line 4s linear infinite",
+        line3: "line 6s linear infinite",
       },
     },
   },

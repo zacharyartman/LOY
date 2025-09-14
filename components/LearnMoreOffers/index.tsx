@@ -24,7 +24,7 @@ const Offers = () => {
         }}
         initial="hidden"
         whileInView="visible"
-        transition={{ duration: 1, delay: 0.1 }}
+        transition={{ duration: 0.3, delay: 0.05 }}
         viewport={{ once: true }}
         className="animate_top mx-auto flex max-w-c-1390 flex-col items-center gap-5 px-4 md:mt-5 md:px-8 2xl:px-0"
       >

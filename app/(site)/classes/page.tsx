@@ -20,7 +20,7 @@ const ClassesPage = () => {
       <div className="flex items-center justify-center gap-2 py-7 xl:mt-0">
         <a
           href="/schedule"
-          className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-200 hover:bg-primaryho"
+          className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
         >
           Book Now
         </a>

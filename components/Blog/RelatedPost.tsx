@@ -37,7 +37,7 @@ const RelatedPost = async ({ blogID }) => {
                   </a>
                 </div>
                 <div className="flex w-full xl:w-3/5">
-                  <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary">
+                  <h5 className="text-md font-medium text-black transition-all duration-150 hover:text-primary">
                     <a href={`../${post._id}`}>
                       {post.title.length <= 60
                         ? post.title

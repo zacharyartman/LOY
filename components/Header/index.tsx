@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full bg-white py-1 shadow transition duration-100`}
+      className={`fixed left-0 top-0 z-99999 w-full bg-white py-1 shadow transition duration-75`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
@@ -93,7 +93,7 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`overflow-hidden transition-all duration-500 xl:overflow-visible ${navigationOpen ? "navbar max-h-screen" : "max-h-0"
+          className={`overflow-hidden transition-all duration-300 xl:overflow-visible ${navigationOpen ? "navbar max-h-screen" : "max-h-0"
             } w-full items-center justify-between xl:flex xl:max-h-full xl:w-full`}
         >
           <nav>
@@ -175,7 +175,7 @@ const Header = () => {
           <div className="my-5 flex items-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0">
             <a
               href="/schedule"
-              className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-200 leading-tight w-full xl:w-auto"
+              className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-150 leading-tight w-full xl:w-auto"
               onClick={handleLinkClick}
             >
               <span>Class Schedule</span>

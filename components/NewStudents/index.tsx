@@ -17,7 +17,7 @@ const PricingButton = ({
     <a
       href={href}
       target="_blank"
-      className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-300 hover:scale-[1.03] xl:p-12.5`}
+      className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5`}
     >
       <h3
         className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} xl:text-sectiontitle3`}
@@ -38,9 +38,9 @@ const PricingButton = ({
 
       <div
         aria-label={`Learn more about ${title}: ${subtitle} button`}
-        className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} mt-5 transition-all duration-300`}
+        className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} mt-5 transition-all duration-150`}
       >
-        <span className="duration-300 group-hover/btn:pr-2">{buttonText}</span>
+        <span className="duration-150 group-hover/btn:pr-2">{buttonText}</span>
         <svg
           width="14"
           height="14"
@@ -92,7 +92,7 @@ const NewStudentsComponent = () => {
           }}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.3, delay: 0.05 }}
           viewport={{ once: true }}
           className="animate_top"
         >

@@ -22,7 +22,7 @@ const Error = () => {
 
         <a
           href="/"
-          className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho"
+          className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-150 ease-in-out hover:bg-primaryho"
         >
           <svg
             className="fill-white"

@@ -32,7 +32,7 @@ const Classes = ({ title }) => {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 1, delay: 0.1 }}
+            transition={{ duration: 0.3, delay: 0.05 }}
             viewport={{ once: true }}
             className={`animate_top grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-12.5 ${
               title ? "mt-12.5 lg:mt-15 xl:mt-20" : ""

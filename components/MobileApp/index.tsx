@@ -21,7 +21,7 @@ const MobileApp = () => {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 1, delay: 0.1 }}
+            transition={{ duration: 0.3, delay: 0.05 }}
             viewport={{ once: true }}
             className="items-left mx-auto mb-0 flex flex-col justify-between px-7.5 py-12.5 text-left md:flex-row md:items-center md:px-12.5 xl:px-17.5 xl:py-0"
           >
@@ -32,7 +32,7 @@ const MobileApp = () => {
               <p className="lg:w-11/12">Book classes on the go!</p>
               <div className="mt-10 flex space-x-4">
                 <a
-                  className="flex items-center overflow-hidden rounded-full border-2 border-black transition-all duration-200 hover:opacity-50"
+                  className="flex items-center overflow-hidden rounded-full border-2 border-black transition-all duration-150 hover:opacity-50"
                   href="https://apps.apple.com/us/app/momence/id1577856009"
                 >
                   <Image
@@ -43,7 +43,7 @@ const MobileApp = () => {
                   />
                 </a>
                 <a
-                  className="flex items-center overflow-hidden rounded-full border-2 border-black transition-all duration-200 hover:opacity-50"
+                  className="flex items-center overflow-hidden rounded-full border-2 border-black transition-all duration-150 hover:opacity-50"
                   href="https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US"
                 >
                   <Image

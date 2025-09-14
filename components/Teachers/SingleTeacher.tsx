@@ -21,7 +21,7 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
       }}
       initial="hidden"
       whileInView="visible"
-      transition={{ duration: 1, delay: 0.1 }}
+      transition={{ duration: 0.3, delay: 0.05 }}
       viewport={{ once: true }}
       className="animate_top"
     >
@@ -47,7 +47,7 @@ const SingleTeacher = ({ review }: { review: Teacher }) => {
             <motion.div
               initial={{ height: designation ? "8rem" : "10rem" }}
               animate={{ height: showFullContent ? "auto" : designation ? "8rem" : "10rem" }}
-              transition={{ duration: 0.4, ease: "easeInOut" }}
+              transition={{ duration: 0.2, ease: "easeInOut" }}
               className="relative overflow-hidden"
             >
               {content}

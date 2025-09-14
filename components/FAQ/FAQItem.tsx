@@ -70,7 +70,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
         </button>
         <div
           style={{ maxHeight: `${height}px` }}
-          className="transition-max-height overflow-hidden duration-300 ease-in-out"
+          className="transition-max-height overflow-hidden duration-150 ease-in-out"
         >
           <p
             ref={answerRef}

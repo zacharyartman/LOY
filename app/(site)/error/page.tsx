@@ -29,7 +29,7 @@ const ErroPage = () => {
 
         <a
           href="/"
-          className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho"
+          className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-150 ease-in-out hover:bg-blackho"
         >
           Return to Home
           <svg

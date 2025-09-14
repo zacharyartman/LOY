@@ -25,7 +25,7 @@ const About = ({ aboutText, viewClasses }) => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_left relative mx-auto aspect-[200/150] w-full sm:w-1/2 md:block"
             >
@@ -50,7 +50,7 @@ const About = ({ aboutText, viewClasses }) => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_right sm:w-1/2"
             >
@@ -94,7 +94,7 @@ const About = ({ aboutText, viewClasses }) => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_right relative mx-auto aspect-[200/150] w-full sm:hidden sm:w-1/2"
             >
@@ -120,7 +120,7 @@ const About = ({ aboutText, viewClasses }) => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_left sm:w-1/2"
             >
@@ -161,7 +161,7 @@ const About = ({ aboutText, viewClasses }) => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-[200/150] w-full sm:block sm:w-1/2"
             >
