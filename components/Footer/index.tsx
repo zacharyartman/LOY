@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
+import Link from "next/link";
 import menuData from "../Header/menuData";
 const Footer = () => {
   return (
@@ -173,12 +174,21 @@ const Footer = () => {
                         ))
                       ) : (
                         <li key={menuItem.path}>
-                          <a
-                            href={menuItem.path}
-                            className="inline-block hover:text-primary md:mr-5"
-                          >
-                            {menuItem.title}
-                          </a>
+                          {["Home", "Workshops"].includes(menuItem.title) ? (
+                            <a
+                              href={menuItem.path}
+                              className="inline-block hover:text-primary md:mr-5"
+                            >
+                              {menuItem.title}
+                            </a>
+                          ) : (
+                            <Link
+                              href={menuItem.path || "#"}
+                              className="inline-block hover:text-primary md:mr-5"
+                            >
+                              {menuItem.title}
+                            </Link>
+                          )}
                         </li>
                       ),
                     )}
