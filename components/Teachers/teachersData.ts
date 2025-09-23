@@ -9,6 +9,7 @@ import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
 import image17 from "@/public/images/user/dafna.webp";
 import image18 from "@/public/images/user/katesuarez.webp";
+import image19 from "@/public/images/user/giuls.jpeg";
 
 import { Teacher } from "@/types/teacher";
 
@@ -52,6 +53,14 @@ export const teachersData: Teacher[] = [
     image: image7,
     content:
       "Emily was introduced to yoga in 2012 when she walked into a class at her local gym. At first she was drawn to the physicality of the practice but it didn't take long for her to realize the spiritual, mental and emotional benefits. Yoga quickly became the greatest way for her to practice self-care. Emily completed a 200 hour teacher training program in 2013 and spent the next 3 years teaching at various locations in her hometown of Brookfield, Wisconsin before moving to Fort Lauderdale in the spring of 2016. Upon moving to Fort Lauderdale, Emily began working and teaching at Ashtanga Yoga Worldwide. In 2018, she completed a year long training program under the guidance of world renowned yoga teacher Greg Nardi. Emily continues to experience the incredible benefits and healing powers of yoga through her daily practice and it brings her great joy to share the gift of yoga with others. She enjoys getting to know her students and believes in offering personalized instruction and guidance to fit each student's unique body and mind.",
+  },
+  {
+    id: 19,
+    name: "Giuls Mori",
+    designation: "",
+    image: image19,
+    content:
+      "Giulia also known as Giuls is a Welsh / Italian yoga teacher based in Fort Lauderdale, Florida, with 15 years of dedicated practice. Her journey took a transformative turn in 2018 when she completed a 200-hour teacher training in Bali, Indonesia. Passionate about crafting dynamic and varied flows, Giuls encourages exploration and personal growth in each class. Community is at the heart of her teaching philosophy, being so far away from family and friends, Yoga has really helped her feel part of a community. As a certified prenatal yoga instructor, Giuls enjoys supporting expectant mothers on their unique journeys. It is a branch of Yoga she is very passionate about.",
   },
   {
     id: 12,
