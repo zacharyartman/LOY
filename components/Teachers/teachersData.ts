@@ -10,6 +10,7 @@ import image15 from "@/public/images/user/stacey_pic.jpeg";
 import image17 from "@/public/images/user/dafna.webp";
 import image18 from "@/public/images/user/katesuarez.webp";
 import image19 from "@/public/images/user/giuls.jpeg";
+import image20 from "@/public/images/user/tracy-wolfe.jpeg";
 
 import { Teacher } from "@/types/teacher";
 
@@ -101,6 +102,14 @@ export const teachersData: Teacher[] = [
     image: image9,
     content:
       "You will feel Tammy's heart before you hear her voice. This is why she loves yoga. Not only does yoga unite your mind, body, and spirit; but yoga also unites us as a community. Tammy believes that yoga is for everyone who walks through the door. In her classes, the goal is not to just ground and nurture your body through creative sequencing, but to also stimulate your mind and spirit through thought-provoking readings and meditations that help guide you towards inner peace. It is Tammy's hope that each of you will step off the mat feeling balanced, nourished, and full of life.",
+  },
+  {
+    id: 20,
+    name: "Tracy Wolfe",
+    designation: "",
+    image: image20,
+    content:
+      "With over 25 years of personal yoga practice, Tracy brings both depth of experience and a heartfelt passion for sharing yoga with others. While working as a commercial lawyer for 14 years, yoga was her sanctuary—a way to relieve stress, reconnect with herself, and find balance amidst the demands of the legal practice. After stepping away from law, she completed her 200-hour teacher training program in Chicago and began teaching in several suburban studios and relocated to South Florida in 2024. Tracy’s classes weave together breath, movement, and mindfulness, encouraging students to feel grounded, intentional, and confident. She loves guiding students to “get lost” in their practice—moving fluidly while staying deeply present. Yoga has profoundly changed her life, and she is grateful for the opportunity to share its transformative gifts with her students.",
   },
   {
     id: 10,
