@@ -9,7 +9,7 @@ import image14 from "@/public/images/user/michael.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
 import image17 from "@/public/images/user/dafna.webp";
 import image18 from "@/public/images/user/katesuarez.webp";
-import image19 from "@/public/images/user/giuls.jpeg";
+import image19 from "@/public/images/user/giuls.webp";
 import image20 from "@/public/images/user/tracy-wolfe.jpeg";
 
 import { Teacher } from "@/types/teacher";
