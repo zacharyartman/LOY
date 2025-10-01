@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
@@ -52,6 +52,7 @@ const Header = () => {
               width={110}
               height={Math.round(110 * (203 / 256))}
               className="w-full"
+              priority
             />
           </Link>
 
