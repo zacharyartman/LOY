@@ -34,6 +34,8 @@ function MomenceSchedule({
 
   const liteClassSrc =
     liteMode && sessionType === "class" ? "/lite-class.html" : undefined;
+  if (liteMode && sessionType === "workshop")
+    throw Error("Lite workshop not implemented");
   const notLiteClassSrc =
     !liteMode && sessionType === "class" ? "/not-lite-class.html" : undefined;
   const notLiteWorkshopSrc =
