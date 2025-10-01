@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import InlineArrowButton from "../InlineArrowButton";
 import InlineArrowButtonLocalLink from "../InlineArrowButtonLocalLink";
 
@@ -25,7 +25,7 @@ const About = ({ aboutText, viewClasses }) => {
                 },
               }}
               initial="hidden"
-              whileInView="visible"
+              animate="visible"
               transition={{ duration: 0.3 }}
               viewport={{ once: true }}
               className="animate_left relative mx-auto aspect-[200/150] w-full sm:w-1/2 md:block"
