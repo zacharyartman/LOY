@@ -11,6 +11,7 @@ import image17 from "@/public/images/user/dafna.webp";
 import image18 from "@/public/images/user/katesuarez.webp";
 import image19 from "@/public/images/user/giuls.webp";
 import image20 from "@/public/images/user/tracy-wolfe.jpeg";
+import image21 from "@/public/images/user/natalie.jpeg";
 
 import { Teacher } from "@/types/teacher";
 
@@ -86,6 +87,13 @@ export const teachersData: Teacher[] = [
     image: image14,
     content:
       "Michael uses yoga as a metaphor for life, believing that a yoga journey should be fun and engaging while also challenging one to test and expand their limits. As a 500-hour Registered Yoga Instructor, he recognizes that he is teaching real people with their own stories. Yoga and meditation have made him a healthier, more aware person, opening his eyes to a world of positive opportunities, and he is truly grateful to share what he has learned with others. Each class he teaches has its own unique beat, vibration, and pulse. He focuses on alignment-based poses to deepen the practice, drawing from his dance background to create interesting and original sequences. This allows students to move authentically, finding their own rhythm and truth through movement.",
+  },
+  {
+    id: 21,
+    name: "Natalie Galliano",
+    designation: "",
+    image: image21,
+    content: "Natalie is a 500hr RYT who began her practice in 2018 as a way to find balance and clarity during times of transition. Her teaching is heartfelt and down-to-earth, blending philosophy with playfulness to make yoga feel both grounding and uplifting. Inspired by her travels to Bali and India, Natalie shares yoga as a way to support others in meeting life’s ebbs and flows with strength, awareness, and presence.",
   },
   {
     id: 15,
