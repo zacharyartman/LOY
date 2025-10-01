@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Teacher } from "@/types/teacher";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const SingleTeacher = ({ review }: { review: Teacher }) => {

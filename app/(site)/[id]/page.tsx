@@ -1,5 +1,5 @@
 import BlogData from "@/components/Blog/blogData";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import { Metadata } from "next";
 import Error from "@/components/Error";
