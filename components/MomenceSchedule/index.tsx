@@ -17,8 +17,11 @@ function MomenceSchedule({
 
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
-      // Verify the message is from your iframe (optional security check)
-      // if (event.origin !== window.location.origin) return;
+      if (
+        window.location.href.indexOf(event.origin) !== 0 &&
+        event.source !== window
+      )
+        return;
 
       if (event.data.type === "resize" && iframeRef.current) {
         iframeRef.current.style.height = `${event.data.height}px`;
@@ -29,9 +32,14 @@ function MomenceSchedule({
     return () => window.removeEventListener("message", handleMessage);
   }, []);
 
-  const liteClassSrc = liteMode && sessionType === "class" ? "/lite-class.html" : undefined;
-  const notLiteClassSrc = !liteMode && sessionType === "class" ? "/not-lite-class.html" : undefined;
-  const notLiteWorkshopSrc = !liteMode && sessionType === "workshop" ? "/not-lite-workshop.html" : undefined;
+  const liteClassSrc =
+    liteMode && sessionType === "class" ? "/lite-class.html" : undefined;
+  const notLiteClassSrc =
+    !liteMode && sessionType === "class" ? "/not-lite-class.html" : undefined;
+  const notLiteWorkshopSrc =
+    !liteMode && sessionType === "workshop"
+      ? "/not-lite-workshop.html"
+      : undefined;
 
   return (
     <>
@@ -43,17 +51,17 @@ function MomenceSchedule({
         </div>
       )}
 
-        <iframe
-          ref={iframeRef}
-          src={liteClassSrc ?? notLiteClassSrc ?? notLiteWorkshopSrc}
-          style={{
-            width: "100%",
-            border: "none",
-            minHeight: "275px",
-            ...(!fullSchedule && { maxHeight: "100vh" }),
-          }}
-          scrolling="no"
-        />
+      <iframe
+        ref={iframeRef}
+        src={liteClassSrc ?? notLiteClassSrc ?? notLiteWorkshopSrc}
+        style={{
+          width: "100%",
+          border: "none",
+          minHeight: "275px",
+          ...(!fullSchedule && { maxHeight: "100vh" }),
+        }}
+        scrolling="no"
+      />
 
       {!fullSchedule && (
         <div className="flex justify-center">
