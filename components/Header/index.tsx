@@ -14,7 +14,6 @@ const Header = () => {
 
   const pathUrl = usePathname();
 
-  // Sticky menu
   const handleStickyMenu = () => {
     if (window.scrollY >= 1) {
       setStickyMenu(true);
@@ -27,7 +26,6 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyMenu);
   });
 
-  // Toggle a specific dropdown
   const toggleDropdown = (id: number) => {
     setDropdownTogglers((prev) => ({
       ...prev,
@@ -41,22 +39,26 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full bg-white py-1 shadow transition duration-75`}
+      className={`fixed left-0 top-0 z-99999 w-full bg-white shadow transition duration-75`}
     >
-      <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between xl:w-1/4">
+      <div
+        className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:grid 
+                   xl:grid-cols-[1fr_5fr_1fr] xl:gap-4 2xl:px-0"
+      >
+        {/* Left: Logo + Hamburger */}
+        <div className="flex items-center justify-between">
           <Link href="/">
             <Image
               src="/images/logo/las-olas-yoga-near-me.webp"
               alt="logo"
               width={110}
               height={Math.round(110 * (203 / 256))}
-              className="w-full"
+              className="w-full max-h-22 object-contain"
               priority
             />
           </Link>
 
-          {/* <!-- Hamburger Toggle BTN --> */}
+          {/* Hamburger Toggle BTN */}
           <button
             aria-label="hamburger Toggler"
             className="block xl:hidden"
@@ -94,34 +96,43 @@ const Header = () => {
               </span>
             </span>
           </button>
-          {/* <!-- Hamburger Toggle BTN --> */}
         </div>
 
-        {/* Nav Menu Start   */}
+        {/* Middle: Nav */}
         <div
           className={`overflow-hidden transition-all duration-300 xl:overflow-visible ${
             navigationOpen ? "navbar max-h-screen" : "max-h-0"
-          } w-full items-center justify-between xl:flex xl:max-h-full xl:w-full`}
+          } w-full items-center justify-center xl:flex xl:max-h-full`}
         >
-          <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+          <nav className="w-full">
+            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:justify-center xl:gap-10">
               {menuData
                 .filter((menuItem) => !menuItem.hidden)
                 .map((menuItem, key) => (
                   <li
                     key={key}
-                    className={`${menuItem.submenu ? "group flex w-full flex-wrap lg:relative lg:w-auto" : "flex lg:flex-none"}`}
+                    className={`${
+                      menuItem.submenu
+                        ? "group flex w-full flex-wrap lg:relative lg:w-auto"
+                        : "flex lg:flex-none"
+                    }`}
                   >
                     {menuItem.submenu ? (
                       <>
                         <button
                           onClick={() => toggleDropdown(menuItem.id)}
-                          className={`flex cursor-pointer items-center justify-between gap-3 hover:text-primary  ${menuItem.submenu ? "w-full" : ""}`}
+                          className={`flex cursor-pointer items-center justify-between gap-3 hover:text-primary  ${
+                            menuItem.submenu ? "w-full" : ""
+                          }`}
                         >
                           {menuItem.title}
                           <span>
                             <svg
-                              className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary ${dropdownTogglers[menuItem.id] ? "rotate-180" : ""}`}
+                              className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary ${
+                                dropdownTogglers[menuItem.id]
+                                  ? "rotate-180"
+                                  : ""
+                              }`}
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 512 512"
                             >
@@ -131,7 +142,9 @@ const Header = () => {
                         </button>
 
                         <ul
-                          className={`dropdown ${dropdownTogglers[menuItem.id] ? "flex flex-col" : ""}`}
+                          className={`dropdown ${
+                            dropdownTogglers[menuItem.id] ? "flex flex-col" : ""
+                          }`}
                         >
                           {menuItem.submenu.map((item, key) => (
                             <li key={key} className="hover:text-primary">
@@ -163,18 +176,32 @@ const Header = () => {
                     )}
                   </li>
                 ))}
+
+              {/* Class Schedule visible in dropdown only on mobile */}
+              <li className="block xl:hidden">
+                <Link
+                  href="/schedule"
+                  className="flex w-full flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular leading-tight text-white transition-all hover:bg-primaryho mb-5"
+                  onClick={handleLinkClick}
+                >
+                  <span>Class Schedule</span>
+                  <span className="text-xs opacity-80">Book Classes</span>
+                </Link>
+              </li>
             </ul>
           </nav>
-          <div className="my-5 flex items-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0">
-            <Link
-              href="/schedule"
-              className="flex w-full flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular leading-tight text-white transition-all duration-0 hover:bg-primaryho xl:w-auto xl:duration-150"
-              onClick={handleLinkClick}
-            >
-              <span>Class Schedule</span>
-              <span className="text-xs opacity-80">Book Classes</span>
-            </Link>
-          </div>
+        </div>
+
+        {/* Right: Class Schedule only on desktop */}
+        <div className="hidden items-center justify-end gap-2 xl:flex">
+          <Link
+            href="/schedule"
+            className="flex w-full flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular leading-tight text-white transition-all hover:bg-primaryho xl:w-auto"
+            onClick={handleLinkClick}
+          >
+            <span>Class Schedule</span>
+            <span className="text-xs opacity-80">Book Classes</span>
+          </Link>
         </div>
       </div>
     </header>
