@@ -7,12 +7,9 @@ import Link from "next/link";
 const BlogItem = ({ blog }: { blog: Blog }) => {
   const { _id, mainImage, title, metadata } = blog;
 
-  const href = `/${_id}`;
-  const MotionLink = motion(Link);
-
   return (
     <>
-      <Link href={href} passHref legacyBehavior>
+      <Link href={`/${_id}`} passHref legacyBehavior>
         <motion.div
           variants={{
             hidden: {
