@@ -1,33 +1,36 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
-function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
+function MomenceSchedule({
+  title,
+  fullSchedule,
+  sessionType,
+  liteMode,
+}: {
+  title: boolean;
+  fullSchedule: boolean;
+  sessionType: "class" | "workshop";
+  liteMode: boolean;
+}) {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
   useEffect(() => {
-    const scheduleScript = document.createElement("script");
-    scheduleScript.async = true;
-    scheduleScript.type = "module";
-    scheduleScript.src =
-      "https://momence.com/plugin/host-schedule/host-schedule.js";
-    scheduleScript.setAttribute("host_id", "35160");
-    scheduleScript.setAttribute("teacher_ids", "[]");
-    scheduleScript.setAttribute("session_type", sessionType);
-    scheduleScript.setAttribute("location_ids", "[]");
-    scheduleScript.setAttribute("lite_mode", liteMode);
-    scheduleScript.setAttribute("tag_ids", "[]");
-    scheduleScript.setAttribute("default_filter", "show-all");
-    scheduleScript.setAttribute("hide_drop_in_price", "true");
+    const handleMessage = (event: MessageEvent) => {
+      // Verify the message is from your iframe (optional security check)
+      // if (event.origin !== window.location.origin) return;
 
-    const scheduleDiv = document.getElementById("ribbon-schedule");
-    if (scheduleDiv) {
-      scheduleDiv.appendChild(scheduleScript);
-    }
-
-    return () => {
-      if (scheduleDiv) {
-        scheduleDiv.removeChild(scheduleScript);
+      if (event.data.type === "resize" && iframeRef.current) {
+        iframeRef.current.style.height = `${event.data.height}px`;
       }
     };
-  }, [liteMode, sessionType]);
+
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, []);
+
+  const liteClassSrc = liteMode && sessionType === "class" ? "/lite-class.html" : undefined;
+  const noteLiteClassSrc = !liteMode && sessionType === "class" ? "/not-lite-class.html" : undefined;
+  const notLiteWorkshopSrc = !liteMode && sessionType === "workshop" ? "/not-lite-workshop.html" : undefined;
 
   return (
     <>
@@ -39,10 +42,17 @@ function MomenceSchedule({ title, fullSchedule, sessionType, liteMode }) {
         </div>
       )}
 
-      <div
-        className={`schedule-container ${fullSchedule ? "" : "h-screen"} overflow-hidden`}
-      >
-        <div id="ribbon-schedule"></div>
+      <div style={{ overflow: "hidden", height: "100vh" }}>
+        <iframe
+          ref={iframeRef}
+          src={liteClassSrc ?? noteLiteClassSrc ?? notLiteWorkshopSrc}
+          style={{
+            width: "100%",
+            border: "none",
+            ...(!fullSchedule && { maxHeight: "100vh" }),
+          }}
+          scrolling="no"
+        />
       </div>
 
       {!fullSchedule && (
