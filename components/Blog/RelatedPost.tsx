@@ -1,6 +1,7 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import BlogData from "./blogData";
+import Link from "next/link";
 
 const RelatedPost = async ({ blogID }) => {
   return (
@@ -15,15 +16,13 @@ const RelatedPost = async ({ blogID }) => {
             .sort(() => 0.5 - Math.random())
             .slice(0, 3)
             .map((post, key) => (
-              <div
+              <Link
+                href={`/${post._id}`}
                 className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
                 key={key}
               >
                 <div className="flex w-full xl:w-2/5">
-                  <a
-                    href={`../${post._id}`}
-                    className="relative h-35 w-full lg:h-20"
-                  >
+                  <div className="relative h-35 w-full lg:h-20">
                     {post.mainImage ? (
                       <Image
                         layout="fill"
@@ -34,18 +33,16 @@ const RelatedPost = async ({ blogID }) => {
                     ) : (
                       "No image"
                     )}
-                  </a>
+                  </div>
                 </div>
                 <div className="flex w-full xl:w-3/5">
                   <h5 className="text-md font-medium text-black transition-all duration-150 hover:text-primary">
-                    <a href={`../${post._id}`}>
-                      {post.title.length <= 60
-                        ? post.title
-                        : `${post.title.slice(0, 60)}...`}
-                    </a>
+                    {post.title.length <= 60
+                      ? post.title
+                      : `${post.title.slice(0, 60)}...`}
                   </h5>
                 </div>
-              </div>
+              </Link>
             ))}
         </div>
       </div>

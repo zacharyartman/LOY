@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import menuData from "../Header/menuData";
 const Footer = () => {
@@ -29,14 +29,14 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-full md:w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <Link href="/" className="relative">
                   <Image
                     width={300 / 2}
                     height={238 / 2}
                     src="/images/logo/las-olas-yoga-near-me.webp"
                     alt="Logo"
                   />
-                </a>
+                </Link>
 
                 <p className="mb-10 mt-5">
                   We are located in the heart of downtown Fort Lauderdale on Las
@@ -174,21 +174,12 @@ const Footer = () => {
                         ))
                       ) : (
                         <li key={menuItem.path}>
-                          {["Home", "Workshops"].includes(menuItem.title) ? (
-                            <a
-                              href={menuItem.path}
-                              className="inline-block hover:text-primary md:mr-5"
-                            >
-                              {menuItem.title}
-                            </a>
-                          ) : (
-                            <Link
-                              href={menuItem.path || "#"}
-                              className="inline-block hover:text-primary md:mr-5"
-                            >
-                              {menuItem.title}
-                            </Link>
-                          )}
+                          <Link
+                            href={menuItem.path || "#"}
+                            className="inline-block hover:text-primary md:mr-5"
+                          >
+                            {menuItem.title}
+                          </Link>
                         </li>
                       ),
                     )}

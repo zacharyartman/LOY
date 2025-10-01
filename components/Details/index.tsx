@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React, { useState } from "react";
 import { saveAs } from "file-saver";
 import { teacherByName, teachersData } from "../Teachers/teachersData";

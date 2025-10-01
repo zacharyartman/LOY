@@ -1,9 +1,9 @@
 import BlogData from "@/components/Blog/blogData";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import RelatedPost from "@/components/Blog/RelatedPost";
-import InlineArrowButton from "@/components/InlineArrowButton";
 import { Metadata } from "next";
 import Error from "@/components/Error";
+import InlineArrowButtonLocalLink from "@/components/InlineArrowButtonLocalLink";
 
 export async function generateMetadata({
   params,
@@ -41,7 +41,7 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
   return (
     <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
       <div className="mb-5 block px-4 md:px-8 lg:hidden">
-        <InlineArrowButton
+        <InlineArrowButtonLocalLink
           href={"/blog"}
           reversed={true}
           text={"Back to blogs"}
@@ -51,7 +51,7 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
         <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
           <div className="md:w-1/2 lg:w-[32%]">
             <div className="mb-5 hidden lg:block">
-              <InlineArrowButton
+              <InlineArrowButtonLocalLink
                 href={"/blog"}
                 reversed={true}
                 text={"Back to blogs"}

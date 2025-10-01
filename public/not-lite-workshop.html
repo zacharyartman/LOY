@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      :root {
+        --momenceColorBackground: #ffffff;
+        --momence-primary-400: rgb(165, 131, 103);
+        --momence-primary-500: rgb(165, 131, 103);
+        --momence-primary-600: #8a6a4f;
+        --momenceColorBlack: 3, 1, 13;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ribbon-schedule"></div>
+    <script
+      type="module"
+      src="https://momence.com/plugin/host-schedule/host-schedule.js"
+      host_id="35160"
+      session_type="workshop"
+      lite_mode="false"
+      teacher_ids="[]"
+      location_ids="[]"
+      tag_ids="[]"
+      default_filter="show-all"
+      hide_drop_in_price="true"
+    ></script>
+    <script>
+      function sendHeight() {
+        const height = document.body.scrollHeight;
+        window.parent.postMessage({ type: "resize", height: height }, "*");
+      }
+
+      const targetCheck = setInterval(() => {
+        if (
+          document.querySelector(".momence-host_schedule-session_list-item")
+        ) {
+          sendHeight();
+          clearInterval(targetCheck);
+        }
+      }, 100);
+    </script>
+  </body>
+</html>

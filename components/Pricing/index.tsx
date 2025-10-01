@@ -1,8 +1,9 @@
 "use client";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
 import pricingData from "./pricingData";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Pricing = ({ sectionHeader }) => {
   const PricingButton = ({
@@ -134,12 +135,12 @@ const Pricing = ({ sectionHeader }) => {
           </p>
           <p className="mt-4 text-center xl:mt-0">
             View Monthly Membership Terms and Freeze Policy{" "}
-            <a
+            <Link
               href="/monthly-membership-policies"
               style={{ color: "#8a6a4f", textDecoration: "none" }}
             >
               <b>here</b>
-            </a>
+            </Link>
           </p>
         </div>
       </motion.section>

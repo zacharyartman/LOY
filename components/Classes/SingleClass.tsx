@@ -1,6 +1,6 @@
 import React from "react";
 import { Class } from "@/types/class";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const SingleClass = ({ classItem }: { classItem: Class }) => {
   const { icon, title, description, alt } = classItem;
