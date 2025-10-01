@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/legacy/image";
 import BlogData from "./blogData";
+import Link from "next/link";
 
 const RelatedPost = async ({ blogID }) => {
   return (
@@ -20,7 +21,7 @@ const RelatedPost = async ({ blogID }) => {
                 key={key}
               >
                 <div className="flex w-full xl:w-2/5">
-                  <a
+                  <Link
                     href={`../${post._id}`}
                     className="relative h-35 w-full lg:h-20"
                   >
@@ -34,15 +35,15 @@ const RelatedPost = async ({ blogID }) => {
                     ) : (
                       "No image"
                     )}
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex w-full xl:w-3/5">
                   <h5 className="text-md font-medium text-black transition-all duration-150 hover:text-primary">
-                    <a href={`../${post._id}`}>
+                    <Link href={`../${post._id}`}>
                       {post.title.length <= 60
                         ? post.title
                         : `${post.title.slice(0, 60)}...`}
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>

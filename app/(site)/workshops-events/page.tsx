@@ -2,6 +2,7 @@ import React from "react";
 import { Metadata } from "next";
 import NewPageHero from "@/components/NewPageHero";
 import MomenceSchedule from "@/components/MomenceSchedule";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Workshops | Yoga Classes | Fort Lauderdale",
@@ -19,12 +20,12 @@ const WorkshopsPage = () => {
         position="bg-[center_80%]"
       ></NewPageHero>
       <div className="flex items-center justify-center gap-2 pt-7 xl:mt-0">
-        <a
+        <Link
           href="/schedule"
           className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
         >
           View Class Schedule
-        </a>
+        </Link>
       </div>
       <MomenceSchedule
         title={false}

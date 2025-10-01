@@ -45,7 +45,7 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/images/logo/las-olas-yoga-near-me.webp"
               alt="logo"
@@ -53,7 +53,7 @@ const Header = () => {
               height={Math.round(110 * (203 / 256))}
               className="w-full"
             />
-          </a>
+          </Link>
 
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
@@ -64,26 +64,31 @@ const Header = () => {
             <span className="relative block h-5.5 w-5.5 cursor-pointer">
               <span className="absolute right-5.5 block h-full w-full">
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out ${!navigationOpen ? "!w-full delay-300" : "w-0"
-                    }`}
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-[0] duration-200 ease-in-out ${
+                    !navigationOpen ? "!w-full delay-300" : "w-0"
+                  }`}
                 ></span>
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-150 duration-200 ease-in-out ${!navigationOpen ? "delay-400 !w-full" : "w-0"
-                    }`}
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-150 duration-200 ease-in-out ${
+                    !navigationOpen ? "delay-400 !w-full" : "w-0"
+                  }`}
                 ></span>
                 <span
-                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-200 duration-200 ease-in-out ${!navigationOpen ? "!w-full delay-500" : "w-0"
-                    }`}
+                  className={`relative left-0 top-0 my-1 block h-0.5 rounded-sm bg-black delay-200 duration-200 ease-in-out ${
+                    !navigationOpen ? "!w-full delay-500" : "w-0"
+                  }`}
                 ></span>
               </span>
               <span className="du-block absolute right-5.5 h-full w-full rotate-45">
                 <span
-                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out ${!navigationOpen ? "!h-0 delay-[0]" : "h-full"
-                    }`}
+                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out ${
+                    !navigationOpen ? "!h-0 delay-[0]" : "h-full"
+                  }`}
                 ></span>
                 <span
-                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out ${!navigationOpen ? "!h-0 delay-200" : "h-0.5"
-                    }`}
+                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out ${
+                    !navigationOpen ? "!h-0 delay-200" : "h-0.5"
+                  }`}
                 ></span>
               </span>
             </span>
@@ -93,8 +98,9 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`overflow-hidden transition-all duration-300 xl:overflow-visible ${navigationOpen ? "navbar max-h-screen" : "max-h-0"
-            } w-full items-center justify-between xl:flex xl:max-h-full xl:w-full`}
+          className={`overflow-hidden transition-all duration-300 xl:overflow-visible ${
+            navigationOpen ? "navbar max-h-screen" : "max-h-0"
+          } w-full items-center justify-between xl:flex xl:max-h-full xl:w-full`}
         >
           <nav>
             <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
@@ -141,31 +147,17 @@ const Header = () => {
                       </>
                     ) : (
                       <>
-                        {["Home", "Workshops"].includes(menuItem.title) ? (
-                          <a
-                            href={`${menuItem.path}`}
-                            className={`w-full ${
-                              pathUrl === menuItem.path
-                                ? "text-primary hover:text-primary"
-                                : "hover:text-primary"
-                            }`}
-                            onClick={handleLinkClick}
-                          >
-                            {menuItem.title}
-                          </a>
-                        ) : (
-                          <Link
-                            href={`${menuItem.path}`}
-                            className={`w-full ${
-                              pathUrl === menuItem.path
-                                ? "text-primary hover:text-primary"
-                                : "hover:text-primary"
-                            }`}
-                            onClick={handleLinkClick}
-                          >
-                            {menuItem.title}
-                          </Link>
-                        )}
+                        <Link
+                          href={`${menuItem.path}`}
+                          className={`w-full ${
+                            pathUrl === menuItem.path
+                              ? "text-primary hover:text-primary"
+                              : "hover:text-primary"
+                          }`}
+                          onClick={handleLinkClick}
+                        >
+                          {menuItem.title}
+                        </Link>
                       </>
                     )}
                   </li>
@@ -175,7 +167,7 @@ const Header = () => {
           <div className="my-5 flex items-center gap-2 xl:mb-0 xl:ml-10 xl:mt-0">
             <Link
               href="/schedule"
-              className="flex flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular text-white transition-all duration-0 hover:bg-primaryho xl:duration-150 leading-tight w-full xl:w-auto"
+              className="flex w-full flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular leading-tight text-white transition-all duration-0 hover:bg-primaryho xl:w-auto xl:duration-150"
               onClick={handleLinkClick}
             >
               <span>Class Schedule</span>
