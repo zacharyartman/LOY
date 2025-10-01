@@ -49,6 +49,7 @@ function MomenceSchedule({
           style={{
             width: "100%",
             border: "none",
+            minHeight: "275px",
             ...(!fullSchedule && { maxHeight: "100vh" }),
           }}
           scrolling="no"
