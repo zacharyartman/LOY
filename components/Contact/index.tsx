@@ -105,7 +105,7 @@ export default function Contact() {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 1, delay: 0.1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
             className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 md:w-1/2 xl:p-15"
           >
@@ -200,7 +200,7 @@ export default function Contact() {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 2, delay: 0.1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
             className="animate_top w-full md:w-1/2 md:p-7.5 lg:w-[50%]"
           >
