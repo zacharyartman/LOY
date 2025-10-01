@@ -31,24 +31,14 @@
         window.parent.postMessage({ type: "resize", height: height }, "*");
       }
 
-      // Send height on load
-      window.addEventListener("load", sendHeight);
-
-      // Send height when content changes (for dynamic content)
-      const observer = new MutationObserver(sendHeight);
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-        attributes: true,
-      });
-
-      // Also check periodically for the first few seconds (for slower-loading content)
-      let checks = 0;
-      const interval = setInterval(() => {
-        sendHeight();
-        checks++;
-        if (checks > 20) clearInterval(interval); // Stop after ~4 seconds
-      }, 200);
+      const targetCheck = setInterval(() => {
+        if (
+          document.querySelector(".momence-host_schedule-session_list-item")
+        ) {
+          sendHeight();
+          clearInterval(targetCheck);
+        }
+      }, 100);
     </script>
   </body>
 </html>
