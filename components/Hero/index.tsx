@@ -17,7 +17,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden bg-[url('/images/hero/hero-yoga-near-me.webp')] bg-cover bg-center pb-[5rem] pt-[calc(104px+5rem)]">
+      <section className="overflow-hidden bg-[url('/images/hero/hero-yoga-near-me.webp')] bg-cover bg-center pb-[5rem] pt-[10.5rem]">
         <div className="mx-auto max-w-c-1390 px-4 text-center md:px-8 2xl:px-0">
           <h1 className="mb-5 text-3xl font-bold text-white xl:text-hero">
             movement.
