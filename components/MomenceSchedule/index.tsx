@@ -30,7 +30,7 @@ function MomenceSchedule({
   }, []);
 
   const liteClassSrc = liteMode && sessionType === "class" ? "/lite-class.html" : undefined;
-  const noteLiteClassSrc = !liteMode && sessionType === "class" ? "/not-lite-class.html" : undefined;
+  const notLiteClassSrc = !liteMode && sessionType === "class" ? "/not-lite-class.html" : undefined;
   const notLiteWorkshopSrc = !liteMode && sessionType === "workshop" ? "/not-lite-workshop.html" : undefined;
 
   return (
@@ -43,10 +43,9 @@ function MomenceSchedule({
         </div>
       )}
 
-      <div style={{ overflow: "hidden", height: "100vh" }}>
         <iframe
           ref={iframeRef}
-          src={liteClassSrc ?? noteLiteClassSrc ?? notLiteWorkshopSrc}
+          src={liteClassSrc ?? notLiteClassSrc ?? notLiteWorkshopSrc}
           style={{
             width: "100%",
             border: "none",
@@ -54,7 +53,6 @@ function MomenceSchedule({
           }}
           scrolling="no"
         />
-      </div>
 
       {!fullSchedule && (
         <div className="flex justify-center">

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/legacy/image";
 import InlineArrowButton from "../InlineArrowButton";
+import InlineArrowButtonLocalLink from "../InlineArrowButtonLocalLink";
 
 const About = ({ aboutText, viewClasses }) => {
   return (
@@ -63,7 +64,7 @@ const About = ({ aboutText, viewClasses }) => {
               <div dangerouslySetInnerHTML={{ __html: aboutText }} />
               <div>
                 {viewClasses && (
-                  <InlineArrowButton
+                  <InlineArrowButtonLocalLink
                     href={"/classes"}
                     reversed={false}
                     text={"View Classes"}
