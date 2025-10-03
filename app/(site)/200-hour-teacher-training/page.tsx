@@ -33,8 +33,7 @@ const TwoHundredHourTTPage = () => {
     <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<b>📍 Saturdays:</b> 12:00 - 5:00 PM<br>
-<b>📍 Sundays:</b> 1:30 - 6:30 PM<br>
+<b>📍 Saturdays & Sundays:</b> 1:30 - 6:30 PM<br>
 <b>➖ Excludes:</b> February 7-8, March 7-8 weekends<br>
 </p>
 
