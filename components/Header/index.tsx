@@ -125,7 +125,11 @@ const Header = () => {
                     {menuItem.submenu ? (
                       <>
                         <button
-                          onClick={() => toggleDropdown(menuItem.id)}
+                          onClick={() => {
+                            if (window.innerWidth < 1280) {
+                              toggleDropdown(menuItem.id);
+                            }
+                          }}
                           className={`flex cursor-pointer items-center justify-between gap-3 hover:text-primary  ${
                             menuItem.submenu ? "w-full" : ""
                           } ${
@@ -137,13 +141,9 @@ const Header = () => {
                           {menuItem.title}
                           <span>
                             <svg
-                              className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary ${
+                              className={`h-3 w-3 cursor-pointer fill-current transition-transform xl:group-hover:rotate-180 ${
                                 dropdownTogglers[menuItem.id]
                                   ? "rotate-180"
-                                  : ""
-                              } ${
-                                isSubmenuActive(menuItem.submenu)
-                                  ? "fill-primary"
                                   : ""
                               }`}
                               xmlns="http://www.w3.org/2000/svg"
