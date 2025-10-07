@@ -64,12 +64,12 @@ const menuData: Menu[] = [
       },
     ],
   },
-  {
-    id: 7,
-    title: "Retreats",
-    newTab: false,
-    path: "/retreats",
-  },
+  // {
+  //   id: 7,
+  //   title: "Retreats",
+  //   newTab: false,
+  //   path: "/retreats",
+  // },
   {
     id: 8,
     title: "About Us",
