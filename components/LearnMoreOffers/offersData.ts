@@ -56,18 +56,18 @@ export const offersData: Offer[] = [
             },
         ]
     },
-    {
-        id: 4,
-        title: "Retreats",
-        items: [
-            {
-                id: 41,
-                name: "Sedona Soul Adventure Retreat",
-                price: "Oct 9-13, 2025",
-                href: "/retreats",
-            },
-        ]
-    },
+    // {
+    //     id: 4,
+    //     title: "Retreats",
+    //     items: [
+    //         {
+    //             id: 41,
+    //             name: "Sedona Soul Adventure Retreat",
+    //             price: "Oct 9-13, 2025",
+    //             href: "/retreats",
+    //         },
+    //     ]
+    // },
     {
         id: 5,
         title: "Download our App",
