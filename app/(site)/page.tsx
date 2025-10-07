@@ -27,7 +27,7 @@ export default function Home() {
             Best Yoga Studio in Fort Lauderdale!
           </h2>
           <p className="text-base text-[#a58367]">
-            We are honored to be <a href="https://fortlauderdalemagazine.com/best/" target="_blank" rel="noopener noreferrer" className="text-primaryho hover:underline">voted</a> as the Best Yoga Studio in Fort Lauderdale for the 3rd year in a row.
+            We are honored to be <a href="https://fortlauderdalemagazine.com/best/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline decoration-1 underline-offset-2 hover:text-primaryho hover:decoration-2">voted</a> as the Best Yoga Studio in Fort Lauderdale for the 3rd year in a row.
           </p>
         </div>
       </div>
