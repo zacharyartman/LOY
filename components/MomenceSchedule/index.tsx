@@ -54,6 +54,7 @@ function MomenceSchedule({
       )}
 
       <iframe
+        title="Momence Schedule"
         ref={iframeRef}
         src={liteClassSrc ?? notLiteClassSrc ?? notLiteWorkshopSrc}
         style={{

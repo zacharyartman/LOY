@@ -155,9 +155,9 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black">
+                  <h2 className="mb-9 text-itemtitle2 font-medium text-black">
                     Quick Links
-                  </h4>
+                  </h2>
 
                   <ul className="grid grid-cols-1 gap-2 md:grid-cols-2">
                     {menuData.map((menuItem) =>
@@ -204,9 +204,9 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black">
+                  <h2 className="mb-9 text-itemtitle2 font-medium text-black">
                     Contact Us
-                  </h4>
+                  </h2>
 
                   <ul>
                     <li>
