@@ -41,7 +41,7 @@ body {
 
 @media (max-width: 1280px) {
   .navbar {
-    @apply max-h-[550px] overflow-y-scroll;
+    @apply max-h-[75vh] overflow-y-scroll;
   }
 }
 
