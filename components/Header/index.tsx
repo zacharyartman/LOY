@@ -160,10 +160,16 @@ const Header = () => {
                           }`}
                         >
                           {menuItem.submenu.map((item, key) => (
-                            <li key={key} className="hover:text-primary">
+                            <li 
+                              key={key}
+                            >
                               <Link
                                 href={item.path || "#"}
-                                className="block w-full"
+                                className={`block w-full py-4 px-5 rounded-md text-sm font-normal hover:bg-gray-50 hover:text-primary ${
+                                  pathUrl === item.path 
+                                    ? "bg-primary/5 text-primary font-medium" 
+                                    : ""
+                                }`}
                                 onClick={handleLinkClick}
                               >
                                 {item.title}
