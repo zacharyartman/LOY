@@ -30,6 +30,7 @@ function MomenceGiftCard() {
         id="iframe_gift_cards_35160"
         src="https://momence.com/gcc/35160"
         className="w-full "
+        scrolling="no"
         style={{ maxWidth: "800px" }}
       ></iframe>
     </div>
