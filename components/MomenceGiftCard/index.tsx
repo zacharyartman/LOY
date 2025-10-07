@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 function MomenceGiftCard() {
   useEffect(() => {
-    const handleResize = (e) => {
+    const handleResize = (e: MessageEvent) => {
       const height = +e.data?.height;
       const type = e.data?.type;
       const iframe = document.querySelector("#iframe_gift_cards_35160") as HTMLIFrameElement;
