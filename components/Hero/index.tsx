@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   const LocalHeroLink = ({ text, ariaLabel, link, lastElement }) => {
@@ -17,8 +18,18 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden bg-[url('/images/hero/hero-yoga-near-me.webp')] bg-cover bg-center pb-[5rem] pt-[10.5rem]">
-        <div className="mx-auto max-w-c-1390 px-4 text-center md:px-8 2xl:px-0">
+      <section className="relative overflow-hidden pb-[5rem] pt-[10.5rem]">
+        <Image
+          src="/images/hero/hero-yoga-near-me.webp"
+          alt="Las Olas Yoga Studio"
+          fill
+          priority
+          quality={95}
+          className="object-cover object-center"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1920px"
+        />
+        
+        <div className="relative z-10 mx-auto max-w-c-1390 px-4 text-center md:px-8 2xl:px-0">
           <h1 className="mb-5 text-3xl font-bold text-white xl:text-hero">
             movement.
             <br />
