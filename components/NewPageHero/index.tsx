@@ -27,10 +27,10 @@ const NewPageHero = ({ titleText, link, position = "bg-center" }) => {
           alt={titleText}
           fill
           priority
-          quality={85}
+          quality={95}
           className="object-cover"
           style={{ objectPosition: objectPositionValue }}
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1920px"
         />
         
         <div className="relative z-10 mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
