@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
 import Link from "next/link";
+import { Menu } from "@/types/menu";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -35,6 +36,10 @@ const Header = () => {
 
   const handleLinkClick = () => {
     setNavigationOpen(false);
+  };
+
+  const isSubmenuActive = (submenu: Menu[]) => {
+    return submenu.some((item) => pathUrl === item.path);
   };
 
   return (
@@ -123,6 +128,10 @@ const Header = () => {
                           onClick={() => toggleDropdown(menuItem.id)}
                           className={`flex cursor-pointer items-center justify-between gap-3 hover:text-primary  ${
                             menuItem.submenu ? "w-full" : ""
+                          } ${
+                            isSubmenuActive(menuItem.submenu)
+                              ? "text-primary"
+                              : ""
                           }`}
                         >
                           {menuItem.title}
@@ -131,6 +140,10 @@ const Header = () => {
                               className={`h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-primary ${
                                 dropdownTogglers[menuItem.id]
                                   ? "rotate-180"
+                                  : ""
+                              } ${
+                                isSubmenuActive(menuItem.submenu)
+                                  ? "fill-primary"
                                   : ""
                               }`}
                               xmlns="http://www.w3.org/2000/svg"
