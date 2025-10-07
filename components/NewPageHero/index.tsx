@@ -8,7 +8,7 @@ const NewPageHero = ({ titleText, link, position = "bg-center" }) => {
   return (
     <>
       <section
-        className={`h-100 mt-[90px] overflow-hidden bg-cover pb-20 pt-20 xl:pb-25 ${position}`}
+        className={`h-100 mt-[88px] overflow-hidden bg-cover pb-20 pt-20 xl:pb-25 ${position}`}
         style={backgroundImageStyle}
       >
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
