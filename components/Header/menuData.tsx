@@ -35,7 +35,7 @@ const menuData: Menu[] = [
   },
   {
     id: 13,
-    title: "Schedule",
+    title: "Class Schedule",
     newTab: false,
     hidden: true,
     path: "/schedule",
