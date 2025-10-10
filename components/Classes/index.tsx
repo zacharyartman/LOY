@@ -9,7 +9,7 @@ const Classes = ({ title }) => {
     <>
       <section
         id="features"
-        className={`${title ? "py-20 lg:py-25 xl:py-30" : "py-0 pb-20"}`}
+        className={`${title ? "py-10" : "py-0 pb-20"}`}
       >
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {title && (
@@ -35,7 +35,7 @@ const Classes = ({ title }) => {
             transition={{ duration: 0.3, delay: 0.05 }}
             viewport={{ once: true }}
             className={`animate_top grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-12.5 ${
-              title ? "mt-12.5 lg:mt-15 xl:mt-20" : ""
+              title ? "mt-8" : ""
             }`}
           >
             {classesData.map((classItem, key) => (

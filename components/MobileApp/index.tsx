@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const MobileApp = () => {
   return (
     <>
-      <section className="px-4 py-5 md:px-8 xl:pt-20 2xl:px-0">
+      <section className="px-4 py-5 md:px-8 xl:py-10 2xl:px-0">
         <div className="relative z-1 mx-auto max-w-c-1390">
           <motion.div
             variants={{
@@ -23,7 +23,7 @@ const MobileApp = () => {
             whileInView="visible"
             transition={{ duration: 0.3, delay: 0.05 }}
             viewport={{ once: true }}
-            className="items-left mx-auto mb-0 flex flex-col justify-between px-7.5 py-12.5 text-left md:flex-row md:items-center md:px-12.5 xl:px-17.5 xl:py-0"
+            className="items-left mx-auto mb-0 flex flex-col justify-between px-7.5 py-10 text-left md:flex-row md:items-center md:px-12.5 xl:px-17.5 xl:py-0"
           >
             <div>
               <h2 className="mb-4 text-3xl font-bold text-black xl:text-sectiontitle3">

@@ -9,7 +9,7 @@ const About = ({ aboutText, viewClasses }) => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
-      <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      <section className="overflow-hidden pb-10">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex flex-col items-center gap-8 sm:flex-row lg:gap-32.5">
             <motion.div

@@ -68,10 +68,10 @@ function MomenceSchedule({
 
       {!fullSchedule && (
         <div className="flex justify-center">
-          <div className="mb-15 mt-7 flex items-center gap-2 xl:mt-0">
+          <div className="mb-10 mt-8 flex items-center gap-2 xl:mt-0">
             <Link
               href="/schedule"
-              className="mt-5 flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
+              className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
             >
               View Full Schedule
             </Link>
