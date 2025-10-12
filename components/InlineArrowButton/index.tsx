@@ -1,6 +1,12 @@
 "use client";
 
-const InlineArrowButton = ({ href, text, reversed }) => {
+interface InlineArrowButtonProps {
+  href: string;
+  text: string;
+  reversed: boolean;
+}
+
+const InlineArrowButton = ({ href, text, reversed }: InlineArrowButtonProps) => {
   return (
     <>
       <div>

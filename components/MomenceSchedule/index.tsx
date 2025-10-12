@@ -1,18 +1,20 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useRef } from "react";
+import Link from "next/link";
+
+interface MomenceScheduleProps {
+  title: boolean;
+  fullSchedule: boolean;
+  sessionType: "class" | "workshop";
+  liteMode: boolean;
+}
 
 function MomenceSchedule({
   title,
   fullSchedule,
   sessionType,
   liteMode,
-}: {
-  title: boolean;
-  fullSchedule: boolean;
-  sessionType: "class" | "workshop";
-  liteMode: boolean;
-}) {
+}: MomenceScheduleProps) {
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {

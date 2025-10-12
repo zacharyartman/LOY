@@ -1,27 +1,23 @@
 import { useState } from "react";
-import { Teacher } from "@/types/teacher";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import { defaultTransition, fadeInUp } from "@/constants/animations";
+import { Teacher } from "@/types/teacher";
 
-const SingleTeacher = ({ review }: { review: Teacher }) => {
+interface SingleTeacherProps {
+  review: Teacher;
+}
+
+const SingleTeacher = ({ review }: SingleTeacherProps) => {
   const { name, designation, image, content } = review;
   const [showFullContent, setShowFullContent] = useState(false);
 
   return (
     <motion.div
-      variants={{
-        hidden: {
-          opacity: 0,
-          y: -20,
-        },
-        visible: {
-          opacity: 1,
-          y: 0,
-        },
-      }}
+      variants={fadeInUp}
       initial="hidden"
       whileInView="visible"
-      transition={{ duration: 0.3, delay: 0.05 }}
+      transition={defaultTransition}
       viewport={{ once: true }}
       className="animate_top"
     >

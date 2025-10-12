@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import { defaultTransition, fadeInUp } from "@/constants/animations";
 
 const MobileApp = () => {
   return (
@@ -9,19 +10,10 @@ const MobileApp = () => {
       <section className="px-4 py-5 md:px-8 xl:py-10 2xl:px-0">
         <div className="relative z-1 mx-auto max-w-c-1390">
           <motion.div
-            variants={{
-              hidden: {
-                opacity: 0,
-                y: -20,
-              },
-              visible: {
-                opacity: 1,
-                y: 0,
-              },
-            }}
+            variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 0.3, delay: 0.05 }}
+            transition={defaultTransition}
             viewport={{ once: true }}
             className="items-left mx-auto mb-0 flex flex-col justify-between px-7.5 py-10 text-left md:flex-row md:items-center md:px-12.5 xl:px-17.5 xl:py-0"
           >

@@ -1,8 +1,12 @@
 import React from "react";
-import { Class } from "@/types/class";
 import Image from "next/image";
+import { Class } from "@/types/class";
 
-const SingleClass = ({ classItem }: { classItem: Class }) => {
+interface SingleClassProps {
+  classItem: Class;
+}
+
+const SingleClass = ({ classItem }: SingleClassProps) => {
   const { icon, title, description, alt } = classItem;
 
   return (

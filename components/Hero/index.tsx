@@ -1,10 +1,17 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+
+interface HeroLinkProps {
+  text: string;
+  ariaLabel: string;
+  link: string;
+  lastElement: boolean;
+}
 
 const Hero = () => {
-  const LocalHeroLink = ({ text, ariaLabel, link, lastElement }) => {
+  const LocalHeroLink = ({ text, ariaLabel, link, lastElement }: HeroLinkProps) => {
     return (
       <Link
         aria-label={ariaLabel}

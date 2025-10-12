@@ -67,7 +67,7 @@ const pricingData: Price[] = [
     buttonText: 'Get Six-Month Unlimited'
   },
   {
-    id: 6,
+    id: 7,
     title: "One Week Traveler's Pass",
     subtitle: "Unlimited classes for visitors for one week (one-time only)",
     price: 59,

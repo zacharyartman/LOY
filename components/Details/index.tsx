@@ -1,10 +1,30 @@
 "use client";
-import { motion } from "framer-motion";
-import Image from "next/image";
 import React, { useState } from "react";
 import { saveAs } from "file-saver";
-import { teacherByName, teachersData } from "../Teachers/teachersData";
+import { motion } from "framer-motion";
+import Image from "next/image";
 import { Teacher } from "@/types/teacher";
+import { teacherByName } from "../Teachers/teachersData";
+
+interface EventData {
+  date: number[];
+  title: string;
+  start: number[];
+  end: number[];
+}
+
+interface DetailsProps {
+  title: string;
+  dates: string;
+  text: string;
+  images: [string, string][];
+  buttonText?: string;
+  buttonLink?: string;
+  teacher?: string;
+  events?: EventData[] | null;
+  verticalImages?: boolean;
+  teacherNamesUnderApplyButton?: string[];
+}
 
 const Details = ({
   title,
@@ -17,20 +37,7 @@ const Details = ({
   events = null,
   verticalImages = false,
   teacherNamesUnderApplyButton,
-}: {
-  title: string;
-  dates: string;
-  text: string;
-  images: [string, string][];
-  buttonText?: string;
-  buttonLink?: string;
-  teacher?: string;
-  events?:
-    | { date: number[]; title: string; start: number[]; end: number[] }[]
-    | null;
-  verticalImages?: boolean;
-  teacherNamesUnderApplyButton?: string[];
-}) => {
+}: DetailsProps) => {
   const [selectedTeacher, setSelectedTeacher] = useState<Teacher | null>(null);
 
   const addToCalendar = () => {
@@ -54,7 +61,7 @@ const Details = ({
     saveAs(blob, "TT_Events.ics");
   };
 
-  const formatICSDate = (dateArray) => {
+  const formatICSDate = (dateArray: number[]) => {
     const [year, month, day, hour, minute] = dateArray;
     return `${year}${String(month).padStart(2, "0")}${String(day).padStart(2, "0")}T${String(hour).padStart(2, "0")}${String(minute).padStart(2, "0")}00`;
   };
