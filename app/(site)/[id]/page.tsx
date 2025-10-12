@@ -58,7 +58,7 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
                 text={"Back to blogs"}
               />
             </div>
-            <RelatedPost blogID={blog._id} />
+            <RelatedPost blogID={blog._id.toString()} />
           </div>
 
           <div className="lg:w-2/3">

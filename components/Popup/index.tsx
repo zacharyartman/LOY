@@ -13,15 +13,15 @@ export default function Popup() {
         setShowModal(true);
       }, 4000);
 
-      const handleKeyDown = (event) => {
+      const handleKeyDown = (event: KeyboardEvent) => {
         if (event.key === "Escape") {
           Cookies.set("newStudentClosed", "true", { expires: 7 });
           setShowModal(false);
         }
       };
 
-      const handleClickOutside = (event) => {
-        if (event.target.id === "modal-background") {
+      const handleClickOutside = (event: MouseEvent) => {
+        if ((event.target as HTMLElement).id === "modal-background") {
           Cookies.set("newStudentClosed", "true", { expires: 7 });
           setShowModal(false);
         }
@@ -36,6 +36,7 @@ export default function Popup() {
         document.removeEventListener("click", handleClickOutside);
       };
     }
+    return;
   }, []);
 
   return (

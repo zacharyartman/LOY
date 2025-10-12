@@ -1,6 +1,14 @@
 "use client";
 
-const NewPageHero = ({ link, position = "bg-center", titleText }) => {
+const NewPageHero = ({
+  link,
+  position = "bg-center",
+  titleText,
+}: {
+  link: string;
+  position?: string;
+  titleText: string;
+}) => {
   const backgroundImageStyle = {
     backgroundImage: `url(${link})`,
   };

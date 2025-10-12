@@ -5,6 +5,16 @@ import React, { useEffect, useState } from "react";
 import FAQ from "@/components/FAQ";
 import pricingData from "@/components/Pricing/pricingData";
 
+type PricingButtonProps = {
+  buttonText: string;
+  href: string;
+  perX: string;
+  popular?: boolean;
+  price: number;
+  subtitle: string;
+  title: string;
+};
+
 const PricingButton = ({
   buttonText,
   href,
@@ -13,7 +23,7 @@ const PricingButton = ({
   price,
   subtitle,
   title,
-}) => {
+}: PricingButtonProps) => {
   return (
     <a
       href={href}

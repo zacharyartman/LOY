@@ -4,7 +4,7 @@ import React from "react";
 
 import BlogData from "./blogData";
 
-const RelatedPost = async ({ blogID }) => {
+const RelatedPost = async ({ blogID }: { blogID: string }) => {
   return (
     <>
       <div className="animate_top rounded-md border border-stroke bg-white p-9 shadow-solid-13">
