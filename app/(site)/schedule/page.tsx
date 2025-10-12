@@ -1,13 +1,14 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
-import MomenceSchedule from "@/components/MomenceSchedule";
 import Link from "next/link";
+import React from "react";
+
+import MomenceSchedule from "@/components/MomenceSchedule";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "Schedule | Best Yoga Classes | Fort Lauderdale",
   description:
     "Weekly schedule of our yoga classes and workshops. We have classes 7 days a week for all levels with weekday morning & evening classes and weekend morning classes.",
+  title: "Schedule | Best Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 

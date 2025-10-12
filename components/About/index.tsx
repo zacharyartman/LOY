@@ -2,10 +2,18 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+
+import { defaultTransition, fadeInLeft, fadeInRight } from "@/constants/animations";
+
 import InlineArrowButton from "../InlineArrowButton";
 import InlineArrowButtonLocalLink from "../InlineArrowButtonLocalLink";
 
-const About = ({ aboutText, viewClasses }) => {
+type AboutProps = {
+  aboutText: string;
+  viewClasses: boolean;
+}
+
+const About = ({ aboutText, viewClasses }: AboutProps) => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
@@ -13,20 +21,10 @@ const About = ({ aboutText, viewClasses }) => {
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex flex-col items-center gap-8 sm:flex-row lg:gap-32.5">
             <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
+              variants={fadeInLeft}
               initial="hidden"
               animate="visible"
-              transition={{ duration: 0.3 }}
+              transition={defaultTransition}
               viewport={{ once: true }}
               className="animate_left relative mx-auto aspect-[200/150] w-full sm:w-1/2 md:block"
             >
@@ -38,20 +36,10 @@ const About = ({ aboutText, viewClasses }) => {
               />
             </motion.div>
             <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: 20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
+              variants={fadeInRight}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3 }}
+              transition={defaultTransition}
               viewport={{ once: true }}
               className="animate_right sm:w-1/2"
             >
@@ -82,20 +70,10 @@ const About = ({ aboutText, viewClasses }) => {
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
           <div className="flex flex-col items-center gap-8 sm:flex-row lg:gap-32.5">
             <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: 20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
+              variants={fadeInRight}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3 }}
+              transition={defaultTransition}
               viewport={{ once: true }}
               className="animate_right relative mx-auto aspect-[200/150] w-full sm:hidden sm:w-1/2"
             >
@@ -108,20 +86,10 @@ const About = ({ aboutText, viewClasses }) => {
             </motion.div>
 
             <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
+              variants={fadeInLeft}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3 }}
+              transition={defaultTransition}
               viewport={{ once: true }}
               className="animate_left sm:w-1/2"
             >
@@ -149,20 +117,10 @@ const About = ({ aboutText, viewClasses }) => {
               </div>
             </motion.div>
             <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: 20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
+              variants={fadeInRight}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3 }}
+              transition={defaultTransition}
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-[200/150] w-full sm:block sm:w-1/2"
             >

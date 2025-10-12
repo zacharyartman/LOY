@@ -1,30 +1,26 @@
 "use client";
-import { Blog } from "@/types/blog";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-const BlogItem = ({ blog }: { blog: Blog }) => {
-  const { _id, mainImage, title, metadata } = blog;
+import { fadeInUp, staggerTransition } from "@/constants/animations";
+import { Blog } from "@/types/blog";
+
+type BlogItemProps = {
+  blog: Blog;
+}
+
+const BlogItem = ({ blog }: BlogItemProps) => {
+  const { _id, mainImage, metadata, title } = blog;
 
   return (
     <>
       <Link href={`/${_id}`} passHref legacyBehavior>
         <motion.div
-          variants={{
-            hidden: {
-              opacity: 0,
-              y: -20,
-            },
-
-            visible: {
-              opacity: 1,
-              y: 0,
-            },
-          }}
+          variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.3, delay: 0.1 }}
+          transition={staggerTransition}
           viewport={{ once: true }}
           className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 hover:cursor-pointer hover:text-primary"
         >

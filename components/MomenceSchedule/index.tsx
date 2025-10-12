@@ -2,17 +2,19 @@
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 
-function MomenceSchedule({
-  title,
-  fullSchedule,
-  sessionType,
-  liteMode,
-}: {
-  title: boolean;
+type MomenceScheduleProps = {
   fullSchedule: boolean;
-  sessionType: "class" | "workshop";
   liteMode: boolean;
-}) {
+  sessionType: "class" | "workshop";
+  title: boolean;
+}
+
+function MomenceSchedule({
+  fullSchedule,
+  liteMode,
+  sessionType,
+  title,
+}: MomenceScheduleProps) {
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
@@ -58,9 +60,9 @@ function MomenceSchedule({
         ref={iframeRef}
         src={liteClassSrc ?? notLiteClassSrc ?? notLiteWorkshopSrc}
         style={{
-          width: "100%",
           border: "none",
           minHeight: "275px",
+          width: "100%",
           ...(!fullSchedule && { maxHeight: "100vh" }),
         }}
         scrolling="no"

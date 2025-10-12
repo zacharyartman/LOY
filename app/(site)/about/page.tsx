@@ -1,11 +1,12 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
+import React from "react";
+
 import About from "@/components/About";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "Our Studio | Best Yoga Classes | Fort Lauderdale",
   description: "Our mission is to provide a place of wellness, healing and self-discovery through movement, mindfulness & community. We are located in Ft Lauderdale on Las Olas Blvd.",
+  title: "Our Studio | Best Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 

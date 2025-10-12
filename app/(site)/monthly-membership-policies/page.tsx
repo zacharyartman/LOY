@@ -1,9 +1,9 @@
-import React from "react";
 import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: "Membership Policies | Yoga Classes | Fort Lauderdale",
   description: "Las Olas Yoga's Monthly Membership Policies.",
+  title: "Membership Policies | Yoga Classes | Fort Lauderdale",
 };
 
 const MembershipPoliciesPage = () => {

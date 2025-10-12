@@ -1,12 +1,13 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
+import React from "react";
+
 import MomenceGiftCard from "@/components/MomenceGiftCard";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "Gift Cards | Yoga Classes | Fort Lauderdale",
   description:
     "Our gift cards are sent via email and do not expire for a year. You can choose one of the standard amounts or create a custom amount.",
+  title: "Gift Cards | Yoga Classes | Fort Lauderdale",
 };
 
 const GiftCardsPage = () => {

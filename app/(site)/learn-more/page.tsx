@@ -1,11 +1,12 @@
-import React from "react";
 import { Metadata } from "next";
+import React from "react";
+
 import Offers from "@/components/LearnMoreOffers";
 
 export const metadata: Metadata = {
-  title: "Learn More | Best Yoga Classes | Fort Lauderdale",
   description:
     "Explore Las Olas Yoga's offerings for new students, class schedules, teacher trainings, retreats, and more. Discover what to expect, sign up for workshops, and download our app. Check out reviews and gift card options to enhance your yoga journey",
+  title: "Learn More | Best Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 

@@ -1,9 +1,9 @@
-import React from "react";
 import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Las Olas Yoga",
   description: "Las Olas Yoga's Privacy Policy details.",
+  title: "Privacy Policy - Las Olas Yoga",
   // other metadata
 };
 

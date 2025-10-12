@@ -1,9 +1,14 @@
-import React from "react";
-import { Class } from "@/types/class";
 import Image from "next/image";
+import React from "react";
 
-const SingleClass = ({ classItem }: { classItem: Class }) => {
-  const { icon, title, description, alt } = classItem;
+import { Class } from "@/types/class";
+
+type SingleClassProps = {
+  classItem: Class;
+}
+
+const SingleClass = ({ classItem }: SingleClassProps) => {
+  const { alt, description, icon, title } = classItem;
 
   return (
     <>

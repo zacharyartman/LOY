@@ -1,31 +1,20 @@
 "use client";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import menuData from "./menuData";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
+
 import { Menu } from "@/types/menu";
+
+import menuData from "./menuData";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownTogglers, setDropdownTogglers] = useState<
     Record<number, boolean>
   >({});
-  const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
-
-  const handleStickyMenu = () => {
-    if (window.scrollY >= 1) {
-      setStickyMenu(true);
-    } else {
-      setStickyMenu(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleStickyMenu);
-  });
 
   const toggleDropdown = (id: number) => {
     setDropdownTogglers((prev) => ({
@@ -58,7 +47,7 @@ const Header = () => {
               alt="logo"
               width={110}
               height={Math.round(110 * (203 / 256))}
-              className="w-full max-h-22 object-contain"
+              className="max-h-22 w-full object-contain"
               priority
             />
           </Link>
@@ -160,14 +149,12 @@ const Header = () => {
                           }`}
                         >
                           {menuItem.submenu.map((item, key) => (
-                            <li 
-                              key={key}
-                            >
+                            <li key={key}>
                               <Link
                                 href={item.path || "#"}
-                                className={`block w-full py-4 px-5 rounded-md text-sm font-normal hover:bg-gray-50 hover:text-primary ${
-                                  pathUrl === item.path 
-                                    ? "bg-primary/5 text-primary font-medium" 
+                                className={`block w-full rounded-md px-5 py-4 text-sm font-normal hover:bg-gray-50 hover:text-primary ${
+                                  pathUrl === item.path
+                                    ? "bg-primary/5 font-medium text-primary"
                                     : ""
                                 }`}
                                 onClick={handleLinkClick}
@@ -200,7 +187,7 @@ const Header = () => {
               <li className="block xl:hidden">
                 <Link
                   href="/schedule"
-                  className="flex w-full flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular leading-tight text-white transition-all hover:bg-primaryho mb-5"
+                  className="mb-5 flex w-full flex-col items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-center text-regular leading-tight text-white transition-all hover:bg-primaryho"
                   onClick={handleLinkClick}
                 >
                   <span>Class Schedule</span>

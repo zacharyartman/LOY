@@ -8,7 +8,7 @@
     "baseUrl": ".",
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
@@ -18,6 +18,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "plugins": [
       {
         "name": "next"
@@ -25,18 +36,18 @@
     ],
     "paths": {
       "@/*": [
-        "./*",
+        "./*"
       ],
       "react": [ "./node_modules/@types/react" ]
-    },
-    "strictNullChecks": true
+    }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
-, "app/(site)/learn-more/customPage.js"  ],
+    ".next/types/**/*.ts",
+    "app/(site)/learn-more/customPage.js"
+  ],
   "exclude": [
     "node_modules"
   ]

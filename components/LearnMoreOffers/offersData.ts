@@ -3,50 +3,49 @@ import { Offer } from "@/types/offer";
 export const offersData: Offer[] = [
     {
         id: 1,
-        title: "New Clients",
         items: [
             {
+                href: "https://momence.com/m/136483",
                 id: 11,
                 name: "Intro Offer: 3 Weeks for $79",
-                href: "https://momence.com/m/136483",
             },
             {
+                href: "/new-students",
                 id: 12,
                 name: "What to Expect",
-                href: "/new-students",
             }
-        ]
+        ],
+        title: "New Clients"
     },
     {
         id: 2,
-        title: "Classes & Events",
         items: [
             {
+                href: "/schedule",
                 id: 21,
                 name: "Schedule",
-                href: "/schedule",
             },
             {
+                href: "/classes",
                 id: 22,
                 name: "Class Descriptions",
-                href: "/classes",
             },
             {
+                href: "/workshops-events",
                 id: 23,
                 name: "Upcoming Workshops",
-                href: "/workshops-events",
             },        
-        ]
+        ],
+        title: "Classes & Events"
     },
     {
         id: 3,
-        title: "Teacher Trainings",
         items: [
             {
+                href: "/200-hour-teacher-training",
                 id: 31,
                 name: "200-Hour Teacher Training",
                 price: "January 17 - April 12, 2026",
-                href: "/200-hour-teacher-training",
             },
             // {
             //     id: 32,
@@ -54,7 +53,8 @@ export const offersData: Offer[] = [
             //     price: "September 13, 2025 - March 8, 2026",
             //     href: "/300-hour-teacher-training",
             // },
-        ]
+        ],
+        title: "Teacher Trainings"
     },
     // {
     //     id: 4,
@@ -70,37 +70,37 @@ export const offersData: Offer[] = [
     // },
     {
         id: 5,
-        title: "Download our App",
         items: [
             {
+                href: "https://apps.apple.com/us/app/momence/id1577856009",
                 id: 51,
                 name: "iPhone App",
-                href: "https://apps.apple.com/us/app/momence/id1577856009",
             },
             {
+                href: "https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US",
                 id: 52,
                 name: "Android App",
-                href: "https://play.google.com/store/apps/details?id=com.ribbon.mobileApp&hl=en_US&gl=US",
             },
 
-        ]
+        ],
+        title: "Download our App"
     },
     {
         id: 6,
-        title: "Reviews & Gift Cards",
         items: [
             {
+                href: "https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1300724,17z/data=!4m7!3m6!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!9m1!1b1",
                 id: 61,
                 name: "Google Reviews",
-                href: "https://www.google.com/maps/place/Las+Olas+Yoga/@26.119576,-80.1300724,17z/data=!4m7!3m6!1s0x88d9017a3c258cad:0x8d78f48f6f0f5e81!8m2!3d26.119576!4d-80.1300724!9m1!1b1",
             },
             {
+                href: "/gift-cards",
                 id: 62,
                 name: "Gift Cards",
-                href: "/gift-cards",
             },
 
-        ]
+        ],
+        title: "Reviews & Gift Cards"
     },
 
 

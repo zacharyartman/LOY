@@ -1,11 +1,12 @@
-import React from "react";
 import { Metadata } from "next";
+import React from "react";
+
 import NewPageHero from "@/components/NewPageHero";
 import Teachers from "@/components/Teachers";
 
 export const metadata: Metadata = {
-  title: "Our Team | Best Yoga Classes | Fort Lauderdale",
   description: "Our highly-experienced teachers are here to serve our community. They are skilled at providing modifications and variations for all levels of practitioners.",
+  title: "Our Team | Best Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 

@@ -1,17 +1,17 @@
 import { Metadata } from "next";
-import Hero from "@/components/Hero";
-import Classes from "@/components/Classes";
-import About from "@/components/About";
-import MobileApp from "@/components/MobileApp";
-import CTA from "@/components/CTA";
 import React from "react";
+
+import About from "@/components/About";
+import Classes from "@/components/Classes";
+import CTA from "@/components/CTA";
+import Hero from "@/components/Hero";
+import MobileApp from "@/components/MobileApp";
 import MomenceSchedule from "@/components/MomenceSchedule";
 import Popup from "@/components/Popup";
-import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Downtown Fort Lauderdale Yoga Studio | Non-Heated Yoga Classes | Las Olas Yoga",
   description: "Fort Lauderdale non-heated yoga studio on Las Olas offering classes seven days a week for all levels. Classes include Foundations, Slow Flow, Flow & Restore.",
+  title: "Downtown Fort Lauderdale Yoga Studio | Non-Heated Yoga Classes | Las Olas Yoga",
   // other metadata
 };
 

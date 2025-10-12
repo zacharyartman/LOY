@@ -1,20 +1,37 @@
 "use client";
-import Image from "next/image";
-import SectionHeader from "../Common/SectionHeader";
-import pricingData from "./pricingData";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
-const Pricing = ({ sectionHeader }) => {
+import { defaultTransition, fadeInUp } from "@/constants/animations";
+
+import SectionHeader from "../Common/SectionHeader";
+import pricingData from "./pricingData";
+
+type PricingProps = {
+  sectionHeader?: boolean;
+}
+
+type PricingButtonProps = {
+  buttonText: string;
+  href: string;
+  perX: string;
+  popular?: boolean;
+  price: number;
+  subtitle: string;
+  title: string;
+}
+
+const Pricing = ({ sectionHeader }: PricingProps) => {
   const PricingButton = ({
-    title,
-    subtitle,
-    price,
-    perX,
-    href,
-    popular,
     buttonText,
-  }) => {
+    href,
+    perX,
+    popular,
+    price,
+    subtitle,
+    title,
+  }: PricingButtonProps) => {
     return (
       <a
         className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5`}
@@ -73,20 +90,10 @@ const Pricing = ({ sectionHeader }) => {
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
       <motion.section
-        variants={{
-          hidden: {
-            opacity: 0,
-            y: -30,
-          },
-
-          visible: {
-            opacity: 1,
-            y: 0,
-          },
-        }}
+        variants={fadeInUp}
         initial="hidden"
         whileInView="visible"
-        transition={{ duration: 0.3, delay: 0.05 }}
+        transition={defaultTransition}
         viewport={{ once: true }}
         className="animate_top overflow-hidden"
       >
@@ -96,9 +103,9 @@ const Pricing = ({ sectionHeader }) => {
             <div className="animate_top mx-auto text-center">
               <SectionHeader
                 headerInfo={{
-                  title: `PRICING`,
-                  subtitle: `Our Pricing Plans`,
                   description: ``,
+                  subtitle: `Our Pricing Plans`,
+                  title: `PRICING`,
                 }}
               />
             </div>

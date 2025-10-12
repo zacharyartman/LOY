@@ -1,15 +1,19 @@
-import { useRef, useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
-type FaqData = {
+type FAQItemData = {
   activeFaq: number;
-  id: number;
-  handleFaqToggle: (id: number) => void;
-  quest: string;
   ans: string;
-};
+  handleFaqToggle: (id: number) => void;
+  id: number;
+  quest: string;
+}
 
-const FAQItem = ({ faqData }: { faqData: FaqData }) => {
-  const { activeFaq, id, handleFaqToggle, quest, ans } = faqData;
+type FAQItemProps = {
+  faqData: FAQItemData;
+}
+
+const FAQItem = ({ faqData }: FAQItemProps) => {
+  const { activeFaq, ans, handleFaqToggle, id, quest } = faqData;
   const [height, setHeight] = useState(0);
   const answerRef = useRef<HTMLParagraphElement>(null);
 

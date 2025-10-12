@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 export default function Head() {
   return (
     <>
@@ -28,29 +30,26 @@ export default function Head() {
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
 
-      <script
-        async
+      <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-591592888"
-      ></script>
-      <script
-        async
+        strategy="afterInteractive"
+      />
+      <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-39Y0SQQWM5"
-      ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-591592888');
             gtag('config', 'G-39Y0SQQWM5');
-          `,
-        }}
-      />
+          `}
+      </Script>
 
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+      <Script id="facebook-pixel" strategy="afterInteractive">
+        {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -61,15 +60,15 @@ export default function Head() {
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '527503170150662');
             fbq('track', 'PageView');
-          `,
-        }}
-      />
+          `}
+      </Script>
 
       <noscript>
         <img
           height="1"
           width="1"
           style={{ display: "none" }}
+          alt="Facebook Pixel"
           src="https://www.facebook.com/tr?id=527503170150662&ev=PageView&noscript=1"
         />
       </noscript>

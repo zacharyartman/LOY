@@ -1,3 +1,33 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals"],
+  "plugins": ["@typescript-eslint", "perfectionist"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unused-vars": ["warn", {
+      "argsIgnorePattern": "^_",
+      "varsIgnorePattern": "^_"
+    }],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "prefer-const": "error",
+    "no-var": "error",
+    "perfectionist/sort-imports": ["error"],
+    "perfectionist/sort-named-imports": ["error", {
+      "type": "natural",
+      "order": "asc"
+    }],
+    "perfectionist/sort-interfaces": ["error", {
+      "type": "natural",
+      "order": "asc"
+    }],
+    "perfectionist/sort-objects": ["error"]
+  }
 }

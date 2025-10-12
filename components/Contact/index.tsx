@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 
-interface Errors {
-  name?: boolean;
+type Errors = {
   email?: boolean;
   message?: boolean;
+  name?: boolean;
 }
 
 export default function Contact() {
@@ -61,8 +61,8 @@ export default function Contact() {
     formData.append("access_key", "8e7f1f3e-c7a0-467c-a81d-68d6c575c13d");
 
     const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
       body: formData,
+      method: "POST",
     });
 
     const data = await response.json();
@@ -73,7 +73,6 @@ export default function Contact() {
       (event.target as HTMLFormElement).reset();
       setErrors({});
     } else {
-      console.log("Error", data);
       setResult(data.message);
       setResultColor("red");
     }
@@ -105,7 +104,7 @@ export default function Contact() {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 0.5, delay: 0.1 }}
+            transition={{ delay: 0.1, duration: 0.5 }}
             viewport={{ once: true }}
             className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 md:w-1/2 xl:p-15"
           >
@@ -200,7 +199,7 @@ export default function Contact() {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 0.5, delay: 0.1 }}
+            transition={{ delay: 0.1, duration: 0.5 }}
             viewport={{ once: true }}
             className="animate_top w-full md:w-1/2 md:p-7.5 lg:w-[50%]"
           >

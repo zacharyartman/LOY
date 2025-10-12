@@ -1,7 +1,8 @@
-import BlogData from "@/components/Blog/blogData";
-import Image from "next/image";
-import RelatedPost from "@/components/Blog/RelatedPost";
 import { Metadata } from "next";
+import Image from "next/image";
+
+import BlogData from "@/components/Blog/blogData";
+import RelatedPost from "@/components/Blog/RelatedPost";
 import Error from "@/components/Error";
 import InlineArrowButtonLocalLink from "@/components/InlineArrowButtonLocalLink";
 
@@ -14,14 +15,14 @@ export async function generateMetadata({
 
   if (!blog) {
     return {
-      title: "Page Not Found",
       description: "The page you are looking for does not exist.",
+      title: "Page Not Found",
     };
   }
 
   return {
-    title: `${blog.title} - Las Olas Yoga`,
     description: blog.seoDescription,
+    title: `${blog.title} - Las Olas Yoga`,
   };
 }
 
@@ -57,7 +58,7 @@ export default function SingleBlogPage({ params }: { params: { id: string } }) {
                 text={"Back to blogs"}
               />
             </div>
-            <RelatedPost blogID={blog._id} />
+            <RelatedPost blogID={blog._id.toString()} />
           </div>
 
           <div className="lg:w-2/3">

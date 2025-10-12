@@ -1,6 +1,7 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
+
 import SubscribeForm from "../Subscribe";
 
 const CTA = () => {
@@ -24,7 +25,7 @@ const CTA = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3, delay: 0.05 }}
+              transition={{ delay: 0.05, duration: 0.3 }}
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
@@ -46,7 +47,7 @@ const CTA = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3, delay: 0.05 }}
+              transition={{ delay: 0.05, duration: 0.3 }}
               viewport={{ once: true }}
               className="animate_right w-full lg:w-[45%]"
             >

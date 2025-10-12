@@ -1,8 +1,7 @@
-import { Offer, OfferItem } from "@/types/offer";
-import { motion } from "framer-motion";
+import { OfferItem } from "@/types/offer";
 
 const SingleOffer = ({ offer }: { offer: OfferItem }) => {
-  const { name, price, href } = offer;
+  const { href, name, price } = offer;
 
   return (
     <>

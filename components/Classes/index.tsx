@@ -1,10 +1,17 @@
 "use client";
+import { motion } from "framer-motion";
 import React from "react";
+
+import { defaultTransition, fadeInUp } from "@/constants/animations";
+
 import classesData from "./classesData";
 import SingleClass from "./SingleClass";
-import { motion } from "framer-motion";
 
-const Classes = ({ title }) => {
+type ClassesProps = {
+  title?: boolean;
+}
+
+const Classes = ({ title }: ClassesProps) => {
   return (
     <>
       <section
@@ -20,19 +27,10 @@ const Classes = ({ title }) => {
             </div>
           )}
           <motion.div
-            variants={{
-              hidden: {
-                opacity: 0,
-                y: -20,
-              },
-              visible: {
-                opacity: 1,
-                y: 0,
-              },
-            }}
+            variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 0.3, delay: 0.05 }}
+            transition={defaultTransition}
             viewport={{ once: true }}
             className={`animate_top grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-12.5 ${
               title ? "mt-8" : ""

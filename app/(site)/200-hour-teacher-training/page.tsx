@@ -1,12 +1,13 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
+import React from "react";
+
 import Details from "@/components/Details";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "200-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
   description:
     "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for 200-hour yoga teacher certifications",
+  title: "200-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 
@@ -107,135 +108,135 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
         events={[
           {
             date: [2026, 1, 17],
-            title: "200 Hour TT Jan 17",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Jan 17",
           },
           {
             date: [2026, 1, 18],
-            title: "200 Hour TT Jan 18",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Jan 18",
           },
           {
             date: [2026, 1, 24],
-            title: "200 Hour TT Jan 24",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Jan 24",
           },
           {
             date: [2026, 1, 25],
-            title: "200 Hour TT Jan 25",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Jan 25",
           },
           {
             date: [2026, 1, 31],
-            title: "200 Hour TT Jan 31",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Jan 31",
           },
           {
             date: [2026, 2, 1],
-            title: "200 Hour TT Feb 1",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Feb 1",
           },
           {
             date: [2026, 2, 14],
-            title: "200 Hour TT Feb 14",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Feb 14",
           },
           {
             date: [2026, 2, 15],
-            title: "200 Hour TT Feb 15",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Feb 15",
           },
           {
             date: [2026, 2, 21],
-            title: "200 Hour TT Feb 21",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Feb 21",
           },
           {
             date: [2026, 2, 22],
-            title: "200 Hour TT Feb 22",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Feb 22",
           },
           {
             date: [2026, 2, 28],
-            title: "200 Hour TT Feb 28",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Feb 28",
           },
           {
             date: [2026, 3, 1],
-            title: "200 Hour TT Mar 1",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Mar 1",
           },
           {
             date: [2026, 3, 14],
-            title: "200 Hour TT Mar 14",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Mar 14",
           },
           {
             date: [2026, 3, 15],
-            title: "200 Hour TT Mar 15",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Mar 15",
           },
           {
             date: [2026, 3, 21],
-            title: "200 Hour TT Mar 21",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Mar 21",
           },
           {
             date: [2026, 3, 22],
-            title: "200 Hour TT Mar 22",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Mar 22",
           },
           {
             date: [2026, 3, 28],
-            title: "200 Hour TT Mar 28",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Mar 28",
           },
           {
             date: [2026, 3, 29],
-            title: "200 Hour TT Mar 29",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Mar 29",
           },
           {
             date: [2026, 4, 4],
-            title: "200 Hour TT Apr 4",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Apr 4",
           },
           {
             date: [2026, 4, 5],
-            title: "200 Hour TT Apr 5",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Apr 5",
           },
           {
             date: [2026, 4, 11],
-            title: "200 Hour TT Apr 11",
-            start: [12, 0],
             end: [17, 0],
+            start: [12, 0],
+            title: "200 Hour TT Apr 11",
           },
           {
             date: [2026, 4, 12],
-            title: "200 Hour TT Apr 12",
-            start: [13, 30],
             end: [18, 30],
+            start: [13, 30],
+            title: "200 Hour TT Apr 12",
           },
         ]}
       />

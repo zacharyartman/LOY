@@ -1,36 +1,45 @@
 "use client";
+import { saveAs } from "file-saver";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState } from "react";
-import { saveAs } from "file-saver";
-import { teacherByName, teachersData } from "../Teachers/teachersData";
+
 import { Teacher } from "@/types/teacher";
 
-const Details = ({
-  title,
-  dates,
-  text,
-  images,
-  buttonText,
-  buttonLink,
-  teacher = "",
-  events = null,
-  verticalImages = false,
-  teacherNamesUnderApplyButton,
-}: {
+import { teacherByName } from "../Teachers/teachersData";
+
+type EventData = {
+  date: number[];
+  end: number[];
+  start: number[];
   title: string;
-  dates: string;
-  text: string;
-  images: [string, string][];
-  buttonText?: string;
+}
+
+type DetailsProps = {
   buttonLink?: string;
+  buttonText?: string;
+  dates: string;
+  events?: EventData[] | null;
+  images: [string, string][];
   teacher?: string;
-  events?:
-    | { date: number[]; title: string; start: number[]; end: number[] }[]
-    | null;
-  verticalImages?: boolean;
   teacherNamesUnderApplyButton?: string[];
-}) => {
+  text: string;
+  title: string;
+  verticalImages?: boolean;
+}
+
+const Details = ({
+  buttonLink,
+  buttonText,
+  dates,
+  events = null,
+  images,
+  teacher = "",
+  teacherNamesUnderApplyButton,
+  text,
+  title,
+  verticalImages = false,
+}: DetailsProps) => {
   const [selectedTeacher, setSelectedTeacher] = useState<Teacher | null>(null);
 
   const addToCalendar = () => {
@@ -40,7 +49,7 @@ const Details = ({
     // Define all the event dates and times
     // Create the ICS file content
     let icsData = `BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n`;
-    events.forEach(({ date, title, start, end }) => {
+    events.forEach(({ date, end, start, title }) => {
       icsData += `BEGIN:VEVENT\n`;
       icsData += `DTSTART:${formatICSDate([...date, ...start])}\n`;
       icsData += `DTEND:${formatICSDate([...date, ...end])}\n`;
@@ -54,7 +63,7 @@ const Details = ({
     saveAs(blob, "TT_Events.ics");
   };
 
-  const formatICSDate = (dateArray) => {
+  const formatICSDate = (dateArray: number[]) => {
     const [year, month, day, hour, minute] = dateArray;
     return `${year}${String(month).padStart(2, "0")}${String(day).padStart(2, "0")}T${String(hour).padStart(2, "0")}${String(minute).padStart(2, "0")}00`;
   };
@@ -85,7 +94,7 @@ const Details = ({
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3, delay: 0.05 }}
+              transition={{ delay: 0.05, duration: 0.3 }}
               viewport={{ once: true }}
               className={`animate_left w-full self-start rounded-lg bg-white p-7.5 shadow-solid-8 ${images.length === 0 ? "md:w-[80%]" : "md:w-[60%]"} xl:p-10`}
             >
@@ -154,7 +163,7 @@ const Details = ({
                 }}
                 initial="hidden"
                 whileInView="visible"
-                transition={{ duration: 0.4, delay: 0.05 }}
+                transition={{ delay: 0.05, duration: 0.4 }}
                 viewport={{ once: true }}
                 className="animate_right w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
               >
