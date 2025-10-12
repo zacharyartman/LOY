@@ -1,6 +1,7 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useState } from "react";
+
 import { defaultTransition, fadeInUp } from "@/constants/animations";
 import { Teacher } from "@/types/teacher";
 
@@ -9,7 +10,7 @@ interface SingleTeacherProps {
 }
 
 const SingleTeacher = ({ review }: SingleTeacherProps) => {
-  const { name, designation, image, content } = review;
+  const { content, designation, image, name } = review;
   const [showFullContent, setShowFullContent] = useState(false);
 
   return (

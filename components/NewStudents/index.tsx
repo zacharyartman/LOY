@@ -1,17 +1,18 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import pricingData from "@/components/Pricing/pricingData";
-import FAQ from "@/components/FAQ";
 import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
+
+import FAQ from "@/components/FAQ";
+import pricingData from "@/components/Pricing/pricingData";
 
 const PricingButton = ({
-  title,
-  subtitle,
-  price,
-  perX,
-  href,
-  popular,
   buttonText,
+  href,
+  perX,
+  popular,
+  price,
+  subtitle,
+  title,
 }) => {
   return (
     <a
@@ -92,7 +93,7 @@ const NewStudentsComponent = () => {
           }}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.3, delay: 0.05 }}
+          transition={{ delay: 0.05, duration: 0.3 }}
           viewport={{ once: true }}
           className="animate_top"
         >

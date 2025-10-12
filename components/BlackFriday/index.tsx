@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 // {/* Deals Section */}
 // <div className="flex items-center justify-center bg-[#f8f4ef] py-3">
 //   <div className="max-w-4xl flex flex-row items-center gap-6 justify-center p-4 text-center">
@@ -13,32 +13,32 @@ import { motion } from "framer-motion";
 const BlackFridaySale = () => {
   const saleData = [
     {
+      href: "https://momence.com/m/136485",
       id: 1,
       imgSrc: "/images/blackfriday/1.png",
-      href: "https://momence.com/m/136485",
       popular: false,
     },
     {
+      href: "https://momence.com/m/136483",
       id: 2,
       imgSrc: "/images/blackfriday/2.png",
-      href: "https://momence.com/m/136483",
       popular: false,
     },
     {
+      href: "",
       id: 3,
       imgSrc: "/images/blackfriday/3.jpeg",
-      href: "",
       popular: false,
     },
     {
+      href: "https://momence.com/m/298388",
       id: 4,
       imgSrc: "/images/blackfriday/4.png",
-      href: "https://momence.com/m/298388",
       popular: false,
     },
   ];
 
-  const SaleItem = ({ imgSrc, href, popular }) => {
+  const SaleItem = ({ href, imgSrc, popular }) => {
     const Wrapper = href ? 'a' : 'div';
   
     return (
@@ -69,7 +69,7 @@ const BlackFridaySale = () => {
         }}
         initial="hidden"
         whileInView="visible"
-        transition={{ duration: 0.5, delay: 0.1 }}
+        transition={{ delay: 0.1, duration: 0.5 }}
         viewport={{ once: true }}
         className="animate_top overflow-hidden"
       >

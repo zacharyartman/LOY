@@ -3,8 +3,9 @@
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { teachersData } from "./teachersData";
+
 import SingleTeacher from "./SingleTeacher";
+import { teachersData } from "./teachersData";
 
 
 const Teachers = () => {

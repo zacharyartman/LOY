@@ -1,42 +1,44 @@
 "use client";
-import React, { useState } from "react";
 import { saveAs } from "file-saver";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import React, { useState } from "react";
+
 import { Teacher } from "@/types/teacher";
+
 import { teacherByName } from "../Teachers/teachersData";
 
 interface EventData {
   date: number[];
-  title: string;
-  start: number[];
   end: number[];
+  start: number[];
+  title: string;
 }
 
 interface DetailsProps {
-  title: string;
-  dates: string;
-  text: string;
-  images: [string, string][];
-  buttonText?: string;
   buttonLink?: string;
-  teacher?: string;
+  buttonText?: string;
+  dates: string;
   events?: EventData[] | null;
-  verticalImages?: boolean;
+  images: [string, string][];
+  teacher?: string;
   teacherNamesUnderApplyButton?: string[];
+  text: string;
+  title: string;
+  verticalImages?: boolean;
 }
 
 const Details = ({
-  title,
-  dates,
-  text,
-  images,
-  buttonText,
   buttonLink,
-  teacher = "",
+  buttonText,
+  dates,
   events = null,
-  verticalImages = false,
+  images,
+  teacher = "",
   teacherNamesUnderApplyButton,
+  text,
+  title,
+  verticalImages = false,
 }: DetailsProps) => {
   const [selectedTeacher, setSelectedTeacher] = useState<Teacher | null>(null);
 
@@ -47,7 +49,7 @@ const Details = ({
     // Define all the event dates and times
     // Create the ICS file content
     let icsData = `BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n`;
-    events.forEach(({ date, title, start, end }) => {
+    events.forEach(({ date, end, start, title }) => {
       icsData += `BEGIN:VEVENT\n`;
       icsData += `DTSTART:${formatICSDate([...date, ...start])}\n`;
       icsData += `DTEND:${formatICSDate([...date, ...end])}\n`;
@@ -92,7 +94,7 @@ const Details = ({
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 0.3, delay: 0.05 }}
+              transition={{ delay: 0.05, duration: 0.3 }}
               viewport={{ once: true }}
               className={`animate_left w-full self-start rounded-lg bg-white p-7.5 shadow-solid-8 ${images.length === 0 ? "md:w-[80%]" : "md:w-[60%]"} xl:p-10`}
             >
@@ -161,7 +163,7 @@ const Details = ({
                 }}
                 initial="hidden"
                 whileInView="visible"
-                transition={{ duration: 0.4, delay: 0.05 }}
+                transition={{ delay: 0.05, duration: 0.4 }}
                 viewport={{ once: true }}
                 className="animate_right w-full md:w-1/2 md:p-7.5 lg:w-[40%]"
               >

@@ -1,11 +1,12 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
+import React from "react";
+
 import Details from "@/components/Details";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "Private Sessions | Yoga Classes | Fort Lauderdale",
   description: "Private yoga sessions are a great way to get personalized attention and focus on your goals. Whether you're a beginner or an advanced practitioner, we can tailor a session to meet your needs.",
+  title: "Private Sessions | Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 const ThreeHundredHour = () => {

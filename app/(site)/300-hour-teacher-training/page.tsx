@@ -1,13 +1,14 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
-import Details from "@/components/Details";
 import Script from "next/script";
+import React from "react";
+
+import Details from "@/components/Details";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "300-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
   description:
     "Las Olas Yoga in Fort Lauderdale, South Florida, is a RYS (Registered Yoga School) with Yoga Alliance, fully compliant with their guidelines for hybrid partial remote 300-hour yoga teacher certifications",
+  title: "300-Hour Teacher Training | Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 const ThreeHundredHour = () => {

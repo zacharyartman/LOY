@@ -2,11 +2,11 @@
 
 interface InlineArrowButtonProps {
   href: string;
-  text: string;
   reversed: boolean;
+  text: string;
 }
 
-const InlineArrowButton = ({ href, text, reversed }: InlineArrowButtonProps) => {
+const InlineArrowButton = ({ href, reversed, text }: InlineArrowButtonProps) => {
   return (
     <>
       <div>

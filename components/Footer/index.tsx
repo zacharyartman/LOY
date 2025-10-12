@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+
 import menuData from "../Header/menuData";
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
                 }}
                 initial="hidden"
                 whileInView="visible"
-                transition={{ duration: 0.3, delay: 0.1 }}
+                transition={{ delay: 0.1, duration: 0.3 }}
                 viewport={{ once: true }}
                 className="animate_top w-full md:w-1/2 lg:w-1/4"
               >
@@ -151,7 +152,7 @@ const Footer = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{ duration: 0.3, delay: 0.05 }}
+                  transition={{ delay: 0.05, duration: 0.3 }}
                   viewport={{ once: true }}
                   className="animate_top"
                 >
@@ -200,7 +201,7 @@ const Footer = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{ duration: 0.3, delay: 0.05 }}
+                  transition={{ delay: 0.05, duration: 0.3 }}
                   viewport={{ once: true }}
                   className="animate_top"
                 >
@@ -257,7 +258,7 @@ const Footer = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ delay: 0.1, duration: 1 }}
               viewport={{ once: true }}
               className="animate_top text-center"
             >

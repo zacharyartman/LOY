@@ -1,11 +1,12 @@
+import { Metadata } from "next";
+
 import BlogData from "@/components/Blog/blogData";
 import BlogItem from "@/components/Blog/BlogItem";
 import NewPageHero from "@/components/NewPageHero";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog - Las Olas Yoga",
   description: "Discover the latest insights, tips, and inspiration on the Las Olas Yoga blog. Explore a range of articles on yoga practice, wellness, mindfulness, and community events. Stay informed about our non-heated classes, all-level sessions, and upcoming 200-hour and Yin teacher trainings. Join our supportive community in nurturing your mind, body, and spirit. Visit Las Olas Yoga's blog for expert guidance on your yoga journey.",
+  title: "Blog - Las Olas Yoga",
   // other metadata
 };
 

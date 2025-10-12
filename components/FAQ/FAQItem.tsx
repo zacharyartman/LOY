@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from "react";
 
 interface FAQItemData {
   activeFaq: number;
-  id: number;
-  handleFaqToggle: (id: number) => void;
-  quest: string;
   ans: string;
+  handleFaqToggle: (id: number) => void;
+  id: number;
+  quest: string;
 }
 
 interface FAQItemProps {
@@ -13,7 +13,7 @@ interface FAQItemProps {
 }
 
 const FAQItem = ({ faqData }: FAQItemProps) => {
-  const { activeFaq, id, handleFaqToggle, quest, ans } = faqData;
+  const { activeFaq, ans, handleFaqToggle, id, quest } = faqData;
   const [height, setHeight] = useState(0);
   const answerRef = useRef<HTMLParagraphElement>(null);
 

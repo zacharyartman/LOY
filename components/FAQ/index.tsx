@@ -2,8 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
-import FAQItem from "./FAQItem";
+
 import faqData from "./faqData";
+import FAQItem from "./FAQItem";
 
 const FAQ = () => {
   const [activeFaq, setActiveFaq] = useState(1);
@@ -39,7 +40,7 @@ const FAQ = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ delay: 0.1, duration: 1 }}
               viewport={{ once: true }}
               className="animate_left w-full"
             >
@@ -62,7 +63,7 @@ const FAQ = () => {
               }}
               initial="hidden"
               whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
+              transition={{ delay: 0.1, duration: 1 }}
               viewport={{ once: true }}
               className="animate_right w-full"
             >

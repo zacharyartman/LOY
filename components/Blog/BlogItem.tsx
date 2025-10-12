@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+
 import { fadeInUp, staggerTransition } from "@/constants/animations";
 import { Blog } from "@/types/blog";
 
@@ -10,7 +11,7 @@ interface BlogItemProps {
 }
 
 const BlogItem = ({ blog }: BlogItemProps) => {
-  const { _id, mainImage, title, metadata } = blog;
+  const { _id, mainImage, metadata, title } = blog;
 
   return (
     <>

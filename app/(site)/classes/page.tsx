@@ -1,13 +1,14 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
-import Classes from "@/components/Classes";
 import Link from "next/link";
+import React from "react";
+
+import Classes from "@/components/Classes";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "Class Types | Yoga Classes for All Levels | Fort Lauderdale",
   description:
     "We have classes for all levels: Foundations (beginners), Slow Flow (Flow at a slower pace), Flow (challenging practice) & Restore (calm, relaxing experience).",
+  title: "Class Types | Yoga Classes for All Levels | Fort Lauderdale",
   // other metadata
 };
 

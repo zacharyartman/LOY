@@ -1,13 +1,14 @@
-import React from "react";
 import { Metadata } from "next";
-import NewPageHero from "@/components/NewPageHero";
-import MomenceSchedule from "@/components/MomenceSchedule";
 import Link from "next/link";
+import React from "react";
+
+import MomenceSchedule from "@/components/MomenceSchedule";
+import NewPageHero from "@/components/NewPageHero";
 
 export const metadata: Metadata = {
-  title: "Workshops | Yoga Classes | Fort Lauderdale",
   description:
     "An overview of our upcoming yoga workshops and events at Las Olas Yoga in Fort Lauderdale. Founding members receive discounts on all events.",
+  title: "Workshops | Yoga Classes | Fort Lauderdale",
   // other metadata
 };
 

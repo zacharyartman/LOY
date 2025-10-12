@@ -1,19 +1,19 @@
 "use client";
-import { useEffect, useRef } from "react";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 
 interface MomenceScheduleProps {
-  title: boolean;
   fullSchedule: boolean;
-  sessionType: "class" | "workshop";
   liteMode: boolean;
+  sessionType: "class" | "workshop";
+  title: boolean;
 }
 
 function MomenceSchedule({
-  title,
   fullSchedule,
-  sessionType,
   liteMode,
+  sessionType,
+  title,
 }: MomenceScheduleProps) {
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
@@ -60,9 +60,9 @@ function MomenceSchedule({
         ref={iframeRef}
         src={liteClassSrc ?? notLiteClassSrc ?? notLiteWorkshopSrc}
         style={{
-          width: "100%",
           border: "none",
           minHeight: "275px",
+          width: "100%",
           ...(!fullSchedule && { maxHeight: "100vh" }),
         }}
         scrolling="no"

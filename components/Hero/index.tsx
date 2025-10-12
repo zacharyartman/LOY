@@ -4,14 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface HeroLinkProps {
-  text: string;
   ariaLabel: string;
-  link: string;
   lastElement: boolean;
+  link: string;
+  text: string;
 }
 
 const Hero = () => {
-  const LocalHeroLink = ({ text, ariaLabel, link, lastElement }: HeroLinkProps) => {
+  const LocalHeroLink = ({ ariaLabel, lastElement, link, text }: HeroLinkProps) => {
     return (
       <Link
         aria-label={ariaLabel}

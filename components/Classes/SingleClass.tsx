@@ -1,5 +1,6 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
+
 import { Class } from "@/types/class";
 
 interface SingleClassProps {
@@ -7,7 +8,7 @@ interface SingleClassProps {
 }
 
 const SingleClass = ({ classItem }: SingleClassProps) => {
-  const { icon, title, description, alt } = classItem;
+  const { alt, description, icon, title } = classItem;
 
   return (
     <>

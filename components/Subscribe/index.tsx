@@ -1,8 +1,8 @@
 import React from "react";
 
 interface Errors {
-  name?: boolean;
   email?: boolean;
+  name?: boolean;
   phone?: boolean;
 }
 
@@ -60,8 +60,8 @@ const SubscribeForm = () => {
     formData.append("access_key", "8e7f1f3e-c7a0-467c-a81d-68d6c575c13d");
 
     const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
       body: formData,
+      method: "POST",
     });
 
     const data = await response.json();

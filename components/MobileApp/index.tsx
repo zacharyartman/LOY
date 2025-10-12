@@ -1,7 +1,8 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import React from "react";
+
 import { defaultTransition, fadeInUp } from "@/constants/animations";
 
 const MobileApp = () => {

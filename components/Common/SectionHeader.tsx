@@ -8,7 +8,7 @@ type HeaderInfo = {
 };
 
 const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
-  const { title, subtitle, description } = headerInfo;
+  const { description, subtitle, title } = headerInfo;
 
   return (
     <>
@@ -27,7 +27,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         }}
         initial="hidden"
         whileInView="visible"
-        transition={{ duration: 0.3, delay: 0.05 }}
+        transition={{ delay: 0.05, duration: 0.3 }}
         viewport={{ once: true }}
         className="animate_top mx-auto text-center"
       >

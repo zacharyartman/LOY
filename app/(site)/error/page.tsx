@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Error Page - Las Olas Yoga",
   description: "This is Error page for Las Olas Yoga",
+  title: "Error Page - Las Olas Yoga",
   // other metadata
 };
 

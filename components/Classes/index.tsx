@@ -1,7 +1,9 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
+
 import { defaultTransition, fadeInUp } from "@/constants/animations";
+
 import classesData from "./classesData";
 import SingleClass from "./SingleClass";
 

@@ -2,7 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+
 import { defaultTransition, fadeInUp } from "@/constants/animations";
+
 import SectionHeader from "../Common/SectionHeader";
 import pricingData from "./pricingData";
 
@@ -11,24 +13,24 @@ interface PricingProps {
 }
 
 interface PricingButtonProps {
-  title: string;
-  subtitle: string;
-  price: number;
-  perX: string;
-  href: string;
-  popular?: boolean;
   buttonText: string;
+  href: string;
+  perX: string;
+  popular?: boolean;
+  price: number;
+  subtitle: string;
+  title: string;
 }
 
 const Pricing = ({ sectionHeader }: PricingProps) => {
   const PricingButton = ({
-    title,
-    subtitle,
-    price,
-    perX,
-    href,
-    popular,
     buttonText,
+    href,
+    perX,
+    popular,
+    price,
+    subtitle,
+    title,
   }: PricingButtonProps) => {
     return (
       <a
@@ -101,9 +103,9 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
             <div className="animate_top mx-auto text-center">
               <SectionHeader
                 headerInfo={{
-                  title: `PRICING`,
-                  subtitle: `Our Pricing Plans`,
                   description: ``,
+                  subtitle: `Our Pricing Plans`,
+                  title: `PRICING`,
                 }}
               />
             </div>

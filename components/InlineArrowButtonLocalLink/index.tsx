@@ -4,11 +4,11 @@ import Link from "next/link";
 
 interface InlineArrowButtonLocalLinkProps {
   href: string;
-  text: string;
   reversed: boolean;
+  text: string;
 }
 
-const InlineArrowButtonLocalLink = ({ href, text, reversed }: InlineArrowButtonLocalLinkProps) => {
+const InlineArrowButtonLocalLink = ({ href, reversed, text }: InlineArrowButtonLocalLinkProps) => {
   return (
     <>
       <div>

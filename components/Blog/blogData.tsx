@@ -4,7 +4,6 @@ const BlogData: Blog[] = [
   {
     _id: "ayurveda-the-science-of-life",
     mainImage: "/images/blog/blog-1.webp",
-    title: "Ayurveda: The Science of Life",
     metadata: `<p><strong>What is Ayurveda </strong></p>
 <p>Ayurveda is a holistic, natural practice of medicine that originated in India more than 4,000 years ago and one that is still practiced widely today. Because Ayurveda involves subtle daily lifestyle choices, it can often be used in conjunction with any modern medicine approach, though you should always check with your healthcare provider prior to engaging in any lifestyle change. When translated from its original Sanskrit form, Ayurveda can be interpreted as “the science of life”. Rather than focusing solely on treating diseases after they occur, Ayurveda is based on the idea of living in harmony with yourself and with nature daily to prevent mental and physical imbalances, which lead to disease. Sometimes referred to as “the sister science of yoga”, Ayurveda recommends a regular practice of unity among mind, body, spirit, and nature to maintain optimal health. According to the practice of Ayurveda, mental health, as well as spiritual health, are equally as important as physical health in living a truly healthy life. You can achieve optimal whole-body health by engaging in daily practices that include morning and nighttime rituals that align with the rhythms of nature, meditation, movement and eating habits that are rooted in Ayurvedic tradition. The theory of Ayurveda is based on the existence of, and maintaining balance between, five elements: space/ether, air/wind, fire, water, and earth. The sages of Ayurveda synthesized these into three categories, which are now called doshas. According to Ayurveda, every human being has a predominant dosha or combination of doshas. Each dosha has its own natural inclinations, such as the tendency to be airy, fiery, earthy, or a combination of any of these. The goal of Ayurveda is to maintain balance among your individual dosha(s) through daily practices to cultivate a life of whole-body health. According to Ayurveda, maintaining this balance daily has the potential to result in optimal health in the long run.</p>
 <p><strong>What are the Doshas? </strong></p>
@@ -20,11 +19,11 @@ const BlogData: Blog[] = [
 <p>&nbsp;</p>`,
     seoDescription:
       "Ayurveda is a holistic, natural practice of medicine that originated in India more than 4,000 years ago and one that is still practiced widely today. Because Ayurveda involves subtle daily lifestyle choices, it can often be used in conjunction with any modern medicine approach, though you should always check with your healthcare provider prior to engaging in any lifestyle change. When translated from its original Sanskrit form, Ayurveda can be interpreted as “the science of life”. Rather than focusing solely on treating diseases after they occur, Ayurveda is based on the idea of living in harmony with yourself and with nature daily to prevent mental and physical imbalances, which lead to disease. Sometimes referred to as “the sister science of yoga”, Ayurveda recommends a regular practice of unity among mind, body, spirit, and nature to maintain optimal health. According to the practice of Ayurveda, mental health, as well as spiritual health, are equally as important as physical health in living a truly healthy life. You can achieve optimal whole-body health by engaging in daily practices that include morning and nighttime rituals that align with the rhythms of nature, meditation, movement and eating habits that are rooted in Ayurvedic tradition. The theory of Ayurveda is based on the existence of, and maintaining balance between, five elements: space/ether, air/wind, fire, water, and earth. The sages of Ayurveda synthesized these into three categories, which are now called doshas. According to Ayurveda, every human being has a predominant dosha or combination of doshas. Each dosha has its own natural inclinations, such as the tendency to be airy, fiery, earthy, or a combination of any of these. The goal of Ayurveda is to maintain balance among your individual dosha(s) through daily practices to cultivate a life of whole-body health. According to Ayurveda, maintaining this balance daily has the potential to result in optimal health in the long run.",
+    title: "Ayurveda: The Science of Life",
   },
   {
     _id: "setting-intentions-what-is-it-and-why-do-it-in-a-yoga-class",
     mainImage: "/images/blog/blog-2.webp",
-    title: "Setting Intentions: What is it and Why do it in a Yoga Class?",
     metadata: `<p><strong>Demystifying Intention Setting </strong></p>
 <p>You may have found yourself racing into a yoga class, ready to move and sweat, only to be asked to take a moment to slow your mind and then invited to set an intention prior to beginning your sweat session. This may catch you off guard and leave you wondering what your intention for the class should be. Modern yoga classes are often rife with the notion of ‘intention setting’, but it’s not always clear what that means. Setting an intention first requires you to tune into your deepest hopes and aspirations that lie just beyond your conscious awareness. Using that information, you can create a guideline for living that allows you to align your daily actions to your ‘highest self’. In other words, intention setting requires that you quiet your mind to find out which personal values or qualities you can instill in your daily life that will lead to true happiness. Rather than being goal oriented or becoming attached to specific outcomes, intention setting allows you to gently focus on your own personal values without judgment. Some examples of such values that may be used in intention setting include mindfulness, forgiveness, presence, gratitude, love, resilience, inner strength, stability, letting go of negativity or acceptance. Intention setting in a yoga class may look different for everyone and it may differ for you personally from one class to the next, depending on where you are in your life. Maybe you are someone who struggles with trying to maintain control over every aspect of your life. Perhaps this is interfering with your contentment on a day-to-day basis. Your intention for the class may be one of letting go of control or that of acceptance. In the context of yoga, this may look like accepting that you aren’t as flexible today as you may have been in the previous class. Because yoga is centered around mindfully aligning your mind, body, and spirit, it is the perfect place to cultivate such awareness. You may find yourself revisiting that awareness and reminding yourself of your intention throughout your day.</p>
 <p><strong> </strong><strong>The Science Behind Intention Setting in Yoga</strong></p>
@@ -35,12 +34,12 @@ const BlogData: Blog[] = [
  `,
     seoDescription:
       "So often we go about our day to day lives in a passive state, almost like we are on autopilot. Because the cognitive resources of humans are subject to depletion, this mental state was necessary for the survival of our ancestors. For example, when spending an entire day foraging for food, our survival as humans",
+    title: "Setting Intentions: What is it and Why do it in a Yoga Class?",
   },
 
   {
     _id: "unlocking-the-mystery-of-meditation",
     mainImage: "/images/blog/blog-3.webp",
-    title: "Unlocking the Mystery of Meditation",
     metadata: `<p><strong>What is Meditation? </strong></p>
 <p>There is often a misconception about meditation that turns people off to the practice before even beginning. People often say things like “I don’t have time to meditate” or “I can’t turn my thoughts off”. Meditation may also be challenging for people who experience discomfort or anxiety in stillness (which, by the way, is most of us modern day humans). Because of this, it’s important to dispel the myth that, if you can’t sit still on a floor cushion in solitary meditation for a prolonged period of time (think of a Buddhist monk in a cave for months on end), you can’t meditate. This simply isn’t the case. The myth of sudden and immediate enlightenment in meditation should also be dispelled. While meditation can certainly lead to mental clarity and states of enlightenment, it doesn’t necessarily happen automatically. Like physical exercise, for meditation to be effective, it requires a consistent and deliberate practice. Also, like physical exercise, the challenge in meditation is a necessary component of the practice. Like Theodore Roosevelt once said, “nothing worth having comes easy”. This is also true in meditation.</p>
 <p>Now that we’ve covered the fact that meditation is a process that requires you to ‘show up’ time and time again, you still may be wondering what meditation actually is. Meditation is highly experiential and, therefore, it is difficult to define in words. However, it can be defined somewhat broadly in this way: Stated simply, meditation is a practice that involves an orienting of the mind in a particular way. Meditation has been used throughout the ages and all over the world to accomplish enhanced and enlightened mental states. There are many forms of meditation and meditation can be practiced in a variety of ways; so many that this article is nowhere near exhaustive in listing all forms and practices of meditation. Some forms of meditation, such as Samatha, are more calming in nature and promote the use of a singular pointed type of focus to nurture a sense of calm. Sometimes meditation can be focused on something external, such as a mandala, or internal, such as the breath. Meditation can involve the use of verbal repetition of some sort, such as in mantra meditation. Loving kindness meditation, which involves focusing your energy on cultivating a sense of compassion for yourself and for others, can be very effective in letting go of negative emotions. Meditation can also be more gradual and contemplative, such as in Vipassana meditation, where the meditator uses concentration to peel away the layers of illusion that may prevent someone from living life fully in the present moment. In addition to all the various styles of meditation we just listed, meditation can also be guided or unguided. In a guided meditation, a teacher, either in person or virtually, will guide you through a particular process. Quite often, the process involves a recognition of how the mind works during meditation, an acknowledgment of the thoughts that arise, an acceptance of the transient nature of thoughts, learning how to detach from those thoughts, and, eventually, engendering an ability to transfer those skills into everyday life. Over time and with practice, such guidance can help you to create your own practice that is self-initiated, or unguided.</p>
@@ -51,12 +50,12 @@ const BlogData: Blog[] = [
 <p>Meditation doesn’t have to be this mysterious practice that is reserved only for monks. Have you ever found yourself lost in the flow of breath and movement in a yoga class? This is a form of meditation. Have you ever felt a sense of bliss while resting heavy in Savasana? This is also a form of meditation. Little moments of meditation such as these found in yoga are significant. They add up and cultivate an ability to find stillness in everyday life. After mindfully practicing yoga for a while, you may notice a shift in your mindset. You may find that you are able to sit in stillness for longer periods of time. Take advantage of your time in your yoga sessions to engender a capacity for meditative experiences. One way to do this is to really focus on linking your breath to your movement. Doing this will automatically lead to the growth of the other limbs of yoga that are necessary for meditation. As we have discussed, there are innumerable forms of meditation. If you are like most people in this fast-paced modern world, finding the time to train your mind to meditate can be challenging. Yoga is a great and practical place to begin your meditation practice!</p>`,
     seoDescription:
       "So often, we hear people speak of this concept of ‘meditation’. Countless publications tout the myriad benefits of meditation. Experts from a variety of fields, ranging from yoga philosophy to neuroscience, claim that meditation can lead to states of mental bliss, enhanced cognition, and emotion regulation, just to name a few mental health benefits. Meditation",
+    title: "Unlocking the Mystery of Meditation",
   },
 
   {
     _id: "mala-beads-what-they-are-and-how-to-use-them",
     mainImage: "/images/blog/blog-4.webp",
-    title: "Mala Beads: What They Are and How to Use Them",
     metadata: `<p><strong>What are Mala Beads </strong></p>
 <p>Mala beads originated in India over 2500 years ago. The word ‘mala’ is Sanskrit for ‘meditation garland’. Just as there are many styles of meditation today, there were a multitude of meditation techniques that were used in ancient India. One type of meditation was called Japa meditation. In <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=_19v5dv2C78C&amp;oi=fnd&amp;pg=PA116&amp;dq=mala+beads+japa&amp;ots=jB-y3gjVtS&amp;sig=iJI6NK4js55PjyXa0cLQHZc3FRw#v=onepage&amp;q=mala&amp;f=false">Japa</a> meditation, a meditator would recite or chant a mantra, either audibly or quietly. Japa meditation originated in the Vedic tradition of India, which shaped the practice of several Eastern religions. In Hinduism, Buddhism, and Sikhism, a mantra is something that is repeated a specific number of times. A mantra can be a sound or syllable that is repeated, such as Om, or it can be a calling out or honoring of a specific deity. While mantras and mala meditation were originally created in the context of religion, they can also be used by meditators who have no affiliation with any Eastern religions. In fact, the concept behind mala meditation is so universal, it can be found in many other religions. For example, mala beads are comparable to rosary beads, which are used in Roman Catholicism. In both practices, a practitioner uses the beads to keep track of how many times that person repeats a prayer or mantra.</p>
 <p>Meditation has always been recognized as being ‘difficult’, even for devout meditation practitioners of ancient India. Mala, or Japa, beads were created so that a practitioner could focus on the meaning of a mantra while they were repeating it, rather than keeping track of how many times the mantra was repeated. By using the beads to focus solely on the meaning of the mantra and the experience of repeating the mantra, it allowed the practitioner to become fully absorbed in the practice. This type of single orientation is what mantra meditation is all about. Mala beads typically contain 108 beads plus a sumeru, or guru, bead (more about that later). If a pair of mala beads contains less than 108 beads, they usually include a number of beads that add up to a divisor of 108. The number 108 is an auspicious number in Eastern traditions and is believed to hold sacred meaning. There are many theories, ranging from mathematical theories to the study of Vedic anatomy, that explain why <a href="https://www.yogajournal.com/yoga-101/the-number-108/">108</a> is so sacred. Mala bead meditation can also be helpful for meditators who wish to engage in secular, rather than a religious based, meditation. For example, certain sounds or words can be therapeutic when they are used in secular <a href="https://www.yogajournal.com/yoga-101/sanskrit/mantras-101-the-science-behind-finding-your-mantra-and-how-to-practice-it/">mantra</a> meditation. By using mala beads, a meditator can repeat such calming sounds without having to keep track of how many times the sounds are repeated.</p>
@@ -68,12 +67,12 @@ const BlogData: Blog[] = [
 <p>We are all super busy and it can be difficult to find time to slow down and allow for an integration of the mind, body, and spirit. It can be even more challenging to give your brain a good dose of daily meditation. Yoga allows you to do all of that in a single session. When you add mala beads to the mix, it’s a double win! If you have ever set an intention in a yoga class, you may have noticed that your intention resurfaced throughout the day after you left class. If you bring mala beads to your yoga classes, you can infuse each bead with your intention. Then, each time you reach for your beads, your brain will automatically recall the intention you set. Since wearing mala beads happens to be in vogue at the moment, you can wear your yoga infused beads close to your heart at all times, whether you are in the office or sweating it out in a vigorous yoga class. You can spice up your strand of mala beads (both literally and metaphorically) by including some gemstones. It is believed that various gemstones bear different energetic properties based on history and <a href="https://www.vogue.com/article/meaning-history-gemstones-rubies-emeralds-diamonds">legends</a>. Say, for example, you are in serious need of some self-love, you may opt for a mala comprised of beautiful rose <a href="https://www.healthline.com/health/healing-with-rose-quartz#what-is-it">quartz</a> beads. Many people choose to make their own mala beads because it allows them to completely personalize their malas. The more personal your mala is, the more it will resonate with your soul. The process of making a mala can also be therapeutic in and of itself and it gives you time to infuse your mala with your own individualized wishes and prayers. Each time you grab your mala, you’ll remember how you wanted to feel and who you wanted to be when you made it. The coolness of the beads against your skin may have a cleansing effect that reaches all the way into your soul. With your own mala beads, you can take your elevated yoga practice with you off the mat and keep it with you, close to your heart, always.</p>`,
     seoDescription:
       "Have you ever walked into a yoga class and spotted a fellow yogi sporting a gorgeous strand of meditation beads? Those are called mala beads and they have been used for ages in both yoga and meditation. Mala beads are more than just a yoga fashion statement; each bead has the potential to harness the",
+    title: "Mala Beads: What They Are and How to Use Them",
   },
 
   {
     _id: "yoga-for-athletes",
     mainImage: "/images/blog/blog-5.webp",
-    title: "Yoga for Athletes",
     metadata: `<p><strong>How Stress Impacts the Body </strong></p>
 <p>Before understanding how yoga can be beneficial to athletes and non-athletes alike, let us briefly introduce how the human body has evolved to respond to stress. According to Hans Selye, there are different stages of stress and <a href="https://academic.oup.com/jcem/article-abstract/6/2/117/2722959">adaptation</a>; the way in which you respond to stress at each stage has a huge impact on your body. The first stage is the alarm stage, where a specific event causes your body to fight, flight, or freeze. This event can be a major life event, such as losing a loved one, or it can be a specific event in a particular activity, such as your tennis opponent serving up a move that you didn’t anticipate. In an attempt to return to homeostasis, the body can respond in one of two ways after the alarm stage: the body can either resist or adapt. In the resistance stage, your body allocates more resources toward preparing your body to resist any potential harm. This causes your body to freeze and diminishes your cognitive capacity, leaving you with little ability to effectively problem solve. Resistance tends to occur when we don’t take a moment to breathe and regain control of our bodies and minds. In the adaptation stage, on the other hand, your body and mind remain calm, requiring less resource re-allocation. This, essentially, frees up your mind so you are better able to adapt to the novel situation. If you resist, you are more likely to move into what is known as the ‘exhaustion stage’. If unimpeded, the exhaustion stage can lead to a condition known as ‘chronic fatigue’, which can wreak havoc on the body and cause long term health issues. Chronic fatigue is linked to chronic inflammation of the body, which has been known to contribute to numerous diseases. Yoga has been shown to improve how we respond to stress, both in life and in situations requiring us to “stay on our game”. With its incorporation of pranayama, or yoga breathing, the mindfulness component of yoga, and the physical resilience that it fosters, yoga is the perfect way to make us more resilient and adaptable, even in the face of high stress or physically demanding tasks.</p>
 <p><strong>Physical Benefits of Yoga </strong></p>
@@ -100,12 +99,12 @@ const BlogData: Blog[] = [
 <p>Now that we’ve inundated your brain with all sorts of information, lets get to the point: yoga will improve your performance, regardless of your sport or activity. If you want to stay mentally sharp, yoga can help. If you want to protect your muscles from injury, yoga can help. If you want to learn to regulate your nervous system, yoga can help. So, while your schedule may be demanding, finding time to include yoga will only benefit you, both in the short term and in the long run. Remember, you don’t have to fit a certain narrative to start practicing yoga; yoga is for everyone!</p>`,
     seoDescription:
       "In this day and age, it can be so difficult to find time for quality movement of the body. If you’ve been fortunate enough to discover a movement regimen that aligns with your own personal and athletic goals, the idea of adding in another form of movement may seem overwhelming. If you’ve ever thought, “maybe",
+    title: "Yoga for Athletes",
   },
 
   {
     _id: "a-breakdown-of-our-class-styles",
     mainImage: "/images/blog/blog-6.webp",
-    title: "A Breakdown of our Class Styles",
     metadata: `<p><strong>Yoga: A Brief History</strong></p>
 <p>The practice of yoga is certainly not lacking in variety. Though we all love having plenty of options, having too many choices can be overwhelming. While most practices of yoga have considerable similarities, there are some differences that may influence your decision about which is best for you. To understand the different styles of yoga, let’s take a super quick dive into the history of yoga. While the specific details of the history of yoga are still up for debate, the relics left behind by the ancient sages of yoga tell us that yoga may have emerged long before any systemized religious or belief systems <a href="https://books.google.com/books/about/Pick_Your_Yoga_Practice.html?id=dRvdAQAAQBAJ&amp;source=kp_book_description">existed</a>. This means that yoga can be practiced by anyone, regardless of religion. It is believed that, since its inception, yoga has consisted of various poses (asanas), differing breathing techniques (pranayama), and varying meditation techniques. When it was originally practiced, the main tenets of yoga were more about the mind-body-spirit connection and accessing heightened states of awareness and less about the gymnastics associated with modern yoga. The practice of asanas, or postures, were included for the sole purpose of making meditation more accessible. It was believed that practicing asanas prior to meditation would prime the body to sit comfortably in a prolonged seated meditation session. The physical aspect of yoga, originally known as ‘Hatha yoga’, was only a small part of the practice. Now let’s get to the more modern history of yoga. Tirumalai Krishnamacharya was a yogi from India in the late 1800’s; he is widely known as the ‘father of modern yoga’. <a href="https://books.google.com/books/about/Pick_Your_Yoga_Practice.html?id=dRvdAQAAQBAJ&amp;source=kp_book_description">Three</a> of his students shaped the way we practice yoga today: B. K. S. Iyengar popularized Hatha yoga by emphasizing precision and alignment, thus making it more accessible to a wider variety of bodies. K. Pattabhi Jois founded Ashtanga-Vinyasa yoga, which was a more vigorous practice and that which emphasized the art of linking breath to movement. Finally, Krishnamacharya’s son, T. K. V. Desikachar influenced the development of Viniyoga. Viniyoga focused more on the ‘therapeutic’ aspect of yoga, both physically and mentally.</p>
 <p>The type of yoga that is practiced most widely today is (more or less) a combination of the Hatha, Ashtanga-Vinyasa, and Viniyoga practices that were birthed by the students of Tirumalai Krishnamacharya. While most modern classes embody all three of these styles, different classes may adhere to one style more than another. An overly simplified, but perhaps useful, way to categorize the differences is this: Slow Flow classes may more closely resemble Hatha style yoga, with an emphasis on alignment; Flow classes may feel more vigorous and cardio intensive, like Ashtanga; Restorative yoga may be categorized as more therapeutic and, thus, more closely resembles Viniyoga. While all this information is interesting, you may still feel bewildered about which type of yoga will suit your needs best. Let’s look at how different types of stretching may impact your overall goals first.</p>
@@ -125,12 +124,12 @@ const BlogData: Blog[] = [
 `,
     seoDescription:
       "So, you have decided to go to a yoga class. You go online to book your class and then find yourself feeling dumbfounded by all the different options. You have very limited time to pencil in some yoga; any added pressure of exerting your (already super limited) executive functioning just seems downright overwhelming. Sound familiar?",
+    title: "A Breakdown of our Class Styles",
   },
 
   {
     _id: "community-spotlight-maurice-du-monde",
     mainImage: "/images/blog/blog-7.webp",
-    title: "Community Spotlight: Maurice Du Monde",
     metadata: `<p><em><strong>LOY</strong>: What was the inspiration behind creating Good Vibes Fort Lauderdale?</em></p>
 <p><strong>Maurice</strong>: This is our first full year living in awesome Ft. Lauderdale beach! As locals able to just step outside and enjoy our gorgeous city, all one sees is beautiful smiles and the happiness we all feel in our paradise. GoodVibesFTL is our way to share, as an all inclusive community, our collective appreciation and love for the many wonderful experiences in Ft. Lauderdale.</p>
 <p><em><strong>LOY</strong>: What has the response been like?</em></p>
@@ -144,12 +143,12 @@ const BlogData: Blog[] = [
 <p>If you&#8217;d like to submit your own pics, send them to GoodVibesFTL <a href="mailto:GoodVibesFTL@gmail.com" target="_blank" rel="noopener">via email</a> or post them on Instagram using one the of the following hashtags: #GoodVibesFTL #GoodVibesFTLpets #GoodVibesFTLlove</p>`,
     seoDescription:
       "Meet Maurice du Monde, a wonderful member of our community. If you come to the studio regularly, you likely already know him, as he makes sure that no one is a stranger. When you talk to Maurice, you immediately get a sense of the gratitude he feels for this city and the people in it. Recently,",
+    title: "Community Spotlight: Maurice Du Monde",
   },
 
   {
     _id: "how-a-gratitude-journal-changed-my-life",
     mainImage: "/images/blog/blog-8.webp",
-    title: "How a Gratitude Journal Changed my Life",
     metadata: `<p>About ten years ago, I participated in a 40-day yoga immersion and one of the exercises we were assigned on day 1 was to write down 8 things we were grateful for each day. I had never been much of a journal person. I think part of the reason was because I had been living with anxiety since my late teens and the idea of putting my thoughts down on paper scared me. In my head, they could remain abstract and I could keep them to myself.  Writing them down would give them a place to materialize outside of my head, and this wasn’t something I wanted to entertain.  However, transformation was the name of the game when I joined this 40-day immersion, and I made a commitment to myself to go all in.  I wasn’t going to start picking and choosing what to do just because it was out of my comfort zone.  I had let fear guide my actions for the better part of two decades and this was an opportunity to do things differently. Besides, it was just writing down what I’m grateful for so the risk seemed pretty low.</p>
 <p class="p1">The first week went pretty smoothly. It was as if I had a stockpile of people, places and things that would step up on command – my mom, my dad, my dog, my kids, my husband, etc – the easy stuff.  After that first week, it got a little more challenging as I was determined not to repeat what I had already been grateful for.  I’m not sure why I did this.  It wasn’t part of the exercise.  The rules and restrictions we put on ourselves are very interesting when we allow ourselves to notice them.</p>
 <p class="p1">About two weeks in, I began to notice a shift. Throughout the day, I found myself looking around and thinking about what I was grateful for so my time with that journal would be easier. Thoughts of gratitude began to replace the anxiety-laden ‘what if’ thoughts. I observed nature more, found myself being grateful for the sunshine, the beautiful flowers as they were blooming, Mother Earth. When people in other cars would wave me through, I would feel a true sense of gratitude for them, rather than just going through the motions of waving back and continuing my drive. My life became more relaxed, my heart more open.</p>
@@ -158,12 +157,12 @@ const BlogData: Blog[] = [
 <p><em>Heather is an E-RYT 500 Hour, YACEP certified yoga instructor. </em><em>Her mission as a yoga teacher is to provide a space and a practice that invites students of all levels on a journey of self-exploration and self-discovery that they can take off the mat to lead a consciously-aware, loving and fulfilled life. She has led several Teacher Training programs and continues to teach weekly public classes and individual private sessions. </em></p>`,
     seoDescription:
       "by Heather Artman About ten years ago, I participated in a 40-day yoga immersion and one of the exercises we were assigned on day 1 was to write down 8 things we were grateful for each day. I had never been much of a journal person. I think part of the reason was because I",
+    title: "How a Gratitude Journal Changed my Life",
   },
 
   {
     _id: "beyond-asana-the-eight-limbs-of-yoga",
     mainImage: "/images/blog/blog-9.webp",
-    title: "Beyond Asana: The Eight Limbs of Yoga",
     metadata: `<ol>
 <li>Yamas &#8211; The first limb of yoga, the Yamas, refers to the ethical guidelines for how to interact with the world around us. These guidelines include non-violence (ahimsa), truthfulness (satya), non-stealing (asteya), moderation (brahmacharya), and non-possessiveness (aparigraha).</li>
 <li>Niyamas &#8211; The second limb of yoga, the Niyamas, refers to the ethical guidelines for how to interact with ourselves. These guidelines include cleanliness (saucha), contentment (santosha), discipline (tapas), self-study (svadhyaya), and surrender to a higher power (ishvara pranidhana).</li>
@@ -177,12 +176,12 @@ const BlogData: Blog[] = [
 <p>This comprehensive framework of ethical principles, physical postures, breathing exercises, and meditation practices provide a more complete picture of the practice of yoga. Join us for one of our Complete Practice workshops as we dive more deeply into this practice and spend a little more time incorporating the other limbs during our time together.</p>`,
     seoDescription:
       "The eight limbs of yoga are a framework for the practice of yoga as described in the Yoga Sutras of Patanjali, an ancient text that outlines the philosophy and practice of yoga. The eight limbs are a path towards self-realization and spiritual growth, with each limb building upon the previous one. Yamas - The first",
+    title: "Beyond Asana: The Eight Limbs of Yoga",
   },
 
   {
     _id: "why-practice-restorative-yoga",
     mainImage: "/images/blog/blog-10.webp",
-    title: "Why Practice Restorative Yoga?",
     metadata: `<ol>
 <li>Reduces Stress and Anxiety</li>
 </ol>
@@ -206,12 +205,12 @@ const BlogData: Blog[] = [
 <p>With its many benefits for both the mind and body, restorative yoga is an excellent choice for anyone looking to improve their overall health and well-being. So why not give restorative yoga a try and experience the benefits for yourself?</p>`,
     seoDescription:
       "Restorative yoga is a type of yoga practice that emphasizes relaxation, restoration, and rejuvenation. Unlike other forms of yoga, which can be more vigorous and physically demanding, restorative yoga focuses on supporting the body through gentle stretches and poses that are held for extended periods of time. Props are used for support to ensure the",
+    title: "Why Practice Restorative Yoga?",
   },
 
   {
     _id: "embark-on-your-journey-yoga-for-beginners",
     mainImage: "/images/blog/blog-11.webp",
-    title: "Embark on Your Journey: Yoga for Beginners",
     metadata: `<ol>
 <li>Understanding the Essence of Yoga: Yoga, is a practice that harmonizes the body, mind, and spirit. It combines physical postures (asanas), breath control (pranayama), and meditation to create a holistic experience. Unlike competitive sports or high-intensity workouts, yoga fosters self-acceptance, inner peace, and self-awareness. It is not just about touching your toes; it&#8217;s about what you learn on the way down.</li>
 <li>Benefits of Yoga:</li>
@@ -235,13 +234,12 @@ const BlogData: Blog[] = [
 `,
     seoDescription:
       "Welcome to the serene world of yoga! Whether you&#039;re seeking physical fitness, mental clarity, or spiritual growth, yoga offers a holistic path to well-being. While it may seem intimidating at first, remember that yoga is a journey, and everyone starts as a beginner. In this blog post, we&#039;ll explore the essence of yoga, discuss its",
+    title: "Embark on Your Journey: Yoga for Beginners",
   },
 
   {
     _id: "unleash-your-potential-the-transformative-journey-of-yoga-teacher-training",
     mainImage: "/images/blog/blog-12.webp",
-    title:
-      "Unleash Your Potential: The Transformative Journey of Yoga Teacher Training",
     metadata: `<p>Embarking on a yoga teacher training program is a transformative experience that goes far beyond learning how to lead a yoga class. It is a profound journey of self-discovery, growth, and empowerment. Whether you have been practicing yoga for years or have recently discovered its transformative power, yoga teacher training offers a unique opportunity to deepen your practice, expand your knowledge, and share the wisdom of yoga with others. In this blog post, we will explore the remarkable benefits and transformative aspects of yoga teacher training.</p>
 <ol>
 <li>Deepening Your Practice: Yoga teacher training takes you on a journey of exploration and self-inquiry, allowing you to dive deeper into your own practice. With the guidance of experienced teachers, you will delve into the intricacies of asana, pranayama, and meditation, gaining a profound understanding of the physical, energetic, and spiritual dimensions of yoga. Through daily practice, you will cultivate a stronger connection with your body, mind, and breath, expanding your personal practice to new heights.</li>
@@ -253,12 +251,13 @@ const BlogData: Blog[] = [
 <p>Yoga teacher training is a transformative and empowering experience that expands your practice, deepens your knowledge, and connects you with a vibrant community. It is a journey of self-discovery, personal growth, and the opportunity to inspire and empower others through the wisdom of yoga. So, if you are ready to embark on this transformative journey, dive in, unleash your potential, and become a beacon of light for yourself and others through the practice of yoga.</p>`,
     seoDescription:
       "Embarking on a yoga teacher training program is a transformative experience that goes far beyond learning how to lead a yoga class. It is a profound journey of self-discovery, growth, and empowerment. Whether you have been practicing yoga for years or have recently discovered its transformative power, yoga teacher training offers a unique opportunity to",
+    title:
+      "Unleash Your Potential: The Transformative Journey of Yoga Teacher Training",
   },
 
   {
     _id: "the-power-of-breath-how-pranayama-can-transform-your-practice",
     mainImage: "/images/blog/blog-13.webp",
-    title: "The Power of Breath: How Pranayama Can Transform Your Practice",
     metadata: `<p>In the fast-paced world we live in, finding moments of tranquility and self-awareness has become more critical than ever. Yoga has gained popularity worldwide for its ability to promote physical, mental, and spiritual well-being. At the heart of this ancient art lies pranayama, the practice of controlled breathing. Pranayama, often referred to as the &#8220;science of breath,&#8221; is an integral part of yoga and has the power to transform your yoga practice in profound ways. In this blog post, we will explore the incredible benefits of pranayama and how incorporating it into your yoga routine can lead to a transformative journey of self-discovery.</p>
 <p>Understanding Pranayama</p>
 <p>Pranayama, derived from the Sanskrit words &#8220;prana&#8221; (life force) and &#8220;ayama&#8221; (expansion), is a series of breathing techniques aimed at harnessing and channeling the life force energy within us. The practice involves conscious manipulation of the breath, both in terms of depth and duration, to achieve specific outcomes. The breath is considered the bridge between the body and the mind, and by mastering it, practitioners can enhance their physical and mental states.</p>
@@ -283,13 +282,12 @@ const BlogData: Blog[] = [
 `,
     seoDescription:
       "In the fast-paced world we live in, finding moments of tranquility and self-awareness has become more critical than ever. Yoga has gained popularity worldwide for its ability to promote physical, mental, and spiritual well-being. At the heart of this ancient art lies pranayama, the practice of controlled breathing. Pranayama, often referred to as the &quot;science",
+    title: "The Power of Breath: How Pranayama Can Transform Your Practice",
   },
 
   {
     _id: "integrating-yoga-into-daily-life-practical-tips-for-incorporating-yoga-off-the-mat",
     mainImage: "/images/blog/blog-14.webp",
-    title:
-      "Integrating Yoga into Daily Life: Practical Tips for Incorporating Yoga Off the Mat",
     metadata: `
     <p>Yoga is often associated with the physical practice of asanas (poses) on the mat, but its true essence extends far beyond. Integrating yoga into your daily life involves embracing its principles, such as mindfulness, breath control, and ethical guidelines, in every aspect of your routine. Here are practical tips to help you incorporate yoga off the mat and enrich your everyday experiences.</p>
 <h5><span style="color: #333333;">1. Start Your Day with Intention</span></h5>
@@ -316,11 +314,12 @@ const BlogData: Blog[] = [
     `,
     seoDescription:
       "Yoga is often associated with the physical practice of asanas (poses) on the mat, but its true essence extends far beyond. Integrating yoga into your daily life involves embracing its principles, such as mindfulness, breath control, and ethical guidelines, in every aspect of your routine. Here are practical tips to help you incorporate yoga off",
+    title:
+      "Integrating Yoga into Daily Life: Practical Tips for Incorporating Yoga Off the Mat",
   },
   {
     _id: "yoga-for-stress-relief",
     mainImage: "/images/blog/blog-15.webp",
-    title: "Yoga for Stress Relief: Poses and Practices to Calm the Mind",
     metadata: `
 <p><strong>Yoga for Stress Relief: Poses and Practices to Calm the Mind</strong></p>
 <p>In today's fast-paced world, stress has become a common companion for many of us. From work deadlines to personal responsibilities, the pressures of daily life can take a toll on our mental and physical well-being. Fortunately, yoga offers a powerful antidote to stress. Through mindful movement, breathwork, and meditation, yoga can help calm the mind, relax the body, and restore a sense of balance. In this blog post, we&rsquo;ll explore some of the best yoga poses and practices for stress relief.</p>
@@ -425,11 +424,11 @@ const BlogData: Blog[] = [
 <p>At Las Olas Yoga, we&rsquo;re dedicated to helping you find balance and peace through yoga. Join us for a class and discover the transformative power of yoga for stress relief. Your mind and body will thank you!</p>`,
     seoDescription:
       "Calm your mind and relieve stress with yoga poses and breathwork.",
+    title: "Yoga for Stress Relief: Poses and Practices to Calm the Mind",
   },
   {
     _id: "what-type-of-yoga-class-is-right-for-you",
     mainImage: "/images/blog/blog-16.webp",
-    title: "What Type of Yoga Class Is Right for You?",
     metadata: `<p><strong>What Type of Yoga Class Is Right for You? 🧘‍♀️ Take the Quiz to Find Your Flow</strong></p>
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 <p><strong>🌟 Answer These 5 Questions:</strong></p>
@@ -482,11 +481,11 @@ This deeply relaxing class uses props to support you in long-held, restful poses
 <p>Explore our schedule <a href="/schedule" style="color: #8a6a4f; text-decoration: none;"><b>here</b></a>, and join us in the studio soon. All levels welcome.</p>`,
     seoDescription:
       "Take our 5-question quiz to discover the perfect yoga class for you! Whether you're a beginner or experienced yogi, find your ideal practice from Foundations to Flow, Slow Flow, or Restorative yoga.",
+    title: "What Type of Yoga Class Is Right for You?",
   },
   {
     _id: "why-savasana-matters",
     mainImage: "/images/blog/blog-17.jpg",
-    title: "Why Savasana Matters: The Power of Stillness in Your Practice",
     metadata: `<p><strong>Why Savasana Matters: The Power of Stillness in Your Practice</strong></p>
   <p>This final resting pose, often just a few quiet minutes lying still on your mat, might seem like the easiest part of your yoga practice. But in truth, Savasana is one of the most powerful, transformative postures in all of yoga.</p>
   
@@ -526,12 +525,12 @@ This deeply relaxing class uses props to support you in long-held, restful poses
   Feel the floor support you.<br />
   Let yourself be still.</p>`,
     seoDescription:
-      "Discover why Savasana, the final resting pose in yoga, is one of the most essential parts of your practice. Learn how stillness restores the body, calms the mind, and completes your journey on the mat."
+      "Discover why Savasana, the final resting pose in yoga, is one of the most essential parts of your practice. Learn how stillness restores the body, calms the mind, and completes your journey on the mat.",
+    title: "Why Savasana Matters: The Power of Stillness in Your Practice"
   },
   {
     _id: "why-non-heated-yoga-offers-deeper-connection",
     mainImage: "/images/blog/blog-18.webp",
-    title: "Why Non-Heated Yoga Offers Deeper Connection: Movement, Mindfulness & Community in Fort Lauderdale",
     metadata: `
     <p>When most people think of yoga in South Florida, they picture a hot room and a fast-paced flow. But at Las Olas Yoga, we’ve created something different—a non-heated space where movement, breath, and mindfulness work together to help you slow down when needed, push yourself when inspired, and connect more deeply with yourself.</p>
     <p>Whether you’re stepping into your first class or building advanced strength and flexibility, this approach offers benefits that go far beyond the mat.</p>
@@ -569,7 +568,8 @@ This deeply relaxing class uses props to support you in long-held, restful poses
     <p>Grab a complimentary tea in our lobby and discover how mindful movement, challenge, and community can change your practice—and your life.</p>
     <p>Ready to dive in? Start with our <a style="color: #8a6a4f; text-decoration: none;" href="https://momence.com/m/136483"><b>3-Week Intro Offer for New Students</b></a> and see how good yoga can feel when it’s done your way.</p>`,
     seoDescription:
-      "Discover the benefits of non-heated yoga at Las Olas Yoga in Fort Lauderdale. Connect through mindful movement, build strength, and join a supportive community—no heat required."
+      "Discover the benefits of non-heated yoga at Las Olas Yoga in Fort Lauderdale. Connect through mindful movement, build strength, and join a supportive community—no heat required.",
+    title: "Why Non-Heated Yoga Offers Deeper Connection: Movement, Mindfulness & Community in Fort Lauderdale"
   }
 ];
 
