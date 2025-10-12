@@ -73,7 +73,6 @@ export default function Contact() {
       (event.target as HTMLFormElement).reset();
       setErrors({});
     } else {
-      console.log("Error", data);
       setResult(data.message);
       setResultColor("red");
     }
