@@ -6,7 +6,7 @@ import Link from "next/link";
 import { fadeInUp, staggerTransition } from "@/constants/animations";
 import { Blog } from "@/types/blog";
 
-interface BlogItemProps {
+type BlogItemProps = {
   blog: Blog;
 }
 

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface HeroLinkProps {
+type HeroLinkProps = {
   ariaLabel: string;
   lastElement: boolean;
   link: string;

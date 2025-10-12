@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 
-interface Errors {
+type Errors = {
   email?: boolean;
   message?: boolean;
   name?: boolean;

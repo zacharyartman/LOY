@@ -8,14 +8,14 @@ import { Teacher } from "@/types/teacher";
 
 import { teacherByName } from "../Teachers/teachersData";
 
-interface EventData {
+type EventData = {
   date: number[];
   end: number[];
   start: number[];
   title: string;
 }
 
-interface DetailsProps {
+type DetailsProps = {
   buttonLink?: string;
   buttonText?: string;
   dates: string;

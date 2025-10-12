@@ -8,11 +8,11 @@ import { defaultTransition, fadeInUp } from "@/constants/animations";
 import SectionHeader from "../Common/SectionHeader";
 import pricingData from "./pricingData";
 
-interface PricingProps {
+type PricingProps = {
   sectionHeader?: boolean;
 }
 
-interface PricingButtonProps {
+type PricingButtonProps = {
   buttonText: string;
   href: string;
   perX: string;

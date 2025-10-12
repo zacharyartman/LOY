@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 
-interface MomenceScheduleProps {
+type MomenceScheduleProps = {
   fullSchedule: boolean;
   liteMode: boolean;
   sessionType: "class" | "workshop";

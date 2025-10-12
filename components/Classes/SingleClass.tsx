@@ -3,7 +3,7 @@ import React from "react";
 
 import { Class } from "@/types/class";
 
-interface SingleClassProps {
+type SingleClassProps = {
   classItem: Class;
 }
 

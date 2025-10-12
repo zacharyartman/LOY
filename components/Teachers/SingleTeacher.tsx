@@ -5,7 +5,7 @@ import { useState } from "react";
 import { defaultTransition, fadeInUp } from "@/constants/animations";
 import { Teacher } from "@/types/teacher";
 
-interface SingleTeacherProps {
+type SingleTeacherProps = {
   review: Teacher;
 }
 

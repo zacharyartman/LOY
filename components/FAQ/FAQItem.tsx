@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-interface FAQItemData {
+type FAQItemData = {
   activeFaq: number;
   ans: string;
   handleFaqToggle: (id: number) => void;
@@ -8,7 +8,7 @@ interface FAQItemData {
   quest: string;
 }
 
-interface FAQItemProps {
+type FAQItemProps = {
   faqData: FAQItemData;
 }
 

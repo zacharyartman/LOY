@@ -7,7 +7,7 @@ import { defaultTransition, fadeInUp } from "@/constants/animations";
 import classesData from "./classesData";
 import SingleClass from "./SingleClass";
 
-interface ClassesProps {
+type ClassesProps = {
   title?: boolean;
 }
 

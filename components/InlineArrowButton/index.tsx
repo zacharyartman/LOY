@@ -1,6 +1,6 @@
 "use client";
 
-interface InlineArrowButtonProps {
+type InlineArrowButtonProps = {
   href: string;
   reversed: boolean;
   text: string;

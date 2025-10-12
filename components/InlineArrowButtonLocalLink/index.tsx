@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-interface InlineArrowButtonLocalLinkProps {
+type InlineArrowButtonLocalLinkProps = {
   href: string;
   reversed: boolean;
   text: string;

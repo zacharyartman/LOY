@@ -8,7 +8,7 @@ import { defaultTransition, fadeInLeft, fadeInRight } from "@/constants/animatio
 import InlineArrowButton from "../InlineArrowButton";
 import InlineArrowButtonLocalLink from "../InlineArrowButtonLocalLink";
 
-interface AboutProps {
+type AboutProps = {
   aboutText: string;
   viewClasses: boolean;
 }

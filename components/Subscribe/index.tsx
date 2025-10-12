@@ -1,6 +1,6 @@
 import React from "react";
 
-interface Errors {
+type Errors = {
   email?: boolean;
   name?: boolean;
   phone?: boolean;
