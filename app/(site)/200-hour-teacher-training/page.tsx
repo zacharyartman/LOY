@@ -23,14 +23,6 @@ const TwoHundredHourTTPage = () => {
         dates={"Next Session: January 17 - April 12, 2026"}
         teacher="Heather Artman, Keely Hubbard and Dafna Zacharin"
         text={`
-                    <div style="text-align: center;">
-          📆 <b>Free Teacher Training Info Session:</b> Saturday, October 18th, 12:00 - 1:00 PM. <br />
-                     <div style="margin: 10px 0 1.875rem 0;">
-             <a href="https://momence.com/s/122677923" target="_blank" style="display: inline-block; background-color: #a58367; color: white; padding: 5px 20px; border-radius: 25px; text-decoration: none; margin: 0 5px; font-weight: 500; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#8a6a4f'" onmouseout="this.style.backgroundColor='#a58367'">Register Here</a>
-           </div>
-          </div>
-          <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
-
     <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
