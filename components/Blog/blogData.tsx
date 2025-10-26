@@ -526,7 +526,7 @@ This deeply relaxing class uses props to support you in long-held, restful poses
   Let yourself be still.</p>`,
     seoDescription:
       "Discover why Savasana, the final resting pose in yoga, is one of the most essential parts of your practice. Learn how stillness restores the body, calms the mind, and completes your journey on the mat.",
-    title: "Why Savasana Matters: The Power of Stillness in Your Practice"
+    title: "Why Savasana Matters: The Power of Stillness in Your Practice",
   },
   {
     _id: "why-non-heated-yoga-offers-deeper-connection",
@@ -569,8 +569,106 @@ This deeply relaxing class uses props to support you in long-held, restful poses
     <p>Ready to dive in? Start with our <a style="color: #8a6a4f; text-decoration: none;" href="https://momence.com/m/136483"><b>3-Week Intro Offer for New Students</b></a> and see how good yoga can feel when it’s done your way.</p>`,
     seoDescription:
       "Discover the benefits of non-heated yoga at Las Olas Yoga in Fort Lauderdale. Connect through mindful movement, build strength, and join a supportive community—no heat required.",
-    title: "Why Non-Heated Yoga Offers Deeper Connection: Movement, Mindfulness & Community in Fort Lauderdale"
-  }
+    title:
+      "Why Non-Heated Yoga Offers Deeper Connection: Movement, Mindfulness & Community in Fort Lauderdale",
+  },
+  {
+    _id: "how-to-cultivate-a-personal-home-practice-between-studio-visits",
+    mainImage: "/images/blog/blog-19.webp",
+    metadata: `<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Discover how to deepen your yoga journey between studio visits with simple home rituals, mindset shifts, and alignment tips that keep you connected to your Las Olas Yoga practice.<b><span style="font-size: 18pt;"><o:p></o:p></span></b></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Yoga at the studio is special — the guidance, the collective energy, the feeling of connection. At Las Olas Yoga, we celebrate that every day. But students often ask:<span class="Apple-converted-space"> </span><i>“How can I stay connected to my practice when I can’t make it to the studio?”</i><o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Here’s how to build a meaningful<span class="Apple-converted-space"> </span><b>home practice</b><span class="Apple-converted-space"> </span>that supports your growth, complements your studio classes, and keeps you rooted in movement, mindfulness, and community.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">1. Set a Simple Anchor<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Start with one small ritual you can turn to on days you’re not in class. It doesn’t have to be a full flow. Try:<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">5 minutes of breathing (like deep belly breath or alternate nostril).<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Two rounds of Sun Salutation A to wake up your body.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">A short sequence like Child’s Pose → Cat/Cow → Downward-Facing Dog.<o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">This small anchor keeps your practice alive, even on busy days.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">2. Listen to Your Body<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Our non-heated classes are designed to help you<span class="Apple-converted-space"> </span><i>listen</i><span class="Apple-converted-space"> </span>rather than push. That same principle applies at home. Ask yourself:<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">“What does my body need today?”<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">“Do I need movement, stillness, strength, or rest?”<o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">If you’re tired, a few restorative poses are perfect. If you’re energized, flow for 20 minutes. The goal is to respond to your body, not force it - that’s real yoga.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">3. Make Space for Your Practice<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Create a small, intentional area that invites you to show up:<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Pick a consistent spot with room for your mat and props.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Light a candle or take a breath before starting — something that marks the shift into practice.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Silence notifications and give yourself permission to be present.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Keep props handy — a block, strap, or bolster (or a book and belt!) can help your body feel supported.<o:p></o:p></li>
+</ul>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">4. Short &amp; Sweet Counts<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">A home practice doesn’t have to be long to be meaningful. Even 15–20 minutes can shift your whole day. Try this:<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">2 minutes of conscious breathing<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">5 minutes of Sun Salutations<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">8 minutes of standing or balance poses (Warrior II, Tree, etc.)<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">5 minutes of forward folds and Savasana<o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">A little consistency goes a long way.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">5. Reflect After You Practice<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Your home practice isn’t just movement - it’s awareness. Afterward, pause and ask:<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">“How do I feel now?”<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">“What shifted for me?”<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">“What do I want to bring into my next class?”<o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">These small reflections deepen your connection and make your time in the studio even more meaningful.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">6. Stay Connected to Community<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Even when you’re practicing alone, you’re part of the Las Olas Yoga community. Keep that connection alive:<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Let your home practice inspire you to book your next class.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Share what you’re practicing with a friend from the studio.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Bring what you learn at home into class - a pose, a mindset, or simply your presence.<o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Your home practice is an extension of the energy we build together.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b><span style="font-size: 13.5pt;">7. Know When to Rest<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">Some days call for movement; others call for stillness. Listen and honor that.<o:p></o:p></p>
+
+<ul type="disc" style="margin-bottom: 0in; caret-color: rgb(0, 0, 0); font-family: Helvetica;"><li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">If you’re tired or sore, try Child’s Pose, Legs-Up-the-Wall, or Supine Twist.<o:p></o:p></li>
+<li class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">If you’re motivated, flow with your favorite playlist.<o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">The key is to practice with kindness, not pressure.<o:p></o:p></p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0); text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">A home yoga practice isn’t about doing more - it’s about staying connected to yourself. By keeping it simple, listening to your body, and nurturing consistency, you’ll bridge the space between classes and deepen your connection to your practice, your body, and your community.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);">We’d love to hear how you stay connected off the mat. Next time you’re in class, tell us what your home practice looks like!<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: rgb(0, 0, 0);"><b>Ready to bring your home practice energy back into the studio?</b><br>
+Check the schedule, reserve your spot, and meet us on the mat.<o:p></o:p></p>
+
+<div><br>
+</div>`,
+    seoDescription:
+      "Discover how to deepen your yoga journey between studio visits with simple home rituals, mindset shifts, and alignment tips that keep you connected to your Las Olas Yoga practice.",
+    title: "How to Cultivate a Personal Home Practice Between Studio Visits",
+  },
 ];
 
 export default BlogData;
