@@ -6,6 +6,7 @@ import image1 from "@/public/images/user/heather.webp";
 import image12 from "@/public/images/user/justin.jpg";
 import image18 from "@/public/images/user/katesuarez.webp";
 import image2 from "@/public/images/user/keely.webp";
+import lexi from "@/public/images/user/lexi.jpeg";
 import image14 from "@/public/images/user/michael.jpeg";
 import image21 from "@/public/images/user/natalie.jpeg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
@@ -77,6 +78,13 @@ export const teachersData: Teacher[] = [
     id: 18,
     image: image18,
     name: "Kate Suarez",
+  },
+  {
+    content: `Lexi's classes blend thoughtful alignment, intentional sequencing, and the artistry of creating a full, embodied experience. Expect a slow, steady flow with fewer transitions and more time to settle into each pose. It’s a nourishing, meditative-paced practice that offers gentle movement, mindful breath, and space to leave feeling grounded and restored—supportive for both newer and seasoned practitioners.`,
+    designation: "",
+    id: 21,
+    image: lexi,
+    name: "Lexi Moeschl",
   },
   {
     content:
