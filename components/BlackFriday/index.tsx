@@ -113,7 +113,7 @@ const BlackFridaySale = () => {
 
           <div className="mt-10 text-center">
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary">
-              Offers valid through Monday, December 2nd or until sold out.
+              Offers valid through Monday, December 1st or until sold out.
             </div>
           </div>
         </div>
