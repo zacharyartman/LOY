@@ -8,6 +8,12 @@ const menuData: Menu[] = [
     title: "Home",
   },
   {
+    id: 7,
+    newTab: false,
+    path: "/black-friday",
+    title: "Black Friday",
+  },
+  {
     hidden: true,
     id: 2,
     newTab: false,
@@ -71,12 +77,6 @@ const menuData: Menu[] = [
     ],
     title: "Teacher Training",
   },
-  // {
-  //   id: 7,
-  //   title: "Retreats",
-  //   newTab: false,
-  //   path: "/retreats",
-  // },
   {
     id: 8,
     newTab: false,
