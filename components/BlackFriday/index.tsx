@@ -17,7 +17,7 @@ const BlackFridaySale = () => {
       popular: false,
     },
     {
-      href: "",
+      href: "https://momence.com/m/577388",
       id: 3,
       imgSrc: "/images/blackfriday/3.png",
       popular: false,
