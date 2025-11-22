@@ -1,6 +1,5 @@
 import image5 from "@/public/images/user/carly.webp";
 import image17 from "@/public/images/user/dafna.webp";
-import image7 from "@/public/images/user/emily.webp";
 import image19 from "@/public/images/user/giuls.webp";
 import image1 from "@/public/images/user/heather.webp";
 import image12 from "@/public/images/user/justin.jpg";
@@ -46,14 +45,6 @@ export const teachersData: Teacher[] = [
     id: 17,
     image: image17,
     name: "Dafna Zacharin",
-  },
-  {
-    content:
-      "Emily was introduced to yoga in 2012 when she walked into a class at her local gym. At first she was drawn to the physicality of the practice but it didn't take long for her to realize the spiritual, mental and emotional benefits. Yoga quickly became the greatest way for her to practice self-care. Emily completed a 200 hour teacher training program in 2013 and spent the next 3 years teaching at various locations in her hometown of Brookfield, Wisconsin before moving to Fort Lauderdale in the spring of 2016. Upon moving to Fort Lauderdale, Emily began working and teaching at Ashtanga Yoga Worldwide. In 2018, she completed a year long training program under the guidance of world renowned yoga teacher Greg Nardi. Emily continues to experience the incredible benefits and healing powers of yoga through her daily practice and it brings her great joy to share the gift of yoga with others. She enjoys getting to know her students and believes in offering personalized instruction and guidance to fit each student's unique body and mind.",
-    designation: "",
-    id: 7,
-    image: image7,
-    name: "Emily Tull",
   },
   {
     content:
