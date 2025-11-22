@@ -19,7 +19,7 @@ const BlackFridaySale = () => {
     {
       href: "",
       id: 3,
-      imgSrc: "/images/blackfriday/3.jpeg",
+      imgSrc: "/images/blackfriday/3.png",
       popular: false,
     },
     {
@@ -56,13 +56,11 @@ const BlackFridaySale = () => {
           priority
         />
 
-        {href && (
-          <div className="absolute inset-0 flex items-center justify-center bg-primaryho/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            <div className="translate-y-4 transform rounded-full bg-white px-6 py-2.5 font-semibold text-black shadow-lg transition-all duration-300 hover:bg-primary hover:text-white group-hover:translate-y-0">
-              Get Deal
-            </div>
+        <div className="absolute inset-0 flex items-center justify-center bg-primaryho/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <div className="translate-y-4 transform rounded-full bg-white px-6 py-2.5 font-semibold text-black shadow-lg transition-all duration-300 hover:bg-primary hover:text-white group-hover:translate-y-0">
+            {href ? "Get Deal" : "Sold Out"}
           </div>
-        )}
+        </div>
       </Wrapper>
     );
   };
@@ -80,7 +78,7 @@ const BlackFridaySale = () => {
         className="animate_top overflow-hidden pb-10 pt-[calc(104px+1rem)]"
       >
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          <div className="mx-auto mb-12 text-center md:mb-16">
+          <div className="mx-auto mb-10 text-center">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
