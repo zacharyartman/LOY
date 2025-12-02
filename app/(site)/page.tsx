@@ -21,20 +21,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="flex items-center justify-center bg-[#f8f4ef] py-2 ">
-        <div className="flex max-w-4xl flex-row items-center justify-center gap-6 p-4 text-center">
-          <h2 className="text-xl font-bold text-[#8a6a4f]">
-            Black Friday Deals!
-          </h2>
-          <a
-            className="rounded-full bg-[#8a6a4f] px-6 py-2 text-white transition duration-200 hover:bg-[#735a40]"
-            href="/black-friday"
-          >
-            Save Here &rarr;
-          </a>
-        </div>
-      </div>
-
       {/* Best Yoga Studio Section */}
       <div className="flex items-center justify-center">
         <div className="my-5 flex max-w-4xl flex-col items-center justify-center p-6 text-center">

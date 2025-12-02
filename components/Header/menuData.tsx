@@ -8,12 +8,6 @@ const menuData: Menu[] = [
     title: "Home",
   },
   {
-    id: 7,
-    newTab: false,
-    path: "/black-friday",
-    title: "Black Friday",
-  },
-  {
     hidden: true,
     id: 2,
     newTab: false,
