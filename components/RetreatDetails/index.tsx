@@ -26,16 +26,16 @@ const RetreatDetails = ({
   title,
 }: RetreatDetailsProps) => {
   return (
-    <section id="details" className="px-4 md:px-8 2xl:px-0">
+    <section id="details" className="px-4 lg:px-8 2xl:px-0">
       <div className="max-w-c-1690 relative mx-auto px-0 py-5 lg:px-15 lg:px-7.5 lg:py-10 xl:px-20">
-        <h2 className="mx-5 mb-2 text-center text-2xl font-semibold text-primaryho xl:text-sectiontitle4">
+        <h2 className="mx-5 mb-2 text-center text-xl font-semibold text-primaryho xl:text-3xl">
           {title}
         </h2>
         <h3
           className="text-md mx-5 mb-4 text-center font-semibold text-primary xl:text-metatitle2"
           dangerouslySetInnerHTML={{ __html: dates }}
         ></h3>
-        <div className="flex flex-col gap-8 md:flex-row md:justify-between xl:gap-20">
+        <div className="flex flex-col gap-8 lg:flex-row lg:justify-between xl:gap-20">
           <motion.div
             variants={{
               hidden: { opacity: 0, x: -20 },
@@ -45,14 +45,14 @@ const RetreatDetails = ({
             whileInView="visible"
             transition={{ delay: 0.05, duration: 0.3 }}
             viewport={{ once: true }}
-            className="animate_left w-full self-start rounded-lg bg-white p-7.5 shadow-solid-8 md:w-[60%] xl:p-10"
+            className="animate_left w-full self-start rounded-lg bg-white p-7.5 shadow-solid-8 lg:w-[60%] xl:p-10"
           >
             <div
               className="blog-details"
               dangerouslySetInnerHTML={{ __html: text }}
             />
             {buttonText && buttonLink && (
-              <div className="my-5 flex flex flex-col items-center justify-center gap-2 xl:mb-0 xl:mt-0 xl:flex-row">
+              <div className="my-5 flex flex flex-col items-center justify-center gap-2 xl:mb-0 xl:flex-row">
                 <a
                   href={buttonLink}
                   target="_blank"

@@ -77,7 +77,7 @@ const RetreatGallery = ({
   const activeImages = getActiveImages();
 
   return (
-    <div className="relative w-full md:w-1/2 md:p-7.5 lg:w-[40%]">
+    <div className="relative w-full md:p-7.5 lg:w-1/2 lg:w-[40%]">
       {/* Sentinel to track scroll position - positioned where tabs start */}
       <div
         ref={sentinelRef}
