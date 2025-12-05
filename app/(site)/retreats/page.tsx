@@ -119,6 +119,17 @@ Extra Person: $1497
 <p class="MsoNormal" style="margin: 10px 0 0; font-size: 11pt; font-family: Calibri, sans-serif;">
 Non-refundable deposit of $750 reserves your spot.
 </p>
+
+<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
+Payment Plans Available
+</p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+Reach out for more information.
+</p>
+
 `}
       />
     </>

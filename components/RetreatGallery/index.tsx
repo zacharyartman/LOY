@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-type GalleryTab = "main" | "accommodations" | "landscapes";
+type GalleryTab = "accommodations" | "landscapes";
 
 type RetreatGalleryProps = {
   mainImages: string[];
@@ -16,7 +16,7 @@ const RetreatGallery = ({
   landscapesImages,
   mainImages,
 }: RetreatGalleryProps) => {
-  const [activeTab, setActiveTab] = useState<GalleryTab>("main");
+  const [activeTab, setActiveTab] = useState<GalleryTab>("landscapes");
   const [isFixed, setIsFixed] = useState(false);
   const [fixedLeft, setFixedLeft] = useState<number | null>(null);
   const [fixedWidth, setFixedWidth] = useState<number | null>(null);
@@ -52,12 +52,10 @@ const RetreatGallery = ({
 
   const getActiveImages = () => {
     switch (activeTab) {
-      case "main":
-        return mainImages;
       case "accommodations":
         return accommodationsImages;
       case "landscapes":
-        return landscapesImages;
+        return [...mainImages, ...landscapesImages];
       default:
         return mainImages;
     }
@@ -65,12 +63,10 @@ const RetreatGallery = ({
 
   const getTabLabel = (tab: GalleryTab) => {
     switch (tab) {
-      case "main":
-        return "Main";
       case "accommodations":
         return "Accommodations";
       case "landscapes":
-        return "Landscapes";
+        return "Landscape";
     }
   };
 
@@ -105,21 +101,19 @@ const RetreatGallery = ({
         }
       >
         <div className="max-w-c-1690 mx-auto flex flex-wrap justify-center gap-2">
-          {(["main", "landscapes", "accommodations"] as GalleryTab[]).map(
-            (tab) => (
-              <button
-                key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={`px-4 py-2 text-sm font-semibold transition-colors duration-200 ${
-                  activeTab === tab
-                    ? "border-b-2 border-primary text-primary"
-                    : "text-gray-600 hover:text-primary"
-                }`}
-              >
-                {getTabLabel(tab)}
-              </button>
-            ),
-          )}
+          {(["landscapes", "accommodations"] as GalleryTab[]).map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`px-4 py-2 text-sm font-semibold transition-colors duration-200 ${
+                activeTab === tab
+                  ? "border-b-2 border-primary text-primary"
+                  : "text-gray-600 hover:text-primary"
+              }`}
+            >
+              {getTabLabel(tab)}
+            </button>
+          ))}
         </div>
       </div>
 
