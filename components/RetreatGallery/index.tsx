@@ -140,16 +140,21 @@ const RetreatGallery = ({
         {/* Gallery Images */}
         <div className="flex flex-col space-y-4">
           {activeImages.length > 0 ? (
-            activeImages.map((image, index) => (
-              <div key={index} className="relative aspect-[4/3] w-full">
-                <Image
-                  src={image}
-                  alt={`Retreat ${getTabLabel(activeTab)} image ${index + 1}`}
-                  fill
-                  className="rounded-md object-cover"
-                />
-              </div>
-            ))
+            <>
+              {activeImages.map((image, index) => (
+                <div key={index} className="relative aspect-[4/3] w-full">
+                  <Image
+                    src={image}
+                    alt={`Retreat ${getTabLabel(activeTab)} image ${index + 1}`}
+                    fill
+                    className="rounded-md object-cover"
+                  />
+                </div>
+              ))}
+              <p className="text-xs text-gray-500">
+                Photo Credit: Mark Swatzell
+              </p>
+            </>
           ) : (
             <div className="flex h-48 items-center justify-center text-gray-500">
               No images available
