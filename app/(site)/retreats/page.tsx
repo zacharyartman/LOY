@@ -103,8 +103,8 @@ Early Bird Pricing (Ends March 1st, 2026)
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-Single Occupancy: $3795<br>
-Extra Person: $1297
+Single Occupancy: $3995<br>
+Extra Person: $1997
 </p>
 
 <p class="MsoNormal" style="margin: 10px 0 0; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
@@ -112,8 +112,8 @@ Pricing After March 1st
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-Single Occupancy: $3995<br>
-Extra Person: $1497
+Single Occupancy: $4195<br>
+Extra Person: $2197
 </p>
 
 <p class="MsoNormal" style="margin: 10px 0 0; font-size: 11pt; font-family: Calibri, sans-serif;">
