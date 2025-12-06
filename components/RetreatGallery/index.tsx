@@ -145,9 +145,12 @@ const RetreatGallery = ({
                   />
                 </div>
               ))}
-              <p className="text-xs text-gray-500">
+              <a
+                href="http://www.markswatzell.com/"
+                className="text-xs text-gray-500"
+              >
                 Photo Credit: Mark Swatzell
-              </p>
+              </a>
             </>
           ) : (
             <div className="flex h-48 items-center justify-center text-gray-500">
