@@ -52,14 +52,8 @@ const RetreatsPage = () => {
         dates={"October 31st - November 7th, 2026"}
         landscapesImages={landscapesImages}
         mainImages={mainImages}
-        title={
-          "Under the Tuscan Sun: A yoga retreat in the heart of Tuscany with Keely Hubbard and Bebe Acciavatti"
-        }
+        title={"Under the Tuscan Sun: A yoga retreat in the heart of Tuscany"}
         text={`
-<p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Under the Tuscan Sun: A Yoga Retreat in the Heart of Tuscany
-</p>
-
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 Join Keely Hubbard and Bebe Acciavatti for an unforgettable week in the heart of Tuscany. Surrounded by vineyards, olive groves, and rolling hills, this retreat offers the perfect balance of movement, mindfulness, and adventure.<br><br>
 Located between Florence and Siena, just a short stroll from the charming village of Panzano in Chianti, our Tuscan hideaway captures the essence of Italian serenity. Mornings begin with yoga overlooking the countryside, followed by leisurely meals crafted from local ingredients. Each day unfolds with optional excursions, relaxation by the pool, or quiet reflection under the olive trees.<br><br>
