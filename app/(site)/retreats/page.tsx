@@ -35,7 +35,6 @@ const RetreatsPage = () => {
     "/images/retreats/landscapes/melograno.jpeg",
     "/images/retreats/landscapes/our italy trip.jpeg",
     "/images/retreats/landscapes/totollo.jpeg",
-    "/images/retreats/landscapes/Tuscany Villa.jpeg",
   ];
 
   return (
