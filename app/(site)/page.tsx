@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import MobileApp from "@/components/MobileApp";
 import MomenceSchedule from "@/components/MomenceSchedule";
 import Popup from "@/components/Popup";
+import RetreatPromo from "@/components/RetreatPromo";
 
 export const metadata: Metadata = {
   description:
@@ -56,6 +57,7 @@ export default function Home() {
         sessionType={"class"}
         liteMode={true}
       />
+      <RetreatPromo />
       <CTA />
       <MobileApp />
       <Popup />

@@ -70,7 +70,7 @@ function MomenceSchedule({
 
       {!fullSchedule && (
         <div className="flex justify-center">
-          <div className="mb-10 mt-8 flex items-center gap-2 xl:mt-0">
+          <div className="mt-8 flex items-center gap-2">
             <Link
               href="/schedule"
               className="flex items-center justify-center rounded-full bg-primary px-5.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
