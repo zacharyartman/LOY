@@ -72,6 +72,12 @@ const menuData: Menu[] = [
     title: "Teacher Training",
   },
   {
+    id: 7,
+    newTab: false,
+    path: "/retreats",
+    title: "Retreats",
+  },
+  {
     id: 8,
     newTab: false,
     submenu: [
