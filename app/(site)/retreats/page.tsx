@@ -58,78 +58,138 @@ const RetreatsPage = () => {
         title={"Under the Tuscan Sun: A yoga retreat in the heart of Tuscany"}
         text={`
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-Join Keely Hubbard and Bebe Acciavatti for an unforgettable week in the heart of Tuscany. Surrounded by vineyards, olive groves, and rolling hills, this retreat offers the perfect balance of movement, mindfulness, and adventure.<br><br>
-Located between Florence and Siena, just a short stroll from the charming village of Panzano in Chianti, our Tuscan hideaway captures the essence of Italian serenity. Mornings begin with yoga overlooking the countryside, followed by leisurely meals crafted from local ingredients. Each day unfolds with optional excursions, relaxation by the pool, or quiet reflection under the olive trees.<br><br>
-Evenings invite you to unwind with restorative yoga, sound baths, and heartfelt connection, ending with sunsets that linger in your memory long after you return home.<br><br>
-This retreat is designed to help you slow down, reconnect, and be inspired through yoga, community, and the timeless rhythm of Tuscany.
+  <b><span style="font-size: 18pt;">Tuscany Yoga Retreat in Chianti</span></b>
 </p>
 
-<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
+<br />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  Join <b>Keely Hubbard</b> and <b>Bebe Acciavatti</b> for an unforgettable week in the heart of Tuscany. Surrounded by vineyards, olive groves, and rolling hills, this retreat offers a thoughtful blend of <b>movement, mindfulness, and adventure</b>.
+</p>
+
+<br />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  Located between <b>Florence and Siena</b>, just a short stroll from the charming village of <b>Panzano in Chianti</b>, our Tuscan hideaway captures the essence of Italian serenity. Mornings begin with yoga overlooking the countryside, followed by leisurely meals crafted from local ingredients. Each day unfolds with optional excursions, relaxation by the pool, or quiet reflection under the olive trees.
+</p>
+
+<br />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  Evenings invite you to unwind with restorative yoga, sound baths, and heartfelt connection, closing with sunsets that linger in your memory long after you return home. This retreat is designed to help you <b>slow down, reconnect, and be inspired</b> through yoga, community, and the timeless rhythm of Tuscany.
+</p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-What’s Included
+  Retreat Highlights
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-- 7 nights / 8 days in a luxury Tuscan villa<br>
-- Group transportation to and from the Florence airport<br>
-- Daily yoga practices<br>
-- Sound Bath experience<br>
-- Daily, locally sourced, chef-prepared meals and regional wines<br>
-- Wine tastings and countryside excursions<br>
-- Day trip to Florence<br>
-- Private group cooking class<br>
-- Free time to rest, journal, or explore
+  <span style="font-family: 'Apple Color Emoji';">📍</span> Nestled in the Chianti countryside between Florence and Siena<br />
+  <span style="font-family: 'Apple Color Emoji';">🧘‍♀️</span> Daily yoga practices with Keely and Bebe<br />
+  <span style="font-family: 'Apple Color Emoji';">🌿</span> Space for rest, reflection, and connection with community
 </p>
 
-<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
+  What’s Included
+</p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  <span style="font-family: 'Apple Color Emoji';">✔️</span> 7 nights / 8 days in a luxury Tuscan villa<br />
+  <span style="font-family: 'Apple Color Emoji';">✔️</span> Group transportation to and from the Florence airport<br />
+  <span style="font-family: 'Apple Color Emoji';">🧘‍♀️</span> Daily yoga practices<br />
+  <span style="font-family: 'Apple Color Emoji';">🎶</span> Sound bath experience<br />
+  <span style="font-family: 'Apple Color Emoji';">🍽️</span> Daily, locally sourced, chef-prepared meals and regional wines<br />
+  <span style="font-family: 'Apple Color Emoji';">🍷</span> Wine tastings and countryside excursions<br />
+  <span style="font-family: 'Apple Color Emoji';">🏙️</span> Day trip to Florence<br />
+  <span style="font-family: 'Apple Color Emoji';">👩‍🍳</span> Private group cooking class<br />
+  <span style="font-family: 'Apple Color Emoji';">📖</span> Free time to rest, journal, or explore
+</p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
+  Accommodations
+</p>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  13th century, <b>completely renovated</b> luxury villa just outside <b>Panzano, Italy</b>, comprised of several apartments ranging from 1 to 3 bedrooms.
+</p>
+
+<br />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  All bedrooms have <b>private bathrooms</b> and are single or double occupancy with one double bed.
+</p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
+  Pricing
+</p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Accommodations
+  Early Bird Pricing <span style="font-size: 11pt;">(Ends April 15th, 2026)</span>
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-13th century, completely renovated luxury villa just outside Panzano, Italy, comprised of several apartments ranging from 1 to 3 bedrooms.<br>
-All bedrooms have private bathrooms and are single or double occupancy with one double bed.
+  <span style="font-family: 'Apple Color Emoji';">💰</span> <b>Single Occupancy:</b> $3995<br />
+  <span style="font-family: 'Apple Color Emoji';">➕</span> <b>Extra Person:</b> $1997
 </p>
 
-<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
+<br />
 
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Early Bird Pricing (Ends April 15th, 2026)
+  Pricing After April 15th
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-Single Occupancy: $3995<br>
-Extra Person: $1997
+  <span style="font-family: 'Apple Color Emoji';">💰</span> <b>Single Occupancy:</b> $4195<br />
+  <span style="font-family: 'Apple Color Emoji';">➕</span> <b>Extra Person:</b> $2197
 </p>
 
-<p class="MsoNormal" style="margin: 10px 0 0; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Pricing After April 15th
+<br />
+
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
+  <span style="font-family: 'Apple Color Emoji';">🔒</span> <b>Non-refundable deposit:</b> $750 reserves your spot<br />
+  <span style="font-size: 9pt;">Payable via credit card (4% transaction fee), Zelle, check, or ACH direct debit</span>
+</p>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
+  Payment Plans
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-Single Occupancy: $4195<br>
-Extra Person: $2197
+  <span style="font-family: 'Apple Color Emoji';">💳</span> <b>Payment plans are available.</b><br />
+  Reach out for more information and personalized options.
 </p>
 
-<p class="MsoNormal" style="margin: 10px 0 0; font-size: 11pt; font-family: Calibri, sans-serif;">
-Non-refundable deposit of $750 reserves your spot.<br>
-<span style="font-size: 9pt;">Payable via credit card (4% transaction fee), Zelle, check or ACH direct debit</span>
-</p>
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
 
-<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
-
-<p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Payment Plans Available
-</p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-Reach out for more information.
-</p>
-
-<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
-
+📩 <b>Questions?</b> Reach out via email at
+<a href="mailto:info@lasolas.yoga" style="color: #8a6a4f; text-decoration: none;"><b>info@lasolas.yoga</b></a>
+or text us at
+<a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(954) 372-5275</b></a>.
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
 
 `}
       />
