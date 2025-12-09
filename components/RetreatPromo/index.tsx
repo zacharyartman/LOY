@@ -1,4 +1,5 @@
 "use client";
+import { defaultTransition } from "@/constants/animations";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -40,7 +41,7 @@ const RetreatPromo = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{ delay: 0.1, duration: 0.5 }}
+                  transition={{  duration: 0.1, delay: 0.05,}}
                   viewport={{ once: true }}
                   className="animate_top"
                 >
