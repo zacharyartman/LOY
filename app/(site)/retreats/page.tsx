@@ -128,6 +128,9 @@ Payment Plans Available
 Reach out for more information.
 </p>
 
+<hr size="0" width="100%" align="center" style="margin: 20px 0;" />
+
+
 `}
       />
     </>

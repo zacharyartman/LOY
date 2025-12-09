@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 
+import InlineArrowButtonLocalLink from "../InlineArrowButtonLocalLink";
 import RetreatGallery from "../RetreatGallery";
 
 type RetreatDetailsProps = {
@@ -62,6 +63,15 @@ const RetreatDetails = ({
                 </a>
               </div>
             )}
+              <div className="flex justify-center mt-2">
+                <div className="[&_a]:mt-0 [&_a]:text-[10pt] [&_svg]:w-3 [&_svg]:h-3">
+                  <InlineArrowButtonLocalLink
+                    href={"/retreat-terms"}
+                    reversed={false}
+                    text="View Retreat Terms & Conditions"
+                  />
+                </div>
+              </div>
           </motion.div>
 
           <RetreatGallery
