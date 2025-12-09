@@ -78,10 +78,6 @@ const RetreatsPage = () => {
   <hr size="0" width="100%" align="center" />
 </div>
 
-<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
-  <hr size="0" width="100%" align="center" />
-</div>
-
 <p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
   What’s Included
 </p>
