@@ -18,6 +18,7 @@ const RetreatsPage = () => {
 
   const accommodationsImages = [
     "/images/retreats/accommodations/bedroom 1.jpg",
+    "/images/retreats/accommodations/livingroom.jpeg",
     "/images/retreats/accommodations/campanna bedroom.jpeg",
     "/images/retreats/accommodations/la torre bedroom.jpeg",
     "/images/retreats/accommodations/la torre seating area.jpeg",
@@ -25,6 +26,9 @@ const RetreatsPage = () => {
     "/images/retreats/accommodations/melograno seating area.jpeg",
     "/images/retreats/accommodations/Totollo 2nd bedroom.jpeg",
     "/images/retreats/accommodations/Totollo Master.jpeg",
+    "/images/retreats/accommodations/bedroom4.jpeg",
+    "/images/retreats/accommodations/bedroom5.jpeg",
+    "/images/retreats/accommodations/bedroom6.jpeg",
   ];
 
   const landscapesImages = [
