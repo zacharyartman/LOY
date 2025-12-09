@@ -40,7 +40,7 @@ const RetreatPromo = () => {
                   }}
                   initial="hidden"
                   whileInView="visible"
-                  transition={{  duration: 0.1, delay: 0.05,}}
+                  transition={{ delay: 0.05, duration: 0.1 }}
                   viewport={{ once: true }}
                   className="animate_top"
                 >
@@ -84,4 +84,3 @@ const RetreatPromo = () => {
 };
 
 export default RetreatPromo;
-
