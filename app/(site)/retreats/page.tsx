@@ -83,16 +83,6 @@ const RetreatsPage = () => {
   <hr size="0" width="100%" align="center" />
 </div>
 
-<p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-  Retreat Highlights
-</p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-  <span style="font-family: 'Apple Color Emoji';">📍</span> Nestled in the Chianti countryside between Florence and Siena<br />
-  <span style="font-family: 'Apple Color Emoji';">🧘‍♀️</span> Daily yoga practices with Keely and Bebe<br />
-  <span style="font-family: 'Apple Color Emoji';">🌿</span> Space for rest, reflection, and connection with community
-</p>
-
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
   <hr size="0" width="100%" align="center" />
 </div>
