@@ -114,7 +114,8 @@ Extra Person: $2197
 </p>
 
 <p class="MsoNormal" style="margin: 10px 0 0; font-size: 11pt; font-family: Calibri, sans-serif;">
-Non-refundable deposit of $750 reserves your spot.
+Non-refundable deposit of $750 reserves your spot.<br>
+<span style="font-size: 9pt;">Payable via credit card (4% transaction fee), Zelle, check or ACH direct debit</span>
 </p>
 
 <hr size="0" width="100%" align="center" style="margin: 20px 0;" />
