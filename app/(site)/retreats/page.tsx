@@ -96,7 +96,7 @@ All bedrooms have private bathrooms and are single or double occupancy with one 
 <hr size="0" width="100%" align="center" style="margin: 20px 0;" />
 
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Early Bird Pricing (Ends March 1st, 2026)
+Early Bird Pricing (Ends April 15th, 2026)
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
@@ -105,7 +105,7 @@ Extra Person: $1997
 </p>
 
 <p class="MsoNormal" style="margin: 10px 0 0; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-Pricing After March 1st
+Pricing After April 15th
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
