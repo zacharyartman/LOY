@@ -57,11 +57,6 @@ const RetreatsPage = () => {
         mainImages={mainImages}
         title={"Under the Tuscan Sun: A yoga retreat in the heart of Tuscany"}
         text={`
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-  <b><span style="font-size: 18pt;">Tuscany Yoga Retreat in Chianti</span></b>
-</p>
-
-<br />
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
   Join <b>Keely Hubbard</b> and <b>Bebe Acciavatti</b> for an unforgettable week in the heart of Tuscany. Surrounded by vineyards, olive groves, and rolling hills, this retreat offers a thoughtful blend of <b>movement, mindfulness, and adventure</b>.
