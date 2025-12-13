@@ -33,11 +33,7 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
     title,
   }: PricingButtonProps) => {
     return (
-      <a
-        className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5`}
-        href={href}
-        target="_blank"
-      >
+      <div className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5`}>
         {popular && (
           <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-lightestbrown px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
             popular
@@ -63,26 +59,84 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
           {subtitle}.
         </p>
 
-        <div
-          aria-label={`Learn more about ${title}: ${subtitle} button`}
-          className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} mt-5 transition-all duration-150`}
+        <a
+          href={href}
+          target="_blank"
+          className="mt-5 block"
         >
-          <span className="duration-150 group-hover/btn:pr-2">
-            {buttonText}
-          </span>
+          <div
+            aria-label={`Learn more about ${title}: ${subtitle} button`}
+            className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-150`}
+          >
+            <span className="duration-150 group-hover:pr-2">
+              {buttonText}
+            </span>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href={title === "Single Class" ? "https://momence.com/m/136478?g=gift" : `${href}?g=gift`}
+          target="_blank"
+          className={`group/gift mt-2 inline-flex items-center gap-1.5 text-sm ${popular ? "text-white/80 hover:text-white" : "text-primaryho/70 hover:text-primaryho"} transition-colors duration-150`}
+          aria-label={`Gift ${title}`}
+        >
           <svg
             width="14"
             height="14"
-            viewBox="0 0 14 14"
+            viewBox="0 0 24 24"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-              fill="currentColor"
+              d="M20 12V22H4V12"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M22 7H2V12H22V7Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M12 22V7"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M12 7H7.5C6.83696 7 6.20107 6.73661 5.73223 6.26777C5.26339 5.79893 5 5.16304 5 4.5C5 3.83696 5.26339 3.20107 5.73223 2.73223C6.20107 2.26339 6.83696 2 7.5 2C11 2 12 7 12 7Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M12 7H16.5C17.163 7 17.7989 6.73661 18.2678 6.26777C18.7366 5.79893 19 5.16304 19 4.5C19 3.83696 18.7366 3.20107 18.2678 2.73223C17.7989 2.26339 17.163 2 16.5 2C13 2 12 7 12 7Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
-        </div>
-      </a>
+          <span className="underline-offset-2 group-hover/gift:underline">or gift this</span>
+        </a>
+      </div>
     );
   };
 
