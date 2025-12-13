@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import React from "react";
 
-import NewPageHero from "@/components/NewPageHero";
 import Teachers from "@/components/Teachers";
 
 export const metadata: Metadata = {
@@ -14,8 +13,22 @@ const ThreeHundredHour = () => {
   return (
 
     <>
-      <NewPageHero titleText={"Teachers"} link='/images/hero/hero-teachers-yoga-near-me.webp' position="bg-center lg:bg-[center_60%]"></NewPageHero>
-      <Teachers />
+      <section 
+        className="relative mt-[88px] h-[200px] lg:h-[300px] overflow-hidden"
+        style={{
+          backgroundImage: `url('/images/hero/hero-teachers-yoga-near-me.jpg')`,
+          backgroundPosition: 'center 23%',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
+        }}
+      >
+       </section>
+       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 pt-10">
+         <h1 className="text-3xl font-bold text-black text-center">
+           Meet Our Teachers
+         </h1>
+       </div>
+       <Teachers />
     </>
   );
 };
