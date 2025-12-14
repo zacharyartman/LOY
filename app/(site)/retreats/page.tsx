@@ -50,8 +50,8 @@ const RetreatsPage = () => {
 
       <RetreatDetails
         accommodationsImages={accommodationsImages}
-        buttonLink={"https://momence.com/l/nmhy721z"}
-        buttonText={"Reserve My Spot"}
+        buttonLink={"https://docs.google.com/forms/d/e/1FAIpQLScAILciCWVA_CtbdtOlurQwavOJ0T7FME8g65k_pE-IW1hJbw/viewform?usp=header"}
+        buttonText={"Join Waitlist"}
         dates={"October 31st - November 7th, 2026"}
         landscapesImages={landscapesImages}
         mainImages={mainImages}
