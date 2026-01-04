@@ -33,7 +33,11 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
     title,
   }: PricingButtonProps) => {
     return (
-      <div className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5`}>
+      <a
+        href={href}
+        target="_blank"
+        className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5 block`}
+      >
         {popular && (
           <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-lightestbrown px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
             popular
@@ -59,37 +63,49 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
           {subtitle}.
         </p>
 
-        <a
-          href={href}
-          target="_blank"
-          className="mt-5 block"
+        <div
+          aria-label={`Learn more about ${title}: ${subtitle} button`}
+          className={`inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} mt-5 transition-all duration-150`}
         >
-          <div
-            aria-label={`Learn more about ${title}: ${subtitle} button`}
-            className={`group inline-flex items-center gap-2.5 font-medium ${popular ? "text-white" : "text-primaryho"} transition-all duration-150`}
+          <span className="duration-150 group-hover/btn:pr-2">
+            {buttonText}
+          </span>
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <span className="duration-150 group-hover:pr-2">
-              {buttonText}
-            </span>
-            <svg
-              width="14"
-              height="14"
-              viewBox="0 0 14 14"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
-                fill="currentColor"
-              />
-            </svg>
-          </div>
-        </a>
+            <path
+              d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
 
-        <a
-          href={title === "Single Class" ? "https://momence.com/m/136478?g=gift" : `${href}?g=gift`}
-          target="_blank"
-          className={`group/gift mt-2 inline-flex items-center gap-1.5 text-sm ${popular ? "text-white/80 hover:text-white" : "text-primaryho/70 hover:text-primaryho"} transition-colors duration-150`}
+        <span
+          onClick={(e) => {
+            e.stopPropagation();
+            e.preventDefault();
+            window.open(
+              title === "Single Class" ? "https://momence.com/m/136478?g=gift" : `${href}?g=gift`,
+              "_blank"
+            );
+          }}
+          className={`group/gift mt-2 flex items-center gap-1.5 text-sm cursor-pointer ${popular ? "text-white/80 hover:text-white" : "text-primaryho/70 hover:text-primaryho"} transition-colors duration-150 relative z-10`}
           aria-label={`Gift ${title}`}
+          role="link"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.stopPropagation();
+              e.preventDefault();
+              window.open(
+                title === "Single Class" ? "https://momence.com/m/136478?g=gift" : `${href}?g=gift`,
+                "_blank"
+              );
+            }
+          }}
         >
           <svg
             width="14"
@@ -135,8 +151,8 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
             />
           </svg>
           <span className="underline-offset-2 group-hover/gift:underline">or gift this</span>
-        </a>
-      </div>
+        </span>
+      </a>
     );
   };
 
