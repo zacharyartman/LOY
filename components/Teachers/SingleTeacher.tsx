@@ -22,7 +22,7 @@ const SingleTeacher = ({ review }: SingleTeacherProps) => {
       viewport={{ once: true }}
       className="animate_top"
     >
-      <div className="rounded-lg bg-white pt-7.5 shadow-solid-9">
+      <div className="rounded-lg bg-white shadow-solid-9">
         <div className="flex justify-center px-12 py-5">
           <Image
             src={image}
