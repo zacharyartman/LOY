@@ -7,7 +7,7 @@ import image18 from "@/public/images/user/katesuarez.webp";
 import image2 from "@/public/images/user/keely.webp";
 import image22 from "@/public/images/user/melanie.webp"
 import image14 from "@/public/images/user/michael.jpeg";
-import image21 from "@/public/images/user/natalie.jpeg";
+import image21 from "@/public/images/user/natalie.jpg";
 import image15 from "@/public/images/user/stacey_pic.jpeg";
 import image9 from "@/public/images/user/tammy.jpeg";
 import image20 from "@/public/images/user/tracy-wolfe.jpeg";
