@@ -20,21 +20,10 @@ const ThreeHundredHour = () => {
       ></NewPageHero>
       <Details
         title={"Las Olas Yoga 300-Hour Hybrid Teacher Training"}
-        dates={"September 13, 2025 - March 8, 2026"}
+        dates={"Next Session: TBD"}
         teacher="Heather Artman"
         text={`
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
 
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b>📅 September 13:</b> Intro Session &#183; 12:00 - 1:30 PM<o:p></o:p></p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<b>📍 Saturdays:</b> 12:00 - 5:00 PM<br>
-<b>📍 Sundays:</b> 1:30 - 5:30 PM<o:p></o:p>
-</p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<b>🗓️ Weekend Sessions:</b> October 11-12, November 8-9, December 13-14, January 10-11, February 7-8, March 7-8<o:p></o:p>
-</p><br />
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">Deepen Your Practice. Elevate Your Teaching.<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">Did your <b>200-hour teacher training</b> leave you craving <b>more knowledge, confidence, and depth</b> in your teaching? Our <b>Yoga Alliance-approved</b> 300-hour training is designed to take you to the next level—offering advanced skills, deeper understanding, and a <b>supportive community</b> to help refine your teaching voice.<o:p></o:p></p><br />
@@ -48,7 +37,6 @@ const ThreeHundredHour = () => {
 <span style="font-family: "Apple Color Emoji";">✔️</span> <b>30% in-person weekends</b>—hands-on learning, practice &amp; community<o:p></o:p></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: "Apple Color Emoji";">📅</span> <b>In-Person Sessions:</b> One weekend per month<br>
-<span style="font-family: "Apple Color Emoji";">📍</span> <b>Saturdays 12:00–5:00 PM</b> | <b>Sundays 1:30–5:30 PM</b><o:p></o:p></p>
 
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Training Curriculum<o:p></o:p></span></b></p>
 
@@ -81,12 +69,8 @@ Personalized coaching to help refine your unique teaching style and meet your go
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">If you're ready to <b>deepen your knowledge</b> and refine your teaching, this training is for you.<o:p></o:p></p>
 
-<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div><p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Investment &amp; Benefits<o:p></o:p></span></b></p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; margin-bottom: 25px;"><span style="font-family: "Apple Color Emoji";">💰</span> <b>Tuition:</b> $3,500 | <i>Payment plans available</i><br>
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
-Registration is closed for this session. Click the button below to be notified about the next session.
+Click the button below to be notified about the next session.
 </p>
       `}
         images={[
