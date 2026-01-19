@@ -20,19 +20,9 @@ const TwoHundredHourTTPage = () => {
       ></NewPageHero>
       <Details
         title={"200-Hour Teacher Training"}
-        dates={"Next Session: January 17 - April 12, 2026"}
+        dates={"Next Session: TBD"}
         teacher="Heather Artman, Keely Hubbard and Dafna Zacharin"
         text={`
-    <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">In-Person Dates/Times:<o:p></o:p></span></b></p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<b>📍 Saturdays & Sundays:</b> 1:30 - 6:30 PM<br>
-<b>➖ Excludes:</b> February 7-8, March 7-8 weekends<br>
-</p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<b>🖥️ Online Content:</b> Pre-recorded lectures, self-paced assignments, practice and reflection between weekends<o:p></o:p></p><br />
-
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 13.5pt;">Train with Purpose. Teach from the Heart.<o:p></o:p></span></b></p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">This <b>Yoga Alliance–approved</b> training supports both aspiring teachers and dedicated students. Through a blend of <b>in-person weekends</b> and <b>self-paced online learning</b>, you'll explore the teachings of yoga in a way that fits your life.<o:p></o:p></p><br />
@@ -65,21 +55,7 @@ const TwoHundredHourTTPage = () => {
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b>Not Included:</b> Required and recommended readings<o:p></o:p></p>
 
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">Rates<o:p></o:p></span></b></p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<span style="font-family: 'Apple Color Emoji';">💰</span> <b>Early Bird:</b> $3200 if paid in full before November 22nd, 2025<br>
-<b>💰</b> $3500 if paid in full before January 3rd, 2026<br>
-<b>💳</b> Payment plans available<br>
-<b>🔒</b> $500 deposit required to secure your spot<o:p></o:p></p>
-
-<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-size: 18pt;">How to Apply<o:p></o:p></span></b></p>
-
-<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-<span style="font-family: 'Apple Color Emoji';">📝</span> <b>Step 1:</b> Click the Apply button and complete the application<br>
-<span style="font-family: 'Apple Color Emoji';">📩</span> <b>Step 2:</b> Once accepted, you'll receive info on required readings and deposit submission<br>
-<span style="font-family: 'Apple Color Emoji';">🎉</span> <b>Step 3:</b> We'll officially register you for the training!<o:p></o:p></p>
+<p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><b>Click the button below to be notified about the next session.</b><o:p></o:p></p>
 
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;"><hr size="0" width="100%" align="center"></div>
 📩 <b>Questions?</b> Reach out via email at 
@@ -90,8 +66,8 @@ at <a href="tel:9543725275" style="color: #8a6a4f; text-decoration: none;"><b>(9
 <br>
       `}
         images={[]}
-        buttonText={"Apply Now"}
-        buttonLink={"https://forms.gle/T2ZZBDkvQ5VBZuqX9"}
+        buttonText={"Join the List"}
+        buttonLink={"https://forms.gle/5xx5Ye5VAVsv6FVP8"}
         teacherNamesUnderApplyButton={[
           "Heather Artman",
           "Keely Hubbard",
