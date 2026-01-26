@@ -28,7 +28,7 @@ const pricingData: Price[] = [
     popular: true,
     price: 159,
     subtitle:
-      "Unlimited Yoga and Guest Passes*. 10% Off Retail, Workshops & Events",
+      "Unlimited yoga + guest passes*. Discounts on retail, workshops & events, and local business partners, plus complimentary member workshops",
     title: "Unlimited Member",
   },
   {
