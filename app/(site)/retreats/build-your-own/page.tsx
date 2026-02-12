@@ -20,7 +20,7 @@ const BuildYourOwnRetreatPage = () => {
       ></NewPageHero>
 
       <section className="px-4 md:px-8 2xl:px-0">
-        <div className="mx-auto max-w-c-1280 pt-6 lg:pt-8 xl:pt-10">
+        <div className="mx-auto max-w-c-1390 pt-6 lg:pt-8 xl:pt-10">
           <div className="mt-6 grid gap-4 lg:grid-cols-3">
             <div className="flex flex-col gap-4 lg:col-span-2">
               <div className="rounded-lg bg-white p-6 shadow-solid-8 xl:p-7.5">
@@ -115,7 +115,7 @@ const BuildYourOwnRetreatPage = () => {
             </div>
           </div>
 
-          <div className="mt-6 rounded-lg bg-white p-6 shadow-solid-8 lg:mt-8 xl:p-7.5">
+          <div className="my-6 rounded-lg bg-white p-6 shadow-solid-8 lg:mt-8 xl:p-7.5">
             <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
               <div>
                 <h3 className="text-2xl font-semibold text-primaryho">
