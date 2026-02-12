@@ -63,7 +63,7 @@ const pricingData: Price[] = [
     href: "https://momence.com/m/141489",
     id: 6,
     perX: "",
-    price: 850,
+    price: 899,
     subtitle: "Unlimited classes for 6 months",
     title: "Six-Month Unlimited",
   },
