@@ -81,9 +81,18 @@ const BuildYourOwnRetreatPage = () => {
                   The Weekend Reset (2-3 days)
                 </p>
                 <ul className="mt-3 space-y-1.5 text-base text-primary">
-                  <li>Day 1: Evening Candlelight Yin</li>
-                  <li>Day 2: Unwind: A Sound Bath Experience</li>
-                  <li>Day 3: Sunrise Beach Yoga before checkout</li>
+                  <li>
+                    <span className="text-primaryho">Day 1:</span>{" "}
+                    Evening Candlelight Yin
+                  </li>
+                  <li>
+                    <span className="text-primaryho">Day 2:</span>{" "}
+                    Unwind: A Sound Bath Experience
+                  </li>
+                  <li>
+                    <span className="text-primaryho">Day 3:</span>{" "}
+                    Sunrise Beach Yoga before checkout
+                  </li>
                 </ul>
               </div>
               <div className="rounded-lg bg-white p-4 shadow-solid-8">
@@ -91,13 +100,21 @@ const BuildYourOwnRetreatPage = () => {
                   The Active Vacation (4-6 days)
                 </p>
                 <ul className="mt-3 space-y-1.5 text-base text-primary">
-                  <li>Day 1: Flow Yoga Class</li>
                   <li>
-                    Day 2: Melt &amp; Release: Myofascial Reset for Body + Mind
+                    <span className="text-primaryho">Day 1:</span>{" "}
+                    Flow Yoga Class
                   </li>
-                  <li>Day 3: Sunset Beach Yoga</li>
                   <li>
-                    Day 4: Chakra Balance: Flow &amp; Restore with Crystal Bowls
+                    <span className="text-primaryho">Day 2:</span>{" "}
+                    Melt &amp; Release: Myofascial Reset for Body + Mind
+                  </li>
+                  <li>
+                    <span className="text-primaryho">Day 3:</span>{" "}
+                    Sunset Beach Yoga
+                  </li>
+                  <li>
+                    <span className="text-primaryho">Day 4:</span>{" "}
+                    Chakra Balance: Flow &amp; Restore with Crystal Bowls
                   </li>
                 </ul>
               </div>
