@@ -132,34 +132,44 @@ const BuildYourOwnRetreatPage = () => {
             </div>
           </div>
 
-          <div className="my-6 rounded-lg bg-white p-6 shadow-solid-8 lg:mt-8 xl:p-7.5">
-            <div className="grid gap-5 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-              <div>
-                <h3 className="text-2xl font-semibold text-primaryho">
-                  &quot;Make it effortless&quot; concierge add-ons
-                </h3>
-                <p className="mt-2 max-w-[700px] text-base leading-relaxed text-primary">
-                  We&apos;re happy to share trusted local recommendations -
-                  third-party services are booked separately.
-                </p>
-                <ul className="mt-3 space-y-1.5 text-base text-primary">
-                  <li>Personal chef recommendations (Airbnb stays)</li>
-                  <li>Healthy cafe + juice spots nearby</li>
-                  <li>Recovery add-ons: Massage and Spa Recommendations</li>
-                </ul>
+          <div className="my-6 grid gap-4 lg:mt-8 lg:grid-cols-[1.25fr_0.75fr] lg:items-stretch">
+            <div className="rounded-lg bg-white p-6 shadow-solid-8 xl:p-7.5">
+              <div className="flex flex-col gap-6 lg:gap-7">
+                <div>
+                  <h3 className="text-2xl font-semibold text-primaryho">
+                    &quot;Make it effortless&quot; concierge add-ons
+                  </h3>
+                  <p className="mt-2 max-w-[700px] text-base leading-relaxed text-primary">
+                    We&apos;re happy to share trusted local recommendations -
+                    third-party services are booked separately.
+                  </p>
+                  <ul className="mt-3 space-y-1.5 text-base text-primary">
+                    <li>Personal chef recommendations (Airbnb stays)</li>
+                    <li>Healthy cafe + juice spots nearby</li>
+                    <li>Recovery add-ons: Massage and Spa Recommendations</li>
+                  </ul>
+                </div>
+                <div className="rounded-lg bg-primary/5 p-6 text-center xl:p-7.5">
+                  <p className="text-lg font-semibold text-primaryho">
+                    Build Your Own Fort Lauderdale Yoga Retreat
+                  </p>
+                  <a
+                    href="https://forms.gle/L6idHFAy8u7URiXu7"
+                    target="_blank"
+                    className="mx-auto mt-4 inline-flex min-w-[260px] items-center justify-center rounded-full bg-primary px-10 py-2.5 text-base text-white transition-all duration-0 hover:bg-primaryho xl:duration-150"
+                  >
+                    Build My Retreat Plan
+                  </a>
+                </div>
               </div>
-              <div className="rounded-lg bg-primary/5 p-6 text-center xl:p-7.5">
-                <p className="text-lg font-semibold text-primaryho">
-                  Build Your Own Fort Lauderdale Yoga Retreat
-                </p>
-                <a
-                  href="https://forms.gle/L6idHFAy8u7URiXu7"
-                  target="_blank"
-                  className="mx-auto mt-4 inline-flex min-w-[260px] items-center justify-center rounded-full bg-primary px-10 py-2.5 text-base text-white transition-all duration-0 hover:bg-primaryho xl:duration-150"
-                >
-                  Build My Retreat Plan
-                </a>
-              </div>
+            </div>
+            <div className="relative min-h-[480px] overflow-hidden rounded-lg shadow-solid-8 sm:min-h-[600px] lg:min-h-[260px]">
+              <Image
+                src="/images/build-your-own-retreat/dock yoga.png"
+                alt="Dock yoga in Fort Lauderdale"
+                fill
+                className="object-cover object-[center_20%]"
+              />
             </div>
           </div>
         </div>
