@@ -3,7 +3,6 @@ import dafna from "@/public/images/user/dafna.webp";
 import giuls from "@/public/images/user/giuls.webp";
 import heather from "@/public/images/user/heather.webp";
 import justin from "@/public/images/user/justin.jpg";
-import kate from "@/public/images/user/katesuarez.webp";
 import keely from "@/public/images/user/keely.webp";
 import melanie from "@/public/images/user/melanie.webp"
 import michael from "@/public/images/user/michael.jpeg";
@@ -61,14 +60,6 @@ export const teachersData: Teacher[] = [
     id: 12,
     image: justin,
     name: "Justin Liebman",
-  },
-  {
-    content:
-      "Kate is a dedicated yoga and wellness enthusiast with over 9 years of experience, including founding and running her own cozy yoga studio. She thrives on creating welcoming spaces that nurture both mind and body, fostering a sense of community and mindfulness. Her approach is all about connecting with each individual, offering personalized guidance, and building lasting relationships. Kate is passionate about teaching students at every level, from beginners to advanced, helping them build strong foundations, refine their alignment, and explore advanced variations that are fun and feel good in their body.",
-    designation: "",
-    id: 18,
-    image: kate,
-    name: "Kate Suarez",
   },
   {
     content:
