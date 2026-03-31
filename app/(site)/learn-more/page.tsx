@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import React from "react";
 
 import Offers from "@/components/LearnMoreOffers";
@@ -50,7 +51,7 @@ const LearnMorePage = () => {
                 </li>
                 <li>
                   <a href="https://instagram.com/lasolasyogastudio" aria-label="Instagram icon" title="Instagram">
-                    <img
+                      <Image
                       src="/images/general/instagram.svg"
                       alt="Instagram icon"
                       className="fill-primary transition-all duration-300 hover:fill-primary"
