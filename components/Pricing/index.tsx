@@ -13,6 +13,7 @@ type PricingProps = {
 }
 
 type PricingButtonProps = {
+  badge?: string;
   buttonText: string;
   href: string;
   perX: string;
@@ -24,6 +25,7 @@ type PricingButtonProps = {
 
 const Pricing = ({ sectionHeader }: PricingProps) => {
   const PricingButton = ({
+    badge,
     buttonText,
     href,
     perX,
@@ -38,6 +40,11 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
         target="_blank"
         className={`animate_top group/btn relative rounded-lg border border-stroke ${popular ? "bg-primary" : "bg-midbrown"} w-full transform p-7.5 shadow-solid-10 transition-transform duration-150 hover:scale-[1.03] xl:p-12.5 block`}
       >
+        {badge && (
+          <div className="absolute left-0 top-0 rounded-br-lg rounded-tl-lg bg-lightestbrown px-4 py-2 text-sm font-medium uppercase text-primaryho">
+            {badge}
+          </div>
+        )}
         {popular && (
           <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-lightestbrown px-4.5 py-1.5 text-metatitle font-medium uppercase text-primaryho">
             popular
@@ -196,6 +203,7 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
             {pricingData.map((item) => (
               <PricingButton
                 key={item.id}
+                badge={item.badge}
                 title={item.title}
                 subtitle={item.subtitle}
                 price={item.price}

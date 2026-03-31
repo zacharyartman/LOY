@@ -64,7 +64,7 @@ export default function Popup() {
                   <div className="border-blueGray-200 mx-0 border-b border-solid md:mx-15">
                     <div className="px-5 pb-5 pt-3 md:px-0">
                       <h3 className="text-center text-lg font-semibold text-black xl:text-2xl">
-                        New Client Special: Only $79 for Three Weeks Unlimited
+                        April New Client Special: Only $59 for Three Weeks Unlimited
                         Yoga Classes
                       </h3>
                     </div>
@@ -82,7 +82,7 @@ export default function Popup() {
                 {/* body */}
                 <div className="relative flex-auto px-8 py-5 md:px-15">
                   <p className="my-0 text-sectiontitle leading-relaxed">
-                    Enjoy three weeks of unlimited yoga for only $79. Your three
+                    Enjoy three weeks of unlimited yoga for only $59 — our April Special! Your three
                     weeks doesn’t start until your first class giving you the
                     freedom to purchase now for use at a later date (new local
                     clients only).
@@ -91,7 +91,7 @@ export default function Popup() {
                 {/* footer */}
                 <div className="border-blueGray-200 mx-0 flex items-center justify-end rounded-b border-t border-solid px-6 py-4 md:mx-15">
                   <a
-                    href="https://momence.com/Las-Olas-Yoga/membership/Three-Weeks-for-%2479.00-(New-Local-Students-Only)/136483"
+                    href="https://momence.com/m/708142"
                     target="_blank"
                     className="flex w-full items-center justify-center rounded-full bg-primary px-10.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
                   >

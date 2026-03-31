@@ -5,6 +5,7 @@ export type Price = {
   price: number;
   perX: string;
   popular?: true;
+  badge?: string;
   href: string;
   buttonText: string;
 };

@@ -2,12 +2,13 @@ import { Price } from "@/types/pricing";
 
 const pricingData: Price[] = [
   {
+    badge: "April Special",
     buttonText: "Start Your 3-Week Unlimited",
-    href: "https://momence.com/m/136483",
+    href: "https://momence.com/m/708142",
     id: 0,
     perX: "",
     popular: true,
-    price: 79,
+    price: 59,
     subtitle: "Three Weeks of Unlimited Yoga",
     title: "New Client Intro",
   },
