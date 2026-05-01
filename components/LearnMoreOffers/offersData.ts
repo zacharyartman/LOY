@@ -5,9 +5,9 @@ export const offersData: Offer[] = [
     id: 1,
     items: [
       {
-        href: "https://momence.com/m/708142",
+        href: "https://momence.com/m/136483",
         id: 11,
-        name: "April Intro Offer Special: 3 Weeks for $59",
+        name: "Intro Offer: 3 Weeks for $79",
       },
       {
         href: "/new-students",
