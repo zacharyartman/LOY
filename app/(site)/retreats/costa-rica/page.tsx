@@ -67,7 +67,7 @@ const CostaRicaRetreatPage = () => {
         accommodationsImages={accommodationsImages}
         buttonLink={"https://momence.com/m/761296"}
         buttonText={"Reserve my Spot"}
-        dates={"March 13&ndash;18, 2027"}
+        dates={"March 13th - March 18th, 2027"}
         landscapesImages={landscapesImages}
         mainImages={mainImages}
         title={"Pura Vida in Costa Rica: A Return to Your Essence"}
