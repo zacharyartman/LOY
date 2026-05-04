@@ -167,9 +167,18 @@ const Footer = () => {
                           <li key={subMenuItem.path}>
                             <Link
                               href={subMenuItem.path || "#"}
-                              className="inline-block hover:text-primary md:mr-5"
+                              className="inline-flex items-center gap-2 hover:text-primary md:mr-5"
                             >
-                              {subMenuItem.title}
+                              <span>{subMenuItem.title}</span>
+                              {subMenuItem.isNew ? (
+                                <>
+                                  <span className="sr-only">(New)</span>
+                                  <span
+                                    className="h-2 w-2 shrink-0 rounded-full bg-primary"
+                                    aria-hidden
+                                  />
+                                </>
+                              ) : null}
                             </Link>
                           </li>
                         ))

@@ -5,4 +5,6 @@ export type Menu = {
   newTab: boolean;
   submenu?: Menu[];
   hidden?: true;
+  /** Show a “new” indicator in nav (e.g. Costa Rica retreat). */
+  isNew?: boolean;
 };

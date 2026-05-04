@@ -152,14 +152,23 @@ const Header = () => {
                             <li key={key}>
                               <Link
                                 href={item.path || "#"}
-                                className={`block w-full rounded-md px-5 py-4 text-sm font-normal hover:bg-gray-50 hover:text-primary ${
+                                className={`flex w-full items-center gap-2 rounded-md px-5 py-4 text-sm font-normal hover:bg-gray-50 hover:text-primary ${
                                   pathUrl === item.path
                                     ? "bg-primary/5 font-medium text-primary"
                                     : ""
                                 }`}
                                 onClick={handleLinkClick}
                               >
-                                {item.title}
+                                <span className="min-w-0 flex-1">{item.title}</span>
+                                {item.isNew ? (
+                                  <>
+                                    <span className="sr-only">(New)</span>
+                                    <span
+                                      className="h-2 w-2 shrink-0 rounded-full bg-primary"
+                                      aria-hidden
+                                    />
+                                  </>
+                                ) : null}
                               </Link>
                             </li>
                           ))}
