@@ -36,7 +36,7 @@ const CostaRicaRetreatPage = () => {
   return (
     <>
       <NewPageHero
-        titleText={"Retreats"}
+        titleText={"Costa Rica"}
         link="/images/retreats/landscapes/campannaview.jpeg"
       ></NewPageHero>
 

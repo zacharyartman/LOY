@@ -44,7 +44,7 @@ const RetreatsPage = () => {
   return (
     <>
       <NewPageHero
-        titleText={"Retreats"}
+        titleText={"Tuscany"}
         link="/images/retreats/landscapes/campannaview.jpeg"
       ></NewPageHero>
 
