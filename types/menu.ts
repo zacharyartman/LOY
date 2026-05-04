@@ -5,4 +5,5 @@ export type Menu = {
   newTab: boolean;
   submenu?: Menu[];
   hidden?: true;
+  isNew?: boolean;
 };

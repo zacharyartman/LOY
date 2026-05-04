@@ -5,13 +5,20 @@ import React from "react";
 import InlineArrowButtonLocalLink from "../InlineArrowButtonLocalLink";
 import RetreatGallery from "../RetreatGallery";
 
+type GalleryImage = {
+  src: string;
+  label?: string;
+};
+
 type RetreatDetailsProps = {
-  accommodationsImages: string[];
+  accommodationsImages: GalleryImage[];
   buttonLink?: string;
   buttonText?: string;
   dates: string;
   landscapesImages: string[];
   mainImages: string[];
+  photoCredit?: string;
+  photoCreditLink?: string;
   text: string;
   title: string;
 };
@@ -23,6 +30,8 @@ const RetreatDetails = ({
   dates,
   landscapesImages,
   mainImages,
+  photoCredit,
+  photoCreditLink,
   text,
   title,
 }: RetreatDetailsProps) => {
@@ -78,6 +87,8 @@ const RetreatDetails = ({
             mainImages={mainImages}
             accommodationsImages={accommodationsImages}
             landscapesImages={landscapesImages}
+            photoCredit={photoCredit}
+            photoCreditLink={photoCreditLink}
           />
         </div>
       </div>

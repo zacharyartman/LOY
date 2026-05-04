@@ -17,18 +17,18 @@ const RetreatsPage = () => {
   ];
 
   const accommodationsImages = [
-    "/images/retreats/accommodations/bedroom 1.jpg",
-    "/images/retreats/accommodations/livingroom.jpeg",
-    "/images/retreats/accommodations/campanna bedroom.jpeg",
-    "/images/retreats/accommodations/la torre bedroom.jpeg",
-    "/images/retreats/accommodations/la torre seating area.jpeg",
-    "/images/retreats/accommodations/melograno bedroom.jpeg",
-    "/images/retreats/accommodations/melograno seating area.jpeg",
-    "/images/retreats/accommodations/Totollo 2nd bedroom.jpeg",
-    "/images/retreats/accommodations/Totollo Master.jpeg",
-    "/images/retreats/accommodations/bedroom4.jpeg",
-    "/images/retreats/accommodations/bedroom5.jpeg",
-    "/images/retreats/accommodations/bedroom6.jpeg",
+    { src: "/images/retreats/accommodations/bedroom 1.jpg" },
+    { src: "/images/retreats/accommodations/livingroom.jpeg" },
+    { src: "/images/retreats/accommodations/campanna bedroom.jpeg" },
+    { src: "/images/retreats/accommodations/la torre bedroom.jpeg" },
+    { src: "/images/retreats/accommodations/la torre seating area.jpeg" },
+    { src: "/images/retreats/accommodations/melograno bedroom.jpeg" },
+    { src: "/images/retreats/accommodations/melograno seating area.jpeg" },
+    { src: "/images/retreats/accommodations/Totollo 2nd bedroom.jpeg" },
+    { src: "/images/retreats/accommodations/Totollo Master.jpeg" },
+    { src: "/images/retreats/accommodations/bedroom4.jpeg" },
+    { src: "/images/retreats/accommodations/bedroom5.jpeg" },
+    { src: "/images/retreats/accommodations/bedroom6.jpeg" },
   ];
 
   const landscapesImages = [
@@ -44,7 +44,7 @@ const RetreatsPage = () => {
   return (
     <>
       <NewPageHero
-        titleText={"Retreats"}
+        titleText={"Tuscany"}
         link="/images/retreats/landscapes/campannaview.jpeg"
       ></NewPageHero>
 
@@ -55,6 +55,8 @@ const RetreatsPage = () => {
         dates={"October 31st - November 7th, 2026"}
         landscapesImages={landscapesImages}
         mainImages={mainImages}
+        photoCredit={"Mark Swatzell"}
+        photoCreditLink={"http://www.markswatzell.com/"}
         title={"Under the Tuscan Sun: A yoga retreat in the heart of Tuscany"}
         text={`
 
