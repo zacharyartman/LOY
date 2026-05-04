@@ -5,16 +5,25 @@ import { useEffect, useRef, useState } from "react";
 
 type GalleryTab = "accommodations" | "landscapes";
 
+type GalleryImage = {
+  src: string;
+  label?: string;
+};
+
 type RetreatGalleryProps = {
   mainImages: string[];
-  accommodationsImages: string[];
+  accommodationsImages: GalleryImage[];
   landscapesImages: string[];
+  photoCredit?: string;
+  photoCreditLink?: string;
 };
 
 const RetreatGallery = ({
   accommodationsImages,
   landscapesImages,
   mainImages,
+  photoCredit,
+  photoCreditLink,
 }: RetreatGalleryProps) => {
   const [activeTab, setActiveTab] = useState<GalleryTab>("landscapes");
   const [isFixed, setIsFixed] = useState(false);
@@ -50,14 +59,14 @@ const RetreatGallery = ({
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isFixed]);
 
-  const getActiveImages = () => {
+  const getActiveImages = (): GalleryImage[] => {
     switch (activeTab) {
       case "accommodations":
         return accommodationsImages;
       case "landscapes":
-        return [...mainImages, ...landscapesImages];
+        return [...mainImages, ...landscapesImages].map((src) => ({ src }));
       default:
-        return mainImages;
+        return mainImages.map((src) => ({ src }));
     }
   };
 
@@ -136,21 +145,30 @@ const RetreatGallery = ({
           {activeImages.length > 0 ? (
             <>
               {activeImages.map((image, index) => (
-                <div key={index} className="relative aspect-[4/3] w-full">
-                  <Image
-                    src={image}
-                    alt={`Retreat ${getTabLabel(activeTab)} image ${index + 1}`}
-                    fill
-                    className="rounded-md object-cover"
-                  />
+                <div key={index}>
+                  {image.label && (
+                    <p className="mb-1 text-sm font-semibold text-primaryho">
+                      {image.label}
+                    </p>
+                  )}
+                  <div className="relative aspect-[4/3] w-full">
+                    <Image
+                      src={image.src}
+                      alt={image.label || `Retreat ${getTabLabel(activeTab)} image ${index + 1}`}
+                      fill
+                      className="rounded-md object-cover"
+                    />
+                  </div>
                 </div>
               ))}
-              <a
-                href="http://www.markswatzell.com/"
-                className="text-xs text-gray-500"
-              >
-                Photo Credit: Mark Swatzell
-              </a>
+              {photoCredit && photoCreditLink && (
+                <a
+                  href={photoCreditLink}
+                  className="text-xs text-gray-500"
+                >
+                  Photo Credit: {photoCredit}
+                </a>
+              )}
             </>
           ) : (
             <div className="flex h-48 items-center justify-center text-gray-500">

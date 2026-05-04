@@ -6,38 +6,61 @@ import RetreatDetails from "@/components/RetreatDetails";
 
 export const metadata: Metadata = {
   description:
-    "Join Natalie Galliano and Keely Hubbard for Pura Vida in Costa Rica—March 13–18, 2027 at Pura Vida Retreat & Spa in the peaceful Central Valley.",
+    "Join Natalie Galliano and Keely Hubbard for Pura Vida in Costa Rica March 13-18, 2027 at Pura Vida Retreat & Spa in the peaceful Central Valley.",
   title: "Costa Rica Retreat | Retreats | Las Olas Yoga",
 };
 
 const CostaRicaRetreatPage = () => {
   const mainImages = [
-    "/images/retreats/main/image0.jpeg",
-    "/images/retreats/main/IMG_4276.JPG",
+    "/images/costa-rica-retreat/Pura Vida Landscape 1.jpg",
+    "/images/costa-rica-retreat/pool.jpg",
+    "/images/costa-rica-retreat/food.jpg",
+    "/images/costa-rica-retreat/yoga room.jpg",
   ];
 
   const accommodationsImages = [
-    "/images/retreats/accommodations/bedroom 1.jpg",
-    "/images/retreats/accommodations/livingroom.jpeg",
-    "/images/retreats/accommodations/campanna bedroom.jpeg",
-    "/images/retreats/accommodations/la torre bedroom.jpeg",
-    "/images/retreats/accommodations/la torre seating area.jpeg",
-    "/images/retreats/accommodations/melograno bedroom.jpeg",
+    {
+      label: "A-Frame Cottage",
+      src: "/images/costa-rica-retreat/a frame 1.jpg",
+    },
+    {
+      label: "A-Frame Cottage",
+      src: "/images/costa-rica-retreat/a frame interior.jpg",
+    },
+    {
+      label: "Vista Deluxe Room",
+      src: "/images/costa-rica-retreat/vista balcony.jpg",
+    },
+    {
+      label: "Vista Deluxe Room",
+      src: "/images/costa-rica-retreat/vista interior.jpg",
+    },
+    {
+      label: "Vista Deluxe Room",
+      src: "/images/costa-rica-retreat/vista interior 2.jpg",
+    },
+    { label: "Zendo Suite", src: "/images/costa-rica-retreat/zendo suite.jpg" },
+    { label: "Prana Suite", src: "/images/costa-rica-retreat/prana suite.jpg" },
+    {
+      label: "Prana Suite",
+      src: "/images/costa-rica-retreat/prana suite interior.jpg",
+    },
   ];
 
   const landscapesImages = [
-    "/images/retreats/landscapes/belvedere.jpeg",
-    "/images/retreats/landscapes/campannaview.jpeg",
-    "/images/retreats/landscapes/la torre.jpeg",
-    "/images/retreats/landscapes/landscape 2.jpeg",
-    "/images/retreats/landscapes/melograno.jpeg",
+    "/images/costa-rica-retreat/landscape view.jpg",
+    "/images/costa-rica-retreat/waterfall.jpg",
+    "/images/costa-rica-retreat/waterfall 2.jpg",
+    "/images/costa-rica-retreat/waterfall 3.jpg",
   ];
 
   return (
     <>
       <NewPageHero
+        darken
+        position="bg-[center_40%]"
         titleText={"Costa Rica"}
-        link="/images/retreats/landscapes/campannaview.jpeg"
+        link="/images/costa-rica-retreat/Pura Vida Landscape 1.jpg"
       ></NewPageHero>
 
       <RetreatDetails
