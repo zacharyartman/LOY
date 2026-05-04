@@ -65,12 +65,12 @@ export const offersData: Offer[] = [
         name: "Tuscany Retreat",
         price: "Oct 31 - Nov 7, 2026",
       },
-      {
-        href: "/retreats/costa-rica",
-        id: 42,
-        name: "Costa Rica Retreat",
-        price: "Mar 13 - 18, 2027",
-      },
+      // {
+      //   href: "/retreats/costa-rica",
+      //   id: 42,
+      //   name: "Costa Rica Retreat",
+      //   price: "Mar 13 - 18, 2027",
+      // },
       {
         href: "/retreats/build-your-own",
         id: 43,

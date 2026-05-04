@@ -75,13 +75,13 @@ const menuData: Menu[] = [
     id: 7,
     newTab: false,
     submenu: [
-      {
-        id: 73,
-        isNew: true,
-        newTab: false,
-        path: "/retreats/costa-rica",
-        title: "Costa Rica Retreat",
-      },
+      // {
+      //   id: 73,
+      //   isNew: true,
+      //   newTab: false,
+      //   path: "/retreats/costa-rica",
+      //   title: "Costa Rica Retreat",
+      // },
       {
         id: 71,
         newTab: false,
