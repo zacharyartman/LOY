@@ -150,6 +150,19 @@ const CostaRicaRetreatPage = () => {
 </div>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
+  Add-ons
+</p>
+
+<ul class="retreat-add-ons-list">
+  <li><b>Wellness treatments</b></li>
+  <li><b>Excursions</b> (e.g. white water rafting, canopy zip lining, waterfall gardens)</li>
+</ul>
+
+<div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
+  <hr size="0" width="100%" align="center" />
+</div>
+
+<p class="MsoNormal" style="margin: 0in; font-size: 18pt; font-family: Calibri, sans-serif; font-weight: bold;">
   Accommodations
 </p>
 
@@ -178,7 +191,7 @@ const CostaRicaRetreatPage = () => {
 <br />
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
-  <b>Prana Suite</b> &mdash; One king bed, single or double occupancy. Luxurious, light-filled and modern, with a balcony and a quiet, tucked-away feel. Only 1 available.
+  <b>Prana Suite</b> <i>(Sold Out)</i> &mdash; One king bed, single or double occupancy. Luxurious, light-filled and modern, with a balcony and a quiet, tucked-away feel. Only 1 available.
 </p>
 
 <div class="MsoNormal" align="center" style="margin: 0in; margin-top: 20px; margin-bottom: 20px; font-size: 11pt; font-family: Calibri, sans-serif; text-align: center;">
