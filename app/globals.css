@@ -106,6 +106,18 @@ body {
   @apply mb-2 text-base text-titlebgdark;
 }
 
+.blog-details ul.retreat-add-ons-list {
+  @apply mb-4 mt-1 list-outside pl-5 text-titlebgdark;
+}
+
+.blog-details ul.retreat-add-ons-list li {
+  @apply mb-1 text-base leading-snug text-titlebgdark last:mb-0;
+}
+
+.blog-details ul.retreat-add-ons-list li b {
+  @apply font-semibold text-titlebgdark;
+}
+
 .blog-details blockquote {
   @apply relative z-10 mb-10 overflow-hidden rounded-sm bg-manatee p-8 text-center text-base font-medium italic text-black md:py-9 lg:px-10;
 }
