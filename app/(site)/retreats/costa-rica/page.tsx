@@ -239,7 +239,7 @@ const CostaRicaRetreatPage = () => {
 <br />
 
 <p class="MsoNormal" style="margin: 0in; font-size: 12pt; font-family: Calibri, sans-serif; font-weight: bold;">
-  Prana Suite
+  Prana Suite  <i>(Sold Out)</i>
 </p>
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif;">
   <span style="font-family: 'Apple Color Emoji';">💰</span> Single Occupancy: $2897<br />
