@@ -2,7 +2,6 @@ import carly from "@/public/images/user/carly.webp";
 import dafna from "@/public/images/user/dafna.webp";
 import giuls from "@/public/images/user/giuls.webp";
 import heather from "@/public/images/user/heather.webp";
-import justin from "@/public/images/user/justin.jpg";
 import keely from "@/public/images/user/keely.webp";
 import melanie from "@/public/images/user/melanie.webp"
 import michael from "@/public/images/user/michael.jpeg";
@@ -52,14 +51,6 @@ export const teachersData: Teacher[] = [
     id: 19,
     image: giuls,
     name: "Giuls Mori",
-  },
-  {
-    content:
-      "Justin came to yoga after working as a top sales representative in the high stress industry of finance. Like many others who have found themselves drawn to this ancient practice, Justin’s passion for yoga ignited most when he began to study yogic philosophy. After four years of dedicated practice, he took the leap to become a teacher and leave the corporate world. Justin’s primary interest is in inversions and arm balances, both because they are challenging and also require a focus mind that creates internal stillness. Justin’s teachings reach beyond the physical aspects of yoga and has a strong passion for the subtle ones such as meditation and pranayama. He is a devoted student of yogic philosophy, and continues to see himself as a student, as he travels the world to gain more knowledge. Justin has completed multiple 500-hour yoga teacher trainings, received the FRC mobility certificate, and most recently, completed the Mindfulness Based Stress Reduction training.",
-    designation: "",
-    id: 12,
-    image: justin,
-    name: "Justin Liebman",
   },
   {
     content:
