@@ -2,6 +2,7 @@ import { Price } from "@/types/pricing";
 
 const pricingData: Price[] = [
   {
+    bestOfSpecial: true,
     buttonText: "Start Your 4-Week Unlimited",
     href: "https://momence.com/m/811964",
     id: 0,
@@ -50,6 +51,7 @@ const pricingData: Price[] = [
     title: "10-Class Card",
   },
   {
+    bestOfSpecial: true,
     buttonText: "Get Annual + Extra Month Free",
     href: "https://momence.com/m/811982",
     id: 5,
@@ -59,6 +61,7 @@ const pricingData: Price[] = [
     title: "Annual + Extra Month Free",
   },
   {
+    bestOfSpecial: true,
     buttonText: "Get Six-Month + Extra Month Free",
     href: "https://momence.com/m/811985",
     id: 6,
@@ -68,6 +71,7 @@ const pricingData: Price[] = [
     title: "Six-Month + Extra Month Free",
   },
   {
+    bestOfSpecial: true,
     buttonText: "Buy 15-Class Card",
     href: "https://momence.com/m/464009",
     id: 8,
