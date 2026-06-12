@@ -3,13 +3,13 @@ import { Price } from "@/types/pricing";
 const pricingData: Price[] = [
   {
     bestOfSpecial: true,
-    buttonText: "Start Your 4-Week Unlimited",
+    buttonText: "Start Your 3 Weeks + Extra Week Free",
     href: "https://momence.com/m/811964",
     id: 0,
     perX: "",
     popular: true,
     price: 79,
-    subtitle: "Four Weeks of Unlimited Yoga",
+    subtitle: "3 Weeks + Extra Week Free of Unlimited Yoga",
     title: "New Client Intro",
   },
   {
