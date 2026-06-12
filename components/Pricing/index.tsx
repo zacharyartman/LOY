@@ -183,7 +183,18 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
           {/* <!-- Section Title End --> */}
         </div>
 
-        <div className="relative mx-auto mb-5 mt-15 max-w-[1207px] px-4 md:px-8 xl:mb-10 xl:mt-20 xl:px-0">
+        <div className="mx-auto mb-8 mt-10 max-w-[860px] px-4 md:px-8 xl:px-0">
+          <div className="rounded-lg bg-lightestbrown px-6 py-4 text-center">
+            <p className="text-sm font-semibold uppercase tracking-widest text-primaryho">
+              Best of Fort Lauderdale, 4th Year in a Row
+            </p>
+            <p className="mt-1 text-waterloo">
+              View our special celebration offers below.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative mx-auto mb-5 mt-10 max-w-[1207px] px-4 md:px-8 xl:mb-10 xl:mt-12 xl:px-0">
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <Image
               layout="fill"

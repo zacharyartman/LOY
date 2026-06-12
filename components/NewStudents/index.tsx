@@ -71,7 +71,7 @@ const PricingButton = ({
 const NewStudentsComponent = () => {
   const introOffer = pricingData.find((price) => price.id === 0);
   const [momenceLink, setMomenceLink] = useState<string>(
-    "https://momence.com/m/136483",
+    "https://momence.com/m/811964",
   );
 
   useEffect(() => {
@@ -80,8 +80,8 @@ const NewStudentsComponent = () => {
       const isFacebookSource = params.get("source") === "fb";
       setMomenceLink(
         isFacebookSource
-          ? "https://momence.com/m/302281"
-          : "https://momence.com/m/136483",
+          ? "https://momence.com/m/811964"
+          : "https://momence.com/m/811964",
       );
     }
   }, []);
