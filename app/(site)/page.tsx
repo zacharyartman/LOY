@@ -37,7 +37,7 @@ export default function Home() {
             >
               voted
             </a>{" "}
-            as the Best Yoga Studio in Fort Lauderdale for the 3rd year in a
+            as the Best Yoga Studio in Fort Lauderdale for the 4th year in a
             row.
           </p>
         </div>
