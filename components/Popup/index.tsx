@@ -68,13 +68,16 @@ export default function Popup() {
                         Free Unlimited Yoga Classes
                       </h3>
                       <div className="group/badge relative flex-shrink-0">
-                        <div className="overflow-hidden rounded-lg bg-black" style={{ width: 75, height: 95 }}>
+                        <div
+                          className="overflow-hidden rounded-lg bg-black"
+                          style={{ height: 95, width: 75 }}
+                        >
                           <Image
                             src="/images/best-of-2026.PNG"
                             alt="Best of Fort Lauderdale 2026 Winner"
                             width={75}
                             height={95}
-                            className="object-contain w-full h-full"
+                            className="h-full w-full object-contain"
                           />
                         </div>
                         <div className="pointer-events-none absolute bottom-full right-0 mb-2 w-max max-w-[160px] rounded bg-waterloo px-2.5 py-1.5 text-center text-xs text-white opacity-0 transition-opacity duration-150 group-hover/badge:opacity-100">
