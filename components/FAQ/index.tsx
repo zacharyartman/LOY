@@ -7,7 +7,7 @@ import faqData from "./faqData";
 import FAQItem from "./FAQItem";
 
 const FAQ = () => {
-  const [activeFaq, setActiveFaq] = useState(1);
+  const [activeFaq, setActiveFaq] = useState(13);
 
   const handleFaqToggle = (id: number) => {
     activeFaq === id ? setActiveFaq(0) : setActiveFaq(id);

@@ -29,7 +29,7 @@ const pricingData: Price[] = [
     popular: true,
     price: 159,
     subtitle:
-      "Unlimited yoga + guest passes*. Discounts on retail, workshops & events, and local business partners, plus complimentary member workshops",
+      "Recurring Monthly Unlimited Membership. Enjoy continuous, unlimited access to all scheduled classes, complimentary member workshops, and exclusive guest passes with a predictable monthly renewal",
     title: "Unlimited Member",
   },
   {

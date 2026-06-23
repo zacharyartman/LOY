@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 import FAQ from "@/components/FAQ";
@@ -114,23 +115,112 @@ const NewStudentsComponent = () => {
             Welcome to our community
           </h2>
           <p className="m-10 text-metatitle3">
-            At Las Olas Yoga, our mission is to create a sanctuary of
-            well-being, where movement, mindfulness, and community intersect.
-            Come early, have tea and chat in the lobby or lay out your mat and
-            relax in the studio. Whether you have never stepped foot in a yoga
-            studio or are a seasoned practitioner, we are ready to meet you
-            where are and provide an experience that allows you to drop-in and
-            journey towards inner peace and self-discovery. All of our classes
-            are taught in a non-heated environment, allowing you to fully
-            immerse yourself in the practice without external distractions.
+            Looking for yoga classes in Fort Lauderdale? Las Olas Yoga is a
+            welcoming, non-heated yoga studio located in downtown Fort
+            Lauderdale on Las Olas Boulevard. Whether you&apos;re brand new to
+            yoga
+            or have been practicing for years, our alignment-focused classes are
+            designed to help you build strength, improve mobility, reduce
+            stress, and feel at home from your very first visit.
           </p>
+
+          <div className="mx-10 mb-10">
+            <h3 className="mb-4 text-center text-xl font-semibold text-primaryho xl:text-2xl">
+              Why New Students Love Las Olas Yoga
+            </h3>
+            <ul className="mx-auto grid max-w-[600px] list-disc grid-cols-1 gap-x-8 gap-y-2 pl-6 text-metatitle3 sm:grid-cols-2">
+              <li>Beginner-friendly classes</li>
+              <li>Non-heated studio</li>
+              <li>No mirrors</li>
+              <li>Supportive community</li>
+              <li>Free mat rentals</li>
+              <li>Convenient downtown Fort Lauderdale location</li>
+              <li>Free 2-hour parking nearby</li>
+            </ul>
+          </div>
+
+          <div className="mx-10 mb-10">
+            <h3 className="mb-4 text-center text-xl font-semibold text-primaryho xl:text-2xl">
+              Not sure where to start?
+            </h3>
+            <ul className="mx-auto max-w-[600px] list-disc pl-6 text-metatitle3">
+              <li>
+                New to yoga →{" "}
+                <Link
+                  href="/classes"
+                  className="font-medium text-primary underline hover:text-primaryho"
+                >
+                  Foundations
+                </Link>
+              </li>
+              <li>
+                Want a slower pace →{" "}
+                <Link
+                  href="/classes"
+                  className="font-medium text-primary underline hover:text-primaryho"
+                >
+                  Slow Flow
+                </Link>
+              </li>
+              <li>
+                Looking for relaxation →{" "}
+                <Link
+                  href="/classes"
+                  className="font-medium text-primary underline hover:text-primaryho"
+                >
+                  Restore
+                </Link>{" "}
+                or{" "}
+                <Link
+                  href="/classes"
+                  className="font-medium text-primary underline hover:text-primaryho"
+                >
+                  Candlelight Yin &amp; Nidra
+                </Link>
+              </li>
+              <li>
+                Ready for a more active practice and have yoga experience →{" "}
+                <Link
+                  href="/classes"
+                  className="font-medium text-primary underline hover:text-primaryho"
+                >
+                  Flow
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <p className="mx-10 mb-10 text-center text-metatitle3">
+            Ready to begin? View our{" "}
+            <Link
+              href="/schedule"
+              className="font-medium text-primary underline hover:text-primaryho"
+            >
+              schedule
+            </Link>{" "}
+            or explore{" "}
+            <Link
+              href="/pricing"
+              className="font-medium text-primary underline hover:text-primaryho"
+            >
+              pricing and membership options
+            </Link>
+            .
+          </p>
+
           <h2 className="mx-5 mb-2 text-center text-2xl font-semibold text-primaryho xl:text-sectiontitle4">
             Intro Offer
           </h2>
           <p className="mb-5 text-center italic">
-            Available to local, first-time clients only.
+            New to Las Olas Yoga? Enjoy 4 weeks of unlimited yoga for $79.
+            Explore different class styles, meet our teachers, and discover the
+            practice that&apos;s right for you.
           </p>
-          <div className="mx-auto mb-10 flex max-w-[400px] justify-center">
+          <p className="mb-5 text-center font-medium text-primaryho">
+            Voted Fort Lauderdale&apos;s favorite yoga studio four years running.
+            Come see why our community continues to grow.
+          </p>
+          <div className="mx-auto mb-5 flex max-w-[400px] justify-center">
             {introOffer && (
               <PricingButton
                 title={introOffer.title}
@@ -143,6 +233,16 @@ const NewStudentsComponent = () => {
               />
             )}
           </div>
+          <p className="mb-10 text-center text-metatitle3">
+            Looking to continue beyond the intro offer? View our{" "}
+            <Link
+              href="/pricing"
+              className="font-medium text-primary underline hover:text-primaryho"
+            >
+              memberships and class packages
+            </Link>
+            .
+          </p>
         </motion.div>
         <FAQ />
       </div>

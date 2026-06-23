@@ -104,7 +104,11 @@ const About = ({ aboutText, viewClasses }: AboutProps) => {
                 our entrance is via the courtyard on 13th. <br />
                 <br />
                 Abundant parking is available including free 2-hour street
-                parking on 13th and 2nd.
+                parking on 13th and 2nd. <br />
+                <br />
+                Located on Las Olas Boulevard in downtown Fort Lauderdale, Las
+                Olas Yoga serves students from Victoria Park, Rio Vista, Flagler
+                Village, Coral Ridge, Wilton Manors, and surrounding communities.
               </p>
               <div>
                 <InlineArrowButton
