@@ -2,6 +2,11 @@ import { FAQ } from "@/types/faq";
 
 const faqData: FAQ[] = [
   {
+    ans: "Foundations is our most beginner-friendly class and a great place to start. If you're new to yoga but comfortable with movement, Slow Flow can also be a great option. Looking to relax and unwind? Restore or Candlelight Yin &amp; Nidra offer a slower, more restorative experience.",
+    id: 13,
+    quest: "What class should I take if I'm brand new to yoga?",
+  },
+  {
     ans: "Feel free to bring your own mat or we have mats you can borrow at the studio at no cost.",
     id: 1,
     quest: "Do I need to bring my own mat?",
@@ -47,9 +52,9 @@ const faqData: FAQ[] = [
     quest: "Is there any etiquette I should know about?",
   },
   {
-    ans: "Memberships are the most affordable way to continue your practice with us. We offer unlimited memberships for those that practice at least twice a week. The unlimited memberships also come with unlimited first-time, local guest passes and 10% off retail and workshops. There is also a limited 4 times/month membership for those that practice once a week. You can freeze your membership for a minimum of 2 weeks at a time. Our memberships are auto-debited but there's no minimum commitment, so you can cancel anytime.",
+    ans: 'We offer flexible membership and class package options with no long-term contracts. View our current pricing and membership options <a href="/pricing" class="text-primary underline">here</a>.',
     id: 10,
-    quest: "What memberships are available after my trial?",
+    quest: "What happens after my introductory offer expires?",
   },
   {
     ans: "We don't offer a free class because we believe one class isn't enough to truly experience the heart of our studio. Our intro special gives new students time to explore different classes, connect with our teachers, and feel the full vibe of our community.",

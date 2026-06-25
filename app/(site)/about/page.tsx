@@ -16,10 +16,8 @@ const WorkshopsPage = () => {
     <>
       <NewPageHero titleText={"About Us"} link='/images/hero/hero-about-yoga-near-me.webp' position="bg-[center_30%]"></NewPageHero>
       <div className="my-15">
-      <About aboutText={`At Las Olas Yoga, our mission is to create a sanctuary of well-being, where movement, mindfulness, and community intersect. Step into our space and instantly feel a sense of calm and serenity, carefully cultivated to nurture your journey towards inner peace and self-discovery. We provide a welcoming environment where you can reconnect with old friends, forge new connections, and practice together as a supportive community.<br /><br />
-All of our classes are taught in a non-heated environment, allowing you to fully immerse yourself in the practice without external distractions. Our dedicated team is committed to guiding you on a transformative path, where movement becomes a catalyst for healing, mindfulness deepens your connection with the present moment, and the power of community lifts your spirit.<br /><br />
-
-Join us at Las Olas Yoga and experience a place where wellness, healing, and self-discovery come together, creating a space of growth, connection, and transformation.
+      <About aboutText={`Las Olas Yoga is a non-heated yoga studio located in the heart of downtown Fort Lauderdale on Las Olas Boulevard. We offer yoga classes for all levels, including beginner yoga, slow flow, vinyasa flow, restorative yoga, yin yoga, meditation, and yoga teacher training. Our welcoming, inclusive community provides a supportive space to build strength, improve mobility, reduce stress, and develop a sustainable yoga practice.<br /><br />
+Whether you're new to yoga or an experienced practitioner, you'll find expert instruction, thoughtful alignment-based teaching, and a friendly atmosphere designed to help you feel at home. Join us for yoga in Fort Lauderdale and discover a practice that supports both body and mind.
 `} viewClasses={true}/>
       </div>
     </>

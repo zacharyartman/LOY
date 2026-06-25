@@ -45,8 +45,8 @@ const Hero = () => {
           </h1>
           <div className="flex flex-col items-center">
             <LocalHeroLink
-              text={"View Schedule"}
-              ariaLabel={"View class schedule"}
+              text={"Book A Class"}
+              ariaLabel={"Book a class"}
               link={"/schedule"}
               lastElement={false}
             />

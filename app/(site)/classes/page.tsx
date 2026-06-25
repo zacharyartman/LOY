@@ -19,6 +19,16 @@ const ClassesPage = () => {
         titleText={"Class Types"}
         link="/images/general/yoga-classes-near-me.webp"
       ></NewPageHero>
+      <div className="mx-auto max-w-c-1235 px-4 pt-10 md:px-8 xl:px-0">
+        <p className="text-center text-metatitle3">
+          Looking for yoga classes in Fort Lauderdale? Las Olas Yoga offers
+          non-heated yoga classes for all levels, including beginner yoga,
+          vinyasa flow, slow flow, restorative yoga, yin yoga, meditation, and
+          yoga teacher training. Located in downtown Fort Lauderdale on Las Olas
+          Boulevard, our welcoming studio provides alignment-focused instruction
+          in a supportive, community-centered environment.
+        </p>
+      </div>
       <div className="flex items-center justify-center gap-2 py-7 xl:mt-0">
         <Link
           href="/schedule"
