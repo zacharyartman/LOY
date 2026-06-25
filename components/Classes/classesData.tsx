@@ -41,7 +41,7 @@ const classesData: Class[] = [
   {
     alt: "candlelight yin yoga",
     description:
-      "The ultimate evening reset. This deeply relaxing, non-heated class begins with 45 minutes of Yin Yoga, using long-held floor postures to gently improve flexibility, mobility, and release tension in the connective tissues and joints. The final 15 minutes are dedicated to Yoga Nidra, a guided meditation often called \"yogic sleep,\" designed to calm the nervous system, reduce stress, and promote deep rest. Perfect for all levels and anyone looking to unwind, sleep better, and leave feeling grounded and restored.",
+      "The ultimate evening reset. This deeply relaxing, non-heated class begins with 45 minutes of Yin Yoga, using long-held floor postures to improve flexibility, mobility, and release tension. The final 15 minutes are dedicated to Yoga Nidra, a guided meditation designed to calm the nervous system and promote deep rest. Perfect for all levels and anyone looking to unwind and restore.",
     icon: image5,
     id: 5,
     title: "Candlelight Yin & Nidra",
