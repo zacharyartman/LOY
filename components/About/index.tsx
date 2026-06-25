@@ -99,16 +99,19 @@ const About = ({ aboutText, viewClasses }: AboutProps) => {
                 </span>
               </span>
               <p>
-                We are located in the heart of downtown Fort Lauderdale on the
-                corner of Las Olas and 13th Street. We are on the 2nd floor and
-                our entrance is via the courtyard on 13th. <br />
+                Las Olas Yoga is centrally located in downtown Fort Lauderdale
+                at the corner of Las Olas and 13th Street. To find us, just head
+                up to the second floor via our welcoming courtyard entrance on
+                13th. <br />
                 <br />
-                Abundant parking is available including free 2-hour street
-                parking on 13th and 2nd. <br />
+                Arriving by car? You&apos;ll find abundant parking surrounding
+                the studio, including free 2-hour street parking on both 13th and
+                2nd. <br />
                 <br />
-                Located on Las Olas Boulevard in downtown Fort Lauderdale, Las
-                Olas Yoga serves students from Victoria Park, Rio Vista, Flagler
-                Village, Coral Ridge, Wilton Manors, and surrounding communities.
+                Our premier downtown location makes it easy for students from
+                neighborhoods like Victoria Park, Rio Vista, Flagler Village,
+                Coral Ridge, and Wilton Manors to join our vibrant yoga
+                community.
               </p>
               <div>
                 <InlineArrowButton
