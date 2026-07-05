@@ -3,12 +3,11 @@ import dafna from "@/public/images/user/dafna.webp";
 import giuls from "@/public/images/user/giuls.webp";
 import heather from "@/public/images/user/heather.webp";
 import keely from "@/public/images/user/keely.webp";
-import melanie from "@/public/images/user/melanie.webp"
+import melanie from "@/public/images/user/melanie.webp";
 import michael from "@/public/images/user/michael.jpeg";
 import natalie from "@/public/images/user/natalie.jpg";
 import stacey from "@/public/images/user/stacey_pic.jpeg";
 import tammy from "@/public/images/user/tammy.jpeg";
-import tracy from "@/public/images/user/tracy-wolfe.jpeg";
 import { Teacher } from "@/types/teacher";
 
 export const teachersData: Teacher[] = [
@@ -91,14 +90,6 @@ export const teachersData: Teacher[] = [
     id: 9,
     image: tammy,
     name: "Tammy Patterson",
-  },
-  {
-    content:
-      "With over 25 years of personal yoga practice, Tracy brings both depth of experience and a heartfelt passion for sharing yoga with others. While working as a commercial lawyer for 14 years, yoga was her sanctuary—a way to relieve stress, reconnect with herself, and find balance amidst the demands of the legal practice. After stepping away from law, she completed her 200-hour teacher training program in Chicago and began teaching in several suburban studios and relocated to South Florida in 2024. Tracy’s classes weave together breath, movement, and mindfulness, encouraging students to feel grounded, intentional, and confident. She loves guiding students to “get lost” in their practice—moving fluidly while staying deeply present. Yoga has profoundly changed her life, and she is grateful for the opportunity to share its transformative gifts with her students.",
-    designation: "",
-    id: 20,
-    image: tracy,
-    name: "Tracy Wolfe",
   },
 ];
 
