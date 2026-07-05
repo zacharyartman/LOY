@@ -72,16 +72,6 @@ const pricingData: Price[] = [
     title: "Six-Month + Extra Month Free",
   },
   {
-    bestOfSpecial: true,
-    buttonText: "Buy 15-Class Card",
-    href: "https://momence.com/m/464009",
-    id: 8,
-    perX: "",
-    price: 300,
-    subtitle: "15 classes valid through August 31st. No pauses or extensions",
-    title: "Beat the Heat 15-Class Card",
-  },
-  {
     buttonText: "Get Traveler Pass",
     href: "https://momence.com/m/478019",
     id: 7,
