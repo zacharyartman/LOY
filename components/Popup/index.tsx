@@ -62,28 +62,11 @@ export default function Popup() {
                     />
                   </div>
                   <div className="border-blueGray-200 mx-0 border-b border-solid md:mx-15">
-                    <div className="flex items-center gap-4 px-5 pb-5 pt-3 md:px-0">
-                      <h3 className="flex-1 text-center text-lg font-semibold text-black xl:text-2xl">
-                        New Client Special: Only $79 for 3 Weeks + Extra Week
-                        Free Unlimited Yoga Classes
+                    <div className="px-5 pb-5 pt-3 md:px-0">
+                      <h3 className="text-center text-lg font-semibold text-black xl:text-2xl">
+                        New Client Special: Only $79 for Three Weeks Unlimited
+                        Yoga Classes
                       </h3>
-                      <div className="group/badge relative flex-shrink-0">
-                        <div
-                          className="overflow-hidden rounded-lg bg-black"
-                          style={{ height: 95, width: 75 }}
-                        >
-                          <Image
-                            src="/images/best-of-2026.PNG"
-                            alt="Best of Fort Lauderdale 2026 Winner"
-                            width={75}
-                            height={95}
-                            className="h-full w-full object-contain"
-                          />
-                        </div>
-                        <div className="pointer-events-none absolute bottom-full right-0 mb-2 w-max max-w-[160px] rounded bg-waterloo px-2.5 py-1.5 text-center text-xs text-white opacity-0 transition-opacity duration-150 group-hover/badge:opacity-100">
-                          Special Best of Fort Lauderdale offer
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <button
@@ -99,16 +82,16 @@ export default function Popup() {
                 {/* body */}
                 <div className="relative flex-auto px-8 py-5 md:px-15">
                   <p className="my-0 text-sectiontitle leading-relaxed">
-                    Enjoy 3 weeks of unlimited yoga plus an extra week free for
-                    only $79. Your time doesn’t start until your first class,
-                    giving you the freedom to purchase now for use at a later
-                    date (new local clients only).
+                    Enjoy three weeks of unlimited yoga for only $79. Your three
+                    weeks doesn’t start until your first class giving you the
+                    freedom to purchase now for use at a later date (new local
+                    clients only).
                   </p>
                 </div>
                 {/* footer */}
                 <div className="border-blueGray-200 mx-0 flex items-center justify-end rounded-b border-t border-solid px-6 py-4 md:mx-15">
                   <a
-                    href="https://momence.com/m/811964"
+                    href="https://momence.com/Las-Olas-Yoga/membership/Three-Weeks-for-%2479.00-(New-Local-Students-Only)/136483"
                     target="_blank"
                     className="flex w-full items-center justify-center rounded-full bg-primary px-10.5 py-2.5 text-regular text-white transition-all duration-150 hover:bg-primaryho"
                   >

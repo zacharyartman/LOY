@@ -2,14 +2,13 @@ import { Price } from "@/types/pricing";
 
 const pricingData: Price[] = [
   {
-    bestOfSpecial: true,
-    buttonText: "Start Your 3 Weeks + Extra Week Free",
-    href: "https://momence.com/m/811964",
+    buttonText: "Start Your 3-Week Unlimited",
+    href: "https://momence.com/m/136483",
     id: 0,
     perX: "",
     popular: true,
     price: 79,
-    subtitle: "3 Weeks + Extra Week Free of Unlimited Yoga",
+    subtitle: "Three Weeks of Unlimited Yoga",
     title: "New Client Intro",
   },
   {
@@ -51,25 +50,22 @@ const pricingData: Price[] = [
     title: "10-Class Card",
   },
   {
-    bestOfSpecial: true,
-    buttonText: "Get Annual + Extra Month Free",
-    href: "https://momence.com/m/811982",
+    buttonText: "Get Annual Membership",
+    href: "https://momence.com/m/136485",
     id: 5,
     perX: "/year",
     price: 1699,
-    subtitle:
-      "Our unlimited membership at an annual discount, plus an extra month free",
-    title: "Annual + Extra Month Free",
+    subtitle: "Our unlimited membership at an annual discount",
+    title: "Annual Unlimited",
   },
   {
-    bestOfSpecial: true,
-    buttonText: "Get Six-Month + Extra Month Free",
-    href: "https://momence.com/m/811985",
+    buttonText: "Get Six-Month Unlimited",
+    href: "https://momence.com/m/141489",
     id: 6,
     perX: "",
     price: 899,
-    subtitle: "Unlimited classes for 6 months, plus an extra month free",
-    title: "Six-Month + Extra Month Free",
+    subtitle: "Unlimited classes for 6 months",
+    title: "Six-Month Unlimited",
   },
   {
     buttonText: "Get Traveler Pass",

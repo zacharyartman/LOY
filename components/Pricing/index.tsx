@@ -13,7 +13,6 @@ type PricingProps = {
 };
 
 type PricingButtonProps = {
-  bestOfSpecial?: boolean;
   buttonText: string;
   href: string;
   perX: string;
@@ -25,7 +24,6 @@ type PricingButtonProps = {
 
 const Pricing = ({ sectionHeader }: PricingProps) => {
   const PricingButton = ({
-    bestOfSpecial,
     buttonText,
     href,
     perX,
@@ -45,28 +43,6 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
             popular
           </div>
         )}
-        {bestOfSpecial && (
-          <div
-            className={`absolute right-3 ${popular ? "bottom-3" : "top-3"} group/badge`}
-          >
-            <div
-              className="overflow-hidden rounded-lg bg-black"
-              style={{ height: 95, width: 75 }}
-            >
-              <Image
-                src="/images/best-of-2026.PNG"
-                alt="Best of Fort Lauderdale 2026 Winner"
-                width={75}
-                height={95}
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className="pointer-events-none absolute bottom-full right-0 mb-2 w-max max-w-[160px] rounded bg-waterloo px-2.5 py-1.5 text-center text-xs text-white opacity-0 transition-opacity duration-150 group-hover/badge:opacity-100">
-              Special Best of Fort Lauderdale offer
-            </div>
-          </div>
-        )}
-
         <h3
           className={`mb-7.5 text-3xl font-bold ${popular ? "text-white" : "text-black"} xl:text-sectiontitle3`}
         >
@@ -78,7 +54,7 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
           </span>
         </h3>
         <h4
-          className={`mb-2.5 text-para2 font-medium ${popular ? "text-white" : "text-black"} ${bestOfSpecial && !popular ? "mt-12 md:mt-0" : ""}`}
+          className={`mb-2.5 text-para2 font-medium ${popular ? "text-white" : "text-black"}`}
         >
           {title}
         </h4>
@@ -212,18 +188,7 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
           {/* <!-- Section Title End --> */}
         </div>
 
-        <div className="mx-auto mb-8 mt-10 max-w-[860px] px-4 md:px-8 xl:px-0">
-          <div className="rounded-lg bg-lightestbrown px-6 py-4 text-center">
-            <p className="text-sm font-semibold uppercase tracking-widest text-primaryho">
-              Best of Fort Lauderdale, 4th Year in a Row
-            </p>
-            <p className="mt-1 text-waterloo">
-              View our special celebration offers below.
-            </p>
-          </div>
-        </div>
-
-        <div className="relative mx-auto mb-5 mt-10 max-w-[1207px] px-4 md:px-8 xl:mb-10 xl:mt-12 xl:px-0">
+        <div className="relative mx-auto mb-5 mt-15 max-w-[1207px] px-4 md:px-8 xl:mb-10 xl:mt-20 xl:px-0">
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <Image
               layout="fill"
@@ -236,7 +201,6 @@ const Pricing = ({ sectionHeader }: PricingProps) => {
             {pricingData.map((item) => (
               <PricingButton
                 key={item.id}
-                bestOfSpecial={item.bestOfSpecial}
                 title={item.title}
                 subtitle={item.subtitle}
                 price={item.price}
