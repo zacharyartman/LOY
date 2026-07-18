@@ -5,7 +5,6 @@ export type Price = {
   price: number;
   perX: string;
   popular?: true;
-  bestOfSpecial?: boolean;
   href: string;
   buttonText: string;
 };
