@@ -203,7 +203,7 @@ const CostaRicaRetreatPage = () => {
 </p>
 
 <p class="MsoNormal" style="margin: 0in; font-size: 13.5pt; font-family: Calibri, sans-serif; font-weight: bold;">
-  Early Bird Pricing <span style="font-size: 11pt;">(Ends November 15th, 2026)</span>
+  Early Bird Pricing <span style="font-size: 11pt;">(Ends October 15th, 2026)</span>
 </p>
 
 <br />
@@ -249,7 +249,7 @@ const CostaRicaRetreatPage = () => {
 <br />
 
 <p class="MsoNormal" style="margin: 0in; font-size: 11pt; font-family: Calibri, sans-serif; font-style: italic;">
-  Pricing after November 15th increases by $200 per person.
+  Pricing after October 15th increases by $200 per person.
 </p>
 
 <br />
