@@ -55,7 +55,8 @@ const pricingData: Price[] = [
     id: 5,
     perX: "/year",
     price: 1799,
-    subtitle: "Our unlimited membership at an annual discount",
+    subtitle:
+      "Our unlimited membership at an annual discount, with all the same Unlimited Member benefits",
     title: "Annual Unlimited",
   },
   {
@@ -64,7 +65,8 @@ const pricingData: Price[] = [
     id: 6,
     perX: "",
     price: 949,
-    subtitle: "Unlimited classes for 6 months",
+    subtitle:
+      "Unlimited classes for 6 months, with all the same Unlimited Member benefits",
     title: "Six-Month Unlimited",
   },
   {
