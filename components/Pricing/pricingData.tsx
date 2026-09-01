@@ -22,13 +22,13 @@ const pricingData: Price[] = [
   },
   {
     buttonText: "Join Unlimited Membership",
-    href: "https://momence.com/m/137236",
+    href: "https://momence.com/m/907332",
     id: 2,
     perX: "/month",
     popular: true,
-    price: 159,
+    price: 169,
     subtitle:
-      "Unlimited yoga + guest passes*. Discounts on retail, workshops & events, and local business partners, plus complimentary member workshops",
+      "Unlimited yoga + guest passes*. Discounts on retail, workshops & events, plus complimentary member workshops",
     title: "Unlimited Member",
   },
   {
@@ -54,8 +54,9 @@ const pricingData: Price[] = [
     href: "https://momence.com/m/136485",
     id: 5,
     perX: "/year",
-    price: 1699,
-    subtitle: "Our unlimited membership at an annual discount",
+    price: 1799,
+    subtitle:
+      "Our unlimited membership at an annual discount, with all the same Unlimited Member benefits",
     title: "Annual Unlimited",
   },
   {
@@ -63,8 +64,9 @@ const pricingData: Price[] = [
     href: "https://momence.com/m/141489",
     id: 6,
     perX: "",
-    price: 899,
-    subtitle: "Unlimited classes for 6 months",
+    price: 949,
+    subtitle:
+      "Unlimited classes for 6 months, with all the same Unlimited Member benefits",
     title: "Six-Month Unlimited",
   },
   {
