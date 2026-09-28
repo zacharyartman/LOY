@@ -74,7 +74,7 @@ const pricingData: Price[] = [
     href: "https://momence.com/m/478019",
     id: 7,
     perX: "",
-    price: 75,
+    price: 69,
     subtitle: "Unlimited classes for visitors for one week (one-time only)",
     title: "One Week Traveler's Pass",
   },
