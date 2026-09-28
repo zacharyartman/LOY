@@ -3,7 +3,6 @@ import dafna from "@/public/images/user/dafna.webp";
 import giuls from "@/public/images/user/giuls.webp";
 import heather from "@/public/images/user/heather.webp";
 import keely from "@/public/images/user/keely.webp";
-import melanie from "@/public/images/user/melanie.webp";
 import michael from "@/public/images/user/michael.jpeg";
 import natalie from "@/public/images/user/natalie.jpg";
 import stacey from "@/public/images/user/stacey_pic.jpeg";
@@ -58,14 +57,6 @@ export const teachersData: Teacher[] = [
     id: 14,
     image: michael,
     name: "Michael Watson",
-  },
-  {
-    content:
-      "A former marketing and communications professional, Melanie was introduced to yoga when a friend invited her to a Yin Yoga class. As a former long-distance runner, she immediately resonated with the deep healing power of the practice. Her journey began with Hatha Yoga, which gave her a strong foundation before she discovered the fluidity of Vinyasa Flow, where movement and breath became one, and her connection to self and others deepened. Inspired by this transformation, Melanie completed her 200-hour yoga teacher training in February 2021. After a year of teaching, she immersed herself in a 300-hour advanced training, embracing a lifestyle rooted in daily meditation, asana, and spiritual growth. In the summer of 2025, Melanie manifested her dream of teaching yoga full-time. Melanie’s classes blend dynamic movement, intentional breathwork, and heartfelt connection. She guides students from a purely physical practice to one that embodies emotional depth and love — always infused with Metta (loving-kindness). Through themed classes, she shares her personal story and encourages others to explore their own path with courage and compassion. Now based in Fort Lauderdale with her husband and their two dogs, Riley and Ryatt, Melanie is a recent South Florida transplant from Northern California, where she raised her two sons, George and Will, and began her yoga journey. Off the mat, she’s an avid reader, cook, and outdoor enthusiast who brings passion and authenticity to all she does.",
-    designation: "",
-    id: 22,
-    image: melanie,
-    name: "Melanie Duval",
   },
   {
     content:
