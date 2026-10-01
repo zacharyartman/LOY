@@ -4,11 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { defaultTransition, fadeInUp } from "@/constants/animations";
+import { Price } from "@/types/pricing";
 
 import SectionHeader from "../Common/SectionHeader";
-import pricingData from "./pricingData";
 
 type PricingProps = {
+  pricingData: Price[];
   sectionHeader?: boolean;
 };
 
@@ -22,7 +23,7 @@ type PricingButtonProps = {
   title: string;
 };
 
-const Pricing = ({ sectionHeader }: PricingProps) => {
+const Pricing = ({ pricingData, sectionHeader }: PricingProps) => {
   const PricingButton = ({
     buttonText,
     href,

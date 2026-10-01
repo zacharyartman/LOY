@@ -3,6 +3,7 @@ import React from "react";
 
 import NewPageHero from "@/components/NewPageHero";
 import Pricing from "@/components/Pricing";
+import { getPricingData } from "@/lib/pricing";
 
 export const metadata: Metadata = {
   description: "Our yoga pricing options include options for everyone. We have an intro offer for new clients, memberships, short-term options for visitors and class cards.",
@@ -10,12 +11,14 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const PricingPage = () => {
+const PricingPage = async () => {
+  const pricingData = await getPricingData();
+
   return (
     
     <>
       <NewPageHero titleText={"Pricing"} link='/images/hero/hero-gratitude-yoga-near-me.jpeg' position="bg-[center_40%]"></NewPageHero>
-      <Pricing sectionHeader={false}/>
+      <Pricing pricingData={pricingData} sectionHeader={false}/>
     </>
   );
 };

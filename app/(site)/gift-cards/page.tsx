@@ -3,7 +3,7 @@ import React from "react";
 
 import MomenceGiftCard from "@/components/MomenceGiftCard";
 import NewPageHero from "@/components/NewPageHero";
-import pricingData from "@/components/Pricing/pricingData";
+import { getPricingData } from "@/lib/pricing";
 
 export const metadata: Metadata = {
   description:
@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "Gift Cards | Yoga Classes | Fort Lauderdale",
 };
 
-const GiftCardsPage = () => {
+const GiftCardsPage = async () => {
+  const pricingData = await getPricingData();
+
   const getGiftUrl = (title: string, href: string) => {
     if (title === "Single Class") {
       return "https://momence.com/m/136478?g=gift";

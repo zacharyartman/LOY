@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 import FAQ from "@/components/FAQ";
-import pricingData from "@/components/Pricing/pricingData";
+import { Price } from "@/types/pricing";
 
 type PricingButtonProps = {
   buttonText: string;
@@ -69,8 +69,11 @@ const PricingButton = ({
   );
 };
 
-const NewStudentsComponent = () => {
-  const introOffer = pricingData.find((price) => price.id === 0);
+type NewStudentsProps = {
+  introOffer?: Price;
+};
+
+const NewStudentsComponent = ({ introOffer }: NewStudentsProps) => {
   const [momenceLink, setMomenceLink] = useState<string>(
     "https://momence.com/m/136483",
   );

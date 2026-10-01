@@ -1,10 +1,13 @@
 import { Price } from "@/types/pricing";
 
+// Prices are fetched live from Momence (see lib/pricing.ts); `price` here is
+// only a fallback used when the Momence API is unavailable.
 const pricingData: Price[] = [
   {
     buttonText: "Start Your 3-Week Unlimited",
     href: "https://momence.com/m/136483",
     id: 0,
+    momenceId: 136483,
     perX: "",
     popular: true,
     price: 79,
@@ -15,6 +18,7 @@ const pricingData: Price[] = [
     buttonText: "Book Class",
     href: "/schedule",
     id: 1,
+    momenceId: 136478,
     perX: "/class",
     price: 30,
     subtitle: "One yoga class",
@@ -24,6 +28,7 @@ const pricingData: Price[] = [
     buttonText: "Join Unlimited Membership",
     href: "https://momence.com/m/907332",
     id: 2,
+    momenceId: 907332,
     perX: "/month",
     popular: true,
     price: 169,
@@ -35,6 +40,7 @@ const pricingData: Price[] = [
     buttonText: "Choose Limited Membership",
     href: "https://momence.com/m/136480",
     id: 3,
+    momenceId: 136480,
     perX: "/month",
     price: 99,
     subtitle: "4 classes per month",
@@ -44,6 +50,7 @@ const pricingData: Price[] = [
     buttonText: "Buy 10-Class Card",
     href: "https://momence.com/m/136479",
     id: 4,
+    momenceId: 136479,
     perX: "",
     price: 260,
     subtitle: "10 classes to be used over a one-year period",
@@ -53,6 +60,7 @@ const pricingData: Price[] = [
     buttonText: "Get Annual Membership",
     href: "https://momence.com/m/136485",
     id: 5,
+    momenceId: 136485,
     perX: "/year",
     price: 1799,
     subtitle:
@@ -63,6 +71,7 @@ const pricingData: Price[] = [
     buttonText: "Get Six-Month Unlimited",
     href: "https://momence.com/m/141489",
     id: 6,
+    momenceId: 141489,
     perX: "",
     price: 949,
     subtitle:
@@ -73,6 +82,7 @@ const pricingData: Price[] = [
     buttonText: "Get Traveler Pass",
     href: "https://momence.com/m/478019",
     id: 7,
+    momenceId: 478019,
     perX: "",
     price: 69,
     subtitle: "Unlimited classes for visitors for one week (one-time only)",
