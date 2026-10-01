@@ -16,7 +16,7 @@ const pricingData: Price[] = [
     href: "/schedule",
     id: 1,
     perX: "/class",
-    price: 30,
+    price: 35,
     subtitle: "One yoga class",
     title: "Single Class",
   },
